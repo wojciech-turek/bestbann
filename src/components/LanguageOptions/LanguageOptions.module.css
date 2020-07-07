@@ -1,0 +1,5 @@
+.languages {
+  margin: 5px;
+  display: flex;
+  justify-content: flex-end;
+}

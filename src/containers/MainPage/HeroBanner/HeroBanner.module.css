@@ -1,0 +1,11 @@
+.heroBanner {
+  height: 50vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 60%;
+  background-image: url("../../../assets/herobanner.jpg");
+  position: relative;
+  top: 0;
+  left: 0;
+}
