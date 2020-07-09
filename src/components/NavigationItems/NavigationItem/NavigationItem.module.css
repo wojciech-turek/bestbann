@@ -1,0 +1,8 @@
+.NavItem {
+  padding: 0 10px;
+  color: black;
+  text-decoration: inherit;
+}
+.active {
+  color: red;
+}

@@ -2,11 +2,13 @@ import React from "react";
 import NavigationItems from "../NavigationItems/NavigationItems";
 import LanguageOptions from "../LanguageOptions/LanguageOptions";
 import classes from "./Toolbar.module.css";
+import Logo from "../Logo/Logo";
 
 export default function Toolbar() {
   return (
     <div className={classes.toolbar}>
-      <NavigationItems flow="row" />
+      <Logo />
+      <NavigationItems />
       <LanguageOptions />
     </div>
   );
