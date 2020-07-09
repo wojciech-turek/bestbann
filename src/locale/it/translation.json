@@ -1,8 +1,14 @@
 {
-	"description": {
-		"part1": "",
-		"part2": ""
-	},
-	"heroBanner": "",
-	"title": "Benvenuto a BestBann"
+  "description": {
+    "part1": "",
+    "part2": ""
+  },
+  "heroBanner": "",
+  "title": "Benvenuto a BestBann",
+  "menu": {
+    "mainPage": "Pagina principale",
+    "products": "Prodotti",
+    "aboutUs": "Su di noi",
+    "contact": "Contatto"
+  }
 }
