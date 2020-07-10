@@ -1,8 +1,14 @@
 .NavItem {
-  padding: 0 10px;
+  padding: 10px 10px;
   color: black;
   text-decoration: inherit;
 }
 .active {
   color: red;
+}
+
+@media (min-width: 1024) {
+  .NavItem {
+    padding: 0 10px;
+  }
 }

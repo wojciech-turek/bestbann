@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import Toolbar from "../../components/Toolbar/Toolbar";
+import SideDrawer from "../../components/Navigation/SideDrawer/SideDrawer";
 
 const Layout = (props) => {
+  const [sideOpen, setSideOpen] = useState(false);
+
   return (
     <>
-      <Toolbar />
+      <SideDrawer clicked={setSideOpen} open={sideOpen} />
+      <Toolbar sideOpen={sideOpen} clicked={setSideOpen} />
       <main>{props.children}</main>
     </>
   );

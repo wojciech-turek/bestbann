@@ -1,5 +1,19 @@
 .NavItems {
   display: flex;
+  flex-flow: column;
+  width: 100%;
   font-size: 1.1em;
-  margin-right: 50px;
+  margin-top: 30px;
+}
+
+@media (min-width: 1024px) {
+  .NavItems {
+    padding: 2px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 3px;
+    flex-flow: row;
+    margin-right: 50px;
+    justify-content: flex-end;
+  }
 }

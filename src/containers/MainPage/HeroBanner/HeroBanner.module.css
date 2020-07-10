@@ -1,11 +1,44 @@
 .heroBanner {
-  height: 50vh;
+  height: 60vh;
   width: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0 60%;
+  background-attachment: fixed;
+  background-size: auto 60vh;
   background-image: url("../../../assets/herobanner.jpg");
   position: relative;
   top: 0;
   left: 0;
+}
+.LogoBanner {
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  width: 60%;
+  padding: 10px;
+  border-radius: 10%;
+  background-color: rgba(255, 255, 255, 0.3);
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 1024px) {
+  .heroBanner {
+    height: 60vh;
+    min-height: 500px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: 0 -200px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("../../../assets/herobanner.jpg");
+  }
+  .LogoBanner {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translate(-50%, -50%);
+  }
 }
