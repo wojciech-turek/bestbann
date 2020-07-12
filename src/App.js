@@ -8,11 +8,9 @@ function App() {
   return (
     <Router>
       <Suspense fallback="loading">
-        <div className="App">
-          <Layout>
-            <MainPage />
-          </Layout>
-        </div>
+        <Layout>
+          <MainPage />
+        </Layout>
       </Suspense>
     </Router>
   );

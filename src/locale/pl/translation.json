@@ -10,5 +10,12 @@
     "products": "Produkty",
     "aboutUs": "O nas",
     "contact": "Kontakt"
+  },
+  "mainSections": {
+    "aboutUs": {
+      "title": "O nas",
+      "content1": "We are the family-owned company with over 9-years’ of experience in food industry. We are manufacturing bread proofing baskets from natural rattan material, without any chemicals or bleaches.",
+      "content2": "Every our product is handmade, with the utmost care. Paying great attention to the production process, we can ensure very high quality of our products."
+    }
   }
 }

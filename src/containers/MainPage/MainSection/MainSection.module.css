@@ -1,0 +1,18 @@
+.SectionTitle {
+  width: 80%;
+  margin: 2vh auto;
+  height: 10vh;
+  background-color: #f7f7f7;
+  text-align: center;
+  line-height: 10vh;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+@media (min-width: 1024px) {
+  .SectionTitle {
+    font-size: 28px;
+  }
+}
