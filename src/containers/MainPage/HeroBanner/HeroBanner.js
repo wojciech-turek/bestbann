@@ -5,9 +5,10 @@ import Logo from "../../../components/Logo/Logo";
 export default function HeroBanner() {
   return (
     <div className={classes.heroContainer}>
-      <div className={classes.heroBanner}></div>
-      <div className={classes.LogoBanner}>
-        <Logo height="10%" />
+      <div className={classes.heroBanner}>
+        <div className={classes.LogoBanner}>
+          <Logo height="10%" />
+        </div>
       </div>
     </div>
   );

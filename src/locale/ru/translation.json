@@ -14,8 +14,16 @@
   "mainSections": {
     "aboutUs": {
       "title": "О нас",
-      "content1": "We are the family-owned company with over 9-years’ of experience in food industry. We are manufacturing bread proofing baskets from natural rattan material, without any chemicals or bleaches.",
-      "content2": "Every our product is handmade, with the utmost care. Paying great attention to the production process, we can ensure very high quality of our products."
+      "content1": "Мы являемся семейной компанией с более чем 9-летним опытом работы в пищевой промышленности. Мы производим корзины для хлеба из натурального ротанга без каких-либо химикатов и отбеливателей.",
+      "content2": "Каждый наш продукт изготовлен вручную, с особой тщательностью. Уделяя большое внимание процессу производства, мы можем обеспечить очень высокое качество нашей продукции."
+    },
+    "products": {
+      "title": "Продукты",
+      "breadProofing": "Корзина из ротанга для расстойки хлеба",
+      "woodenBase": "Корзины с деревянным дном",
+      "withLiners": "Корзины с наволочкой",
+      "woodenBakingForm": "Формы деревянные для выпечки",
+      "button": " Узнать больше"
     }
   }
 }

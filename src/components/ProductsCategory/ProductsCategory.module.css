@@ -1,0 +1,27 @@
+.ProductsImg {
+  width: 90%;
+  margin-bottom: 4%;
+  border-radius: 20px;
+}
+.ProductsCategory {
+  display: flex;
+  font-size: 16px;
+  line-height: 120%;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 2%;
+}
+.ProductsCategory h3 {
+  font-size: 20px;
+  padding: 0 8%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+@media (min-width: 1024px) {
+  .ProductsCategory h3 {
+    font-size: 20px;
+    padding: 0 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+  }
+}

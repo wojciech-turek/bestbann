@@ -14,8 +14,16 @@
   "mainSections": {
     "aboutUs": {
       "title": "O nas",
-      "content1": "We are the family-owned company with over 9-years’ of experience in food industry. We are manufacturing bread proofing baskets from natural rattan material, without any chemicals or bleaches.",
-      "content2": "Every our product is handmade, with the utmost care. Paying great attention to the production process, we can ensure very high quality of our products."
+      "content1": "<strong>Jesteśmy firmą rodzinną</strong> z ponad 9-letnim doświadczeniem w branży spożywczej. Produkujemy <strong>kosze do wypieku chleba z naturalnego rattanu</strong>, bez dodatku chemikaliów i wybielaczy.",
+      "content2": "Każdy nasz produkt jest <strong>wykonany ręcznie</strong>, z najwyższą starannością. Przywiązując najwyższą wagę do procesu produkcyjnego, jesteśmy w stanie zapewnić <strong>bardzo wysoką jakość</strong> naszych produktów."
+    },
+    "products": {
+      "title": "Produkty",
+      "breadProofing": "Kosze do wyrastania chleba",
+      "woodenBase": "Kosze z drewnianym dnem",
+      "withLiners": "Kosze z materiałowymi poszewkami",
+      "woodenBakingForm": "Drewniane foremki do pieczenia chleba",
+      "button": "Zobacz więcej"
     }
   }
 }

@@ -8,7 +8,7 @@ const Layout = (props) => {
   return (
     <>
       <SideDrawer clicked={setSideOpen} open={sideOpen} />
-      <Toolbar sideOpen={sideOpen} clicked={setSideOpen} />
+      <Toolbar open={sideOpen} clicked={setSideOpen} />
       <main>{props.children}</main>
     </>
   );

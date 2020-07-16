@@ -13,9 +13,17 @@
   },
   "mainSections": {
     "aboutUs": {
-      "title": "Su di noi",
-      "content1": "We are the family-owned company with over 9-years’ of experience in food industry. We are manufacturing bread proofing baskets from natural rattan material, without any chemicals or bleaches.",
-      "content2": "Every our product is handmade, with the utmost care. Paying great attention to the production process, we can ensure very high quality of our products."
+      "title": "Riguardo a noi",
+      "content1": "<strong>Siamo un'azienda a conduzione familiare</strong> con oltre 9 anni di esperienza nel settore alimentare. Produciamo <strong>cestini per lievitazione del pane in materiale di rattan naturale</strong>, senza prodotti chimici o candeggina.",
+      "content2": "Ogni nostro prodotto è <strong>fatto a mano</strong>, con la massima cura. Prestando grande attenzione al processo di produzione, possiamo garantire <strong>un'altissima qualità</strong> dei nostri prodotti."
+    },
+    "products": {
+      "title": "Prodotti",
+      "breadProofing": "Cestini per lievitazione pane",
+      "woodenBase": "Cestini con base in legno",
+      "withLiners": "Cestini con teli",
+      "woodenBakingForm": "Stampi in legno con carta da forno",
+      "button": "Vedi altro"
     }
   }
 }

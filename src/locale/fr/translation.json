@@ -14,8 +14,16 @@
   "mainSections": {
     "aboutUs": {
       "title": "À propos de nou",
-      "content1": "We are the family-owned company with over 9-years’ of experience in food industry. We are manufacturing bread proofing baskets from natural rattan material, without any chemicals or bleaches.",
-      "content2": "Every our product is handmade, with the utmost care. Paying great attention to the production process, we can ensure very high quality of our products."
+      "content1": "<strong>Nous sommes une entreprise familiale</strong>avec plus de 9 ans d’expérience dans l’industrie alimentaire. Nous fabriquons des <strong>bannetons moule bie à pain en rotin naturel</strong>, sans produits chimiques ni agents de blanchiment.",
+      "content2": "Tous nos produits sont <strong>fabriqués à la main</strong>, avec le plus grand soin. En accordant une grande attention au processus de production, nous pouvons assurer une <strong> très haute qualité</strong> de nos produits."
+    },
+    "products": {
+      "title": "Des produits",
+      "breadProofing": "Bannetons moule bie en rotin",
+      "woodenBase": "Bannetons avec base en bois",
+      "withLiners": "Bannetons avec doublures",
+      "woodenBakingForm": "Moules de cuisson en bois",
+      "button": "En savoir plus"
     }
   }
 }

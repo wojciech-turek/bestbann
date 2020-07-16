@@ -1,0 +1,39 @@
+.sectionContainer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  line-height: 140%;
+}
+.AboutUsImg {
+  width: 40%;
+  max-width: 170px;
+  margin: 4% 0;
+}
+
+@media (min-width: 768px) {
+  .AboutUsImg {
+    width: 150px;
+    margin: 4%;
+  }
+  .aboutUsParagraph {
+    font-size: 24px;
+    line-height: 120%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .sectionContainer {
+    flex-flow: row;
+  }
+  .AboutUsImg {
+    width: 150px;
+    margin: 4%;
+  }
+  .aboutUsParagraph {
+    font-size: 24px;
+    line-height: 120%;
+  }
+}

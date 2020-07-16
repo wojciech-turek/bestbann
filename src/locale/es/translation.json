@@ -14,8 +14,16 @@
   "mainSections": {
     "aboutUs": {
       "title": "Acerca de nosotros",
-      "content1": "We are the family-owned company with over 9-years’ of experience in food industry. We are manufacturing bread proofing baskets from natural rattan material, without any chemicals or bleaches.",
-      "content2": "Every our product is handmade, with the utmost care. Paying great attention to the production process, we can ensure very high quality of our products."
+      "content1": "<strong>Somos una empresa familiar</strong> con más de 9 años de experiencia en la industria alimentaria. Estamos fabricando <strong>bannetones para pan de material natural de ratán</strong>, sin productos químicos ni blanqueadores.",
+      "content2": "Todos nuestros productos son <strong>hechos a mano</strong>,  con el máximo cuidado. Prestando gran atención al proceso de producción, podemos garantizar una muy alta calidad de nuestros productos."
+    },
+    "products": {
+      "title": "Productos",
+      "breadProofing": "Bannetones - Cestas de fermentación para de pan",
+      "woodenBase": "Bannetones con base de madera",
+      "withLiners": "Bannetones con telas de lino",
+      "woodenBakingForm": "Moldes para hornear de madera",
+      "button": "Ver más"
     }
   }
 }

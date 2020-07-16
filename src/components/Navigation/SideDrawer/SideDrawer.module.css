@@ -6,14 +6,16 @@
   left: 0;
   top: 0;
   z-index: 200;
+  margin-top: 60px;
   background-color: #fff;
   padding: 72px 16px;
   box-sizing: border-box;
-  transform: translateX(-101%);
+  transform: translateX(-103%);
   transition: transform 0.3s ease-out;
+  box-shadow: 2px 2px 10px #ddd;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 1024px) {
   .SideDrawer {
     display: none;
   }
@@ -23,7 +25,7 @@
   transform: translateX(0);
 }
 .Closed {
-  transform: translateX(-101%);
+  transform: translateX(-103%);
 }
 
 .Closer {
