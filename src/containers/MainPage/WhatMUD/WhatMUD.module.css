@@ -1,0 +1,77 @@
+.sectionContainer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.WMUDImg {
+  width: 90%;
+  margin-bottom: 4%;
+  margin-top: 5%;
+  width: 40vh;
+}
+.WMUDCategory {
+  flex-basis: 33%;
+  display: flex;
+  font-size: 16px;
+  line-height: 120%;
+  flex-flow: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 2%;
+  margin-bottom: 2%;
+}
+.WMUDCategory ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+.WMUDCategory ul li {
+  padding: 2% 0;
+}
+.WMUDCategory h3 {
+  margin: 20px auto;
+  font-size: 20px;
+  padding: 0 8%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+.divider {
+  height: 2px;
+  width: 80%;
+  color: black;
+}
+@media (min-width: 1024px) {
+  .WMUDCategory h3 {
+    width: 80%;
+    height: 4vh;
+    font-size: 20px;
+    padding: 0 8%;
+    padding-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+  }
+  .WMUDCategory {
+    height: 570px;
+  }
+  .sectionContainer {
+    flex-flow: row;
+    position: relative;
+  }
+  .WMUDImg {
+    position: absolute;
+    bottom: 0;
+    max-width: 250px;
+    margin-top: 5%;
+  }
+}
+@media (min-width: 1280px) {
+  .WMUDImg {
+    max-width: 300px;
+  }
+}

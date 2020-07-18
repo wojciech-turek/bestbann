@@ -10,9 +10,9 @@
   background-color: #fff;
   padding: 72px 16px;
   box-sizing: border-box;
-  transform: translateX(-103%);
+  transform: translateX(-105%);
   transition: transform 0.3s ease-out;
-  box-shadow: 2px 2px 10px #ddd;
+  box-shadow: 3px 3px 4px -1px rgba(0, 0, 0, 0.45);
 }
 
 @media (min-width: 1024px) {
@@ -25,7 +25,7 @@
   transform: translateX(0);
 }
 .Closed {
-  transform: translateX(-103%);
+  transform: translateX(-107%);
 }
 
 .Closer {

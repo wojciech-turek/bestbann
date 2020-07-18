@@ -24,6 +24,43 @@
       "withLiners": "Baskets with liners",
       "woodenBakingForm": "Wooden baking forms",
       "button": "See more"
+    },
+    "whatMUD": {
+      "title": "What makes us different?",
+      "material": {
+        "header": "Natural rattan material",
+        "content": "We use only natural rattan material for the bread proofing baskets production.<p> <strong>No bleaches, no chemicals.</strong></p> Our baskets are handmade, therefore every rattan stick is carefully checked before use."
+      },
+      "certificate": {
+        "header": "SGS Test Reports and PZH Certificate",
+        "inAccrodance": "Our baskets <strong>can safely have contact with food</strong>, in accordance with:",
+        "point1": "Regulation (EC) No 1935/2004 of the European Parliament and of the Council of 27 October 2004 on materials and articles intended to come into contact with food",
+        "point2": "Germany LFGB (LMBG) Food and Feed Law Art. 30, 31"
+      },
+      "tailored": {
+        "header": "Tailored to your needs",
+        "content": "You can order a bread proofing basket from our wide range of shapes and sizes or create your own unique basket. We can customize dimensions, shapes or add an engraving. <p><strong>We are open for your ideas and suggestions!</strong></p>"
+      }
+    }
+  },
+  "footer": {
+    "companyInfo": {
+      "title": "Company Info",
+      "office": "Office: ",
+      "street": "Street: ",
+      "city": "City: "
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "Email: ",
+      "telephone": "Phone: "
+    },
+    "newsletter": {
+      "title": "Newsletter Signup",
+      "name": "Your name*",
+      "email": "Your email*",
+      "required": "* - fields are required",
+      "subscribeBtn": "Subscribe"
     }
   }
 }

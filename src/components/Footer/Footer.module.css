@@ -1,0 +1,17 @@
+.FooterContainer {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  background-color: #dfe3e5;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #868585;
+  text-align: center;
+  padding-top: 2%;
+}
+
+@media (min-width: 1024px) {
+  .FooterContainer {
+    flex-flow: row;
+  }
+}

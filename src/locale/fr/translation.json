@@ -24,6 +24,23 @@
       "withLiners": "Bannetons avec doublures",
       "woodenBakingForm": "Moules de cuisson en bois",
       "button": "En savoir plus"
+    },
+    "whatMUD": {
+      "title": "Qu'est-ce qui nous differencie?",
+      "material": {
+        "header": "Rotin naturel",
+        "content": "Nous utilisons uniquement du rotin naturel pour la fabrication des bannetons à pain.<br/> <strong>Pas de javel, pas de produits chimiques.</strong><br/> Nos bannetons sont faits à la main, donc chaque bâtonnet de rotin est soigneusement vérifié avant utilisation."
+      },
+      "certificate": {
+        "header": "Rapports de test SGS et certificat PZH",
+        "inAccrodance": "Nos bannetons <strong>peuvent être en contact avec les aliments en toute sécurité</strong>, conformément à:",
+        "point1": "Règlement (CE) n ° 1935/2004 du Parlement européen et du Conseil du 27 octobre 2004 concernant les matériaux et objets destinés à entrer en contact avec des denrées alimentaires",
+        "point2": "Allemagne LFGB (LMBG) Loi sur les aliments art. 30, 31"
+      },
+      "tailored": {
+        "header": "Adapté à vos besoins",
+        "content": "Vous pouvez commander un bannetons à pain dans notre vaste gamme de formes et de tailles ou créer votre propre panier. Nous pouvons personnaliser les dimensions, les formes ou ajouter une gravure. <br/><strong>Nous sommes ouverts à vos idées et suggestions!</strong>"
+      }
     }
   }
 }

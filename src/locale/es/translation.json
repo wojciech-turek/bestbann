@@ -24,6 +24,23 @@
       "withLiners": "Bannetones con telas de lino",
       "woodenBakingForm": "Moldes para hornear de madera",
       "button": "Ver más"
+    },
+    "whatMUD": {
+      "title": "Qué nos diferencia?",
+      "material": {
+        "header": "Material de ratán natural",
+        "content": "Para la producción de bannetones de fermentación, solo utilizamos material de ratán natural.<br/><strong>Sin blanqueadores, sin productos químicos.</strong><br/> Nuestras cestas son hechas a mano, por lo tanto, cada barra de ratán se revisa cuidadosamente antes de usar."
+      },
+      "certificate": {
+        "header": "Informes de prueba SGS y certificado PZH",
+        "inAccrodance": "Certificado PZH y SGS informes de las pruebas testimonian <strong>la seguridad del uso de nuestros bannetones en contacto con alimentos</strong>, para la conformidad con:",
+        "point1": "Reglamento (CE) nº 1935/2004 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 27 de octubre de 2004",
+        "point2": "Ley alemana relativa a los alimentos y la nutrición LFGB (LMBG) § 30, 31"
+      },
+      "tailored": {
+        "header": "A medida de sus necesidades",
+        "content": "Puede pedir banneton de nuestra amplia gama de formas y tamaños o crear su propia cesta única. Podemos personalizar dimensiones, formas o agregar un grabado. <br/><strong>¡Estamos abiertos a sus ideas y sugerencias!</strong>"
+      }
     }
   }
 }

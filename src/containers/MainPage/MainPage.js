@@ -2,7 +2,7 @@ import React from "react";
 import HeroBanner from "./HeroBanner/HeroBanner";
 import MainSection from "./MainSection/MainSection";
 import AboutUs from "./AboutUs/AboutUs";
-
+import WhatMUD from "./WhatMUD/WhatMUD";
 import { useTranslation } from "react-i18next";
 
 import classes from "./MainPage.module.css";
@@ -22,7 +22,10 @@ export default function MainPage() {
         title={t("mainSections.products.title")}
         content={<Products />}
       />
-      <MainSection title={t("mainSections.wmud.title")} />
+      <MainSection
+        title={t("mainSections.whatMUD.title")}
+        content={<WhatMUD />}
+      />
     </div>
   );
 }

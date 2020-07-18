@@ -15,12 +15,6 @@ const SideDrawer = (props) => {
 
   return (
     <div className={drawerClasses.join(" ")}>
-      <div
-        className={classes.Closer}
-        onClick={() => props.clicked(!props.open)}
-      >
-        X
-      </div>
       <Logo height="8%" />
       <nav className={classes.navSide}>
         <NavigationItems />

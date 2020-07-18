@@ -10,7 +10,6 @@ export default function Hamburger(props) {
     bar2Styles.push(classes.changeBar2);
     bar3Styles.push(classes.changeBar3);
   }
-  console.log(props.open);
   return (
     <div
       className={classes.container}

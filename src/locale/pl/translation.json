@@ -24,6 +24,23 @@
       "withLiners": "Kosze z materiałowymi poszewkami",
       "woodenBakingForm": "Drewniane foremki do pieczenia chleba",
       "button": "Zobacz więcej"
+    },
+    "whatMUD": {
+      "title": "Co nas wyróżnia?",
+      "material": {
+        "header": "Naturalny rattan",
+        "content": "Do produkcji koszy do wyrastania chleba używamy wyłącznie naturalnego rattanu.<br><strong>Bez chemikaliów, bez wybielaczy.</strong><br> Nasze kosze są wykonywane ręcznie, a każdy odcinek rattanu jest dokładnie sprawdzany pod względem jakości."
+      },
+      "certificate": {
+        "header": "Raport z testów SGS i Certyfikat PZH",
+        "inAccrodance": "Nasze kosze są <strong>bezpieczne dla kontaktu z żywnością</strong>, zgodnie z:",
+        "point1": "Rozporządzeniem (WE) nr 1935/2004 Parlamentu Europejskiego i Rady z dnia 27 października 2004 r. w sprawie materiałów i wyrobów przeznaczonych do kontaktu z żywnością",
+        "point2": "Niemiecką ustawą LFGB (LMBG) o żywności i surowcach art. 30, 31"
+      },
+      "tailored": {
+        "header": "Dopasowane do potrzeb",
+        "content": "Zapraszamy do zapoznania się z szeroką gamą kształtów i rozmiarów naszych koszy lub stworzenia własnego, niepowtarzalnego kosza. Dostosowywujemy się do porzeb naszych Klientów. <br/><strong>Jesteśmy otwarci na Państwa pomysły i sugestie!</strong>"
+      }
     }
   }
 }

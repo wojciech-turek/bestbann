@@ -24,6 +24,23 @@
       "withLiners": "Cestini con teli",
       "woodenBakingForm": "Stampi in legno con carta da forno",
       "button": "Vedi altro"
+    },
+    "whatMUD": {
+      "title": "Cosa ci rende diversi?",
+      "material": {
+        "header": "Materiale in rattan naturale",
+        "content": "Per la produzione di cestini per lievitazione del pane usiamo solo materiale naturale in rattan.<br/> <strong>Nessun candeggina, nessun prodotto chimico.</strong><br/> I nostri cestini sono fatti a mano, quindi ogni bastoncino di rattan viene accuratamente controllato prima dell'uso."
+      },
+      "certificate": {
+        "header": "Rapporti di prova SGS e certificato PZH",
+        "inAccrodance": "Certificato PZH e SGS rapporti di prova testimoniano la<strong>sicurezza dei nostri cestini nell’utilizzo con il contatto con gli alimenti</strong>, per il rispetto di:",
+        "point1": "REGOLAMENTO (CE) N° 1935/2004 DEL PARLAMENTO EUROPEO E DEL CONSIGLIO del 27 ottobre 2004",
+        "point2": "La legge tedesca in materia di alimenti e nutrizione LFGB (LMBG) § 30, 31"
+      },
+      "tailored": {
+        "header": "Su misura per le vostre esigenze",
+        "content": "Puoi ordinare un cestino di lievitazione pane dalla nostra vasta gamma di forme e dimensioni o creare il proprio cestino unico. Possiamo personalizzare dimensioni, forme o aggiungere un'incisione. <br/><strong>Siamo aperti per le vostre idee e suggerimenti!</strong>"
+      }
     }
   }
 }

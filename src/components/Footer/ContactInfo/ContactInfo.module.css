@@ -1,0 +1,37 @@
+.ContactInfo {
+  flex-basis: 33%;
+}
+.SectionTitle {
+  font-size: 20px;
+  overflow: hidden;
+  text-align: center;
+  text-transform: uppercase;
+}
+.SectionTitle::before,
+.SectionTitle::after {
+  background-color: #868585;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 20vw;
+}
+.SectionTitle::before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+.SectionTitle::after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+.ContactInfo {
+  flex-basis: 33%;
+}
+
+@media (min-width: 1024px) {
+  .SectionTitle::before,
+  .SectionTitle::after {
+    width: 7vw;
+  }
+}
