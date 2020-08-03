@@ -29,7 +29,7 @@
       "title": "Qu'est-ce qui nous differencie?",
       "material": {
         "header": "Rotin naturel",
-        "content": "Nous utilisons uniquement du rotin naturel pour la fabrication des bannetons à pain.<br/> <strong>Pas de javel, pas de produits chimiques.</strong><br/> Nos bannetons sont faits à la main, donc chaque bâtonnet de rotin est soigneusement vérifié avant utilisation."
+        "content": "Nous utilisons uniquement du rotin naturel pour la fabrication des bannetons à pain.<p/> <strong>Pas de javel, pas de produits chimiques.</strong><p/> Nos bannetons sont faits à la main, donc chaque bâtonnet de rotin est soigneusement vérifié avant utilisation."
       },
       "certificate": {
         "header": "Rapports de test SGS et certificat PZH",
@@ -39,7 +39,7 @@
       },
       "tailored": {
         "header": "Adapté à vos besoins",
-        "content": "Vous pouvez commander un bannetons à pain dans notre vaste gamme de formes et de tailles ou créer votre propre panier. Nous pouvons personnaliser les dimensions, les formes ou ajouter une gravure. <br/><strong>Nous sommes ouverts à vos idées et suggestions!</strong>"
+        "content": "Vous pouvez commander un bannetons à pain dans notre vaste gamme de formes et de tailles ou créer votre propre panier. Nous pouvons personnaliser les dimensions, les formes ou ajouter une gravure. <p/><strong>Nous sommes ouverts à vos idées et suggestions!</strong>"
       }
     }
   }

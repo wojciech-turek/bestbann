@@ -7,7 +7,7 @@ export default function NavigationItems() {
   const { t } = useTranslation("common");
   return (
     <div className={classes.NavItems}>
-      <NavigationItem link="/">{t("menu.mainPage")}</NavigationItem>
+      <NavigationItem link="/bestbann">{t("menu.mainPage")}</NavigationItem>
       <NavigationItem link="/products">{t("menu.products")}</NavigationItem>
       <NavigationItem link="/about">{t("menu.aboutUs")}</NavigationItem>
       <NavigationItem link="/contact">{t("menu.contact")}</NavigationItem>

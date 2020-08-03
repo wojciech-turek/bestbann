@@ -2,6 +2,7 @@
   padding: 10px 10px;
   color: black;
   text-decoration: inherit;
+  font-family: "Lato";
 }
 .active {
   color: red;

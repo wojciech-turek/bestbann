@@ -12,6 +12,7 @@
   align-items: center;
   box-shadow: 2px 2px 10px #ddd;
   z-index: 100;
+  transition: top 0.3s;
 }
 
 .navItems {
@@ -29,6 +30,12 @@
 }
 
 @media (min-width: 1024px) {
+  .toolbarShown {
+    top: 0;
+  }
+  .toolbarHidden {
+    top: -70px;
+  }
   .navItems {
     display: block;
   }

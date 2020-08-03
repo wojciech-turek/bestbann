@@ -29,7 +29,7 @@
       "title": "Co nas wyróżnia?",
       "material": {
         "header": "Naturalny rattan",
-        "content": "Do produkcji koszy do wyrastania chleba używamy wyłącznie naturalnego rattanu.<br><strong>Bez chemikaliów, bez wybielaczy.</strong><br> Nasze kosze są wykonywane ręcznie, a każdy odcinek rattanu jest dokładnie sprawdzany pod względem jakości."
+        "content": "Do produkcji koszy do wyrastania chleba używamy wyłącznie naturalnego rattanu.<p><strong>Bez chemikaliów, bez wybielaczy.</strong><p> Nasze kosze są wykonywane ręcznie, a każdy odcinek rattanu jest dokładnie sprawdzany pod względem jakości."
       },
       "certificate": {
         "header": "Raport z testów SGS i Certyfikat PZH",
@@ -39,7 +39,7 @@
       },
       "tailored": {
         "header": "Dopasowane do potrzeb",
-        "content": "Zapraszamy do zapoznania się z szeroką gamą kształtów i rozmiarów naszych koszy lub stworzenia własnego, niepowtarzalnego kosza. Dostosowywujemy się do porzeb naszych Klientów. <br/><strong>Jesteśmy otwarci na Państwa pomysły i sugestie!</strong>"
+        "content": "Zapraszamy do zapoznania się z szeroką gamą kształtów i rozmiarów naszych koszy lub stworzenia własnego, niepowtarzalnego kosza. Dostosowywujemy się do porzeb naszych Klientów. <p/><strong>Jesteśmy otwarci na Państwa pomysły i sugestie!</strong>"
       }
     }
   }

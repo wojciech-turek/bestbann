@@ -6,7 +6,10 @@ export default function LanguageOption(props) {
   const { i18n } = useTranslation("common");
 
   let changeLang = () => {
-    i18n.changeLanguage(props.lang);
+    props.setLoading(true);
+    setTimeout(() => {
+      i18n.changeLanguage(props.lang);
+    }, 200);
   };
 
   let style = [classes[props.lang], classes.flag];

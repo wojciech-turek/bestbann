@@ -13,7 +13,13 @@ export default function Footer() {
         <div className={classes.ContactInfo}></div>
         <div className={classes.SocialIcons}></div>
       </div>
-      <div>Copyright © 2020 BestBann</div>
+
+      <div className={classes.FooterCopyright}>
+        Copyright© 2020{" "}
+        <a href="https:/www.wojciechturek.com" target="blank" rel="noopener">
+          Wojciech Turek
+        </a>
+      </div>
     </>
   );
 }

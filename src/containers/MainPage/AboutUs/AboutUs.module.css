@@ -9,8 +9,12 @@
 }
 .AboutUsImg {
   width: 40%;
-  max-width: 170px;
+  max-width: 137px;
   margin: 4% 0;
+}
+
+.aboutUsParagraph {
+  font-family: "Montserrat";
 }
 
 @media (min-width: 768px) {

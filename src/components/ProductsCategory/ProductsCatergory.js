@@ -8,11 +8,11 @@ export default function ProductsCatergory(props) {
     paragraph = <p>{props.paragTxt}</p>;
   }
   if (props.btnTxt) {
-    btn = <button>{props.btnTxt}</button>;
+    btn = <button className={classes.SeeMoreBtn}>{props.btnTxt}</button>;
   }
   return (
     <div className={classes.ProductsCategory}>
-      <h3>{props.title}</h3>
+      <h3 className={classes.ProductsTitle}>{props.title}</h3>
       {paragraph}
       <img
         className={classes.ProductsImg}

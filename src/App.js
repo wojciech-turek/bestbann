@@ -1,16 +1,16 @@
 import React, { Suspense } from "react";
 import "./App.css";
 import Layout from "../src/containers/Layout/Layout";
+import SimpleReactLightbox from "simple-react-lightbox";
 import { BrowserRouter as Router } from "react-router-dom";
-import MainPage from "./containers/MainPage/MainPage";
 
 function App() {
   return (
     <Router>
       <Suspense fallback="loading">
-        <Layout>
-          <MainPage />
-        </Layout>
+        <SimpleReactLightbox>
+          <Layout />
+        </SimpleReactLightbox>
       </Suspense>
     </Router>
   );
