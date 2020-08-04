@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import HeroBanner from "./HeroBanner/HeroBanner";
 import MainSection from "./MainSection/MainSection";
 import AboutUs from "./AboutUs/AboutUs";
@@ -9,6 +9,9 @@ import classes from "./MainPage.module.css";
 import Products from "./Products/Products";
 
 export default function MainPage() {
+  useEffect(() => {
+    document.title = "BestBann - Home";
+  }, []);
   const { t } = useTranslation("common");
 
   return (

@@ -1,4 +1,5 @@
-.Content {
-  margin-top: 60px;
+.ContentWrapper {
+  margin-top: 15vh;
   max-width: 1920px;
+  text-align: center;
 }

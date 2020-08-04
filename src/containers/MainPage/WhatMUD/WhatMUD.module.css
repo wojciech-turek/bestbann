@@ -12,7 +12,6 @@
   max-width: 40vh;
   margin-bottom: 4%;
   margin-top: 5%;
-  cursor: pointer;
   transition: width 0.4s;
 }
 .WMUDCategory {
@@ -47,6 +46,19 @@
   font-family: "Montserrat";
 }
 
+.downloadLink {
+  text-decoration: none;
+  color: black;
+  font-family: "Lato";
+  padding: 10px 40px;
+  font-size: 14px;
+  border: 2px solid black;
+  transition: background-color 0.5s ease;
+}
+.downloadLink:hover {
+  background-color: gainsboro;
+}
+
 .divider {
   height: 2px;
   width: 80%;
@@ -64,6 +76,7 @@
   .WMUDCategory {
     height: 600px;
   }
+
   .ImgWrapper {
     margin-top: auto;
   }
@@ -74,13 +87,17 @@
   .WMUDImg {
     max-width: 250px;
   }
-  .WMUDImg:hover {
-    width: 95%;
+
+  .WMUDCategory:nth-child(3) .WMUDImg {
+    width: 350px;
   }
 }
 @media (min-width: 1280px) {
   .WMUDImg {
     max-width: 320px;
     margin-top: auto;
+  }
+  .WMUDCategory:nth-child(2) .WMUDImg {
+    width: 450px;
   }
 }

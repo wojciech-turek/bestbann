@@ -18,13 +18,14 @@ export default function Toolbar(props) {
   }
 
   window.onscroll = function () {
-    setToolbarShown(true);
     let currentScrollPos = window.pageYOffset;
-    if (currentScrollPos >= 500) {
+    if (currentScrollPos >= 50) {
       if (prevScrollpos > currentScrollPos) {
         setToolbarShown(true);
       } else {
-        setToolbarShown(false);
+        if (toolbarShown !== false && props.open !== true) {
+          setToolbarShown(false);
+        }
       }
     }
     prevScrollpos = currentScrollPos;
@@ -39,7 +40,10 @@ export default function Toolbar(props) {
         <Hamburger open={props.open} clicked={props.clicked} />
       </div>
       <div className={classes.navItems}>
-        <NavigationItems />
+        <NavigationItems
+          sideOpen={props.open}
+          setSideOpen={(bool) => props.setSideOpen(bool)}
+        />
       </div>
       <LanguageOptions loading={props.loading} setLoading={props.setLoading} />
     </div>

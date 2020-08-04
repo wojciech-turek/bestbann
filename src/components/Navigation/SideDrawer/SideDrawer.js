@@ -17,7 +17,7 @@ const SideDrawer = (props) => {
     <div className={drawerClasses.join(" ")}>
       <Logo height="8%" />
       <nav className={classes.navSide}>
-        <NavigationItems />
+        <NavigationItems setSideOpen={(bool) => props.setSideOpen(bool)} />
       </nav>
     </div>
   );

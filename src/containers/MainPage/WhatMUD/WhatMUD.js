@@ -1,12 +1,11 @@
 import React from "react";
 import classes from "./WhatMUD.module.css";
-import rattanImg from "../../../assets/rattanMaterial.jpg";
-import certificateImg from "../../../assets/certificate.png";
-import tailoredImg from "../../../assets/tailored.jpg";
+import rattanImg from "../../../assets/rattanMaterialCompressed.jpg";
+import certificateImg from "../../../assets/certificateSmall.png";
+import certificateImgBig from "../../../assets/certificate.png";
+import tailoredImg from "../../../assets/tailoredCompressed.jpg";
 
 import { useTranslation, Trans } from "react-i18next";
-
-import { SRLWrapper } from "simple-react-lightbox";
 
 export default function WhatMUD() {
   const { t } = useTranslation("common");
@@ -21,13 +20,11 @@ export default function WhatMUD() {
           <div>{t("mainSections.whatMUD.material.content")}</div>
         </Trans>
         <div className={classes.ImgWrapper}>
-          <SRLWrapper>
-            <img
-              className={classes.WMUDImg}
-              src={rattanImg}
-              alt="Natural Rattan"
-            />
-          </SRLWrapper>
+          <img
+            className={classes.WMUDImg}
+            src={rattanImg}
+            alt="Natural Rattan"
+          />
         </div>
       </div>
       <div className={classes.WMUDCategory}>
@@ -42,14 +39,19 @@ export default function WhatMUD() {
           </ul>
         </Trans>
         <div className={classes.ImgWrapper}>
-          <SRLWrapper>
-            <img
-              className={classes.WMUDImg}
-              src={certificateImg}
-              alt="Certificates"
-            />
-          </SRLWrapper>
+          <img
+            className={classes.WMUDImg}
+            src={certificateImg}
+            alt="Certificates"
+          />
         </div>
+        <a
+          className={classes.downloadLink}
+          href={certificateImgBig}
+          download="BestBann Certificate"
+        >
+          Download Certificates
+        </a>
       </div>
       <div className={classes.WMUDCategory}>
         <h3 className={classes.itemTitle}>
@@ -59,13 +61,11 @@ export default function WhatMUD() {
           <div>{t("mainSections.whatMUD.tailored.content")}</div>
         </Trans>
         <div className={classes.ImgWrapper}>
-          <SRLWrapper>
-            <img
-              className={classes.WMUDImg}
-              src={tailoredImg}
-              alt="Tailored Baskets"
-            />
-          </SRLWrapper>
+          <img
+            className={classes.WMUDImg}
+            src={tailoredImg}
+            alt="Tailored Baskets"
+          />
         </div>
       </div>
     </div>

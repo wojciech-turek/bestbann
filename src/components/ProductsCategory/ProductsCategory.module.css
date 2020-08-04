@@ -24,17 +24,20 @@
   color: white;
   outline: none;
   cursor: pointer;
+  transition: background-color 0.4s ease;
 }
 .SeeMoreBtn:hover,
 .SeeMoreBtn:active {
   background-color: #f8ad21;
 }
 .ProductsTitle {
+  margin: 0;
   font-size: 20px;
-  padding: 0 8%;
+  padding: 8% 8%;
   font-family: "Montserrat";
   font-weight: 700;
 }
+
 @media (min-width: 1024px) {
   .ProductsCategory h3 {
     font-size: 20px;

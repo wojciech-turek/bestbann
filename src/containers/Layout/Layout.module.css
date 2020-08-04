@@ -1,0 +1,17 @@
+.PageEnter {
+  opacity: 0;
+}
+.PageEnterActive {
+  opacity: 1;
+  transition: opacity 400ms;
+  -webkit-transition: opacity 400ms;
+}
+
+.PageExit {
+  opacity: 1;
+}
+.PageExitActive {
+  opacity: 0;
+  transition: opacity 400ms;
+  -webkit-transition: opacity 400ms;
+}

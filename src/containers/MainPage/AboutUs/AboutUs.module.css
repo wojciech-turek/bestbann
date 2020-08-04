@@ -23,7 +23,7 @@
     margin: 4%;
   }
   .aboutUsParagraph {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 120%;
   }
 }
@@ -31,13 +31,5 @@
 @media (min-width: 1024px) {
   .sectionContainer {
     flex-flow: row;
-  }
-  .AboutUsImg {
-    width: 150px;
-    margin: 4%;
-  }
-  .aboutUsParagraph {
-    font-size: 24px;
-    line-height: 120%;
   }
 }
