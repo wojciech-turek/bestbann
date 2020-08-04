@@ -1,32 +1,33 @@
 {
   "files": {
-    "main.css": "/bestbann/static/css/main.27f4c96c.chunk.css",
-    "main.js": "/bestbann/static/js/main.34d4e21a.chunk.js",
-    "main.js.map": "/bestbann/static/js/main.34d4e21a.chunk.js.map",
+    "main.css": "/bestbann/static/css/main.f5c9112e.chunk.css",
+    "main.js": "/bestbann/static/js/main.02bba11a.chunk.js",
+    "main.js.map": "/bestbann/static/js/main.02bba11a.chunk.js.map",
     "runtime-main.js": "/bestbann/static/js/runtime-main.224ef31d.js",
     "runtime-main.js.map": "/bestbann/static/js/runtime-main.224ef31d.js.map",
-    "static/js/2.6c7b11c8.chunk.js": "/bestbann/static/js/2.6c7b11c8.chunk.js",
-    "static/js/2.6c7b11c8.chunk.js.map": "/bestbann/static/js/2.6c7b11c8.chunk.js.map",
+    "static/js/2.4a859d1c.chunk.js": "/bestbann/static/js/2.4a859d1c.chunk.js",
+    "static/js/2.4a859d1c.chunk.js.map": "/bestbann/static/js/2.4a859d1c.chunk.js.map",
     "index.html": "/bestbann/index.html",
-    "precache-manifest.939f43990e013914a50ba2d49886e64f.js": "/bestbann/precache-manifest.939f43990e013914a50ba2d49886e64f.js",
+    "precache-manifest.12c0a81421174aec760a6823c4aaab22.js": "/bestbann/precache-manifest.12c0a81421174aec760a6823c4aaab22.js",
     "service-worker.js": "/bestbann/service-worker.js",
-    "static/css/main.27f4c96c.chunk.css.map": "/bestbann/static/css/main.27f4c96c.chunk.css.map",
-    "static/js/2.6c7b11c8.chunk.js.LICENSE.txt": "/bestbann/static/js/2.6c7b11c8.chunk.js.LICENSE.txt",
-    "static/media/OvBaskets.png": "/bestbann/static/media/OvBaskets.9f572efd.png",
+    "static/css/main.f5c9112e.chunk.css.map": "/bestbann/static/css/main.f5c9112e.chunk.css.map",
+    "static/js/2.4a859d1c.chunk.js.LICENSE.txt": "/bestbann/static/js/2.4a859d1c.chunk.js.LICENSE.txt",
+    "static/media/OvBaskets.png": "/bestbann/static/media/OvBaskets.ed124863.png",
     "static/media/certificate.png": "/bestbann/static/media/certificate.b7c4d6b2.png",
+    "static/media/certificateSmall.png": "/bestbann/static/media/certificateSmall.24204f77.png",
     "static/media/HeroBanner.module.css": "/bestbann/static/media/herobanner.417aab92.jpg",
     "static/media/madeineu.png": "/bestbann/static/media/madeineu.8cc92b8b.png",
-    "static/media/quality.png": "/bestbann/static/media/quality.07bd4410.png",
-    "static/media/rattanMaterial.jpg": "/bestbann/static/media/rattanMaterial.15a744dc.jpg",
-    "static/media/sqxsboknowe.png": "/bestbann/static/media/sqxsboknowe.ea8eb082.png",
-    "static/media/tailored.jpg": "/bestbann/static/media/tailored.63435381.jpg",
-    "static/media/withLiners.jpg": "/bestbann/static/media/withLiners.8440e93a.jpg",
-    "static/media/woodenBakingForm.png": "/bestbann/static/media/woodenBakingForm.72fae34c.png"
+    "static/media/quality.png": "/bestbann/static/media/quality.c93ef792.png",
+    "static/media/rattanMaterialCompressed.jpg": "/bestbann/static/media/rattanMaterialCompressed.a56fe9fe.jpg",
+    "static/media/sqxsboknowe.png": "/bestbann/static/media/sqxsboknowe.b921ebec.png",
+    "static/media/tailoredCompressed.jpg": "/bestbann/static/media/tailoredCompressed.7b7d9e16.jpg",
+    "static/media/withLiners.jpg": "/bestbann/static/media/withLiners.07164574.jpg",
+    "static/media/woodenBakingForm.png": "/bestbann/static/media/woodenBakingForm.f65e8a83.png"
   },
   "entrypoints": [
     "static/js/runtime-main.224ef31d.js",
-    "static/js/2.6c7b11c8.chunk.js",
-    "static/css/main.27f4c96c.chunk.css",
-    "static/js/main.34d4e21a.chunk.js"
+    "static/js/2.4a859d1c.chunk.js",
+    "static/css/main.f5c9112e.chunk.css",
+    "static/js/main.02bba11a.chunk.js"
   ]
 }
