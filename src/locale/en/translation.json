@@ -50,6 +50,15 @@
       "paragraph2": "<p>Our baskets are made of <strong>natural rattan</strong> or natural rattan combined with wood base element. <strong>We don’t use bleaches, lacquers or preservatives.</strong></p>",
       "paragraph3": "<p>We use very long staples to improve our basket’s stability and indestructibility. SGS test reports and PZH Certificate prove high quality of our materials, so that they can safely have contact with food, in accordance with:</p>",
       "paragraph4": "<p><strong>Each bread proofing basket is handmade.</strong> You can order numerous different shapes and sizes - round, oblong, oval, square and others. They are made from rattan only or rattan with wooden base. In our offer you can also find baskets with engraving - you can have one from our patterns or put your own design in place. Your own shape or logo can make the bread look unique and create excellent free advertisement.</p>"
+    },
+    "buttons": {
+      "baguette": "Baguette",
+      "oval": "Oval",
+      "round": "Round",
+      "oblong": "Oblong",
+      "mini": "Mini Baskets",
+      "bigWoodenBase": "Big Sliced Bread",
+      "square": "Square"
     }
   },
 

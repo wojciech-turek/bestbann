@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Route, Redirect, withRouter, Switch } from "react-router-dom";
 import Toolbar from "../../components/Toolbar/Toolbar";
 import SideDrawer from "../../components/Navigation/SideDrawer/SideDrawer";
@@ -16,6 +16,8 @@ const Layout = (props) => {
   const [sideOpen, setSideOpen] = useState(false);
   const [loading, setLoading] = useState(false);
 
+  const nodeRef = useRef(null);
+
   const routes = [
     { path: "/bestbann", name: "Home", Component: MainPage },
     { path: "/products", name: "Products", Component: ProductsPage },
@@ -24,7 +26,7 @@ const Layout = (props) => {
   ];
 
   let routeList = routes.map(({ path, Component }) => (
-    <Route key={path} exact path={path}>
+    <Route key={path} exact path={path} nodeRef={nodeRef}>
       <Component />
     </Route>
   ));

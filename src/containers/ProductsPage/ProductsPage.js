@@ -1,6 +1,12 @@
 import React, { useEffect } from "react";
 import classes from "./ProductsPage.module.css";
-import roundImg from "../../assets/OvBaskets.png";
+import baguetteImg from "../../assets/bgsnowySmallOptimized.jpg";
+import ovalImg from "../../assets/ovboksnowySmallOptimized.jpg";
+import roboksImg from "../../assets/roboksnowySmallOptimized.jpg";
+import longImg from "../../assets/loboksnowySmallOptimized.jpg";
+import rominiImg from "../../assets/rominiSmallOptimized.jpg";
+import squareLongImg from "../../assets/slxsboknowySmallOptimized.jpg";
+import squareImg from "../../assets/sqxsboknoweSmallOptimized.jpg";
 
 import { Trans, useTranslation } from "react-i18next";
 
@@ -12,33 +18,70 @@ export default function Products() {
   const { t } = useTranslation("common");
 
   const productsImages = [
-    { pathToImg: roundImg, alt: "Round Basket", btnTxt: "Round" },
-    { pathToImg: roundImg, alt: "Round Basket", btnTxt: "Oblong" },
-    { pathToImg: roundImg, alt: "Round Basket", btnTxt: "Oval" },
-    { pathToImg: roundImg, alt: "Round Basket", btnTxt: "Square" },
-    { pathToImg: roundImg, alt: "Round Basket", btnTxt: "Baguette" },
-    { pathToImg: roundImg, alt: "Round Basket", btnTxt: "Big Sliced Bread" },
-    { pathToImg: roundImg, alt: "Round Basket", btnTxt: "Mini Basket" },
+    {
+      pathToImg: baguetteImg,
+      alt: "Round Basket",
+      btnTxt: t("productsPage.buttons.baguette"),
+    },
+    {
+      pathToImg: ovalImg,
+      alt: "Round Basket",
+      btnTxt: t("productsPage.buttons.oval"),
+    },
+    {
+      pathToImg: roboksImg,
+      alt: "Round Basket",
+      btnTxt: t("productsPage.buttons.round"),
+    },
+    {
+      pathToImg: longImg,
+      alt: "Round Basket",
+      btnTxt: t("productsPage.buttons.oblong"),
+    },
+    {
+      pathToImg: rominiImg,
+      alt: "Round Basket",
+      btnTxt: t("productsPage.buttons.mini"),
+    },
+    {
+      pathToImg: squareLongImg,
+      alt: "Round Basket",
+      btnTxt: t("productsPage.buttons.bigWoodenBase"),
+    },
+    {
+      pathToImg: squareImg,
+      alt: "Round Basket",
+      btnTxt: t("productsPage.buttons.square"),
+    },
   ];
 
   return (
     <div className={classes.ContentWrapper}>
       <h1 className={classes.sectionTitle}>Bread proofing baskets</h1>
       <Trans>
-        {t("productsPage.description.paragraph1")}
-        {t("productsPage.description.paragraph2")}
-        {t("productsPage.description.paragraph3")}
-        <ul>
-          <li>- {t("mainSections.whatMUD.certificate.point1")}</li>
-          <li>- {t("mainSections.whatMUD.certificate.point2")}</li>
-        </ul>
-        {t("productsPage.description.paragraph4")}
+        <div className={classes.ParagraphWrap}>
+          {t("productsPage.description.paragraph1")}
+          {t("productsPage.description.paragraph2")}
+          {t("productsPage.description.paragraph3")}
+          <ul className={classes.Regulations}>
+            <li className={classes.Regulation}>
+              - {t("mainSections.whatMUD.certificate.point1")}
+            </li>
+            <p />
+            <li className={classes.Regulation}>
+              - {t("mainSections.whatMUD.certificate.point2")}
+            </li>
+          </ul>
+          {t("productsPage.description.paragraph4")}
+        </div>
       </Trans>
-      <div className="imageWrap">
+      <div className={classes.ImagesWrap}>
         {productsImages.map((el) => (
-          <div className="productCat" key={el.btnTxt}>
-            <img src={el.pathToImg} alt={el.alt} />
-            <button>{el.btnTxt}</button>
+          <div className={classes.product} key={el.btnTxt}>
+            <img src={el.pathToImg} className={classes.Image} alt={el.alt} />
+            <div className={classes.SeeMoreBtn}>
+              <span>{el.btnTxt}</span>
+            </div>
           </div>
         ))}
       </div>
