@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bestbann/static/css/main.742dc3d5.chunk.css",
+    "main.css": "/bestbann/static/css/main.9ce99662.chunk.css",
     "main.js": "/bestbann/static/js/main.84ef3313.chunk.js",
     "main.js.map": "/bestbann/static/js/main.84ef3313.chunk.js.map",
     "runtime-main.js": "/bestbann/static/js/runtime-main.224ef31d.js",
@@ -8,9 +8,9 @@
     "static/js/2.a5530904.chunk.js": "/bestbann/static/js/2.a5530904.chunk.js",
     "static/js/2.a5530904.chunk.js.map": "/bestbann/static/js/2.a5530904.chunk.js.map",
     "index.html": "/bestbann/index.html",
-    "precache-manifest.1e0058209470a9d9903071baf70bb3b4.js": "/bestbann/precache-manifest.1e0058209470a9d9903071baf70bb3b4.js",
+    "precache-manifest.85d540540b4a4b7a74bf5526da39ab75.js": "/bestbann/precache-manifest.85d540540b4a4b7a74bf5526da39ab75.js",
     "service-worker.js": "/bestbann/service-worker.js",
-    "static/css/main.742dc3d5.chunk.css.map": "/bestbann/static/css/main.742dc3d5.chunk.css.map",
+    "static/css/main.9ce99662.chunk.css.map": "/bestbann/static/css/main.9ce99662.chunk.css.map",
     "static/js/2.a5530904.chunk.js.LICENSE.txt": "/bestbann/static/js/2.a5530904.chunk.js.LICENSE.txt",
     "static/media/OvBaskets.png": "/bestbann/static/media/OvBaskets.ed124863.png",
     "static/media/OvBasketsTransparent.jpg": "/bestbann/static/media/OvBasketsTransparent.40c3e2b8.jpg",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.224ef31d.js",
     "static/js/2.a5530904.chunk.js",
-    "static/css/main.742dc3d5.chunk.css",
+    "static/css/main.9ce99662.chunk.css",
     "static/js/main.84ef3313.chunk.js"
   ]
 }

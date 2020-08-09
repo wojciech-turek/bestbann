@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0dc837fda2849fc809f3bd631f02bb9c",
+    "revision": "00038ec6d6fd84c5c91e487a7ed10eb2",
     "url": "/bestbann/index.html"
   },
   {
-    "revision": "1f4a9d79f2f5a91660c6",
-    "url": "/bestbann/static/css/main.742dc3d5.chunk.css"
+    "revision": "d80b2ba99e6b1cc8a954",
+    "url": "/bestbann/static/css/main.9ce99662.chunk.css"
   },
   {
     "revision": "6c27adb9ddd96173b84b",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bestbann/static/js/2.a5530904.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1f4a9d79f2f5a91660c6",
+    "revision": "d80b2ba99e6b1cc8a954",
     "url": "/bestbann/static/js/main.84ef3313.chunk.js"
   },
   {
