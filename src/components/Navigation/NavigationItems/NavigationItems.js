@@ -5,7 +5,6 @@ import { useTranslation } from "react-i18next";
 
 export default function NavigationItems(props) {
   const { t } = useTranslation("common");
-
   const navRoutes = [
     { link: "/bestbann", name: "Home", txt: "menu.mainPage" },
     { link: "/products", name: "Products", txt: "menu.products" },
@@ -14,21 +13,11 @@ export default function NavigationItems(props) {
   ];
 
   let navMobItems = navRoutes.map((el) => (
-    <NavigationItem
-      key={el.name}
-      link={el.link}
-      setSideOpen={(bool) => props.setSideOpen(bool)}
-    >
+    <NavigationItem key={el.name} link={el.link}>
       {t(el.txt)}
     </NavigationItem>
   ));
-  let navDskItems = navRoutes.map(({ link, txt, name }) => (
-    <NavigationItem link={link} key={name}>
-      {t(txt)}
-    </NavigationItem>
-  ));
 
-  let navItems = !props.sideOpen ? navMobItems : navDskItems;
-
+  let navItems = !props.sideOpen ? navMobItems : null;
   return <div className={classes.NavItems}>{navItems}</div>;
 }

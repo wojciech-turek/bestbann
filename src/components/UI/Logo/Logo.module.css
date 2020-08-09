@@ -1,0 +1,18 @@
+.Logo {
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .Logo {
+    margin-right: auto;
+    padding: 8px;
+    height: 100%;
+
+    cursor: pointer;
+  }
+
+  .Logo img {
+    height: 100%;
+    width: 100%;
+  }
+}

@@ -1,6 +1,6 @@
 import React from "react";
-import madeInEuImg from "../../../assets/madeineu.png";
-import qualityImg from "../../../assets/quality.png";
+import madeInEuImg from "../../assets/madeineu.png";
+import qualityImg from "../../assets/quality.png";
 import classes from "./AboutUs.module.css";
 
 import { Trans, useTranslation } from "react-i18next";

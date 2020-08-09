@@ -1,10 +1,10 @@
 import React from "react";
-import breadProofingImg from "../../../assets/OvBaskets.png";
-import woodenBaseImg from "../../../assets/sqxsboknowe.png";
-import withLinersImg from "../../../assets/withLiners.jpg";
-import woodenBakingImg from "../../../assets/woodenBakingForm.png";
+import breadProofingImg from "../../assets/OvBaskets.png";
+import woodenBaseImg from "../../assets/sqxsboknowe.png";
+import withLinersImg from "../../assets/withLiners.jpg";
+import woodenBakingImg from "../../assets/woodenBakingForm.png";
 
-import ProductsCategory from "../../../components/ProductsCategory/ProductsCatergory";
+import ProductsCategory from "../../components/ProductsCategory/ProductsCatergory";
 import { useTranslation } from "react-i18next";
 import classes from "./Products.module.css";
 

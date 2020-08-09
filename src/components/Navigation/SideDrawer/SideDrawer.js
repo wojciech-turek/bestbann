@@ -1,8 +1,7 @@
 import React from "react";
-
-import NavigationItems from "../../NavigationItems/NavigationItems";
-import Logo from "../../Logo/Logo";
+import Logo from "../../UI/Logo/Logo";
 import classes from "./SideDrawer.module.css";
+import MobileNavigationItems from "../NavigationItems/MobileNavigationItems/MobileNavigationItems";
 
 const SideDrawer = (props) => {
   let drawerClasses = null;
@@ -15,9 +14,12 @@ const SideDrawer = (props) => {
 
   return (
     <div className={drawerClasses.join(" ")}>
-      <Logo height="8%" />
+      <Logo width="160px" />
       <nav className={classes.navSide}>
-        <NavigationItems setSideOpen={(bool) => props.setSideOpen(bool)} />
+        <MobileNavigationItems
+          open={props.open}
+          setSideOpen={props.setSideOpen}
+        />
       </nav>
     </div>
   );

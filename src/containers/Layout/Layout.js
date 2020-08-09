@@ -1,21 +1,16 @@
-import React, { useState, useRef } from "react";
+import React, { useRef } from "react";
 import { Route, Redirect, withRouter, Switch } from "react-router-dom";
-import Toolbar from "../../components/Toolbar/Toolbar";
-import SideDrawer from "../../components/Navigation/SideDrawer/SideDrawer";
-import Footer from "../../components/Footer/Footer";
-import Backdrop from "../../components/UI/Backdrop/Backdrop";
-import Spinner from "../../components/UI/Spinner/Spinner";
-import MainPage from "../MainPage/MainPage";
-import ProductsPage from "../ProductsPage/ProductsPage";
+import Navigation from "../Navigation/Navigation";
 
+import Footer from "../../components/Footer/Footer";
+import MainPage from "../../pages/MainPage/MainPage";
+
+import ProductsPage from "../../pages/ProductsPage/ProductsPage";
 import classes from "./Layout.module.css";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import ScrollToTop from "../../components/UI/ScrollToTop/ScrollToTop";
 
 const Layout = (props) => {
-  const [sideOpen, setSideOpen] = useState(false);
-  const [loading, setLoading] = useState(false);
-
   const nodeRef = useRef(null);
 
   const routes = [
@@ -53,19 +48,9 @@ const Layout = (props) => {
 
   return (
     <>
-      {loading ? <Spinner setLoading={setLoading} loading={loading} /> : null}
-      <SideDrawer open={sideOpen} setSideOpen={setSideOpen} />
-      <Backdrop sideOpen={sideOpen} clicked={setSideOpen} />
-      <Toolbar
-        open={sideOpen}
-        clicked={setSideOpen}
-        loading={loading}
-        setLoading={setLoading}
-        setSideOpen={setSideOpen}
-      />
+      <Navigation />
       <ScrollToTop />
       {<AnimatedSwitch />}
-
       <Footer />
     </>
   );

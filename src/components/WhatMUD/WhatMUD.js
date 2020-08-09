@@ -1,9 +1,9 @@
 import React from "react";
 import classes from "./WhatMUD.module.css";
-import rattanImg from "../../../assets/rattanMaterialCompressed.jpg";
-import certificateImg from "../../../assets/certificateSmall.png";
-import certificateImgBig from "../../../assets/certificate.png";
-import tailoredImg from "../../../assets/tailoredCompressed.jpg";
+import rattanImg from "../../assets/rattanMaterialCompressed.jpg";
+import certificateImg from "../../assets/certificateSmall.png";
+import certificateImgBig from "../../assets/certificate.png";
+import tailoredImg from "../../assets/tailoredCompressed.jpg";
 
 import { useTranslation, Trans } from "react-i18next";
 

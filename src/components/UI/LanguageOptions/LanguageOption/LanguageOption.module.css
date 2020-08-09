@@ -1,0 +1,26 @@
+.flag {
+  height: 21px;
+  width: 32px;
+  padding: 0 3px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.pl {
+  background-image: url("../../../../assets/poland-flag-32.png");
+}
+.en {
+  background-image: url("../../../../assets/united-kingdom-32.png");
+}
+.es {
+  background-image: url("../../../../assets/spain-flag-32.png");
+}
+.ru {
+  background-image: url("../../../../assets/russia-flag-32.png");
+}
+.fr {
+  background-image: url("../../../../assets/france-flag-32.png");
+}
+.it {
+  background-image: url("../../../../assets/italy-flag-32.png");
+}

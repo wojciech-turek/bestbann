@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
-import HeroBanner from "./HeroBanner/HeroBanner";
-import MainSection from "./MainSection/MainSection";
-import AboutUs from "./AboutUs/AboutUs";
-import WhatMUD from "./WhatMUD/WhatMUD";
+import HeroBanner from "../../components/HeroBanner/HeroBanner";
+import MainSection from "../../components/MainSection/MainSection";
+import AboutUs from "../../components/AboutUs/AboutUs";
+import WhatMUD from "../../components/WhatMUD/WhatMUD";
 import { useTranslation } from "react-i18next";
 
 import classes from "./MainPage.module.css";
-import Products from "./Products/Products";
+import Products from "../../components/Products/Products";
 
 export default function MainPage() {
   useEffect(() => {

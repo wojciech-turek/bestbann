@@ -1,0 +1,85 @@
+.MobNavContainer {
+  width: 100%;
+  overflow-y: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Lato";
+}
+
+.MainList {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.Icon {
+  margin-right: 20px;
+}
+.SmallIcon {
+  margin-right: 10px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.linkActive {
+  padding: 10px 20px 10px 40px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  background-color: tomato;
+  text-decoration: none;
+  margin-left: 0;
+  transition: all 0.4s ease;
+}
+
+.InactiveLink {
+  padding-left: 40px;
+}
+
+.PrimaryItem {
+  min-height: 40px;
+  position: relative;
+  line-height: 40px;
+  z-index: 100;
+}
+
+.ProductsSecondaryListOpen {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  padding-left: 20px;
+  list-style: none;
+  margin: 20px 20px 0px 0px;
+  opacity: 1;
+  height: 25vh;
+  max-height: 200px;
+  padding-bottom: 20px;
+  transition: opacity 0.4s ease, height 0.4s ease;
+}
+
+.ProductsSecondaryListClosed {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  padding-left: 20px;
+  list-style: none;
+  margin: 0 20px 0px 10px;
+  height: 0px;
+  opacity: 0;
+  transition: opacity 0.3s ease, height 0.4s ease;
+}
+
+.secondaryListItem {
+  font-size: 16px;
+  height: 5vh;
+  line-height: 5vh;
+}
+.ProductsTertiaryList {
+  display: none;
+  opacity: 0;
+  height: 0;
+}

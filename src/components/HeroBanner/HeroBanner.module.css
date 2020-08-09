@@ -4,7 +4,7 @@
   background-attachment: fixed;
   background-position: left bottom;
   background-size: auto 100%;
-  background-image: url("../../../assets/herobannerOptimized.jpg");
+  background-image: url("../../assets/herobannerOptimizedMobile.jpg");
   position: relative;
   bottom: 0;
   left: 0;
@@ -20,8 +20,16 @@
   transform: translate(-50%, -50%);
 }
 
+@media (orientation: landscape) {
+  .heroBanner {
+    background-image: url("../../assets/herobannerOptimized.jpg");
+  }
+}
+
 @media (min-width: 1024px) {
   .heroBanner {
+    background-image: url("../../assets/herobannerOptimized.jpg");
+    background-position: left bottom;
     min-height: 500px;
   }
   .LogoBanner {

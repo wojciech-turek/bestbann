@@ -1,0 +1,34 @@
+.Container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  flex-basis: 30%;
+}
+
+.Product {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 30%;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 12px;
+  color: rgb(95, 95, 95);
+  border-bottom: 4px solid transparent;
+  font-family: "Montserrat";
+  text-align: center;
+  transition: all 0.4s ease;
+}
+
+.Product:hover {
+  color: tomato;
+  border-color: tomato;
+}
+
+.ProductImage {
+  width: 100px;
+  margin-bottom: 8px;
+}

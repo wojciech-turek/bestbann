@@ -25,6 +25,7 @@
   padding: 0;
 }
 .ImagesWrap {
+  width: 90%;
   display: flex;
   flex-flow: column;
   flex-wrap: wrap;
@@ -39,7 +40,7 @@
 
 .SeeMoreBtn {
   border-radius: 40px;
-  background: linear-gradient(to right, #fd686f, #fe944a) !important;
+  background: linear-gradient(to right, #f3d5b8, #fe944a);
   border: none;
   color: white;
   text-align: center;
@@ -64,6 +65,10 @@
   top: 0;
   right: -20px;
   transition: 0.5s;
+}
+
+.SeeMoreBtn:hover {
+  background: linear-gradient(to right, #c06e34, #fe944a);
 }
 
 .SeeMoreBtn:hover span {
