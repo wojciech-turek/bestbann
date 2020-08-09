@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9ef3878a9310fb32f25644b75543b341",
+    "revision": "0dc837fda2849fc809f3bd631f02bb9c",
     "url": "/bestbann/index.html"
   },
   {
-    "revision": "4e55fea6fbfb29eb100c",
-    "url": "/bestbann/static/css/main.0e1935ec.chunk.css"
+    "revision": "1f4a9d79f2f5a91660c6",
+    "url": "/bestbann/static/css/main.742dc3d5.chunk.css"
   },
   {
-    "revision": "7e87d44b023feb4bcafa",
-    "url": "/bestbann/static/js/2.ce653d7a.chunk.js"
+    "revision": "6c27adb9ddd96173b84b",
+    "url": "/bestbann/static/js/2.a5530904.chunk.js"
   },
   {
     "revision": "789a67f91db1114fe0403706b643cbfb",
-    "url": "/bestbann/static/js/2.ce653d7a.chunk.js.LICENSE.txt"
+    "url": "/bestbann/static/js/2.a5530904.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4e55fea6fbfb29eb100c",
-    "url": "/bestbann/static/js/main.dde7cf4c.chunk.js"
+    "revision": "1f4a9d79f2f5a91660c6",
+    "url": "/bestbann/static/js/main.84ef3313.chunk.js"
   },
   {
     "revision": "e5e81b53cee179319d23",
