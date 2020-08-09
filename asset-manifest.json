@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/bestbann/static/css/main.d4fad70a.chunk.css",
-    "main.js": "/bestbann/static/js/main.5d9b0cf5.chunk.js",
-    "main.js.map": "/bestbann/static/js/main.5d9b0cf5.chunk.js.map",
+    "main.css": "/bestbann/static/css/main.0e1935ec.chunk.css",
+    "main.js": "/bestbann/static/js/main.dde7cf4c.chunk.js",
+    "main.js.map": "/bestbann/static/js/main.dde7cf4c.chunk.js.map",
     "runtime-main.js": "/bestbann/static/js/runtime-main.224ef31d.js",
     "runtime-main.js.map": "/bestbann/static/js/runtime-main.224ef31d.js.map",
-    "static/js/2.c4d8c8a4.chunk.js": "/bestbann/static/js/2.c4d8c8a4.chunk.js",
-    "static/js/2.c4d8c8a4.chunk.js.map": "/bestbann/static/js/2.c4d8c8a4.chunk.js.map",
+    "static/js/2.ce653d7a.chunk.js": "/bestbann/static/js/2.ce653d7a.chunk.js",
+    "static/js/2.ce653d7a.chunk.js.map": "/bestbann/static/js/2.ce653d7a.chunk.js.map",
     "index.html": "/bestbann/index.html",
-    "precache-manifest.ac9e107a6f45def8f14a0bfb3d669eb9.js": "/bestbann/precache-manifest.ac9e107a6f45def8f14a0bfb3d669eb9.js",
+    "precache-manifest.9c39a8c72fb1fdb6a4ad400f0a3a6b5a.js": "/bestbann/precache-manifest.9c39a8c72fb1fdb6a4ad400f0a3a6b5a.js",
     "service-worker.js": "/bestbann/service-worker.js",
-    "static/css/main.d4fad70a.chunk.css.map": "/bestbann/static/css/main.d4fad70a.chunk.css.map",
-    "static/js/2.c4d8c8a4.chunk.js.LICENSE.txt": "/bestbann/static/js/2.c4d8c8a4.chunk.js.LICENSE.txt",
+    "static/css/main.0e1935ec.chunk.css.map": "/bestbann/static/css/main.0e1935ec.chunk.css.map",
+    "static/js/2.ce653d7a.chunk.js.LICENSE.txt": "/bestbann/static/js/2.ce653d7a.chunk.js.LICENSE.txt",
     "static/media/OvBaskets.png": "/bestbann/static/media/OvBaskets.ed124863.png",
+    "static/media/OvBasketsTransparent.jpg": "/bestbann/static/media/OvBasketsTransparent.40c3e2b8.jpg",
     "static/media/bgsnowySmallOptimized.jpg": "/bestbann/static/media/bgsnowySmallOptimized.46ae07e2.jpg",
     "static/media/certificate.png": "/bestbann/static/media/certificate.b7c4d6b2.png",
     "static/media/certificateSmall.png": "/bestbann/static/media/certificateSmall.24204f77.png",
-    "static/media/HeroBanner.module.css": "/bestbann/static/media/herobannerOptimized.a452f173.jpg",
+    "static/media/HeroBanner.module.css": "/bestbann/static/media/herobannerOptimizedMobile.cec79097.jpg",
     "static/media/loboksnowySmallOptimized.jpg": "/bestbann/static/media/loboksnowySmallOptimized.56939abb.jpg",
     "static/media/madeineu.png": "/bestbann/static/media/madeineu.8cc92b8b.png",
     "static/media/ovboksnowySmallOptimized.jpg": "/bestbann/static/media/ovboksnowySmallOptimized.e561a105.jpg",
@@ -33,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.224ef31d.js",
-    "static/js/2.c4d8c8a4.chunk.js",
-    "static/css/main.d4fad70a.chunk.css",
-    "static/js/main.5d9b0cf5.chunk.js"
+    "static/js/2.ce653d7a.chunk.js",
+    "static/css/main.0e1935ec.chunk.css",
+    "static/js/main.dde7cf4c.chunk.js"
   ]
 }
