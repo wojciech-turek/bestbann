@@ -15,6 +15,7 @@ const SideDrawer = (props) => {
   return (
     <div className={drawerClasses.join(" ")}>
       <Logo width="160px" />
+      <div className={classes.Divider}></div>
       <nav className={classes.navSide}>
         <MobileNavigationItems
           open={props.open}

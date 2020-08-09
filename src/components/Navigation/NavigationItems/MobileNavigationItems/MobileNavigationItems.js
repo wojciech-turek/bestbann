@@ -67,10 +67,6 @@ export default function MobileNavigationItems(props) {
           >
             <li className={classes.secondaryListItem}>
               {ListerIcon}
-              <span className={classes.ItemText}>All Products</span>
-            </li>
-            <li className={classes.secondaryListItem}>
-              {ListerIcon}
               <span className={classes.ItemText}>Bread Proofing Baskets</span>
               <ul className={classes.ProductsTertiaryList}>
                 <li>All</li>

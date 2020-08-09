@@ -2,7 +2,7 @@
   width: 100%;
   overflow-y: auto;
   position: absolute;
-  top: 0;
+  top: 16px;
   left: 0;
   font-family: "Lato";
 }
@@ -40,6 +40,7 @@ a {
 
 .PrimaryItem {
   min-height: 40px;
+  font-size: 18px;
   position: relative;
   line-height: 40px;
   z-index: 100;
@@ -52,11 +53,10 @@ a {
   justify-content: space-evenly;
   padding-left: 20px;
   list-style: none;
-  margin: 20px 20px 0px 0px;
+  margin: 8px 20px 8px 0px;
   opacity: 1;
-  height: 25vh;
+  height: 20vh;
   max-height: 200px;
-  padding-bottom: 20px;
   transition: opacity 0.4s ease, height 0.4s ease;
 }
 
@@ -70,7 +70,7 @@ a {
   margin: 0 20px 0px 10px;
   height: 0px;
   opacity: 0;
-  transition: opacity 0.3s ease, height 0.4s ease;
+  transition: opacity 0s ease, height 0.4s ease;
 }
 
 .secondaryListItem {
