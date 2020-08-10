@@ -35,12 +35,51 @@
         "header": "Rapporti di prova SGS e certificato PZH",
         "inAccrodance": "Certificato PZH e SGS rapporti di prova testimoniano la<strong>sicurezza dei nostri cestini nell’utilizzo con il contatto con gli alimenti</strong>, per il rispetto di:",
         "point1": "REGOLAMENTO (CE) N° 1935/2004 DEL PARLAMENTO EUROPEO E DEL CONSIGLIO del 27 ottobre 2004",
-        "point2": "La legge tedesca in materia di alimenti e nutrizione LFGB (LMBG) § 30, 31"
+        "point2": "La legge tedesca in materia di alimenti e nutrizione LFGB (LMBG) § 30, 31",
+        "downloadCert": "Scarica certificati"
       },
       "tailored": {
         "header": "Su misura per le vostre esigenze",
         "content": "Puoi ordinare un cestino di lievitazione pane dalla nostra vasta gamma di forme e dimensioni o creare il proprio cestino unico. Possiamo personalizzare dimensioni, forme o aggiungere un'incisione. <p/><strong>Siamo aperti per le vostre idee e suggerimenti!</strong>"
       }
+    }
+  },
+  "productsPage": {
+    "description": {
+      "paragraph1": "<p>I cestini da lievitazione per il pane sono utilizzati in quasi tutte le panetterie. Sono utilizzati per far lievitare la pasta per il pane – in tal modo la pasta non fuoriesca, e pane dopo la cottura è più alto.<strong> La crescita nel cesto, grazie all'assorbimento parziale dell’umidità e al mantenimento del calore, garantisce anche una migliore struttura di pane e la croccantezza della crosta.</strong></p>",
+      "paragraph2": "<p><strong>I cestini sono realizzati in rattan e legno naturale. Non usiamo alcuna candeggina nè sostanze nocive.</strong> Utilizziamo graffe molto lunghe per migliorare la stabilità e l'indistruttibilità del nostri cestini. </p>",
+      "paragraph3": "<p>Alta qualità dei materiali da noi utilizzati garantiscono i SGS rapporto di prova e PZH certificato , che testimoniano la sicurezza nell’utilizzo con il contatto con gli alimenti, per il rispetto di:</p>",
+      "paragraph4": "<p><strong>I nostri cestini sono prodotti manualmente.</strong> Sono disponibili in vari modelli e dimensioni. Tondi, oblunghi, ovali, quadrati, triangolari. Realizzato solo in rattan o in rattan con il fondo in legno. Nella nostra offerta abbiamo anche cestiini con il fondo inciso - si può ordinare uno dei nostri molti disegni o inserire il proprio. Il disegno personalizzato rende il Tuo pane unico e può costituire una pubblicità eccellente.</p>"
+    },
+    "buttons": {
+      "baguette": "Baguette",
+      "oval": "Oval",
+      "round": "Round",
+      "oblong": "Oblong",
+      "mini": "Mini Baskets",
+      "bigWoodenBase": "Big Sliced Bread",
+      "square": "Square"
+    }
+  },
+
+  "footer": {
+    "companyInfo": {
+      "title": "Informazioni sull'azienda",
+      "office": "Ufficio: ",
+      "street": "Via: ",
+      "city": "Città: "
+    },
+    "contact": {
+      "title": "Contatto",
+      "email": "E-mail: ",
+      "telephone": "Telefono: "
+    },
+    "newsletter": {
+      "title": "Newsletter Signup",
+      "name": "Your name*",
+      "email": "Your email*",
+      "required": "* - fields are required",
+      "subscribeBtn": "Subscribe"
     }
   }
 }

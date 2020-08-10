@@ -15,7 +15,11 @@ const Layout = (props) => {
 
   const routes = [
     { path: "/bestbann", name: "Home", Component: MainPage },
-    { path: "/products", name: "Products", Component: ProductsPage },
+    {
+      path: "/products/breadproofingbaskets",
+      name: "Products",
+      Component: ProductsPage,
+    },
     { path: "/about", name: "About", Component: MainPage },
     { path: "/contact", name: "Contact", Component: MainPage },
   ];

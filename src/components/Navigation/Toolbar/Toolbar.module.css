@@ -14,6 +14,55 @@
   transition: top 0.3s;
 }
 
+.shopNowBtn {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  display: flex;
+  margin-right: 20px;
+  height: 32px;
+  width: 220px;
+  outline: none;
+  color: rgba(0, 0, 0, 0.9);
+  background-color: #ffca2c;
+  font-family: "Montserrat";
+  -webkit-font-smoothing: antialiased;
+  font-size: 12px;
+  line-height: 32px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.cart {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  top: 0;
+  left: 0;
+  color: white;
+  height: 32px;
+  width: 40px;
+  background-color: #f7ba06;
+  transition: left 0.4s ease-in-out;
+}
+
+.btnTxtAreaVisit {
+  opacity: 1;
+  width: 180px;
+  text-align: center;
+  transition: opacity 0.2s ease;
+}
+
+.btnTxtAreaTake {
+  position: absolute;
+  opacity: 0;
+  width: 180px;
+  transition: opacity 0.2s ease;
+}
+
 .navItems {
   display: none;
 }
@@ -33,6 +82,9 @@
 .toolbarHidden {
   top: -70px;
 }
+.languageOptionsContainer {
+  display: none;
+}
 
 @media (min-width: 1024px) {
   .toolbar {
@@ -46,7 +98,15 @@
   }
   .navItems {
     display: block;
+    margin-right: 20px;
   }
+
+  .languageOptionsContainer {
+    display: block;
+    width: 14vw;
+    min-width: 240px;
+  }
+
   .Logo {
     display: block;
     width: 10%;
@@ -77,5 +137,14 @@
   }
   .ProductsBarHidden {
     display: none;
+  }
+  .shopNowBtn:hover .cart {
+    left: 180px;
+  }
+  .shopNowBtn:hover .btnTxtAreaVisit {
+    opacity: 0;
+  }
+  .shopNowBtn:hover .btnTxtAreaTake {
+    opacity: 1;
   }
 }

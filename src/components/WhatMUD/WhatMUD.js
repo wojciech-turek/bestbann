@@ -50,7 +50,7 @@ export default function WhatMUD() {
           href={certificateImgBig}
           download="BestBann Certificate"
         >
-          Download Certificates
+          {t("mainSections.whatMUD.certificate.downloadCert")}
         </a>
       </div>
       <div className={classes.WMUDCategory}>

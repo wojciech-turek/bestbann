@@ -15,7 +15,12 @@ export default function Navigation() {
   return (
     <>
       {loading ? <Spinner setLoading={setLoading} loading={loading} /> : null}
-      <SideDrawer open={sideOpen} setSideOpen={setSideOpen} />
+      <SideDrawer
+        open={sideOpen}
+        setSideOpen={setSideOpen}
+        loading={loading}
+        setLoading={setLoading}
+      />
       <Backdrop sideOpen={sideOpen} clicked={setSideOpen} />
       <ProductBarShown.Provider
         value={{ productsBarShown, setProductsBarShown }}

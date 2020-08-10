@@ -1,7 +1,6 @@
 .flag {
   height: 21px;
   width: 32px;
-  padding: 0 3px;
   background-repeat: no-repeat;
   cursor: pointer;
 }

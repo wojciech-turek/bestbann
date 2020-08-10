@@ -57,7 +57,9 @@ export default function Products() {
 
   return (
     <div className={classes.ContentWrapper}>
-      <h1 className={classes.sectionTitle}>Bread proofing baskets</h1>
+      <h1 className={classes.sectionTitle}>
+        {t("mainSections.products.breadProofing")}
+      </h1>
       <Trans>
         <div className={classes.ParagraphWrap}>
           {t("productsPage.description.paragraph1")}

@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../../UI/Logo/Logo";
 import classes from "./SideDrawer.module.css";
 import MobileNavigationItems from "../NavigationItems/MobileNavigationItems/MobileNavigationItems";
+import LanguageOptions from "../../UI/LanguageOptions/LanguageOptions";
 
 const SideDrawer = (props) => {
   let drawerClasses = null;
@@ -22,6 +23,12 @@ const SideDrawer = (props) => {
           setSideOpen={props.setSideOpen}
         />
       </nav>
+      <div className={classes.languageOptionsContainer}>
+        <LanguageOptions
+          loading={props.loading}
+          setLoading={props.setLoading}
+        />
+      </div>
     </div>
   );
 };

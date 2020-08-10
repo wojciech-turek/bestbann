@@ -55,8 +55,6 @@ a {
   list-style: none;
   margin: 8px 20px 8px 0px;
   opacity: 1;
-  height: 20vh;
-  max-height: 200px;
   transition: opacity 0.4s ease, height 0.4s ease;
 }
 
@@ -71,6 +69,35 @@ a {
   height: 0px;
   opacity: 0;
   transition: opacity 0s ease, height 0.4s ease;
+}
+
+.ProductsTertiaryListOpen {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  padding-left: 20px;
+  list-style: none;
+  margin: 8px 20px 8px 0px;
+  opacity: 1;
+  transition: opacity 0.4s ease, height 0.4s ease;
+}
+
+.ProductsTertiaryListClosed {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  padding-left: 20px;
+  list-style: none;
+  margin: 0 20px 0px 10px;
+  height: 0px;
+  opacity: 0;
+  transition: opacity 0s ease, height 0.4s ease;
+}
+
+.ProductsTertiaryListClosed li {
+  height: 0;
 }
 
 .secondaryListItem {

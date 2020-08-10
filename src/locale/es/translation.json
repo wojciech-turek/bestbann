@@ -35,12 +35,51 @@
         "header": "Informes de prueba SGS y certificado PZH",
         "inAccrodance": "Certificado PZH y SGS informes de las pruebas testimonian <strong>la seguridad del uso de nuestros bannetones en contacto con alimentos</strong>, para la conformidad con:",
         "point1": "Reglamento (CE) nº 1935/2004 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 27 de octubre de 2004",
-        "point2": "Ley alemana relativa a los alimentos y la nutrición LFGB (LMBG) § 30, 31"
+        "point2": "Ley alemana relativa a los alimentos y la nutrición LFGB (LMBG) § 30, 31",
+        "downloadCert": "Descargar certificados"
       },
       "tailored": {
         "header": "A medida de sus necesidades",
         "content": "Puede pedir banneton de nuestra amplia gama de formas y tamaños o crear su propia cesta única. Podemos personalizar dimensiones, formas o agregar un grabado. <p/><strong>¡Estamos abiertos a sus ideas y sugerencias!</strong>"
       }
+    }
+  },
+  "productsPage": {
+    "description": {
+      "paragraph1": "<p>Bannetones de crecimiento se utilizan en casi cada panadería. Se emplean para el crecimiento de la masa de pan - gracias a ellas, la masa no se derrama por los lados y el pan después de la cochura es más alto. <strong>El crecimiento en uno cesto, por la absorción de parte de la humedad y el mantenimiento del calor, proporciona también una mejor estructura del pan y corteza crujiente.</strong></p>",
+      "paragraph2": "<p><strong>Bannetones están hechas de ratán natural y madera. No utilizamos ningunos blanqueadores ni sustancias nocivas.</strong></p>",
+      "paragraph3": "<p>Utilizamos grapas muy largas para mejorar la estabilidad y la indestructibilidad de nuestras cestas. Alta calidad de materiales usados en nuestra producción es garantizada por certificado PZH y SGS informe de prueba, que testimonian la seguridad del uso en contacto con alimentos, para la conformidad con:</p>",
+      "paragraph4": "<p><strong>Nuestras bannetones se producen manualmente.</strong> Están disponibles en varios diseños y tamaños. Redondas, rectangulares, ovaladas, cuadradas. Hechas sólo de ratán o ratán con fondo de madera. En nuestra oferta tenemos también bannetones de fondo grabado - se puede pedir uno de nuestros muchos modelos o poner su propio. Un modelo propio hace que tu pan es único y puede proporcionar una excelente publicidad.</p>"
+    },
+    "buttons": {
+      "baguette": "Baguette",
+      "oval": "Oval",
+      "round": "Round",
+      "oblong": "Oblong",
+      "mini": "Mini Baskets",
+      "bigWoodenBase": "Big Sliced Bread",
+      "square": "Square"
+    }
+  },
+
+  "footer": {
+    "companyInfo": {
+      "title": "Información de la compañía",
+      "office": "Oficina: ",
+      "street": "Calle: ",
+      "city": "Ciudad: "
+    },
+    "contact": {
+      "title": "Contacto",
+      "email": "Correo electrónico: ",
+      "telephone": "Teléfono: "
+    },
+    "newsletter": {
+      "title": "Newsletter Signup",
+      "name": "Your name*",
+      "email": "Your email*",
+      "required": "* - fields are required",
+      "subscribeBtn": "Subscribe"
     }
   }
 }

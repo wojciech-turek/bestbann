@@ -1,5 +1,6 @@
 .heroBanner {
-  height: 70vh;
+  height: 80vh;
+  max-height: 1000px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image: url("../../assets/herobannerOptimizedMobile.jpg");
@@ -18,6 +19,13 @@
   transform: translate(-50%, -50%);
 }
 
+@media (min-width: 620px) {
+  .heroBanner {
+    background-image: url("../../assets/herobannerOptimizedMedium.jpg");
+    background-position: left bottom;
+  }
+}
+
 @media (orientation: landscape) {
   .heroBanner {
     background-image: url("../../assets/herobannerOptimized.jpg");
@@ -28,7 +36,6 @@
 @media (min-width: 1024px) {
   .heroBanner {
     background-image: url("../../assets/herobannerOptimized.jpg");
-    background-position: left bottom;
   }
   .LogoBanner {
     width: 50vh;

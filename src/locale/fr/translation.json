@@ -35,12 +35,51 @@
         "header": "Rapports de test SGS et certificat PZH",
         "inAccrodance": "Nos bannetons <strong>peuvent être en contact avec les aliments en toute sécurité</strong>, conformément à:",
         "point1": "Règlement (CE) n ° 1935/2004 du Parlement européen et du Conseil du 27 octobre 2004 concernant les matériaux et objets destinés à entrer en contact avec des denrées alimentaires",
-        "point2": "Allemagne LFGB (LMBG) Loi sur les aliments art. 30, 31"
+        "point2": "Allemagne LFGB (LMBG) Loi sur les aliments art. 30, 31",
+        "downloadCert": "Télécharger les certificats"
       },
       "tailored": {
         "header": "Adapté à vos besoins",
         "content": "Vous pouvez commander un bannetons à pain dans notre vaste gamme de formes et de tailles ou créer votre propre panier. Nous pouvons personnaliser les dimensions, les formes ou ajouter une gravure. <p/><strong>Nous sommes ouverts à vos idées et suggestions!</strong>"
       }
+    }
+  },
+  "productsPage": {
+    "description": {
+      "paragraph1": "<p>Les paniers à lever sont utilisés dans pratiquement toutes les boulangeries. Ils servent à faire lever la pâte à pain – grâce à eux la pâte ne déborde pas et le pain, une fois cuit, est plus haut. <strong>La cuisson dans le banneton, par l'absorption d'une partie d’humidité et le maintien de la chaleur, assure également une meilleure structure du pain et de la croûte croustillante.</strong></p>",
+      "paragraph2": "<p><strong>Les bannetons moule bie sont fabriqués en rotin naturel et en bois. Nous n'utilisons pas d’eau de Javel et de substances nocives.</strong> Nous utilisons des agrafes très longues pour améliorer la stabilité et l’indestructibilité de notre bannetons. </p>",
+      "paragraph3": "<p>Les matériaux de haute qualité utilisés dans notre fabrication sont certifiés par les institutions SGS et PZH qui témoignent de la sécurité de l'utilisation des produits pour le contact alimentaire, garantissant la conformité à:</p>",
+      "paragraph4": "<p><strong>ENos bannetons sont fabriqués manuellement.</strong> Ils sont disponibles en différents modèles et tailles. Ronde, oblongue, ovale, carrée, triangulaire. Fabriqués uniquement en rotin ou en rotin avec fond en bois. Dans notre offre, nous avons aussi des paniers à fond gravé - vous pouvez commander un de nos nombreux modèles ou mettre votre propre gravure. Votre modèle personnalisé rend votre pain unique et peut fournir une excellente publicité.</p>"
+    },
+    "buttons": {
+      "baguette": "Baguette",
+      "oval": "Oval",
+      "round": "Round",
+      "oblong": "Oblong",
+      "mini": "Mini Baskets",
+      "bigWoodenBase": "Big Sliced Bread",
+      "square": "Square"
+    }
+  },
+
+  "footer": {
+    "companyInfo": {
+      "title": "Informations sur les entreprises",
+      "office": "Bureau: ",
+      "street": "Rue: ",
+      "city": "Ville: "
+    },
+    "contact": {
+      "title": "Contactez",
+      "email": "Courriel: ",
+      "telephone": "Téléphone: "
+    },
+    "newsletter": {
+      "title": "Newsletter Signup",
+      "name": "Your name*",
+      "email": "Your email*",
+      "required": "* - fields are required",
+      "subscribeBtn": "Subscribe"
     }
   }
 }

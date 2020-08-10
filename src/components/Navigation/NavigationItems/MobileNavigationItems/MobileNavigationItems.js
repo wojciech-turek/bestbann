@@ -7,15 +7,17 @@ import {
   faInfoCircle,
   faPhone,
   faCaretRight,
+  faCaretDown,
 } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
 
 export default function MobileNavigationItems(props) {
   const [secondaryOpen, setSecondaryOpen] = useState(false);
+  const [tertiaryBreadProofingOpen, setTertiaryBreadProofingOpen] = useState(
+    false
+  );
 
   const navClickHandler = (event) => {
-    console.log(event.target.text);
-    console.log(event.target);
     if (event.target.text === "Products") {
       event.preventDefault();
       setSecondaryOpen(!secondaryOpen);
@@ -25,14 +27,21 @@ export default function MobileNavigationItems(props) {
     }
   };
 
+  const teriaryNavClickHandler = (event) => {
+    setTertiaryBreadProofingOpen(!tertiaryBreadProofingOpen);
+  };
+
   const homeIcon = <FontAwesomeIcon className={classes.Icon} icon={faHome} />;
   const productsIcon = <FontAwesomeIcon className={classes.Icon} icon={faTh} />;
   const infoIcon = (
     <FontAwesomeIcon className={classes.Icon} icon={faInfoCircle} />
   );
   const phoneIcon = <FontAwesomeIcon className={classes.Icon} icon={faPhone} />;
-  const ListerIcon = (
+  const ListerIconRight = (
     <FontAwesomeIcon className={classes.SmallIcon} icon={faCaretRight} />
+  );
+  const ListerIconDown = (
+    <FontAwesomeIcon className={classes.SmallIcon} icon={faCaretDown} />
   );
   return (
     <div className={classes.MobNavContainer}>
@@ -49,7 +58,7 @@ export default function MobileNavigationItems(props) {
         </li>
         <li className={classes.PrimaryItem}>
           <NavLink
-            to="/products"
+            to="/products/breadproofingbaskets"
             onClick={navClickHandler}
             className={classes.InactiveLink}
             activeClassName={classes.linkActive}
@@ -66,9 +75,22 @@ export default function MobileNavigationItems(props) {
             }
           >
             <li className={classes.secondaryListItem}>
-              {ListerIcon}
-              <span className={classes.ItemText}>Bread Proofing Baskets</span>
-              <ul className={classes.ProductsTertiaryList}>
+              {tertiaryBreadProofingOpen ? ListerIconDown : ListerIconRight}
+              <span
+                className={classes.ItemText}
+                onClick={teriaryNavClickHandler}
+              >
+                Bread Proofing Baskets
+              </span>
+            </li>
+            <li>
+              <ul
+                className={
+                  tertiaryBreadProofingOpen
+                    ? classes.ProductsTertiaryListOpen
+                    : classes.ProductsTertiaryListClosed
+                }
+              >
                 <li>All</li>
                 <li>Round</li>
                 <li>Oblong</li>
@@ -80,11 +102,11 @@ export default function MobileNavigationItems(props) {
               </ul>
             </li>
             <li className={classes.secondaryListItem}>
-              {ListerIcon}
+              {ListerIconRight}
               <span className={classes.ItemText}>Wooden Base Baskets</span>
             </li>
             <li className={classes.secondaryListItem}>
-              {ListerIcon}
+              {ListerIconRight}
               <span className={classes.ItemText}>Baskets with liners</span>
             </li>
           </ul>

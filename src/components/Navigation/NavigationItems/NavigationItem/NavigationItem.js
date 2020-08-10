@@ -5,24 +5,28 @@ import { ProductBarShown } from "../../../../containers/Navigation/Navigation";
 
 export default function NavigationItem(props) {
   const productsBarShown = useContext(ProductBarShown);
+
+  const navClickHandler = (event) => {
+    if (event.target.text === "Products") {
+      event.preventDefault();
+    }
+  };
+
   return (
     <NavLink
       className={classes.NavItem}
       exact
       to={props.link}
+      onClick={navClickHandler}
       activeClassName={classes.active}
       onMouseEnter={
-        window.innerWidth >= 1024
-          ? props.link === "/products"
-            ? () => productsBarShown.setProductsBarShown(true)
-            : null
+        props.link === "/products"
+          ? () => productsBarShown.setProductsBarShown(true)
           : null
       }
       onMouseOver={
-        window.innerWidth >= 1024
-          ? props.link === "/about"
-            ? () => productsBarShown.setProductsBarShown(false)
-            : null
+        props.link === "/about"
+          ? () => productsBarShown.setProductsBarShown(false)
           : null
       }
     >
