@@ -4,13 +4,13 @@
   position: fixed;
   width: 240px;
   max-width: 70%;
-  height: calc(100vh - 60px);
+  min-height: calc(100vh - 60px);
   left: 0;
   top: 0;
   z-index: 200;
   margin-top: 60px;
   background-color: #fff;
-  padding: 24px 0;
+  padding: 24px 0 0 0;
   box-sizing: border-box;
   transform: translateX(-105%);
   transition: transform 0.3s ease-out;
@@ -20,10 +20,14 @@
 .navSide {
   position: relative;
   flex-grow: 1;
-  top: 0px;
+  top: 0;
   left: 0;
   width: 100%;
   overflow-y: auto;
+}
+
+.langs {
+  margin-top: 16px;
 }
 
 .Divider {
@@ -33,10 +37,6 @@
   border-radius: 100%;
   background-color: white;
   box-shadow: 0 10px 8px -4px tomato;
-}
-
-.languageOptionsContainer {
-  margin-bottom: auto;
 }
 
 @media (min-width: 1024px) {

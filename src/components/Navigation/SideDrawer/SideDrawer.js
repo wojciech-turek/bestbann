@@ -17,18 +17,19 @@ const SideDrawer = (props) => {
     <div className={drawerClasses.join(" ")}>
       <Logo width="160px" />
       <div className={classes.Divider}></div>
+      <div className={classes.langs}>
+        <LanguageOptions
+          loading={props.loading}
+          setLoading={props.setLoading}
+        />
+      </div>
+
       <nav className={classes.navSide}>
         <MobileNavigationItems
           open={props.open}
           setSideOpen={props.setSideOpen}
         />
       </nav>
-      <div className={classes.languageOptionsContainer}>
-        <LanguageOptions
-          loading={props.loading}
-          setLoading={props.setLoading}
-        />
-      </div>
     </div>
   );
 };

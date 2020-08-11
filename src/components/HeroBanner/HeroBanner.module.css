@@ -1,5 +1,5 @@
 .heroBanner {
-  height: 80vh;
+  height: 70vh;
   max-height: 1000px;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -23,6 +23,7 @@
   .heroBanner {
     background-image: url("../../assets/herobannerOptimizedMedium.jpg");
     background-position: left bottom;
+    height: 80vh;
   }
 }
 

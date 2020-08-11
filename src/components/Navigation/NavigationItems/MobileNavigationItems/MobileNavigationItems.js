@@ -10,8 +10,11 @@ import {
   faCaretDown,
 } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export default function MobileNavigationItems(props) {
+  const { t } = useTranslation("common");
+
   const [secondaryOpen, setSecondaryOpen] = useState(false);
   const [tertiaryBreadProofingOpen, setTertiaryBreadProofingOpen] = useState(
     false
@@ -21,7 +24,11 @@ export default function MobileNavigationItems(props) {
     if (event.target.text === "Products") {
       event.preventDefault();
       setSecondaryOpen(!secondaryOpen);
-    } else {
+    } else if (
+      event.target.text === "Main Page" ||
+      event.target.text === "About Us" ||
+      event.target.text === "Contact"
+    ) {
       props.setSideOpen(false);
       setSecondaryOpen(false);
     }
@@ -31,12 +38,34 @@ export default function MobileNavigationItems(props) {
     setTertiaryBreadProofingOpen(!tertiaryBreadProofingOpen);
   };
 
-  const homeIcon = <FontAwesomeIcon className={classes.Icon} icon={faHome} />;
-  const productsIcon = <FontAwesomeIcon className={classes.Icon} icon={faTh} />;
-  const infoIcon = (
-    <FontAwesomeIcon className={classes.Icon} icon={faInfoCircle} />
+  const homeIcon = (
+    <FontAwesomeIcon
+      className={classes.Icon}
+      icon={faHome}
+      onClick={() => props.setSideOpen(false)}
+    />
   );
-  const phoneIcon = <FontAwesomeIcon className={classes.Icon} icon={faPhone} />;
+  const productsIcon = (
+    <FontAwesomeIcon
+      className={classes.Icon}
+      icon={faTh}
+      onClick={() => props.setSideOpen(false)}
+    />
+  );
+  const infoIcon = (
+    <FontAwesomeIcon
+      className={classes.Icon}
+      icon={faInfoCircle}
+      onClick={() => props.setSideOpen(false)}
+    />
+  );
+  const phoneIcon = (
+    <FontAwesomeIcon
+      className={classes.Icon}
+      icon={faPhone}
+      onClick={() => props.setSideOpen(false)}
+    />
+  );
   const ListerIconRight = (
     <FontAwesomeIcon className={classes.SmallIcon} icon={faCaretRight} />
   );
@@ -53,7 +82,8 @@ export default function MobileNavigationItems(props) {
             className={classes.InactiveLink}
             activeClassName={classes.linkActive}
           >
-            {homeIcon}Main Page
+            {homeIcon}
+            {t("menu.mainPage")}
           </NavLink>
         </li>
         <li className={classes.PrimaryItem}>
@@ -63,7 +93,8 @@ export default function MobileNavigationItems(props) {
             className={classes.InactiveLink}
             activeClassName={classes.linkActive}
           >
-            {productsIcon}Products
+            {productsIcon}
+            {t("menu.products")}
           </NavLink>
         </li>
         <li>
@@ -91,7 +122,14 @@ export default function MobileNavigationItems(props) {
                     : classes.ProductsTertiaryListClosed
                 }
               >
-                <li>All</li>
+                <li onClick={() => props.setSideOpen(false)}>
+                  <NavLink
+                    to="/products/breadproofingbaskets"
+                    activeClassName={classes.active}
+                  >
+                    All
+                  </NavLink>
+                </li>
                 <li>Round</li>
                 <li>Oblong</li>
                 <li>Square</li>
@@ -118,7 +156,8 @@ export default function MobileNavigationItems(props) {
             className={classes.InactiveLink}
             activeClassName={classes.linkActive}
           >
-            {infoIcon}About Us
+            {infoIcon}
+            {t("menu.aboutUs")}
           </NavLink>
         </li>
         <li className={classes.PrimaryItem}>
@@ -128,7 +167,8 @@ export default function MobileNavigationItems(props) {
             className={classes.InactiveLink}
             activeClassName={classes.linkActive}
           >
-            {phoneIcon}Contact
+            {phoneIcon}
+            {t("menu.contact")}
           </NavLink>
         </li>
       </ul>
