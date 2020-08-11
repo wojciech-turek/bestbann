@@ -50,6 +50,7 @@
 }
 
 .btnTxtAreaVisit {
+  position: absolute;
   opacity: 1;
   width: 180px;
   text-align: center;
@@ -58,6 +59,7 @@
 
 .btnTxtAreaTake {
   position: absolute;
+  text-align: left;
   opacity: 0;
   width: 180px;
   transition: opacity 0.2s ease;
@@ -131,13 +133,13 @@
   .ProductsBarSlideDown {
     top: 60px;
   }
-
   .ProductsBarSlideUp {
     top: -130px;
   }
   .ProductsBarHidden {
     display: none;
   }
+
   .shopNowBtn:hover .cart {
     left: 180px;
   }

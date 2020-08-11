@@ -59,29 +59,23 @@ export default function Toolbar(props) {
             setProductsBarShown={props.setProductsBarShown}
           />
         </div>
-        <div className={classes.shopBtnContainer}>
-          <button className={classes.shopNowBtn}>
+
+        <div className={classes.shopNowBtn}>
+          <a
+            className={classes.storeLink}
+            href="https://bestbannshop.eu/"
+            target="blank"
+            alt="store link"
+          >
             <span className={classes.cart}>{shoppingCartIcon}</span>
             <span className={classes.btnTxtAreaVisit}>
-              <a
-                href="https://bestbannshop.eu/"
-                target="blank"
-                alt="store link"
-              >
-                Visit our online store
-              </a>
+              Visit our online store
             </span>
-            <span className={classes.btnTxtAreaTake}>
-              <a
-                href="https://bestbannshop.eu/"
-                target="blank"
-                alt="store link"
-              >
-                Let's go!
-              </a>
-            </span>
-          </button>
+
+            <span className={classes.btnTxtAreaTake}>Let's go!</span>
+          </a>
         </div>
+
         <div className={classes.languageOptionsContainer}>
           <LanguageOptions
             loading={props.loading}

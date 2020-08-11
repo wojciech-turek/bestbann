@@ -21,6 +21,9 @@ export default function MobileNavigationItems(props) {
   );
 
   const navClickHandler = (event) => {
+    console.log(event.target.value);
+    console.log(event.target);
+    console.log(event);
     if (event.target.text === "Products") {
       event.preventDefault();
       setSecondaryOpen(!secondaryOpen);
@@ -49,7 +52,7 @@ export default function MobileNavigationItems(props) {
     <FontAwesomeIcon
       className={classes.Icon}
       icon={faTh}
-      onClick={() => props.setSideOpen(false)}
+      onClick={() => props.setSideOpen(true)}
     />
   );
   const infoIcon = (
