@@ -18,6 +18,12 @@ The core of this project is to build a modern, fast, responsive website using mo
 
 The goal of this website is to be a great first impression of the company and to provide information about products and the producer.
 
+Website available under:
+
+https://wojciech-turek.github.io/bestbann/
+
+***Please note this is a work in progress***
+
 ## Tech/framework used 🔧
 
 | Tech              | Description                                                                            |
