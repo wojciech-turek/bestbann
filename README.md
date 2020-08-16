@@ -15,7 +15,7 @@
 
 <p align="center">
   <a >
-    <img src=""
+    <img src="src/assets/logo-small.png"
          alt="Screenshot">
   </a>
 </p>
@@ -29,13 +29,14 @@ The goal of this website is to be a great first impression of the company and to
 ## Tech/framework used 🔧
 
 | Tech              | Description                                                                            |
-| ----------------- | -------------------------------------------------------------------------------------- |
-| [React](X)        | Main framework used, built with CRA tool                                               |
-| [React Router](X) | Library used for routing on the website                                                |
-| [i18next](X)      | Used for site internationalization, easy switch between languages on the whole website |
-| [JavaScript](X)   | Main language used                                                                     |
-| [HTML5](X)        | Used mostly inside React as JSX                                                        |
-| [CSS3](X)         | Used in as CSS Modules                                                                 |
+| -----------------  | -------------------------------------------------------------------------------------- |
+| [React](X)         | Main framework used, built with CRA tool                                               |
+| [React Router](X)  | Library used for routing on the website  
+| [React Trainsition]| Used for routes switch
+| [i18next](X)       | Used for site internationalization, easy switch between languages on the whole website |
+| [JavaScript](X)    | Main language used                                                                     |
+| [HTML5](X)         | Used mostly inside React as JSX                                                        |
+| [CSS3](X)          | Used as CSS Modules                                                                 |
 
 ## Screenshots 📺
 
