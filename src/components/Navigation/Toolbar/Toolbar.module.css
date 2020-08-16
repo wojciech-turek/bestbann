@@ -17,15 +17,13 @@
 .shopNowBtn {
   margin: 0;
   padding: 0;
-  text-align: center;
   position: relative;
-  display: flex;
   margin-right: 20px;
   height: 32px;
   width: 220px;
   outline: none;
   color: rgba(0, 0, 0, 0.9);
-  background-color: #ffca2c;
+  background-color: #0066ff;
   font-family: "Montserrat";
   -webkit-font-smoothing: antialiased;
   font-size: 12px;
@@ -33,6 +31,7 @@
   border: none;
   text-transform: uppercase;
   cursor: pointer;
+  overflow-x: hidden;
 }
 
 .cart {
@@ -40,29 +39,37 @@
   padding: 0;
   display: inline-block;
   position: relative;
+  text-align: center;
   top: 0;
   left: 0;
   color: white;
   height: 32px;
-  width: 40px;
-  background-color: #f7ba06;
+  width: 220px;
+  background-color: #025add;
   transition: left 0.4s ease-in-out;
+  z-index: 1;
 }
 
-.btnTxtAreaVisit {
-  position: absolute;
-  opacity: 1;
-  width: 180px;
-  text-align: center;
-  transition: opacity 0.2s ease;
+.cartTxt {
+  margin-left: 22px;
+}
+
+.storeLink {
+  display: block;
+  height: 100%;
+  width: 100%;
 }
 
 .btnTxtAreaTake {
+  color: white;
   position: absolute;
+  text-align: center;
+  left: 60px;
+  top: 0;
   text-align: left;
-  opacity: 0;
+  opacity: 1;
   width: 180px;
-  transition: opacity 0.2s ease;
+  z-index: 0;
 }
 
 .navItems {
@@ -142,11 +149,5 @@
 
   .shopNowBtn:hover .cart {
     left: 180px;
-  }
-  .shopNowBtn:hover .btnTxtAreaVisit {
-    opacity: 0;
-  }
-  .shopNowBtn:hover .btnTxtAreaTake {
-    opacity: 1;
   }
 }

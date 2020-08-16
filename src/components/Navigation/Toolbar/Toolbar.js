@@ -67,9 +67,9 @@ export default function Toolbar(props) {
             target="blank"
             alt="store link"
           >
-            <span className={classes.cart}>{shoppingCartIcon}</span>
-            <span className={classes.btnTxtAreaVisit}>
-              Visit our online store
+            <span className={classes.cart}>
+              {shoppingCartIcon}
+              <span className={classes.cartTxt}>Visit our online store</span>
             </span>
 
             <span className={classes.btnTxtAreaTake}>Let's go!</span>
