@@ -32,7 +32,12 @@ The goal of this website is to be a great first impression of the company and to
 
 ## Screenshots 📺
 
-<img src="https://ibb.co/8nkLPbn"  alt="Main Menu Desktop">
+Desktop view
+<img src="https://i.ibb.co/KcnpVDc/117943097-434975814056714-4989339495809298439-n.jpg"  alt="Main Menu Desktop">
+
+Mobile view with side menu open
+
+<img src="https://i.ibb.co/QnN2B2c/117943097-434975814056714-4989339495809298439-n2.jpg"  alt="Main Menu Mobile">
 
 ## Code Example/Issues 🔍
 
