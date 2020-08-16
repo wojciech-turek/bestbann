@@ -1,14 +1,6 @@
 <h1 align="center">
 <br>
 
-<p align="center">
-<img src=""  alt="Logo To be Added Soon :)">
-</p>
-
-<br>
-
-<br>
-
 </h1>
 
 <h4 align="center">Rattan baskets producer website</h4>
@@ -32,7 +24,7 @@ The goal of this website is to be a great first impression of the company and to
 | -----------------  | -------------------------------------------------------------------------------------- |
 | [React](X)         | Main framework used, built with CRA tool                                               |
 | [React Router](X)  | Library used for routing on the website  
-| [React Trainsition]| Used for routes switch
+| [React Transition Group](X) | Used for routes switch
 | [i18next](X)       | Used for site internationalization, easy switch between languages on the whole website |
 | [JavaScript](X)    | Main language used                                                                     |
 | [HTML5](X)         | Used mostly inside React as JSX                                                        |
@@ -40,15 +32,64 @@ The goal of this website is to be a great first impression of the company and to
 
 ## Screenshots 📺
 
-TBA
+<img src="https://ibb.co/8nkLPbn"  alt="Main Menu Desktop">
 
 ## Code Example/Issues 🔍
 
-TBA
+Layout Component with Page Transition Code:
+```js
+const Layout = (props) => {
+  const nodeRef = useRef(null);
 
-## Installation 💾
+  const routes = [
+    { path: "/bestbann", name: "Home", Component: MainPage },
+    {
+      path: "/products/breadproofingbaskets",
+      name: "Products",
+      Component: ProductsPage,
+    },
+    { path: "/about", name: "About", Component: MainPage },
+    { path: "/contact", name: "Contact", Component: MainPage },
+  ];
 
-TBA
+  let routeList = routes.map(({ path, Component }) => (
+    <Route key={path} exact path={path} nodeRef={nodeRef}>
+      <Component />
+    </Route>
+  ));
+
+  const AnimatedSwitch = withRouter(({ location }) => (
+    <TransitionGroup>
+      <CSSTransition
+        key={location.key}
+        classNames={{
+          enter: classes.PageEnter,
+          enterActive: classes.PageEnterActive,
+          exit: classes.PageExit,
+          exitActive: classes.PageExitActive,
+        }}
+        timeout={1000}
+      >
+        <Switch>
+          {routeList}
+          <Route render={() => <Redirect to={{ pathname: "/bestbann" }} />} />
+        </Switch>
+      </CSSTransition>
+    </TransitionGroup>
+  ));
+
+  return (
+    <>
+      <Navigation />
+      <ScrollToTop />
+      {<AnimatedSwitch />}
+      <Footer />
+    </>
+  );
+};
+
+export default Layout;
+```
 
 ## Available scripts
 
