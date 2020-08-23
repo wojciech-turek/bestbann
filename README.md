@@ -1,21 +1,13 @@
 <h1 align="center">
 <br>
 
-<p align="center">
-<img src=""  alt="Logo To be Added Soon :)">
-</p>
-
-<br>
-
-<br>
-
 </h1>
 
 <h4 align="center">Rattan baskets producer website</h4>
 
 <p align="center">
   <a >
-    <img src=""
+    <img src="src/assets/logo-small.png"
          alt="Screenshot">
   </a>
 </p>
@@ -26,28 +18,89 @@ The core of this project is to build a modern, fast, responsive website using mo
 
 The goal of this website is to be a great first impression of the company and to provide information about products and the producer.
 
+Website available under:
+
+https://wojciech-turek.github.io/bestbann/
+
+***Please note this is a work in progress***
+
 ## Tech/framework used 🔧
 
 | Tech              | Description                                                                            |
-| ----------------- | -------------------------------------------------------------------------------------- |
-| [React](X)        | Main framework used, built with CRA tool                                               |
-| [React Router](X) | Library used for routing on the website                                                |
-| [i18next](X)      | Used for site internationalization, easy switch between languages on the whole website |
-| [JavaScript](X)   | Main language used                                                                     |
-| [HTML5](X)        | Used mostly inside React as JSX                                                        |
-| [CSS3](X)         | Used in as CSS Modules                                                                 |
+| -----------------  | -------------------------------------------------------------------------------------- |
+| [React](X)         | Main framework used, built with CRA tool                                               |
+| [React Router](X)  | Library used for routing on the website  
+| [React Transition Group](X) | Used for routes switch
+| [i18next](X)       | Used for site internationalization, easy switch between languages on the whole website |
+| [JavaScript](X)    | Main language used                                                                     |
+| [HTML5](X)         | Used mostly inside React as JSX                                                        |
+| [CSS3](X)          | Used as CSS Modules                                                                 |
 
 ## Screenshots 📺
 
-TBA
+Desktop view
+<img src="https://i.ibb.co/KcnpVDc/117943097-434975814056714-4989339495809298439-n.jpg"  alt="Main Menu Desktop">
+
+Mobile view with side menu open
+
+<img src="https://i.ibb.co/QnN2B2c/117943097-434975814056714-4989339495809298439-n2.jpg"  alt="Main Menu Mobile">
 
 ## Code Example/Issues 🔍
 
-TBA
+Layout Component with Page Transition Code:
+```js
+const Layout = (props) => {
+  const nodeRef = useRef(null);
 
-## Installation 💾
+  const routes = [
+    { path: "/bestbann", name: "Home", Component: MainPage },
+    {
+      path: "/products/breadproofingbaskets",
+      name: "Products",
+      Component: ProductsPage,
+    },
+    { path: "/about", name: "About", Component: MainPage },
+    { path: "/contact", name: "Contact", Component: MainPage },
+  ];
 
-TBA
+  let routeList = routes.map(({ path, Component }) => (
+    <Route key={path} exact path={path} nodeRef={nodeRef}>
+      <Component />
+    </Route>
+  ));
+
+  const AnimatedSwitch = withRouter(({ location }) => (
+    <TransitionGroup>
+      <CSSTransition
+        key={location.key}
+        classNames={{
+          enter: classes.PageEnter,
+          enterActive: classes.PageEnterActive,
+          exit: classes.PageExit,
+          exitActive: classes.PageExitActive,
+        }}
+        timeout={1000}
+      >
+        <Switch>
+          {routeList}
+          <Route render={() => <Redirect to={{ pathname: "/bestbann" }} />} />
+        </Switch>
+      </CSSTransition>
+    </TransitionGroup>
+  ));
+
+  return (
+    <>
+      <Navigation />
+      <ScrollToTop />
+      {<AnimatedSwitch />}
+      <Footer />
+    </>
+  );
+};
+
+export default Layout;
+```
 
 ## Available scripts
 
