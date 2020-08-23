@@ -17,15 +17,13 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 .circle {
   transform: translateX(0);
   opacity: 1;
-  width: 75px;
+  width: 255px;
   height: 75px;
-  border-radius: 100%;
-  background-color: #fdcf51;
   margin: 50px;
 }
 
