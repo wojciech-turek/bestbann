@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
-import classes from "./ProductsPage.module.css";
-import baguetteImg from "../../assets/bgsnowySmallOptimized.jpg";
-import ovalImg from "../../assets/ovboksnowySmallOptimized.jpg";
-import roboksImg from "../../assets/roboksnowySmallOptimized.jpg";
-import longImg from "../../assets/loboksnowySmallOptimized.jpg";
-import rominiImg from "../../assets/rominiSmallOptimized.jpg";
-import squareLongImg from "../../assets/slxsboknowySmallOptimized.jpg";
-import squareImg from "../../assets/sqxsboknoweSmallOptimized.jpg";
+import classes from "./BreadProofing.module.css";
+import baguetteImg from "../../../assets/bgsnowySmallOptimized.jpg";
+import ovalImg from "../../../assets/ovboksnowySmallOptimized.jpg";
+import roboksImg from "../../../assets/roboksnowySmallOptimized.jpg";
+import longImg from "../../../assets/loboksnowySmallOptimized.jpg";
+import rominiImg from "../../../assets/rominiSmallOptimized.jpg";
+import squareLongImg from "../../../assets/slxsboknowySmallOptimized.jpg";
+import squareImg from "../../../assets/sqxsboknoweSmallOptimized.jpg";
 
 import { Trans, useTranslation } from "react-i18next";
 
@@ -62,9 +62,9 @@ export default function Products() {
       </h1>
       <Trans>
         <div className={classes.ParagraphWrap}>
-          {t("productsPage.description.paragraph1")}
-          {t("productsPage.description.paragraph2")}
-          {t("productsPage.description.paragraph3")}
+          {t("productsPage.breadproofing.description.paragraph1")}
+          {t("productsPage.breadproofing.description.paragraph2")}
+          {t("productsPage.breadproofing.description.paragraph3")}
           <ul className={classes.Regulations}>
             <li className={classes.Regulation}>
               - {t("mainSections.whatMUD.certificate.point1")}
@@ -74,7 +74,7 @@ export default function Products() {
               - {t("mainSections.whatMUD.certificate.point2")}
             </li>
           </ul>
-          {t("productsPage.description.paragraph4")}
+          {t("productsPage.breadproofing.description.paragraph4")}
         </div>
       </Trans>
       <div className={classes.ImagesWrap}>

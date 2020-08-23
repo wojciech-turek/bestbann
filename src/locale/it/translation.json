@@ -45,11 +45,13 @@
     }
   },
   "productsPage": {
-    "description": {
-      "paragraph1": "<p>I cestini da lievitazione per il pane sono utilizzati in quasi tutte le panetterie. Sono utilizzati per far lievitare la pasta per il pane – in tal modo la pasta non fuoriesca, e pane dopo la cottura è più alto.<strong> La crescita nel cesto, grazie all'assorbimento parziale dell’umidità e al mantenimento del calore, garantisce anche una migliore struttura di pane e la croccantezza della crosta.</strong></p>",
-      "paragraph2": "<p><strong>I cestini sono realizzati in rattan e legno naturale. Non usiamo alcuna candeggina nè sostanze nocive.</strong> Utilizziamo graffe molto lunghe per migliorare la stabilità e l'indistruttibilità del nostri cestini. </p>",
-      "paragraph3": "<p>Alta qualità dei materiali da noi utilizzati garantiscono i SGS rapporto di prova e PZH certificato , che testimoniano la sicurezza nell’utilizzo con il contatto con gli alimenti, per il rispetto di:</p>",
-      "paragraph4": "<p><strong>I nostri cestini sono prodotti manualmente.</strong> Sono disponibili in vari modelli e dimensioni. Tondi, oblunghi, ovali, quadrati, triangolari. Realizzato solo in rattan o in rattan con il fondo in legno. Nella nostra offerta abbiamo anche cestiini con il fondo inciso - si può ordinare uno dei nostri molti disegni o inserire il proprio. Il disegno personalizzato rende il Tuo pane unico e può costituire una pubblicità eccellente.</p>"
+    "breadproofing": {
+      "description": {
+        "paragraph1": "<p>I cestini da lievitazione per il pane sono utilizzati in quasi tutte le panetterie. Sono utilizzati per far lievitare la pasta per il pane – in tal modo la pasta non fuoriesca, e pane dopo la cottura è più alto.<strong> La crescita nel cesto, grazie all'assorbimento parziale dell’umidità e al mantenimento del calore, garantisce anche una migliore struttura di pane e la croccantezza della crosta.</strong></p>",
+        "paragraph2": "<p><strong>I cestini sono realizzati in rattan e legno naturale. Non usiamo alcuna candeggina nè sostanze nocive.</strong> Utilizziamo graffe molto lunghe per migliorare la stabilità e l'indistruttibilità del nostri cestini. </p>",
+        "paragraph3": "<p>Alta qualità dei materiali da noi utilizzati garantiscono i SGS rapporto di prova e PZH certificato , che testimoniano la sicurezza nell’utilizzo con il contatto con gli alimenti, per il rispetto di:</p>",
+        "paragraph4": "<p><strong>I nostri cestini sono prodotti manualmente.</strong> Sono disponibili in vari modelli e dimensioni. Tondi, oblunghi, ovali, quadrati, triangolari. Realizzato solo in rattan o in rattan con il fondo in legno. Nella nostra offerta abbiamo anche cestiini con il fondo inciso - si può ordinare uno dei nostri molti disegni o inserire il proprio. Il disegno personalizzato rende il Tuo pane unico e può costituire una pubblicità eccellente.</p>"
+      }
     },
     "buttons": {
       "baguette": "Baguette",

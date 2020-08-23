@@ -5,7 +5,8 @@ import Navigation from "../Navigation/Navigation";
 import Footer from "../../components/Footer/Footer";
 import MainPage from "../../pages/MainPage/MainPage";
 
-import ProductsPage from "../../pages/ProductsPage/ProductsPage";
+import BreadProofing from "../../pages/ProductsPage/BreadProofing/BreadProofing";
+import WithLiners from "../../pages/ProductsPage/WithLiners/WithLiners";
 import classes from "./Layout.module.css";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import ScrollToTop from "../../components/UI/ScrollToTop/ScrollToTop";
@@ -17,8 +18,13 @@ const Layout = (props) => {
     { path: "/bestbann", name: "Home", Component: MainPage },
     {
       path: "/products/breadproofingbaskets",
-      name: "Products",
-      Component: ProductsPage,
+      name: "Products - Bread Proofing Baskets",
+      Component: BreadProofing,
+    },
+    {
+      path: "/products/basketswithliners",
+      name: "Products - Baskets with Liners",
+      Component: WithLiners,
     },
     { path: "/about", name: "About", Component: MainPage },
     { path: "/contact", name: "Contact", Component: MainPage },

@@ -45,11 +45,13 @@
     }
   },
   "productsPage": {
-    "description": {
-      "paragraph1": "<p>Koszyki rozrostowe wykorzystywane są w niemal każdej piekarni. Służą do wyrastania ciasta na chleb - dzięki nim ciasto nie rozlewa się na boki, a chleb po upieczeniu jest wyższy. <strong>Wyrastanie w koszyku, dzięki pochłanianiu części wilgoci i utrzymywaniu ciepła, zapewnia także lepszą strukturę pieczywa oraz chrupkość skórki.</strong></p>",
-      "paragraph2": "<p><strong>Koszyki wykonane są z naturalnego rattanu</strong> i drewna. Nie stosujemy żadnych wybielaczy i szkodliwych substancji. Wykorzystywane przez nas bardzo długie zszywki zapewniają większą trwałość koszy.</p>",
-      "paragraph3": "<p>O wysokiej jakości materiałów wykorzystywanych do naszej produkcji gwarantują atesty SGS i PZH, które świadczą o bezpieczeństwie przy wykorzystaniu do kontaktu z żywnością, zgodnie z:</p>",
-      "paragraph4": "<p><strong>Nasze koszyki produkujemy ręcznie. </strong>Dostępne są w różnych wzorach i rozmiarach. Okrągłe, podłużne, owalne, kwadratowe. Wykonane jedynie z rattanu lub z rattanu z drewnianym dnem. W naszej ofercie posiadamy również koszyki z grawerowanym dnem - można zmówić jeden z wielu naszych wzorów lub umieścić własny. Własny wzór sprawia, że Twój chleb jest niepowtarzalny i może stanowić doskonałą reklamę.</p>"
+    "breadproofing": {
+      "description": {
+        "paragraph1": "<p>Koszyki rozrostowe wykorzystywane są w niemal każdej piekarni. Służą do wyrastania ciasta na chleb - dzięki nim ciasto nie rozlewa się na boki, a chleb po upieczeniu jest wyższy. <strong>Wyrastanie w koszyku, dzięki pochłanianiu części wilgoci i utrzymywaniu ciepła, zapewnia także lepszą strukturę pieczywa oraz chrupkość skórki.</strong></p>",
+        "paragraph2": "<p><strong>Koszyki wykonane są z naturalnego rattanu</strong> i drewna. Nie stosujemy żadnych wybielaczy i szkodliwych substancji. Wykorzystywane przez nas bardzo długie zszywki zapewniają większą trwałość koszy.</p>",
+        "paragraph3": "<p>O wysokiej jakości materiałów wykorzystywanych do naszej produkcji gwarantują atesty SGS i PZH, które świadczą o bezpieczeństwie przy wykorzystaniu do kontaktu z żywnością, zgodnie z:</p>",
+        "paragraph4": "<p><strong>Nasze koszyki produkujemy ręcznie. </strong>Dostępne są w różnych wzorach i rozmiarach. Okrągłe, podłużne, owalne, kwadratowe. Wykonane jedynie z rattanu lub z rattanu z drewnianym dnem. W naszej ofercie posiadamy również koszyki z grawerowanym dnem - można zmówić jeden z wielu naszych wzorów lub umieścić własny. Własny wzór sprawia, że Twój chleb jest niepowtarzalny i może stanowić doskonałą reklamę.</p>"
+      }
     },
     "buttons": {
       "baguette": "Baguette",

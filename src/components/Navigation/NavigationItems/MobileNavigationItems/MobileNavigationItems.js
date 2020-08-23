@@ -24,6 +24,9 @@ export default function MobileNavigationItems(props) {
     if (event.target.text === "Products") {
       event.preventDefault();
       setSecondaryOpen(!secondaryOpen);
+      if (tertiaryBreadProofingOpen) {
+        setTertiaryBreadProofingOpen(false);
+      }
     } else if (
       event.target.text === "Main Page" ||
       event.target.text === "About Us" ||

@@ -46,11 +46,21 @@
   },
 
   "productsPage": {
-    "description": {
-      "paragraph1": "<p>Proofing baskets are used almost in every modern and artisan bakery. They are <strong>designed for proofing and fermenting bread dough</strong>, which is holding up, do not pours out and is higher after baking. Proofing in baskets <strong>helps to make the structure of the bread better and gives more crispy crust</strong> because it holds warmth and absorbs part of the moisture.</p>",
-      "paragraph2": "<p>Our baskets are made of <strong>natural rattan</strong> or natural rattan combined with wood base element. <strong>We don’t use bleaches, lacquers or preservatives.</strong></p>",
-      "paragraph3": "<p>We use very long staples to improve our basket’s stability and indestructibility. SGS test reports and PZH Certificate prove high quality of our materials, so that they can safely have contact with food, in accordance with:</p>",
-      "paragraph4": "<p><strong>Each bread proofing basket is handmade.</strong> You can order numerous different shapes and sizes - round, oblong, oval, square and others. They are made from rattan only or rattan with wooden base. In our offer you can also find baskets with engraving - you can have one from our patterns or put your own design in place. Your own shape or logo can make the bread look unique and create excellent free advertisement.</p>"
+    "breadproofing": {
+      "description": {
+        "paragraph1": "<p>Proofing baskets are used almost in every modern and artisan bakery. They are <strong>designed for proofing and fermenting bread dough</strong>, which is holding up, do not pours out and is higher after baking. Proofing in baskets <strong>helps to make the structure of the bread better and gives more crispy crust</strong> because it holds warmth and absorbs part of the moisture.</p>",
+        "paragraph2": "<p>Our baskets are made of <strong>natural rattan</strong> or natural rattan combined with wood base element. <strong>We don’t use bleaches, lacquers or preservatives.</strong></p>",
+        "paragraph3": "<p>We use very long staples to improve our basket’s stability and indestructibility. SGS test reports and PZH Certificate prove high quality of our materials, so that they can safely have contact with food, in accordance with:</p>",
+        "paragraph4": "<p><strong>Each bread proofing basket is handmade.</strong> You can order numerous different shapes and sizes - round, oblong, oval, square and others. They are made from rattan only or rattan with wooden base. In our offer you can also find baskets with engraving - you can have one from our patterns or put your own design in place. Your own shape or logo can make the bread look unique and create excellent free advertisement.</p>"
+      }
+    },
+    "withliners": {
+      "description": {
+        "paragraph1": "<p>Many bakers and home users prefer to use <strong>bread proofing baskets covered with liners.</strong> They help to keep the basket <strong>clean for longer time</strong> and are <strong>very helpful with very hydrated, sticky bread doughs.</strong></p>",
+        "paragraph2": "<p>Our liners are <strong>handmade from high quality material</strong>, which is a combination of line and cotton. This fabrics mix ensures resistance to washing at high temperatures. They are featured with elastic band which holds them in the place on the baskets and have double stitches, which make liners stronger.</p>",
+        "paragraph3": "<p><strong>Using liners saves the time for bakers</strong>, who doesn't have to clean the baskets so often. They are cut to conform to the shape of the basket, so it's less likely to get folds and wrinkles from the cloth showing up in the crust of the bread than when using the plain piece of cloth.</p>",
+        "paragraph4": "<p>The cloths are used to cover the inside of the bannetons but they are not required.</p>"
+      }
     },
     "buttons": {
       "baguette": "Baguette",
