@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bestbann/static/css/main.9f11cdf3.chunk.css",
-    "main.js": "/bestbann/static/js/main.bc1e9e84.chunk.js",
-    "main.js.map": "/bestbann/static/js/main.bc1e9e84.chunk.js.map",
+    "main.js": "/bestbann/static/js/main.035305a1.chunk.js",
+    "main.js.map": "/bestbann/static/js/main.035305a1.chunk.js.map",
     "runtime-main.js": "/bestbann/static/js/runtime-main.224ef31d.js",
     "runtime-main.js.map": "/bestbann/static/js/runtime-main.224ef31d.js.map",
     "static/js/2.5678d6ca.chunk.js": "/bestbann/static/js/2.5678d6ca.chunk.js",
     "static/js/2.5678d6ca.chunk.js.map": "/bestbann/static/js/2.5678d6ca.chunk.js.map",
     "index.html": "/bestbann/index.html",
-    "precache-manifest.d07a3fee56acc27a4040277b674fc351.js": "/bestbann/precache-manifest.d07a3fee56acc27a4040277b674fc351.js",
+    "precache-manifest.ac2c7327103cb475d336d51400bca20f.js": "/bestbann/precache-manifest.ac2c7327103cb475d336d51400bca20f.js",
     "service-worker.js": "/bestbann/service-worker.js",
     "static/css/main.9f11cdf3.chunk.css.map": "/bestbann/static/css/main.9f11cdf3.chunk.css.map",
     "static/js/2.5678d6ca.chunk.js.LICENSE.txt": "/bestbann/static/js/2.5678d6ca.chunk.js.LICENSE.txt",
@@ -40,6 +40,6 @@
     "static/js/runtime-main.224ef31d.js",
     "static/js/2.5678d6ca.chunk.js",
     "static/css/main.9f11cdf3.chunk.css",
-    "static/js/main.bc1e9e84.chunk.js"
+    "static/js/main.035305a1.chunk.js"
   ]
 }
