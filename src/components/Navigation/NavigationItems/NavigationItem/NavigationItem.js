@@ -15,7 +15,6 @@ export default function NavigationItem(props) {
   return (
     <NavLink
       className={classes.NavItem}
-      exact
       to={props.link}
       onClick={navClickHandler}
       activeClassName={classes.active}

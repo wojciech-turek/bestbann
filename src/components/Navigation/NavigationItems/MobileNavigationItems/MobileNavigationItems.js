@@ -91,7 +91,7 @@ export default function MobileNavigationItems(props) {
         </li>
         <li className={classes.PrimaryItem}>
           <NavLink
-            to="/products/breadproofingbaskets"
+            to="/products"
             onClick={navClickHandler}
             className={classes.InactiveLink}
             activeClassName={classes.linkActive}
