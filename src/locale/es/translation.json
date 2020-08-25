@@ -53,6 +53,15 @@
         "paragraph4": "<p><strong>Nuestras bannetones se producen manualmente.</strong> Están disponibles en varios diseños y tamaños. Redondas, rectangulares, ovaladas, cuadradas. Hechas sólo de ratán o ratán con fondo de madera. En nuestra oferta tenemos también bannetones de fondo grabado - se puede pedir uno de nuestros muchos modelos o poner su propio. Un modelo propio hace que tu pan es único y puede proporcionar una excelente publicidad.</p>"
       }
     },
+    "withliners": {
+      "description": {
+        "paragraph1": "<p>Muchos panaderos y usuarios domésticos prefieren usar bannetones cubiertos con telas. Ayudan a <strong>mantener limpio el banneton durante más tiempo</strong> y son muy <strong>útiles con masas de pan muy hidratadas y pegajosas.</strong></p>",
+        "paragraph2": "<p>Nuestras telas están <strong>están hechas a mano, con material de alta calidad</strong>, que es una combinación de línea y algodón. Esta mezcla de tejidos asegura la resistencia al lavado a altas temperaturas. Se presentan con una banda elástica que los mantiene en su lugar en el banneton y tienen puntadas dobles, lo que hace que las telas sean más fuertes.</p>",
+        "paragraph3": "<p><strong>El uso de telas ahorra tiempo a los panaderos</strong>, que no tienen que limpiar los banneton con tanta frecuencia. Se cortan para ajustarse a la forma del banneton, por lo que es menos probable que aparezcan pliegues y arrugas en la tela en la corteza del pan que cuando se usa un trozo de tela simple. </p>",
+        "paragraph4": "<p>Los paños se utilizan para cubrir el interior de los bannetons, pero no son obligatorios.</p>",
+        "warning": "<p><strong>Nota: Bannetones están diseñadas sólo para el crecimiento de la masa, no son adecuadas como moldes para cocer el pan a altas temperaturas.</strong></p>"
+      }
+    },
     "buttons": {
       "baguette": "Baguette",
       "oval": "Oval",

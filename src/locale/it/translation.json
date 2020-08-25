@@ -53,6 +53,15 @@
         "paragraph4": "<p><strong>I nostri cestini sono prodotti manualmente.</strong> Sono disponibili in vari modelli e dimensioni. Tondi, oblunghi, ovali, quadrati, triangolari. Realizzato solo in rattan o in rattan con il fondo in legno. Nella nostra offerta abbiamo anche cestiini con il fondo inciso - si può ordinare uno dei nostri molti disegni o inserire il proprio. Il disegno personalizzato rende il Tuo pane unico e può costituire una pubblicità eccellente.</p>"
       }
     },
+    "withliners": {
+      "description": {
+        "paragraph1": "<p>Molti fornai e utenti domestici preferiscono usare <strong>usare cestini da lievitazione ricoperti di telo.</strong> Aiutano a mantenere <strong>pulito il cestini più a lungo e sono molto utili con impasti di pane molto idratati e appiccicosi.</strong></p>",
+        "paragraph2": "<p>Le nostre fodere sono <strong>fatte a mano, con materiale di alta qualità</strong>, che è una combinazione di filo e cotone. Questo mix di tessuti garantisce resistenza ai lavaggi ad alte temperature. Sono dotati di fascia elastica che li tiene in posizione sui cestini e hanno doppie cuciture, che rendono le fodere più forti.</p>",
+        "paragraph3": "<p><strong>Utilizzare le fodere fa risparmiare tempo ai fornai, </strong>che non devono pulire i cesti così spesso. Sono tagliati per adattarsi alla forma del cestino, quindi è meno probabile che si formino pieghe e rughe dal panno che si manifesta nella crosta del pane rispetto a quando si utilizza il semplice pezzo di stoffa.</p>",
+        "paragraph4": "<p>Le teli sono utilizzate per coprire l'interno dei cestini ma non sono necessarie.</p>",
+        "warning": "<p><strong>Attenzione: Cestini sono progettati solo per far lievitare la pasta, non sono adatti come stampi per la cottura del pane alle alte temperature.   </strong></p>"
+      }
+    },
     "buttons": {
       "baguette": "Baguette",
       "oval": "Oval",

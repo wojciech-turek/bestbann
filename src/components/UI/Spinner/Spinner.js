@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import { TweenMax, Power3 } from "gsap";
+import { TweenMax } from "gsap";
 
 import classes from "./Spinner.module.css";
 
@@ -20,13 +20,9 @@ function Spinner(props) {
 
   return (
     <div className={classes.Spinner} ref={(el) => (app = el)}>
-      <header className={classes.SpinnerHeader}>
-        <div className={classes.circleContainer}>
-          <p ref={(el) => (circle = el)} className={classes.circle}>
-            Loading...
-          </p>
-        </div>
-      </header>
+      <div ref={(el) => (circle = el)} className={classes.circle}>
+        <div className={classes.loader}>Loading...</div>
+      </div>
     </div>
   );
 }

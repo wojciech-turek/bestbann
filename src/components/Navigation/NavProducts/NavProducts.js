@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./NavProducts.module.css";
 import breadProofingImg from "../../../assets/OvBasketsTransparent.jpg";
-import woodenBaseImg from "../../../assets/OvBasketsTransparent.jpg";
+import woodenBaseImg from "../../../assets/boodenbakingforms.jpg";
 import withLinersImg from "../../../assets/linerstransparent1.jpg";
 import { NavLink } from "react-router-dom";
 
@@ -13,19 +13,16 @@ export default function NavProducts() {
     {
       title: t("mainSections.products.breadProofing"),
       imgSrc: breadProofingImg,
-      btnTxt: t("mainSections.products.button"),
       linkDest: "/products/breadproofingbaskets",
     },
     {
-      title: t("mainSections.products.woodenBase"),
+      title: "New product coming soon!",
       imgSrc: woodenBaseImg,
-      btnTxt: t("mainSections.products.button"),
       linkDest: "/products/woodenbase",
     },
     {
       title: t("mainSections.products.withLiners"),
       imgSrc: withLinersImg,
-      btnTxt: t("mainSections.products.button"),
       linkDest: "/products/basketswithliners",
     },
   ];

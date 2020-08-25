@@ -42,6 +42,7 @@ export default function Products() {
           {t("productsPage.withliners.description.paragraph2")}
           {t("productsPage.withliners.description.paragraph3")}
           {t("productsPage.withliners.description.paragraph4")}
+          {t("productsPage.withliners.description.warning")}
         </div>
       </Trans>
       <div className={classes.ImagesWrap}>

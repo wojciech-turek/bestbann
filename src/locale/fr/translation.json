@@ -53,6 +53,15 @@
         "paragraph4": "<p><strong>ENos bannetons sont fabriqués manuellement.</strong> Ils sont disponibles en différents modèles et tailles. Ronde, oblongue, ovale, carrée, triangulaire. Fabriqués uniquement en rotin ou en rotin avec fond en bois. Dans notre offre, nous avons aussi des paniers à fond gravé - vous pouvez commander un de nos nombreux modèles ou mettre votre propre gravure. Votre modèle personnalisé rend votre pain unique et peut fournir une excellente publicité.</p>"
       }
     },
+    "withliners": {
+      "description": {
+        "paragraph1": "<p>De nombreux boulangers et utilisateurs à domicile préfèrent utiliser <strong>des bannetones à pain recouverts de doublures.</strong> Ils aident à <strong>garder le panier propre plus longtemps et sont très utiles avec les pâtes à pain très hydratées et collantes.</strong></p>",
+        "paragraph2": "<p>Nos doublures sont <strong>faites à la main, à partir d'un matériau de haute qualité</strong>, kqui est une combinaison de ligne et de coton. Ce mélange de tissus assure une résistance au lavage à haute température. Ils sont dotés d'une bande élastique qui les maintient en place sur les bannetons et ont des points doubles, ce qui rend les doublures plus solides.</p>",
+        "paragraph3": "<p><strong>L'utilisation de doublures fait gagner du temps </strong>aux boulangers, qui n'ont pas à nettoyer les bannetons si souvent. Ils sont coupés pour épouser la forme du panier, il est donc moins probable que les plis et les rides du tissu apparaissent dans la croûte du pain que lors de l'utilisation du morceau de tissu ordinaire.</p>",
+        "paragraph4": "<p>Les doublures sont utilisés pour couvrir l'intérieur des bannetons mais ils ne sont pas nécessaires.</p>",
+        "warning": "<p><strong>Note: Les paniers sont conçus seulement pour laisser lever la pâte, ne convient pas comme moules pour la cuisson du pain à des températures élevées.</strong></p>"
+      }
+    },
     "buttons": {
       "baguette": "Baguette",
       "oval": "Oval",
