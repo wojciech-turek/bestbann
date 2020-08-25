@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "718b57e42df3a96d7cf1e73492b72f3b",
+    "revision": "0d75f057686b130c511a85c6bee73dd8",
     "url": "/bestbann/index.html"
   },
   {
-    "revision": "42e664aa0e77e23b14b4",
-    "url": "/bestbann/static/css/main.80d63d28.chunk.css"
+    "revision": "491ede30e3e52e50dbb0",
+    "url": "/bestbann/static/css/main.69c1a2e9.chunk.css"
   },
   {
-    "revision": "d54fabd2c42fe8f07076",
-    "url": "/bestbann/static/js/2.e57ec7e4.chunk.js"
+    "revision": "481f62b5099a09c56604",
+    "url": "/bestbann/static/js/2.a84a0fb7.chunk.js"
   },
   {
     "revision": "789a67f91db1114fe0403706b643cbfb",
-    "url": "/bestbann/static/js/2.e57ec7e4.chunk.js.LICENSE.txt"
+    "url": "/bestbann/static/js/2.a84a0fb7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "42e664aa0e77e23b14b4",
-    "url": "/bestbann/static/js/main.155c87ce.chunk.js"
+    "revision": "491ede30e3e52e50dbb0",
+    "url": "/bestbann/static/js/main.c1f37d10.chunk.js"
   },
   {
     "revision": "e5e81b53cee179319d23",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "46ae07e25974197b452057b4f6d063b4",
     "url": "/bestbann/static/media/bgsnowySmallOptimized.46ae07e2.jpg"
+  },
+  {
+    "revision": "19fa59dd0e9a22bef37aac06e1fff736",
+    "url": "/bestbann/static/media/boodenbakingforms.19fa59dd.jpg"
   },
   {
     "revision": "b7c4d6b2426663e0646e02f199c642a7",

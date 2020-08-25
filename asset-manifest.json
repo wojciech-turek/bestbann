@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/bestbann/static/css/main.80d63d28.chunk.css",
-    "main.js": "/bestbann/static/js/main.155c87ce.chunk.js",
-    "main.js.map": "/bestbann/static/js/main.155c87ce.chunk.js.map",
+    "main.css": "/bestbann/static/css/main.69c1a2e9.chunk.css",
+    "main.js": "/bestbann/static/js/main.c1f37d10.chunk.js",
+    "main.js.map": "/bestbann/static/js/main.c1f37d10.chunk.js.map",
     "runtime-main.js": "/bestbann/static/js/runtime-main.224ef31d.js",
     "runtime-main.js.map": "/bestbann/static/js/runtime-main.224ef31d.js.map",
-    "static/js/2.e57ec7e4.chunk.js": "/bestbann/static/js/2.e57ec7e4.chunk.js",
-    "static/js/2.e57ec7e4.chunk.js.map": "/bestbann/static/js/2.e57ec7e4.chunk.js.map",
+    "static/js/2.a84a0fb7.chunk.js": "/bestbann/static/js/2.a84a0fb7.chunk.js",
+    "static/js/2.a84a0fb7.chunk.js.map": "/bestbann/static/js/2.a84a0fb7.chunk.js.map",
     "index.html": "/bestbann/index.html",
-    "precache-manifest.9a65ec4f43c1952deeee5fe578baf072.js": "/bestbann/precache-manifest.9a65ec4f43c1952deeee5fe578baf072.js",
+    "precache-manifest.53aeb6e4ff327d20a376923e5d78bf4b.js": "/bestbann/precache-manifest.53aeb6e4ff327d20a376923e5d78bf4b.js",
     "service-worker.js": "/bestbann/service-worker.js",
-    "static/css/main.80d63d28.chunk.css.map": "/bestbann/static/css/main.80d63d28.chunk.css.map",
-    "static/js/2.e57ec7e4.chunk.js.LICENSE.txt": "/bestbann/static/js/2.e57ec7e4.chunk.js.LICENSE.txt",
+    "static/css/main.69c1a2e9.chunk.css.map": "/bestbann/static/css/main.69c1a2e9.chunk.css.map",
+    "static/js/2.a84a0fb7.chunk.js.LICENSE.txt": "/bestbann/static/js/2.a84a0fb7.chunk.js.LICENSE.txt",
     "static/media/OvBaskets.png": "/bestbann/static/media/OvBaskets.ed124863.png",
     "static/media/OvBasketsTransparent.jpg": "/bestbann/static/media/OvBasketsTransparent.40c3e2b8.jpg",
     "static/media/bgsnowySmallOptimized.jpg": "/bestbann/static/media/bgsnowySmallOptimized.46ae07e2.jpg",
+    "static/media/boodenbakingforms.jpg": "/bestbann/static/media/boodenbakingforms.19fa59dd.jpg",
     "static/media/certificate.png": "/bestbann/static/media/certificate.b7c4d6b2.png",
     "static/media/certificateSmall.png": "/bestbann/static/media/certificateSmall.24204f77.png",
     "static/media/HeroBanner.module.css": "/bestbann/static/media/herobannerOptimizedMobile.cec79097.jpg",
@@ -38,8 +39,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.224ef31d.js",
-    "static/js/2.e57ec7e4.chunk.js",
-    "static/css/main.80d63d28.chunk.css",
-    "static/js/main.155c87ce.chunk.js"
+    "static/js/2.a84a0fb7.chunk.js",
+    "static/css/main.69c1a2e9.chunk.css",
+    "static/js/main.c1f37d10.chunk.js"
   ]
 }
