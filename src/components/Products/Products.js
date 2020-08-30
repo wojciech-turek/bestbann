@@ -16,21 +16,25 @@ export default function Products(props) {
       title: t("mainSections.products.breadProofing"),
       imgSrc: breadProofingImg,
       btnTxt: t("mainSections.products.button"),
+      destination: "breadproofingbaskets",
     },
     {
       title: t("mainSections.products.woodenBase"),
       imgSrc: woodenBaseImg,
       btnTxt: t("mainSections.products.button"),
+      destination: "breadproofingbaskets",
     },
     {
       title: t("mainSections.products.withLiners"),
       imgSrc: withLinersImg,
       btnTxt: t("mainSections.products.button"),
+      destination: "basketswithliners",
     },
     {
       title: t("mainSections.products.woodenBakingForm"),
       imgSrc: woodenBakingImg,
       btnTxt: t("mainSections.products.button"),
+      destination: "breadproofingbaskets",
     },
   ];
   let productSections = productCategories.map((sect) => (
@@ -39,6 +43,7 @@ export default function Products(props) {
       imgSrc={sect.imgSrc}
       btnTxt={sect.btnTxt}
       key={sect.title}
+      destination={sect.destination}
     />
   ));
   return <div className={classes.sectionContainer}>{productSections}</div>;

@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./ProductsCategory.module.css";
+import { Link } from "react-router-dom";
 
 export default function ProductsCatergory(props) {
   let paragraph = null;
@@ -8,7 +9,11 @@ export default function ProductsCatergory(props) {
     paragraph = <p>{props.paragTxt}</p>;
   }
   if (props.btnTxt) {
-    btn = <button className={classes.SeeMoreBtn}>{props.btnTxt}</button>;
+    btn = (
+      <Link to={`/products/${props.destination}`}>
+        <button className={classes.SeeMoreBtn}>{props.btnTxt}</button>
+      </Link>
+    );
   }
   return (
     <div className={classes.ProductsCategory}>

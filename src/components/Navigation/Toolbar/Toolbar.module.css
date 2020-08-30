@@ -20,7 +20,7 @@
   position: relative;
   margin-right: 20px;
   height: 32px;
-  width: 220px;
+  width: 160px;
   outline: none;
   color: rgba(0, 0, 0, 0.9);
   background-color: #0066ff;
@@ -44,14 +44,14 @@
   left: 0;
   color: white;
   height: 32px;
-  width: 220px;
+  width: 160px;
   background-color: #025add;
   transition: left 0.4s ease-in-out;
   z-index: 1;
 }
 
 .cartTxt {
-  margin-left: 22px;
+  margin-left: 16px;
 }
 
 .storeLink {
@@ -64,7 +64,7 @@
   color: white;
   position: absolute;
   text-align: center;
-  left: 60px;
+  left: 30px;
   top: 0;
   text-align: left;
   opacity: 1;
@@ -148,6 +148,6 @@
   }
 
   .shopNowBtn:hover .cart {
-    left: 180px;
+    left: 125px;
   }
 }

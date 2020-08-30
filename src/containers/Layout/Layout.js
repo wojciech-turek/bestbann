@@ -10,6 +10,8 @@ import WithLiners from "../../pages/ProductsPage/WithLiners/WithLiners";
 import classes from "./Layout.module.css";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import ScrollToTop from "../../components/UI/ScrollToTop/ScrollToTop";
+import ContactPage from "../../pages/ContactPage/ContactPage";
+import AboutUsPage from "../../pages/AboutUsPage/AboutUsPage";
 
 const Layout = (props) => {
   const nodeRef = useRef(null);
@@ -26,8 +28,8 @@ const Layout = (props) => {
       name: "Products - Baskets with Liners",
       Component: WithLiners,
     },
-    { path: "/about", name: "About", Component: MainPage },
-    { path: "/contact", name: "Contact", Component: MainPage },
+    { path: "/about", name: "About", Component: AboutUsPage },
+    { path: "/contact", name: "Contact", Component: ContactPage },
   ];
 
   let routeList = routes.map(({ path, Component }) => (

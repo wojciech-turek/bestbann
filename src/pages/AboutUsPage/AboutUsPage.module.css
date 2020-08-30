@@ -1,0 +1,9 @@
+.Container {
+  min-height: 80vh;
+  width: 80%;
+  margin: 10vh auto;
+  text-align: center;
+}
+.header {
+  font-family: "Lato";
+}

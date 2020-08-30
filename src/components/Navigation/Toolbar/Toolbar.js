@@ -25,6 +25,9 @@ export default function Toolbar(props) {
 
   window.onscroll = function () {
     let currentScrollPos = window.pageYOffset;
+    if (currentScrollPos === 0) {
+      props.setToolbarShown(true);
+    }
     if (currentScrollPos >= 50) {
       if (prevScrollpos > currentScrollPos) {
         props.setToolbarShown(true);
@@ -47,7 +50,7 @@ export default function Toolbar(props) {
     <>
       <div className={toolbarClasses.join(" ")}>
         <div className={classes.Logo}>
-          <Logo />
+          <Logo width={130} />
         </div>
         <div className={classes.Hamburger}>
           <Hamburger open={props.open} clicked={props.clicked} />
@@ -69,7 +72,7 @@ export default function Toolbar(props) {
           >
             <span className={classes.cart}>
               {shoppingCartIcon}
-              <span className={classes.cartTxt}>Visit our online store</span>
+              <span className={classes.cartTxt}>Visit our store</span>
             </span>
 
             <span className={classes.btnTxtAreaTake}>Let's go!</span>
