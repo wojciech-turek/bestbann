@@ -8,6 +8,7 @@ import {
   faPhoneSquare,
 } from "@fortawesome/free-solid-svg-icons";
 import ContactForm from "./ContactForm/ContactForm";
+import Logo from "../../components/UI/Logo/Logo";
 
 export default function ContactPage() {
   const emailIcon = (
@@ -37,13 +38,15 @@ export default function ContactPage() {
             </strong>
           </p>
         </div>
-        <p className={classes.paragraph}>BESTBANN</p>
-        <p className={classes.paragraph}>Weronika Pozłutko</p>
+        <Logo width={160} />
         <p className={classes.paragraph}>
-          {t("footer.companyInfo.street")}Sapiehy 21
+          <strong>Weronika Pozłutko</strong>
         </p>
         <p className={classes.paragraph}>
-          {t("footer.companyInfo.city")}Kraków 31-644
+          <strong>{t("footer.companyInfo.street")}</strong>Sapiehy 21
+        </p>
+        <p className={classes.paragraph}>
+          <strong>{t("footer.companyInfo.city")}</strong>Kraków 31-644
         </p>
         <p className={classes.paragraph}>Poland</p>
       </div>

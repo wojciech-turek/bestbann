@@ -1,5 +1,6 @@
 .NavItem {
   padding: 10px 10px;
+  font-size: 16px;
   color: black;
   text-decoration: inherit;
   font-family: "Lato";
@@ -8,8 +9,14 @@
   color: red;
 }
 
-@media (min-width: 1024) {
+@media (min-width: 1024px) {
   .NavItem {
+    padding: 0 5px;
+  }
+}
+@media (min-width: 1280px) {
+  .NavItem {
+    font-size: 18px;
     padding: 0 10px;
   }
 }

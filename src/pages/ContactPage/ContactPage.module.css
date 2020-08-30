@@ -8,6 +8,10 @@
   font-family: "Lato";
 }
 
+.CompanyInfo {
+  margin-top: 32px;
+}
+
 .section {
   display: flex;
   flex-flow: column;
