@@ -72,7 +72,17 @@
       "square": "Square"
     }
   },
-
+  "contact": {
+    "text": "<p>Siamo a disposizione per rispondere alle vostre domande e richieste di preventivo dal lunedì al venerdì nel normale orario lavorativo. Facciamo del nostro meglio per rispondere entro 24 ore. Se la sua questione è urgente, non esitare a chiamarci ai numeri seguenti (polacco o inglese).</p><p>We accept emails in any languange.</p>",
+    "button": "Lasciaci un messaggio",
+    "form": {
+      "fn": "Nome",
+      "ln": "Cognome",
+      "email": "Indirizzo e-mail",
+      "mssg": "Il tuo messaggio",
+      "send": "Invia a"
+    }
+  },
   "footer": {
     "companyInfo": {
       "title": "Informazioni sull'azienda",

@@ -9,6 +9,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import { createMuiTheme } from "@material-ui/core/styles";
 import { ThemeProvider } from "@material-ui/styles";
+import { useTranslation } from "react-i18next";
 
 const theme = createMuiTheme({
   palette: {
@@ -52,14 +53,14 @@ const submitHandler = (e) => {
 
 export default function SignUp() {
   const classes = useStyles();
-
+  const { t } = useTranslation("common");
   return (
     <ThemeProvider theme={theme}>
       <Container component="main" maxWidth="sm">
         <CssBaseline />
         <div className={classes.paper}>
           <Typography component="h1" variant="h5">
-            Leave us a message
+            {t("contact.button")}
           </Typography>
           <form className={classes.form} onSubmit={submitHandler}>
             <Grid container spacing={2}>
@@ -71,7 +72,7 @@ export default function SignUp() {
                   required
                   fullWidth
                   id="firstName"
-                  label="First Name"
+                  label={t("contact.form.fn")}
                 />
               </Grid>
               <Grid item xs={12} sm={6}>
@@ -80,7 +81,7 @@ export default function SignUp() {
                   required
                   fullWidth
                   id="lastName"
-                  label="Last Name"
+                  label={t("contact.form.ln")}
                   name="lastName"
                   autoComplete="lname"
                 />
@@ -91,7 +92,7 @@ export default function SignUp() {
                   required
                   fullWidth
                   id="email"
-                  label="Email Address"
+                  label={t("contact.form.email")}
                   type="email"
                   name="email"
                   autoComplete="email"
@@ -104,7 +105,8 @@ export default function SignUp() {
                   fullWidth
                   multiline
                   name="message"
-                  label="Your message"
+                  rows={4}
+                  label={t("contact.form.mssg")}
                   id="outlined-secondary"
                 />
               </Grid>
@@ -116,7 +118,7 @@ export default function SignUp() {
               color="primary"
               className={classes.submit}
             >
-              Send
+              {t("contact.form.send")}
             </Button>
           </form>
         </div>

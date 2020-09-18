@@ -72,7 +72,17 @@
       "square": "Square"
     }
   },
-
+  "contact": {
+    "text": "<p>Nous sommes disponibles pour répondre à vos questions et demandes de devis du lundi au vendredi aux heures normales de bureau. Nous faisons de notre mieux pour vous répondre dans les 24 heures. Si votre affaire est urgente, n'hésitez pas à nous appeler aux numéros ci-dessous (polonais ou anglais).</p><p>Nous acceptons les e-mails dans toutes les langues.</p>",
+    "button": "Laissez nous un message",
+    "form": {
+      "fn": "Prénom",
+      "ln": "Nom de famille",
+      "email": "Adresse électronique",
+      "mssg": "Votre message",
+      "send": "Envoyer"
+    }
+  },
   "footer": {
     "companyInfo": {
       "title": "Informations sur les entreprises",

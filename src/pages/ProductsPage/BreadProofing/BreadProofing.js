@@ -19,39 +19,39 @@ export default function Products() {
 
   const productsImages = [
     {
-      pathToImg: baguetteImg,
-      alt: "Round Basket",
-      btnTxt: t("productsPage.buttons.baguette"),
-    },
-    {
-      pathToImg: ovalImg,
-      alt: "Round Basket",
-      btnTxt: t("productsPage.buttons.oval"),
-    },
-    {
       pathToImg: roboksImg,
       alt: "Round Basket",
       btnTxt: t("productsPage.buttons.round"),
     },
     {
       pathToImg: longImg,
-      alt: "Round Basket",
+      alt: "Oblong Basket",
       btnTxt: t("productsPage.buttons.oblong"),
     },
     {
+      pathToImg: ovalImg,
+      alt: "Oval Basket",
+      btnTxt: t("productsPage.buttons.oval"),
+    },
+    {
+      pathToImg: baguetteImg,
+      alt: "Baguette Shaped Basket",
+      btnTxt: t("productsPage.buttons.baguette"),
+    },
+    {
       pathToImg: rominiImg,
-      alt: "Round Basket",
+      alt: "Mini Basket",
       btnTxt: t("productsPage.buttons.mini"),
     },
     {
-      pathToImg: squareLongImg,
-      alt: "Round Basket",
-      btnTxt: t("productsPage.buttons.bigWoodenBase"),
+      pathToImg: squareImg,
+      alt: "Square Basket",
+      btnTxt: t("productsPage.buttons.square"),
     },
     {
-      pathToImg: squareImg,
-      alt: "Round Basket",
-      btnTxt: t("productsPage.buttons.square"),
+      pathToImg: squareLongImg,
+      alt: "Big with wooden base Basket",
+      btnTxt: t("productsPage.buttons.bigWoodenBase"),
     },
   ];
 
@@ -75,6 +75,7 @@ export default function Products() {
             </li>
           </ul>
           {t("productsPage.breadproofing.description.paragraph4")}
+          {t("productsPage.withliners.description.warning")}
         </div>
       </Trans>
       <div className={classes.ImagesWrap}>

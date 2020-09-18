@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./ContactPage.module.css";
-import { useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEnvelope,
@@ -11,6 +11,7 @@ import ContactForm from "./ContactForm/ContactForm";
 import Logo from "../../components/UI/Logo/Logo";
 
 export default function ContactPage() {
+  const { t } = useTranslation("common");
   const emailIcon = (
     <FontAwesomeIcon icon={faEnvelope} className={classes.icon} />
   );
@@ -18,24 +19,17 @@ export default function ContactPage() {
   const phoneIcon = (
     <FontAwesomeIcon icon={faPhoneSquare} className={classes.icon} />
   );
-  const { t } = useTranslation("common");
   return (
     <div className={classes.Container}>
-      <h1 className={classes.header}>Contact</h1>
-      <p className={classes.paragraph}>
-        We are available to answer your questions and quotation requests from
-        Monday to Friday in the regular business hours. We do our best to reply
-        within 24 hours, if your matter is urgent do not hesitate to call us on
-        the below numbers (Polish or English).
-      </p>
-      <p className={classes.paragraph}>We accept emails in any languange.</p>
+      <h1 className={classes.header}>{t("menu.contact")}</h1>
+      <div className={classes.paragraph}>
+        <Trans>{t("contact.text")}</Trans>
+      </div>
       <div className={classes.CompanyInfo}>
         <div className={classes.section}>
+          {homeIcon}
           <p>
-            <strong>
-              {homeIcon}
-              {t("footer.companyInfo.office")}
-            </strong>
+            <strong>{t("footer.companyInfo.office")}</strong>
           </p>
         </div>
         <Logo width={160} />
@@ -49,24 +43,21 @@ export default function ContactPage() {
           <strong>{t("footer.companyInfo.city")}</strong>Kraków 31-644
         </p>
         <p className={classes.paragraph}>Poland</p>
+        <p className={classes.paragraph}>TAX ID No. PL7382058254</p>
       </div>
       <div className={classes.ContactInfo}>
         <div className={classes.section}>
+          {emailIcon}
           <p>
-            <strong>
-              {emailIcon}
-              {t("footer.contact.email")}
-            </strong>
+            <strong>{t("footer.contact.email")}</strong>
           </p>
         </div>
         <p className={classes.paragraph}>office@bestbann.com</p>
         <p className={classes.paragraph}>shop@bestbann.com</p>
         <div className={classes.section}>
+          {phoneIcon}
           <p>
-            <strong>
-              {phoneIcon}
-              {t("footer.contact.telephone")}
-            </strong>
+            <strong>{t("footer.contact.telephone")}</strong>
           </p>
         </div>
         <p className={classes.paragraph}>+48 12 307 28 77</p>

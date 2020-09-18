@@ -72,7 +72,17 @@
       "square": "Square"
     }
   },
-
+  "contact": {
+    "text": "<p>Estamos disponibles para responder a sus preguntas y solicitudes de cotización de lunes a viernes en el horario comercial habitual. Hacemos nuestro mejor esfuerzo para responder dentro de las 24 horas. Si su asunto es urgente, no dude en llamarnos a los siguientes números (polaco o inglés).</p><p>Aceptamos correos electrónicos en cualquier idioma.</p>",
+    "button": "Déjanos un mensaje",
+    "form": {
+      "fn": "Nombre de pila",
+      "ln": "Apellido",
+      "email": "Dirección de correo electrónico",
+      "mssg": "Tu mensaje",
+      "send": "Envía"
+    }
+  },
   "footer": {
     "companyInfo": {
       "title": "Información de la compañía",

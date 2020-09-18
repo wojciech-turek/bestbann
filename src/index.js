@@ -8,12 +8,14 @@ import common_it from "./locale/it/translation.json";
 import common_ru from "./locale/ru/translation.json";
 import common_es from "./locale/es/translation.json";
 import common_pl from "./locale/pl/translation.json";
-
+import detector from "i18next-browser-languagedetector";
 import App from "./App";
 
-i18next.init({
+i18next.use(detector).init({
   interpolation: { escapeValue: false }, // React already does escaping
-  lng: "en", // language to use
+  detection: {
+    lookupLocalStorage: "language",
+  },
   resources: {
     en: {
       common: common_en, // 'common' is our custom namespace

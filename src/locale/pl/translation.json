@@ -72,6 +72,36 @@
       "square": "Square"
     }
   },
+  "contact": {
+    "text": "<p>Jesteśmy do Państwa dyspozycji od poniedziałku do piątku, w godzinach 9:00-18:00, aby odpowiedzieć na wszystkie Państwa pytania. Dokładamy wszelkich starań, aby odpowiedzieć w ciągu 24 godzin.  Jeżeli Państwa sprawa jest pilna, prosimy o kontakt telefoniczny na numer podany poniżej. </p><p>Przyjmujemy e-maile w dowolnym języku.</p>",
+    "button": "Zostaw nam wiadomość",
+    "form": {
+      "fn": "Imię",
+      "ln": "Nazwisko",
+      "email": "Adres Email",
+      "mssg": "Twoja wiadomość",
+      "send": "Wyślij"
+    }
+  },
+
+  "productInfo": {
+    "line1": "Made of natural rattan or natural rattan combined with wood base element",
+    "line2": "Best for making healthy artisan bread",
+    "line3": "Perfect for bakeries, bread shops and for home use",
+    "line4": "Helps to make the structure and shape of the bread better and gives more crispy crust because it holds warmth and absorbs part of the moisture",
+    "line5": "Gives gorgeous pattern of floury rings circling the deep-golden crust",
+    "line6": "European producer",
+    "line7": "Each bread proofing basket is handmade",
+    "line8": "Does not contain any bleaches, lacquers or preservatives",
+    "line9": "SGS test reports and PZH Certificate prove high quality of our materialsused for proofing baskets made of rattan, so that they can safely have contact with food, in accordance with:",
+    "line91": "Regulation (EC) No 1935/2004 of the European Parliament and of the Council of 27 October 2004 on materials and articles intended to come into contact with food and",
+    "line92": "German LFGB (LMBG) Food and Feed Law Art. 30, 31",
+    "line10": "It can also be used as a decoration",
+    "line11": "Sizes table above shows most popular dimensions of proofing baskets",
+    "line12": "Customized sizes available",
+    "line13": "Presented sizes are external dimensions (± 5 mm)",
+    "line14": "Baskets can be used only for proofing bread dough, never for baking bread in high temperatures!"
+  },
 
   "footer": {
     "companyInfo": {

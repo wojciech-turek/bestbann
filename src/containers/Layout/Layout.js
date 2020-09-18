@@ -12,8 +12,9 @@ import { CSSTransition, TransitionGroup } from "react-transition-group";
 import ScrollToTop from "../../components/UI/ScrollToTop/ScrollToTop";
 import ContactPage from "../../pages/ContactPage/ContactPage";
 import AboutUsPage from "../../pages/AboutUsPage/AboutUsPage";
+import BreadproofingBaskets from "../../pages/BasketPages/BreadproofingBaskets/BreadproofingBaskets";
 
-const Layout = (props) => {
+const Layout = () => {
   const nodeRef = useRef(null);
 
   const routes = [
@@ -30,6 +31,7 @@ const Layout = (props) => {
     },
     { path: "/about", name: "About", Component: AboutUsPage },
     { path: "/contact", name: "Contact", Component: ContactPage },
+    { path: "/baskets", name: "Baskets", Component: BreadproofingBaskets },
   ];
 
   let routeList = routes.map(({ path, Component }) => (
