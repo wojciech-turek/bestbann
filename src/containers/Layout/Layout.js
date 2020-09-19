@@ -31,7 +31,11 @@ const Layout = () => {
     },
     { path: "/about", name: "About", Component: AboutUsPage },
     { path: "/contact", name: "Contact", Component: ContactPage },
-    { path: "/baskets", name: "Baskets", Component: BreadproofingBaskets },
+    {
+      path: "/products/roundbaskets",
+      name: "Round Baskets",
+      Component: BreadproofingBaskets,
+    },
   ];
 
   let routeList = routes.map(({ path, Component }) => (

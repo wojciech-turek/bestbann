@@ -9,6 +9,7 @@ import squareLongImg from "../../../assets/slxsboknowySmallOptimized.jpg";
 import squareImg from "../../../assets/sqxsboknoweSmallOptimized.jpg";
 
 import { Trans, useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 export default function Products() {
   useEffect(() => {
@@ -82,9 +83,11 @@ export default function Products() {
         {productsImages.map((el) => (
           <div className={classes.product} key={el.btnTxt}>
             <img src={el.pathToImg} className={classes.Image} alt={el.alt} />
-            <div className={classes.SeeMoreBtn}>
-              <span>{el.btnTxt}</span>
-            </div>
+            <Link to="/products/roundbaskets">
+              <div className={classes.SeeMoreBtn}>
+                <span>{el.btnTxt}</span>
+              </div>
+            </Link>
           </div>
         ))}
       </div>

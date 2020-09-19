@@ -12,6 +12,7 @@ import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import { useTranslation } from "react-i18next";
 import BasketsCertificationImage from "../../../assets/basketatest.png";
+import NeedHelpSection from "../../../components/NeedHelpSection/NeedHelpSection";
 
 export default function BreadproofingBaskets(props) {
   const { t } = useTranslation("common");
@@ -148,7 +149,7 @@ export default function BreadproofingBaskets(props) {
                   <strong>{t("productInfo.line14")}</strong>
                 </li>
               </ul>
-              <div>
+              <div className={classes.basketCerContainer}>
                 <img
                   className={classes.basketsCertImage}
                   src={BasketsCertificationImage}
@@ -159,7 +160,7 @@ export default function BreadproofingBaskets(props) {
           </div>
         </div>
         <div className={classes.side}>
-          <h2 className={classes.sideTitle}>Do you need help?</h2>
+          <NeedHelpSection />
         </div>
       </div>
     </div>
