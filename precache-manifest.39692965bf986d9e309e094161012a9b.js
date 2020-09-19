@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6d6d8f171b2f6658d52b5cac81681de0",
+    "revision": "ace5562d716181022acd395ec2c5c5f3",
     "url": "/bestbann/index.html"
   },
   {
-    "revision": "91c773278479c733fe7a",
-    "url": "/bestbann/static/css/main.50c8ade8.chunk.css"
+    "revision": "111a15e7541b68df12e0",
+    "url": "/bestbann/static/css/main.a7020771.chunk.css"
   },
   {
-    "revision": "cab70edeb01858496617",
-    "url": "/bestbann/static/js/2.ea86aa48.chunk.js"
+    "revision": "1b3ac42d131390abfa77",
+    "url": "/bestbann/static/js/2.30e31db4.chunk.js"
   },
   {
     "revision": "fd351d8d8c4deaf1e323d7479ecf0eab",
-    "url": "/bestbann/static/js/2.ea86aa48.chunk.js.LICENSE.txt"
+    "url": "/bestbann/static/js/2.30e31db4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "91c773278479c733fe7a",
-    "url": "/bestbann/static/js/main.a995bd6d.chunk.js"
+    "revision": "111a15e7541b68df12e0",
+    "url": "/bestbann/static/js/main.bf8bc901.chunk.js"
   },
   {
     "revision": "e5e81b53cee179319d23",
@@ -30,6 +30,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "40c3e2b8dfd9370d5fd1d758a56d4312",
     "url": "/bestbann/static/media/OvBasketsTransparent.40c3e2b8.jpg"
+  },
+  {
+    "revision": "6490b5fcc1c90c84f37d1c3a4a5b1e0c",
+    "url": "/bestbann/static/media/RoundRO.6490b5fc.png"
+  },
+  {
+    "revision": "ccbd0826c49452a7318377d34ae0f161",
+    "url": "/bestbann/static/media/RoundROX.ccbd0826.png"
+  },
+  {
+    "revision": "14af25867eb8bc151837b9c3c2febb65",
+    "url": "/bestbann/static/media/basketatest.14af2586.png"
   },
   {
     "revision": "46ae07e25974197b452057b4f6d063b4",
@@ -46,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "24204f7739875ba8f6b6129ae081ebda",
     "url": "/bestbann/static/media/certificateSmall.24204f77.png"
+  },
+  {
+    "revision": "259928fa4b3167350a69a076ea208eef",
+    "url": "/bestbann/static/media/csimage2.259928fa.png"
   },
   {
     "revision": "a452f1734b150c55f872d3658a23b907",
@@ -84,6 +100,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bestbann/static/media/madeineu.8cc92b8b.png"
   },
   {
+    "revision": "6f17d592c3fc70b7feea8ed079df59e4",
+    "url": "/bestbann/static/media/messenger.6f17d592.svg"
+  },
+  {
     "revision": "e561a1057f266780178c1c845fc137ce",
     "url": "/bestbann/static/media/ovboksnowySmallOptimized.e561a105.jpg"
   },
@@ -118,6 +138,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7b7d9e16be04f5dfd0d46dcf4f411266",
     "url": "/bestbann/static/media/tailoredCompressed.7b7d9e16.jpg"
+  },
+  {
+    "revision": "d89731b4869a0f0b9d69bf86146f8be2",
+    "url": "/bestbann/static/media/whatsapp.d89731b4.svg"
   },
   {
     "revision": "071645746dc93b3c5a90211fd4ae2888",
