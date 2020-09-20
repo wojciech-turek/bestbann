@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/bestbann/static/css/main.a7020771.chunk.css",
-    "main.js": "/bestbann/static/js/main.bf8bc901.chunk.js",
-    "main.js.map": "/bestbann/static/js/main.bf8bc901.chunk.js.map",
+    "main.css": "/bestbann/static/css/main.6b9db593.chunk.css",
+    "main.js": "/bestbann/static/js/main.047f2c6f.chunk.js",
+    "main.js.map": "/bestbann/static/js/main.047f2c6f.chunk.js.map",
     "runtime-main.js": "/bestbann/static/js/runtime-main.224ef31d.js",
     "runtime-main.js.map": "/bestbann/static/js/runtime-main.224ef31d.js.map",
-    "static/js/2.30e31db4.chunk.js": "/bestbann/static/js/2.30e31db4.chunk.js",
-    "static/js/2.30e31db4.chunk.js.map": "/bestbann/static/js/2.30e31db4.chunk.js.map",
+    "static/js/2.adb4e0aa.chunk.js": "/bestbann/static/js/2.adb4e0aa.chunk.js",
+    "static/js/2.adb4e0aa.chunk.js.map": "/bestbann/static/js/2.adb4e0aa.chunk.js.map",
     "index.html": "/bestbann/index.html",
-    "precache-manifest.39692965bf986d9e309e094161012a9b.js": "/bestbann/precache-manifest.39692965bf986d9e309e094161012a9b.js",
+    "precache-manifest.f675ad8046b196616dc607079e5450ef.js": "/bestbann/precache-manifest.f675ad8046b196616dc607079e5450ef.js",
     "service-worker.js": "/bestbann/service-worker.js",
-    "static/css/main.a7020771.chunk.css.map": "/bestbann/static/css/main.a7020771.chunk.css.map",
-    "static/js/2.30e31db4.chunk.js.LICENSE.txt": "/bestbann/static/js/2.30e31db4.chunk.js.LICENSE.txt",
+    "static/css/main.6b9db593.chunk.css.map": "/bestbann/static/css/main.6b9db593.chunk.css.map",
+    "static/js/2.adb4e0aa.chunk.js.LICENSE.txt": "/bestbann/static/js/2.adb4e0aa.chunk.js.LICENSE.txt",
     "static/media/OvBaskets.png": "/bestbann/static/media/OvBaskets.ed124863.png",
     "static/media/OvBasketsTransparent.jpg": "/bestbann/static/media/OvBasketsTransparent.40c3e2b8.jpg",
-    "static/media/RoundRO.png": "/bestbann/static/media/RoundRO.6490b5fc.png",
-    "static/media/RoundROX.png": "/bestbann/static/media/RoundROX.ccbd0826.png",
+    "static/media/RoundROOptimized.jpg": "/bestbann/static/media/RoundROOptimized.cfc27dad.jpg",
+    "static/media/RoundROXOptimized.jpg": "/bestbann/static/media/RoundROXOptimized.254db90c.jpg",
     "static/media/basketatest.png": "/bestbann/static/media/basketatest.14af2586.png",
     "static/media/bgsnowySmallOptimized.jpg": "/bestbann/static/media/bgsnowySmallOptimized.46ae07e2.jpg",
     "static/media/boodenbakingforms.jpg": "/bestbann/static/media/boodenbakingforms.19fa59dd.jpg",
@@ -45,8 +45,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.224ef31d.js",
-    "static/js/2.30e31db4.chunk.js",
-    "static/css/main.a7020771.chunk.css",
-    "static/js/main.bf8bc901.chunk.js"
+    "static/js/2.adb4e0aa.chunk.js",
+    "static/css/main.6b9db593.chunk.css",
+    "static/js/main.047f2c6f.chunk.js"
   ]
 }

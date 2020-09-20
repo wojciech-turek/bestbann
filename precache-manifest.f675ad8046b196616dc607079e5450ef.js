@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ace5562d716181022acd395ec2c5c5f3",
+    "revision": "3843d020498382fbf9b161d04875880c",
     "url": "/bestbann/index.html"
   },
   {
-    "revision": "111a15e7541b68df12e0",
-    "url": "/bestbann/static/css/main.a7020771.chunk.css"
+    "revision": "4ab7bc5de74163579b07",
+    "url": "/bestbann/static/css/main.6b9db593.chunk.css"
   },
   {
-    "revision": "1b3ac42d131390abfa77",
-    "url": "/bestbann/static/js/2.30e31db4.chunk.js"
+    "revision": "c8adbe70ae51b1cd1c50",
+    "url": "/bestbann/static/js/2.adb4e0aa.chunk.js"
   },
   {
     "revision": "fd351d8d8c4deaf1e323d7479ecf0eab",
-    "url": "/bestbann/static/js/2.30e31db4.chunk.js.LICENSE.txt"
+    "url": "/bestbann/static/js/2.adb4e0aa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "111a15e7541b68df12e0",
-    "url": "/bestbann/static/js/main.bf8bc901.chunk.js"
+    "revision": "4ab7bc5de74163579b07",
+    "url": "/bestbann/static/js/main.047f2c6f.chunk.js"
   },
   {
     "revision": "e5e81b53cee179319d23",
@@ -32,12 +32,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bestbann/static/media/OvBasketsTransparent.40c3e2b8.jpg"
   },
   {
-    "revision": "6490b5fcc1c90c84f37d1c3a4a5b1e0c",
-    "url": "/bestbann/static/media/RoundRO.6490b5fc.png"
+    "revision": "cfc27dad6039a469c270d14673f344ef",
+    "url": "/bestbann/static/media/RoundROOptimized.cfc27dad.jpg"
   },
   {
-    "revision": "ccbd0826c49452a7318377d34ae0f161",
-    "url": "/bestbann/static/media/RoundROX.ccbd0826.png"
+    "revision": "254db90c431ab7b8e2afad839ed843ba",
+    "url": "/bestbann/static/media/RoundROXOptimized.254db90c.jpg"
   },
   {
     "revision": "14af25867eb8bc151837b9c3c2febb65",
