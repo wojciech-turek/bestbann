@@ -43,7 +43,7 @@ export default function NeedHelpSection() {
           />
         </a>
         <a
-          href="https://wa.me/531600102"
+          href="https://wa.me/+48531600102"
           target="blank"
           alt="messenger contact"
         >

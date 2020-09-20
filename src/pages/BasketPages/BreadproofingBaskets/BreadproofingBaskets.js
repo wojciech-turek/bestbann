@@ -1,8 +1,8 @@
 import React from "react";
 import DividerLine from "../../../components/UI/DividerLine/DividerLine";
 import classes from "./BreadproofingBaskets.module.css";
-import RoundROImage from "../../../assets/RoundRO.png";
-import RoundROXImage from "../../../assets/RoundROX.png";
+import RoundROImage from "../../../assets/RoundROOptimized.jpg";
+import RoundROXImage from "../../../assets/RoundROXOptimized.jpg";
 import Paper from "@material-ui/core/Paper";
 import Table from "@material-ui/core/Table";
 import TableBody from "@material-ui/core/TableBody";
@@ -13,6 +13,7 @@ import TableRow from "@material-ui/core/TableRow";
 import { useTranslation } from "react-i18next";
 import BasketsCertificationImage from "../../../assets/basketatest.png";
 import NeedHelpSection from "../../../components/NeedHelpSection/NeedHelpSection";
+import { useLocation } from "react-router-dom";
 
 export default function BreadproofingBaskets(props) {
   const { t } = useTranslation("common");
@@ -51,6 +52,9 @@ export default function BreadproofingBaskets(props) {
     createData("3000 g / 6,60 lb", '⌀ 32 cm / 12,6"', "RO/ROX 3OK3000C"),
     createData("5000 g / 11,00 lb", '⌀ 42 cm / 16,5"', "RO/ROX 3OK5000V"),
   ];
+
+  const location = useLocation();
+  console.log(location.pathname);
 
   return (
     <div className={classes.Container}>
@@ -102,7 +106,7 @@ export default function BreadproofingBaskets(props) {
                 <TableBody>
                   {RoundBasketRows.map((row) => {
                     return (
-                      <TableRow hover key={row.catalogNumber}>
+                      <TableRow hover key={row.catalog}>
                         {columns.map((column) => {
                           const value = row[column.id];
                           return (
@@ -119,7 +123,7 @@ export default function BreadproofingBaskets(props) {
             </TableContainer>
           </Paper>
           <div className={classes.productInfo}>
-            <h2 className={classes.productTitle}>Product Info</h2>
+            <h2 className={classes.productTitle}>Product Information</h2>
             <div className={classes.productInfoFlex}>
               <ul className={classes.productInfoList}>
                 <li>{t("productInfo.line1")}</li>

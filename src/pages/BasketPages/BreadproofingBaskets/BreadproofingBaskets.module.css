@@ -57,6 +57,7 @@
 
 .productInfoFlex {
   display: flex;
+  padding-right: 16px;
   flex-flow: column;
 }
 

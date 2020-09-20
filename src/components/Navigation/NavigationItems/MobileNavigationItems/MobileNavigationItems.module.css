@@ -38,63 +38,17 @@ a {
   padding-left: 20px;
 }
 
+.root {
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
 .PrimaryItem {
   min-height: 40px;
   font-size: 18px;
   position: relative;
   line-height: 40px;
-  z-index: 100;
-}
-
-.ProductsSecondaryListOpen {
-  position: relative;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-evenly;
-  padding-left: 20px;
-  list-style: none;
-  margin: 8px 20px 8px 0px;
-  opacity: 1;
-  max-height: 70vh;
-  transition: opacity 0.6s ease, max-height 0.6s ease;
-}
-
-.ProductsSecondaryListClosed {
-  position: absolute;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-evenly;
-  padding-left: 20px;
-  margin: 0 20px 0px 10px;
-  max-height: 0px;
-  opacity: 0;
-  transition: opacity 0s ease, max-height 0.6s ease;
-}
-
-.ProductsTertiaryListOpen {
-  position: relative;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-evenly;
-  padding-left: 20px;
-  list-style: none;
-  margin: 8px 20px 8px 0px;
-  opacity: 1;
-  max-height: 50vh;
-  transition: opacity 0.9s ease, max-height 0.3s ease;
-}
-
-.ProductsTertiaryListClosed {
-  position: relative;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-evenly;
-  padding-left: 20px;
-  list-style: none;
-  margin: 0 20px 0px 10px;
-  max-height: 0px;
-  opacity: 0;
-  transition: opacity 0s ease, max-height 0.3s ease;
 }
 
 .ProductsTertiaryListOpen li {
