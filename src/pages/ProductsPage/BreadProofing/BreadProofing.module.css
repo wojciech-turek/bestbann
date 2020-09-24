@@ -68,6 +68,9 @@
   transition: 0.5s;
 }
 
+.Image:hover.SeeMoreBtn {
+  background: linear-gradient(to right, #c06e34, #fe944a);
+}
 .SeeMoreBtn:hover {
   background: linear-gradient(to right, #c06e34, #fe944a);
 }

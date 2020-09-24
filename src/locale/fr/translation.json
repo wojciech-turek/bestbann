@@ -72,6 +72,23 @@
       "square": "Square"
     }
   },
+
+  "productDetails": {
+    "type": "type",
+    "roundBaskets": "Paniers à pain rond",
+    "oblongBaskets": "Paniers à pain oblongs",
+    "ovalBaskets": "Paniers à pain ovales",
+    "baguetteBaskets": "Paniers de levée de pain baguette",
+    "miniBaskets": "Mini paniers à pain",
+    "squareBaskets": "Paniers à pain carrés",
+    "bigBaskets": "Grands paniers de levée de pain tranché",
+    "entirelyRattan": "Entièrement en rotin naturel",
+    "woodBase": "Fabriqué en rotin naturel et base en bois",
+    "tableDough": "POIDS DE LA PÂTE",
+    "tableMeasures": "MESURES EXTERNES EN CM / INCHES",
+    "tableCatalog": "NUMÉRO DE CATALOGUE"
+  },
+
   "contact": {
     "text": "<p>Nous sommes disponibles pour répondre à vos questions et demandes de devis du lundi au vendredi aux heures normales de bureau. Nous faisons de notre mieux pour vous répondre dans les 24 heures. Si votre affaire est urgente, n'hésitez pas à nous appeler aux numéros ci-dessous (polonais ou anglais).</p><p>Nous acceptons les e-mails dans toutes les langues.</p>",
     "button": "Laissez nous un message",
@@ -82,6 +99,10 @@
       "mssg": "Votre message",
       "send": "Envoyer"
     }
+  },
+  "cookie": {
+    "text": "Ce site Web utilise des cookies pour améliorer l'expérience utilisateur. Plus d'informations peuvent être trouvées dans la section Politique de confidentialité du site Web.",
+    "button": "Je comprends et j'accepte"
   },
   "footer": {
     "companyInfo": {

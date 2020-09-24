@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import classes from "./BreadProofing.module.css";
 import baguetteImg from "../../../assets/bgsnowySmallOptimized.jpg";
 import ovalImg from "../../../assets/ovboksnowySmallOptimized.jpg";
@@ -12,10 +12,6 @@ import { Trans, useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
 export default function Products() {
-  useEffect(() => {
-    document.title = "BestBann - Products";
-  }, []);
-
   const { t } = useTranslation("common");
 
   const productsImages = [
@@ -23,39 +19,45 @@ export default function Products() {
       pathToImg: roboksImg,
       alt: "Round Basket",
       btnTxt: t("productsPage.buttons.round"),
+      link: "/products/breadproofingbaskets/round",
     },
     {
       pathToImg: longImg,
       alt: "Oblong Basket",
       btnTxt: t("productsPage.buttons.oblong"),
+      link: "/products/breadproofingbaskets/oblong",
     },
     {
       pathToImg: ovalImg,
       alt: "Oval Basket",
       btnTxt: t("productsPage.buttons.oval"),
+      link: "/products/breadproofingbaskets/oval",
     },
     {
       pathToImg: baguetteImg,
       alt: "Baguette Shaped Basket",
       btnTxt: t("productsPage.buttons.baguette"),
+      link: "/products/breadproofingbaskets/baguette",
     },
     {
       pathToImg: rominiImg,
       alt: "Mini Basket",
       btnTxt: t("productsPage.buttons.mini"),
+      link: "/products/breadproofingbaskets/mini",
     },
     {
       pathToImg: squareImg,
       alt: "Square Basket",
       btnTxt: t("productsPage.buttons.square"),
+      link: "/products/breadproofingbaskets/square",
     },
     {
       pathToImg: squareLongImg,
       alt: "Big with wooden base Basket",
       btnTxt: t("productsPage.buttons.bigWoodenBase"),
+      link: "/products/breadproofingbaskets/long",
     },
   ];
-
   return (
     <div className={classes.ContentWrapper}>
       <h1 className={classes.sectionTitle}>
@@ -82,8 +84,8 @@ export default function Products() {
       <div className={classes.ImagesWrap}>
         {productsImages.map((el) => (
           <div className={classes.product} key={el.btnTxt}>
-            <img src={el.pathToImg} className={classes.Image} alt={el.alt} />
-            <Link to="/products/roundbaskets">
+            <Link to={el.link}>
+              <img src={el.pathToImg} className={classes.Image} alt={el.alt} />
               <div className={classes.SeeMoreBtn}>
                 <span>{el.btnTxt}</span>
               </div>

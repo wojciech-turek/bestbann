@@ -15,7 +15,7 @@
   height: 1px;
   position: relative;
   vertical-align: middle;
-  width: 20vw;
+  width: 100px;
 }
 .SectionTitle::before {
   right: 0.5em;
@@ -27,11 +27,4 @@
 }
 .ContactInfo {
   flex-basis: 33%;
-}
-
-@media (min-width: 1024px) {
-  .SectionTitle::before,
-  .SectionTitle::after {
-    width: 7vw;
-  }
 }

@@ -85,24 +85,52 @@
   },
 
   "productInfo": {
-    "line1": "Made of natural rattan or natural rattan combined with wood base element",
-    "line2": "Best for making healthy artisan bread",
-    "line3": "Perfect for bakeries, bread shops and for home use",
-    "line4": "Helps to make the structure and shape of the bread better and gives more crispy crust because it holds warmth and absorbs part of the moisture",
-    "line5": "Gives gorgeous pattern of floury rings circling the deep-golden crust",
-    "line6": "European producer",
-    "line7": "Each bread proofing basket is handmade",
-    "line8": "Does not contain any bleaches, lacquers or preservatives",
-    "line9": "SGS test reports and PZH Certificate prove high quality of our materialsused for proofing baskets made of rattan, so that they can safely have contact with food, in accordance with:",
-    "line91": "Regulation (EC) No 1935/2004 of the European Parliament and of the Council of 27 October 2004 on materials and articles intended to come into contact with food and",
-    "line92": "German LFGB (LMBG) Food and Feed Law Art. 30, 31",
-    "line10": "It can also be used as a decoration",
-    "line11": "Sizes table above shows most popular dimensions of proofing baskets",
-    "line12": "Customized sizes available",
-    "line13": "Presented sizes are external dimensions (± 5 mm)",
-    "line14": "Baskets can be used only for proofing bread dough, never for baking bread in high temperatures!"
+    "title": "Informacje o produkcie",
+    "line1": "Wykonane z naturalnego rattanu lub naturalnego rattanu i drewna",
+    "line2": "Idealne do przygotowywania tradycyjnego chleba",
+    "line3": "Wykorzystywane przez profesjonalistów w piekarniach, jak również do użytku domowego",
+    "line4": "Koszyk rattanowy dzięki pochłanianiu części wilgoci i utrzymywaniu ciepła, zapewnia lepszą strukturę pieczywa oraz chrupkość skórki, a także pożądany przez nas kształt oraz wspaniały wzór",
+    "line5": "Daje wspaniały wzór mączystych pierścieni okrążających głębokozłotą skórkę",
+    "line6": "Produkt polski",
+    "line7": "Kosze produkowane są ręcznie",
+    "line8": "Nie zawiera żadnych wybielaczy i szkodliwych substancji",
+    "line9": "Nasz koszyk rattanowy posiada Atest PZH oraz testy SGS, które świadczą o bezpieczeństwie przy wykorzystaniu do kontaktu z żywnością zgodnie z:",
+    "line91": "Rozporządzeniem (WE) nr 1935/2004 Parlamentu Europejskiego i Rady z dnia 27 października 2004 r. w sprawie materiałów i wyrobów przeznaczonych do kontaktu z żywnością, oraz",
+    "line92": "Niemieckim prawem żywności i żywienia LFGB (LMBG) § 30, 31",
+    "line10": "Może służyć także w celach dekoracyjnych",
+    "line11": "Koszyki dostępne w rozmiarach podanych w tabeli są popularnymi, najczęściej zamawianymi rozmiarami",
+    "line12": "Produkujemy kosze także pod wymiary klienta",
+    "line13": "Podane rozmiary są wymiarami zewnętrznymi (± 5 mm)",
+    "line14": "Kosze przeznaczone są jedynie do wyrastania ciasta na chleb, nie służą jako forma do pieczenia!"
   },
 
+  "productDetails": {
+    "type": "typ",
+    "roundBaskets": "Okrągłe kosze do wyrastania chleba",
+    "oblongBaskets": "Podłużne kosze do wyrastania pieczywa",
+    "ovalBaskets": "Owalne kosze do wyrastania pieczywa",
+    "baguetteBaskets": "Kosze do wyrastania bagietek",
+    "miniBaskets": "Mini kosze do wyrastania chleba",
+    "squareBaskets": "Kwadratowe kosze do wyrastania chleba",
+    "bigBaskets": "Kosze do wyrastania dużego chleba krojonego",
+    "entirelyRattan": "W całości wykonany z naturalnego rattanu",
+    "woodBase": "Wykonany z naturalnego rattanu i drewnianej podstawy",
+    "tableDough": "WAGA CIASTA",
+    "tableMeasures": "WYMIARY ZEWNĘTRZNE W CM / CALACH",
+    "tableCatalog": "NUMER KATALOGOWY"
+  },
+
+  "needHelp": {
+    "title": "Mają Państwo jakieś pytania?",
+    "ourCS": "Nasz przyjazny dział Obsługi Klienta chętnie postara sie na nie odpowiedzieć lub doradzić w wyborze!",
+    "wholesale": "Jeśli jesteś właśicielem lub pracownikiem piekarni i jesteś zainsteresowany zamówieniem hurtowym, skontaktuj się z nami wysyłając maila na:",
+    "individual": "Jeśli jesteś klientem indywidualnym lub chciałbyś/a zamówić próbkę, odwiedź nasz sklep:",
+    "message": "Jeśli chcesz o coś szybko zapytać, możesz skontaktować się z nami poprzez komunikatory Messenger lub WhatsApp"
+  },
+  "cookie": {
+    "text": "Ta strona używa plików cookie w celu zwiększenia komfortu użytkowania. Więcej informacji można znaleźć w sekcji Polityka Prywatności.",
+    "button": "Rozumiem i akceptuję"
+  },
   "footer": {
     "companyInfo": {
       "title": "Informacje o firmie",

@@ -12,6 +12,14 @@
   padding-left: 0px;
 }
 
+.SecondaryList {
+  list-style: none;
+  padding-left: 8px;
+}
+.SecondaryList li {
+  padding: 6px 0;
+}
+
 .Icon {
   margin-right: 20px;
 }
@@ -22,7 +30,6 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
 .linkActive {
   padding: 10px 20px 10px 40px;
   border-top-right-radius: 20px;
@@ -49,14 +56,6 @@ a {
   font-size: 18px;
   position: relative;
   line-height: 40px;
-}
-
-.ProductsTertiaryListOpen li {
-  padding: 8px 8px;
-}
-
-.ProductsTertiaryListClosed li {
-  height: 0;
 }
 
 .secondaryListItem {

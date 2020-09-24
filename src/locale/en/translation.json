@@ -86,6 +86,7 @@
   },
 
   "productInfo": {
+    "title": "Product Information",
     "line1": "Made of natural rattan or natural rattan combined with wood base element",
     "line2": "Best for making healthy artisan bread",
     "line3": "Perfect for bakeries, bread shops and for home use",
@@ -104,6 +105,26 @@
     "line14": "Baskets can be used only for proofing bread dough, never for baking bread in high temperatures!"
   },
 
+  "productDetails": {
+    "type": "type",
+    "roundBaskets": "Round bread proofing baskets",
+    "oblongBaskets": "Oblong bread proofing baskets",
+    "ovalBaskets": "Oval bread proofing baskets",
+    "baguetteBaskets": "Baguette bread proofing baskets",
+    "miniBaskets": "Mini bread proofing baskets",
+    "squareBaskets": "Square bread proofing baskets",
+    "bigBaskets": "Big Sliced bread proofing baskets",
+    "entirelyRattan": "Entirely made out of natural rattan",
+    "woodBase": "Made out of natural rattan and wooden base",
+    "tableDough": "DOUGH WEIGHT",
+    "tableMeasures": "EXTERNAL MEASURES IN CM / INCHES",
+    "tableCatalog": "CATALOG NUMBER"
+  },
+
+  "cookie": {
+    "text": "This website uses cookies to enhance the user experience. More information can be found in Privacy Policy section of the website.",
+    "button": "I understand and accept"
+  },
   "footer": {
     "companyInfo": {
       "title": "Company Info",

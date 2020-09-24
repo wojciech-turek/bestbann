@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import classes from "./MobileNavigationItems.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -41,13 +41,15 @@ const useStyles = makeStyles(() => ({
 
 const useStyles1 = makeStyles(() => ({
   root: {
-    paddingLeft: 8,
+    padding: 0,
+    paddingLeft: 12,
+    paddingRight: 8,
     margin: 0,
     boxShadow: "none",
     fontSize: 16,
   },
   expanded: {
-    margin: 0,
+    margin: -16,
   },
   accordionContent: {
     fontSize: 14,
@@ -72,27 +74,6 @@ export default function MobileNavigationItems(props) {
 
   const { t } = useTranslation("common");
 
-  const [secondaryOpen, setSecondaryOpen] = useState(false);
-  const [tertiaryBreadProofingOpen, setTertiaryBreadProofingOpen] = useState(
-    false
-  );
-
-  const navClickHandler = (event) => {
-    if (event.target.text === "Products") {
-      event.preventDefault();
-      setSecondaryOpen(!secondaryOpen);
-      if (tertiaryBreadProofingOpen) {
-        setTertiaryBreadProofingOpen(false);
-      }
-    } else if (
-      event.target.text === "Main Page" ||
-      event.target.text === "About Us" ||
-      event.target.text === "Contact"
-    ) {
-      props.setSideOpen(false);
-      setSecondaryOpen(false);
-    }
-  };
   const homeIcon = (
     <FontAwesomeIcon
       className={classes.Icon}
@@ -127,7 +108,6 @@ export default function MobileNavigationItems(props) {
         <li className={classes.PrimaryItem}>
           <NavLink
             to="/bestbann"
-            onClick={navClickHandler}
             className={classes.InactiveLink}
             activeClassName={classes.linkActive}
           >
@@ -151,9 +131,9 @@ export default function MobileNavigationItems(props) {
             >
               <NavLink
                 to="/products"
-                onClick={navClickHandler}
                 className={classes.InactiveLink}
                 activeClassName={classes.linkActive}
+                onClick={(e) => e.preventDefault()}
               >
                 {productsIcon}
                 {t("menu.products")}
@@ -167,19 +147,33 @@ export default function MobileNavigationItems(props) {
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
-                  Bread Proofing Baskets
+                  <NavLink
+                    to="/products/breadproofingbaskets"
+                    activeClassName={classes.active}
+                  >
+                    Bread Proofing Baskets
+                  </NavLink>
                 </AccordionSummary>
-                <AccordionDetails>
-                  <ul>
+                <AccordionDetails className={styles1.root}>
+                  <ul className={classes.SecondaryList}>
                     <li>
                       <NavLink
+                        exact
                         to="/products/breadproofingbaskets"
                         activeClassName={classes.active}
                       >
                         All
                       </NavLink>
                     </li>
-                    <li>Round</li>
+                    <li>
+                      <NavLink
+                        exact
+                        to="/products/breadproofingbaskets/round"
+                        activeClassName={classes.active}
+                      >
+                        Round
+                      </NavLink>
+                    </li>
                     <li>Oblong</li>
                     <li>Square</li>
                     <li>Flat Round</li>
@@ -198,9 +192,15 @@ export default function MobileNavigationItems(props) {
                 >
                   Wooden Base Baskets
                 </AccordionSummary>
-                <AccordionDetails>to be filled</AccordionDetails>
+                <AccordionDetails className={styles1.root}>
+                  to be filled
+                </AccordionDetails>
               </Accordion>
-              <Accordion square className={styles1.root}>
+              <Accordion
+                square
+                style={{ marginBottom: 16, minHeight: 40 }}
+                classes={{ root: styles1.root, expanded: styles1.expanded }}
+              >
                 <AccordionSummary
                   className={styles1.root}
                   expandIcon={<ExpandMoreIcon />}
@@ -217,7 +217,6 @@ export default function MobileNavigationItems(props) {
         <li className={classes.PrimaryItem}>
           <NavLink
             to="/about"
-            onClick={navClickHandler}
             className={classes.InactiveLink}
             activeClassName={classes.linkActive}
           >
@@ -228,7 +227,6 @@ export default function MobileNavigationItems(props) {
         <li className={classes.PrimaryItem}>
           <NavLink
             to="/contact"
-            onClick={navClickHandler}
             className={classes.InactiveLink}
             activeClassName={classes.linkActive}
           >

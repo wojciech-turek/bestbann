@@ -3,26 +3,26 @@ import classes from "./NeedHelpSection.module.css";
 import CSImage from "../../assets/csimage2.png";
 import MessengerSVG from "../../assets/messenger.svg";
 import WhatsappSVG from "../../assets/whatsapp.svg";
+import { useTranslation } from "react-i18next";
 
 export default function NeedHelpSection() {
+  const { t } = useTranslation("common");
   return (
     <div className={classes.Container}>
       <img src={CSImage} alt="Customer Service" className={classes.CSImage} />
-      <h2 className={classes.sideTitle}>Do you have any questions?</h2>
-      <p>Our friendly Customer Service is here to answer them all!</p>
+      <h2 className={classes.sideTitle}>{t("needHelp.title")}</h2>
+      <p>{t("needHelp.ourCS")}</p>
       <p>
-        If you are a bakery owner/employee and you're interested in bulk order,
-        please reach us at:
+        {t("needHelp.wholesale")}
         <br />
         <span className={classes.email}>
           <strong>
-            <a href="mailto:shop@bestbann.com">shop@bestbann.com</a>
+            <a href="mailto:office@bestbann.com">office@bestbann.com</a>
           </strong>
         </span>
       </p>
       <p>
-        If you are an individual client or you would like to request a sample,
-        please visit our store:
+        {t("needHelp.individual")}
         <br />
         <span className={classes.email}>
           <strong>
@@ -32,7 +32,7 @@ export default function NeedHelpSection() {
           </strong>
         </span>
       </p>
-      <p>For a quick chat, choose one of the below options:</p>
+      <p>{t("needHelp.message")}</p>
       <br />
       <div className={classes.socialIcons}>
         <a href="http://m.me/bestbann" target="blank" alt="messenger contact">
@@ -43,14 +43,14 @@ export default function NeedHelpSection() {
           />
         </a>
         <a
-          href="https://wa.me/+48531600102"
+          href="https://wa.me/+48692933069"
           target="blank"
-          alt="messenger contact"
+          alt="whatsapp contact"
         >
           <img
             className={classes.socialContact}
             src={WhatsappSVG}
-            alt="Messenger Icon"
+            alt="whatsapp Icon"
           />
         </a>
       </div>

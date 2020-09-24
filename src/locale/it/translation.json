@@ -72,6 +72,21 @@
       "square": "Square"
     }
   },
+  "productDetails": {
+    "type": "tipo",
+    "roundBaskets": "Cestini da lievitazione rotondi",
+    "oblongBaskets": "Cestini da lievitazione oblunghi",
+    "ovalBaskets": "Cestini ovali da lievitazione",
+    "baguetteBaskets": "Cestini da lievitazione per baguette",
+    "miniBaskets": "Mini cestini da lievitazione",
+    "squareBaskets": "Cestini da lievitazione quadrati",
+    "bigBaskets": "Grandi cestini da lievitazione per pane a fette",
+    "entirelyRattan": "Interamente realizzato in rattan naturale",
+    "woodBase": "Realizzato in rattan naturale e base in legno",
+    "tableDough": "PESO DELLA PASTA",
+    "tableMeasures": "MISURE ESTERNE IN CM / POLLICI",
+    "tableCatalog": "NUMERO DI CATALOGO"
+  },
   "contact": {
     "text": "<p>Siamo a disposizione per rispondere alle vostre domande e richieste di preventivo dal lunedì al venerdì nel normale orario lavorativo. Facciamo del nostro meglio per rispondere entro 24 ore. Se la sua questione è urgente, non esitare a chiamarci ai numeri seguenti (polacco o inglese).</p><p>We accept emails in any languange.</p>",
     "button": "Lasciaci un messaggio",
@@ -82,6 +97,10 @@
       "mssg": "Il tuo messaggio",
       "send": "Invia a"
     }
+  },
+  "cookie": {
+    "text": "Questo sito Web utilizza i cookie per migliorare l'esperienza dell'utente. Ulteriori informazioni possono essere trovate nella sezione Privacy Policy del sito.",
+    "button": "Capisco e accetto"
   },
   "footer": {
     "companyInfo": {

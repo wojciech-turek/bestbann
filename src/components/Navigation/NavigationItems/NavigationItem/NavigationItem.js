@@ -7,7 +7,7 @@ export default function NavigationItem(props) {
   const productsBarShown = useContext(ProductBarShown);
 
   const navClickHandler = (event) => {
-    if (event.target.text === "Products") {
+    if (event.target.id === "menu.products") {
       event.preventDefault();
     }
   };
@@ -16,6 +16,7 @@ export default function NavigationItem(props) {
     <NavLink
       className={classes.NavItem}
       to={props.link}
+      id={props.id}
       onClick={navClickHandler}
       activeClassName={classes.active}
       onMouseEnter={

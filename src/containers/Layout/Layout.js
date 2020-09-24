@@ -12,7 +12,7 @@ import { CSSTransition, TransitionGroup } from "react-transition-group";
 import ScrollToTop from "../../components/UI/ScrollToTop/ScrollToTop";
 import ContactPage from "../../pages/ContactPage/ContactPage";
 import AboutUsPage from "../../pages/AboutUsPage/AboutUsPage";
-import BreadproofingBaskets from "../../pages/BasketPages/BreadproofingBaskets/BreadproofingBaskets";
+import { BreadproofingBaskets } from "../../pages/BasketPages/BreadproofingBaskets/BreadproofingBaskets";
 
 const Layout = () => {
   const nodeRef = useRef(null);
@@ -32,16 +32,50 @@ const Layout = () => {
     { path: "/about", name: "About", Component: AboutUsPage },
     { path: "/contact", name: "Contact", Component: ContactPage },
     {
-      path: "/products/roundbaskets",
-      name: "Round Baskets",
+      path: "/products/breadproofingbaskets/round",
+      name: "RoundBaskets",
+      Component: BreadproofingBaskets,
+    },
+    {
+      path: "/products/breadproofingbaskets/oblong",
+      name: "OblongBaskets",
+      Component: BreadproofingBaskets,
+    },
+    {
+      path: "/products/breadproofingbaskets/oval",
+      name: "OvalBaskets",
+      Component: BreadproofingBaskets,
+    },
+    {
+      path: "/products/breadproofingbaskets/mini",
+      name: "MiniBaskets",
+      Component: BreadproofingBaskets,
+    },
+    {
+      path: "/products/breadproofingbaskets/long",
+      name: "LongBaskets",
+      Component: BreadproofingBaskets,
+    },
+    {
+      path: "/products/breadproofingbaskets/square",
+      name: "SquareBaskets",
+      Component: BreadproofingBaskets,
+    },
+    {
+      path: "/products/breadproofingbaskets/baguette",
+      name: "BaguetteBaskets",
       Component: BreadproofingBaskets,
     },
   ];
 
-  let routeList = routes.map(({ path, Component }) => (
-    <Route key={path} exact path={path} nodeRef={nodeRef}>
-      <Component />
-    </Route>
+  let routeList = routes.map(({ path, Component, name }) => (
+    <Route
+      key={path}
+      exact
+      path={path}
+      nodeRef={nodeRef}
+      render={(props) => <Component {...props} title={name} />}
+    />
   ));
 
   const AnimatedSwitch = withRouter(({ location }) => (

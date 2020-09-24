@@ -13,7 +13,7 @@ export default function NavigationItems(props) {
   ];
 
   let navMobItems = navRoutes.map((el) => (
-    <NavigationItem key={el.name} link={el.link}>
+    <NavigationItem key={el.name} link={el.link} id={el.txt}>
       {t(el.txt)}
     </NavigationItem>
   ));
