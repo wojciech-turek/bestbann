@@ -1,27 +1,67 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3843d020498382fbf9b161d04875880c",
+    "revision": "5c6a823b4e1084e5aaab4be6f58c6b41",
     "url": "/bestbann/index.html"
   },
   {
-    "revision": "4ab7bc5de74163579b07",
-    "url": "/bestbann/static/css/main.6b9db593.chunk.css"
+    "revision": "f7f8a428627cb8bbd154",
+    "url": "/bestbann/static/css/2.d48510fc.chunk.css"
   },
   {
-    "revision": "c8adbe70ae51b1cd1c50",
-    "url": "/bestbann/static/js/2.adb4e0aa.chunk.js"
+    "revision": "9a6240813f29fbbda9c3",
+    "url": "/bestbann/static/css/main.d84da24f.chunk.css"
   },
   {
-    "revision": "fd351d8d8c4deaf1e323d7479ecf0eab",
-    "url": "/bestbann/static/js/2.adb4e0aa.chunk.js.LICENSE.txt"
+    "revision": "f7f8a428627cb8bbd154",
+    "url": "/bestbann/static/js/2.43ce7422.chunk.js"
   },
   {
-    "revision": "4ab7bc5de74163579b07",
-    "url": "/bestbann/static/js/main.047f2c6f.chunk.js"
+    "revision": "a05e8fcba87b95967dee509881e98eb5",
+    "url": "/bestbann/static/js/2.43ce7422.chunk.js.LICENSE.txt"
+  },
+  {
+    "revision": "9a6240813f29fbbda9c3",
+    "url": "/bestbann/static/js/main.2dee6ba4.chunk.js"
   },
   {
     "revision": "e5e81b53cee179319d23",
     "url": "/bestbann/static/js/runtime-main.224ef31d.js"
+  },
+  {
+    "revision": "a8998ed879879a18a8343a6f6254f8ae",
+    "url": "/bestbann/static/media/BaguetteRO.a8998ed8.jpg"
+  },
+  {
+    "revision": "aad961e36551dabc03b119fdb84ab521",
+    "url": "/bestbann/static/media/BaguetteROX.aad961e3.jpg"
+  },
+  {
+    "revision": "a19fe7df8f5a1b4c45068c6aea64c920",
+    "url": "/bestbann/static/media/FBM720.a19fe7df.jpg"
+  },
+  {
+    "revision": "e36e882df915ae75818d0a74f68c05b5",
+    "url": "/bestbann/static/media/FDC715.e36e882d.jpg"
+  },
+  {
+    "revision": "2f43b0c18bf00372257dd9e567568c7c",
+    "url": "/bestbann/static/media/FMC708.2f43b0c1.jpg"
+  },
+  {
+    "revision": "ab60a9c90afd020bc8fde79a51f3de32",
+    "url": "/bestbann/static/media/FOS727FOD737.ab60a9c9.jpg"
+  },
+  {
+    "revision": "3412c8ee2482555ad325f8e22f53b788",
+    "url": "/bestbann/static/media/LongROX.3412c8ee.jpg"
+  },
+  {
+    "revision": "1be6d819dccc374a09170a442d57b971",
+    "url": "/bestbann/static/media/OblongRO.1be6d819.jpg"
+  },
+  {
+    "revision": "d6e2a4d961ea2c321abc47fecea703eb",
+    "url": "/bestbann/static/media/OblongROX.d6e2a4d9.jpg"
   },
   {
     "revision": "ed124863523a28ebe60d737df943f017",
@@ -32,12 +72,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bestbann/static/media/OvBasketsTransparent.40c3e2b8.jpg"
   },
   {
+    "revision": "5cdf1701fc430f1b3a0782651542c326",
+    "url": "/bestbann/static/media/OvalRO.5cdf1701.jpg"
+  },
+  {
+    "revision": "495fd6d13c8980c2285358832a626b2c",
+    "url": "/bestbann/static/media/OvalROX.495fd6d1.jpg"
+  },
+  {
     "revision": "cfc27dad6039a469c270d14673f344ef",
     "url": "/bestbann/static/media/RoundROOptimized.cfc27dad.jpg"
   },
   {
     "revision": "254db90c431ab7b8e2afad839ed843ba",
     "url": "/bestbann/static/media/RoundROXOptimized.254db90c.jpg"
+  },
+  {
+    "revision": "9bac850c0bf4f9aeb3b0e0e63f323b3f",
+    "url": "/bestbann/static/media/SquareROX.9bac850c.jpg"
   },
   {
     "revision": "14af25867eb8bc151837b9c3c2febb65",
@@ -104,6 +156,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bestbann/static/media/messenger.6f17d592.svg"
   },
   {
+    "revision": "0ec615fe987fa8e6d669c2e120dcf770",
+    "url": "/bestbann/static/media/miniRO.0ec615fe.jpg"
+  },
+  {
     "revision": "e561a1057f266780178c1c845fc137ce",
     "url": "/bestbann/static/media/ovboksnowySmallOptimized.e561a105.jpg"
   },
@@ -126,6 +182,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "73113338ffe77cefac1e5de517bc1e0d",
     "url": "/bestbann/static/media/slxsboknowySmallOptimized.73113338.jpg"
+  },
+  {
+    "revision": "e8b7bcd9d3f59facd5fac0635a8d5c87",
+    "url": "/bestbann/static/media/soon.e8b7bcd9.jpg"
   },
   {
     "revision": "b921ebecec2506406d24a72239be8cea",
