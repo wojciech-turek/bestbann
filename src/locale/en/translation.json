@@ -11,6 +11,15 @@
     "aboutUs": "About Us",
     "contact": "Contact"
   },
+  "baskets": {
+    "baguette": "Baguette",
+    "oval": "Oval",
+    "round": "Round",
+    "oblong": "Oblong",
+    "mini": "Mini Baskets",
+    "bigWoodenBase": "Big Sliced Bread",
+    "square": "Square"
+  },
   "mainSections": {
     "aboutUs": {
       "title": "About Us",
@@ -63,14 +72,11 @@
         "warning": "<p><strong>Note: Baskets with liners can be used only for proofing bread dough, never for baking bread in high temperatures!</strong></p>"
       }
     },
-    "buttons": {
-      "baguette": "Baguette",
-      "oval": "Oval",
-      "round": "Round",
-      "oblong": "Oblong",
-      "mini": "Mini Baskets",
-      "bigWoodenBase": "Big Sliced Bread",
-      "square": "Square"
+    "woodenBakingForms": {
+      "description": {
+        "paragraph1": "<p>Wooden baking trays are designed for baking mini breads or small cakes in the oven. They are ideal for giving them as a gift, they can also be an exceptional product that customers will notice and appreciate. Just cover the form with baking paper attached, fill in the cake and bake in the oven as usual. After baking, the wood darkens slightly as it is designed for single use, however, it is possible to use it multiple times. Just put the new baking paper inside the form and enjoy another well shaped bread or cake.</p>",
+        "paragraph2": "<p>Molds are made of <strong>100% natural poplar wood, they are biodegradable and recyclable,</strong> therefore can be composted safely. Molds tolerate temperatures ranging from -40°C to +220°C (-104°F to +428°F).</p>"
+      }
     }
   },
   "contact": {
@@ -118,6 +124,7 @@
     "woodBase": "Made out of natural rattan and wooden base",
     "tableDough": "DOUGH WEIGHT",
     "tableMeasures": "EXTERNAL MEASURES IN CM / INCHES",
+    "tableMeasuresCM": "EXTERNAL MEASURES IN CM",
     "tableCatalog": "CATALOG NUMBER"
   },
 

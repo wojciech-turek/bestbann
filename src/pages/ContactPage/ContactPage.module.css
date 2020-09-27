@@ -1,7 +1,7 @@
 .Container {
   min-height: 80vh;
   width: 80%;
-  margin: 100px auto 4vh auto;
+  margin: 100px auto 10vh auto;
   text-align: center;
 }
 .header {
@@ -30,7 +30,7 @@
 
 .icon {
   margin-right: 20px;
-  font-size: 28px;
+  font-size: 16px;
 }
 .paragraph {
   font-size: 16px;
@@ -40,5 +40,9 @@
 @media (min-width: 1024px) {
   .Container {
     width: 60%;
+  }
+  .icon {
+    margin-right: 20px;
+    font-size: 24px;
   }
 }

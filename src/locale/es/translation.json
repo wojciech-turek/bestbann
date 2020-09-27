@@ -5,6 +5,15 @@
   },
   "heroBanner": "",
   "title": "Bienvenido a BestBann",
+  "baskets": {
+    "baguette": "Baguette",
+    "oval": "Ovaladas",
+    "round": "Redondas",
+    "oblong": "Oblongas",
+    "mini": "Mini bannetones",
+    "bigWoodenBase": "Grande pan rebanado",
+    "square": "Cuadradas"
+  },
   "menu": {
     "mainPage": "Pagina principal",
     "products": "Productos",
@@ -62,14 +71,11 @@
         "warning": "<p><strong>Nota: Bannetones están diseñadas sólo para el crecimiento de la masa, no son adecuadas como moldes para cocer el pan a altas temperaturas.</strong></p>"
       }
     },
-    "buttons": {
-      "baguette": "Baguette",
-      "oval": "Oval",
-      "round": "Round",
-      "oblong": "Oblong",
-      "mini": "Mini Baskets",
-      "bigWoodenBase": "Big Sliced Bread",
-      "square": "Square"
+    "woodenBakingForms": {
+      "description": {
+        "paragraph1": "<p>Los moldes para hornear de madera están diseñados para hornear mini panes o pasteles de pan en el horno. Son ideales para hacer de la repostería casera el regalo perfecto o el producto especial que los clientes notarán y apreciarán. Solo hay que colocar el revestimiento de papel dentro del molde, rellenar con masa y hornear en el horno como de costumbre. La madera se oscurecerá ligeramente cuando se hornee, porque está diseñada para ser de un solo uso. Sin embargo, es posible reutilizar el molde, colocando el nuevo revestimiento dentro del molde y horneando en él nuevamente.</p>",
+        "paragraph2": "<p>Los moldes están <strong>hechos de madera de álamo 100% natural, son biodegradables y reciclables</strong>, por lo que se pueden compostar de forma segura. Los moldes toleran temperaturas que van desde -40 ° C a + 220 ° C (-104 ° F a + 428 ° F).</p>"
+      }
     }
   },
   "contact": {
@@ -97,6 +103,7 @@
     "woodBase": "Hecho de ratán natural y base de madera.",
     "tableDough": "PESO MASA",
     "tableMeasures": "MEDIDAS EXTERNAS EN CM / PULGADAS",
+    "tableMeasuresCM": "MEDIDAS EXTERNAS EN CM",
     "tableCatalog": "NUMERO DE CATALOGO"
   },
   "cookie": {

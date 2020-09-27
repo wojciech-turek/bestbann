@@ -34,7 +34,7 @@
 .type {
   flex-grow: 1;
   font-family: "Montserrat";
-  margin-bottom: 64px;
+  margin-bottom: 36px;
 }
 
 .typeImage {
@@ -46,10 +46,19 @@
   width: 100%;
   margin: 0;
   padding: 0;
+  word-wrap: break-word;
 }
 .productInfo {
   margin-top: 48px;
   width: 100%;
+}
+
+.linersAvailable {
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 36px;
 }
 
 .productInfoList {
@@ -109,6 +118,7 @@
   }
   .root {
     width: 95%;
+    padding: 16px;
   }
   .typeImage {
     width: 90%;

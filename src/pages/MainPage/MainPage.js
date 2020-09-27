@@ -7,45 +7,60 @@ import { useTranslation } from "react-i18next";
 import CookieConsent from "react-cookie-consent";
 import classes from "./MainPage.module.css";
 import Products from "../../components/Products/Products";
+import { Fade } from "@material-ui/core";
+import Cookies from "universal-cookie";
 
-export default function MainPage() {
+function MainPage() {
+  const cookies = new Cookies();
+  let cookiesAcc = cookies.get("cookieAcc");
+  const setCookiesAcc = () => {
+    cookies.set("cookieAcc", true, { path: "/" });
+  };
   useEffect(() => {
     document.title = "BestBann - Home";
   }, []);
   const { t } = useTranslation("common");
 
   return (
-    <div className={classes.Main}>
-      <HeroBanner />
-      <MainSection
-        title={t("mainSections.aboutUs.title")}
-        content={<AboutUs />}
-      />
-      <MainSection
-        title={t("mainSections.products.title")}
-        content={<Products />}
-      />
-      <MainSection
-        title={t("mainSections.whatMUD.title")}
-        content={<WhatMUD />}
-      />
-      <CookieConsent
-        location="bottom"
-        buttonText={t("cookie.button")}
-        cookieName="myAwesomeCookieName2"
-        style={{
-          background: "rgba(0,0,0,0.8)",
-          color: "#fff",
-          fontFamily: "Montserrat",
-          textAlign: "left",
-          borderTop: "1px solid gray",
-        }}
-        buttonStyle={{ color: "#222", fontSize: "14px", height: 40 }}
-        expires={150}
-        acceptOnScroll={true}
-      >
-        {t("cookie.text")}
-      </CookieConsent>
-    </div>
+    <Fade in={true} timeout={500}>
+      <div className={classes.Main}>
+        <HeroBanner />
+        <MainSection
+          title={t("mainSections.aboutUs.title")}
+          content={<AboutUs />}
+        />
+        <MainSection
+          title={t("mainSections.products.title")}
+          content={<Products />}
+        />
+        <MainSection
+          title={t("mainSections.whatMUD.title")}
+          content={<WhatMUD />}
+        />
+        {cookiesAcc === "false" ? (
+          <CookieConsent
+            location="bottom"
+            buttonText={t("cookie.button")}
+            cookieName="myAwesomeCookieName2"
+            style={{
+              background: "rgba(0,0,0,0.8)",
+              color: "#fff",
+              fontFamily: "Montserrat",
+              textAlign: "left",
+              borderTop: "1px solid gray",
+            }}
+            sameSite="none"
+            cookieSecurity={true}
+            buttonStyle={{ color: "#222", fontSize: "14px", height: 40 }}
+            expires={150}
+            onAccept={() => setCookiesAcc(true)}
+          >
+            {t("cookie.text")}
+          </CookieConsent>
+        ) : null}
+      </div>
+    </Fade>
   );
 }
+
+export default MainPage;

@@ -47,7 +47,7 @@
   text-align: center;
   font-size: 22px;
   padding: 10px;
-  width: 200px;
+
   font-family: "Lato";
   transition: all 0.4s;
   cursor: pointer;
@@ -68,9 +68,19 @@
   transition: 0.5s;
 }
 
-.Image:hover.SeeMoreBtn {
+.Image:hover + .SeeMoreBtn {
   background: linear-gradient(to right, #c06e34, #fe944a);
 }
+
+.Image:hover + .SeeMoreBtn span {
+  padding-right: 25px;
+}
+
+.Image:hover + .SeeMoreBtn span:after {
+  opacity: 1;
+  right: 0;
+}
+
 .SeeMoreBtn:hover {
   background: linear-gradient(to right, #c06e34, #fe944a);
 }
@@ -94,6 +104,7 @@
   }
   .ParagraphWrap {
     width: 60%;
+    line-height: 1.5em;
   }
   .ImagesWrap {
     margin: 20px auto;

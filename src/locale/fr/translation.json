@@ -11,6 +11,15 @@
     "aboutUs": "À propos de nous",
     "contact": "Contactez"
   },
+  "baskets": {
+    "baguette": "Forme baguette",
+    "oval": "Forme ovale",
+    "round": "Forme ronde",
+    "oblong": "Forme oblongue",
+    "mini": "Mini bannetons",
+    "bigWoodenBase": "Gros pain tranché",
+    "square": "Forme carrée"
+  },
   "mainSections": {
     "aboutUs": {
       "title": "À propos de nou",
@@ -62,14 +71,11 @@
         "warning": "<p><strong>Note: Les paniers sont conçus seulement pour laisser lever la pâte, ne convient pas comme moules pour la cuisson du pain à des températures élevées.</strong></p>"
       }
     },
-    "buttons": {
-      "baguette": "Baguette",
-      "oval": "Oval",
-      "round": "Round",
-      "oblong": "Oblong",
-      "mini": "Mini Baskets",
-      "bigWoodenBase": "Big Sliced Bread",
-      "square": "Square"
+    "woodenBakingForms": {
+      "description": {
+        "paragraph1": "<p>Les moules de cuisson en bois sont conçus pour cuire des mini pains ou des gâteaux au four. Ils sont idéaux pour faire de la pâtisserie maison le cadeau parfait ou un produit spécial que les clients remarqueront et apprécieront. Il suffit de placer la doublure en papier à l'intérieur du moule, de remplir de pâte et de cuire au four comme d'habitude. Le bois s'assombrit légèrement lorsqu'il est cuit, car il est conçu pour être à usage unique. Cependant, il est possible de réutiliser le moule, de placer le nouveau revêtement à l'intérieur du moule et de le cuire à nouveau.</p>",
+        "paragraph2": "<p>Les moules sont faits <strong>de bois de peuplier 100% naturel, ils sont biodégradables et recyclables</strong>, ils peuvent donc être compostés en toute sécurité. Les moisissures tolèrent des températures allant de -40 ° C à + 220 ° C (-104 ° F à + 428 ° F).</p>"
+      }
     }
   },
 
@@ -86,6 +92,7 @@
     "woodBase": "Fabriqué en rotin naturel et base en bois",
     "tableDough": "POIDS DE LA PÂTE",
     "tableMeasures": "MESURES EXTERNES EN CM / INCHES",
+    "tableMeasuresCM": "MESURES EXTERNES EN CM",
     "tableCatalog": "NUMÉRO DE CATALOGUE"
   },
 

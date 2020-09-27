@@ -11,6 +11,15 @@
     "aboutUs": "Su di noi",
     "contact": "Contatto"
   },
+  "baskets": {
+    "baguette": "Baguette",
+    "oval": "Ovali",
+    "round": "Tondi",
+    "oblong": "Oblunghi",
+    "mini": "Mini cestini",
+    "bigWoodenBase": "Grande pane a fette",
+    "square": "Quadrati"
+  },
   "mainSections": {
     "aboutUs": {
       "title": "Riguardo a noi",
@@ -62,14 +71,11 @@
         "warning": "<p><strong>Attenzione: Cestini sono progettati solo per far lievitare la pasta, non sono adatti come stampi per la cottura del pane alle alte temperature.   </strong></p>"
       }
     },
-    "buttons": {
-      "baguette": "Baguette",
-      "oval": "Oval",
-      "round": "Round",
-      "oblong": "Oblong",
-      "mini": "Mini Baskets",
-      "bigWoodenBase": "Big Sliced Bread",
-      "square": "Square"
+    "woodenBakingForms": {
+      "description": {
+        "paragraph1": "<p>Gli stampi in legno con carta da forno sono progettati per cuocere al forno mini pane o torta. Sono ideali per trasformare i dolci fatti in casa in un regalo perfetto o un prodotto speciale che i clienti noteranno e apprezzeranno. Basta posizionare il rivestimento di carta all'interno dello stampo, riempire di pasta e cuocere in forno normalmente. Il legno si scurirà leggermente durante la cottura, perché è progettato per essere monouso. Tuttavia, è possibile riutilizzare lo stampo, posizionando il nuovo carta da forno all'interno dello stampo e cuocendolo nuovamente.</p>",
+        "paragraph2": "<p>Gli stampi sono realizzati in <strong>legno di pioppo naturale al 100%, sono biodegradabili e riciclabili</strong>, quindi possono essere compostati in sicurezza. Gli stampi tollerano temperature che vanno da -40 ° C a + 220 ° C (da -104 ° F a + 428 ° F).</p>"
+      }
     }
   },
   "productDetails": {
@@ -85,6 +91,7 @@
     "woodBase": "Realizzato in rattan naturale e base in legno",
     "tableDough": "PESO DELLA PASTA",
     "tableMeasures": "MISURE ESTERNE IN CM / POLLICI",
+    "tableMeasuresCM": "MISURE ESTERNE IN CM",
     "tableCatalog": "NUMERO DI CATALOGO"
   },
   "contact": {

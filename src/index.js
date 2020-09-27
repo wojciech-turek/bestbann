@@ -12,13 +12,13 @@ import detector from "i18next-browser-languagedetector";
 import App from "./App";
 
 i18next.use(detector).init({
-  interpolation: { escapeValue: false }, // React already does escaping
+  interpolation: { escapeValue: false },
   detection: {
     lookupLocalStorage: "language",
   },
   resources: {
     en: {
-      common: common_en, // 'common' is our custom namespace
+      common: common_en,
     },
     fr: {
       common: common_fr,

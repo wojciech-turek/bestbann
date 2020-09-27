@@ -22,6 +22,7 @@ import BaguetteROX from "../../../assets/BaguetteROX.jpg";
 import MiniRO from "../../../assets/miniRO.jpg";
 import SquareROX from "../../../assets/SquareROX.jpg";
 import LongROX from "../../../assets/LongROX.jpg";
+import CheckCircleOutlineIcon from "@material-ui/icons/CheckCircleOutline";
 
 export const BreadproofingBaskets = React.memo(function BreadproofingBaskets(
   props
@@ -270,6 +271,25 @@ export const BreadproofingBaskets = React.memo(function BreadproofingBaskets(
               />
             </div>
           </div>
+          {props.title === "RoundBaskets" ||
+          props.title === "OblongBaskets" ||
+          props.title === "OvalBaskets" ? (
+            <p className={classes.linersAvailable}>
+              <CheckCircleOutlineIcon
+                style={{ color: "green", marginRight: 8 }}
+              />
+              {`Liners are available for basket sizes ranging from ${
+                props.title === "RoundBaskets"
+                  ? "250g to 1500g."
+                  : props.title === "OblongBaskets"
+                  ? "250g to 1750g."
+                  : props.title === "OvalBaskets"
+                  ? "250g to 1000g."
+                  : null
+              }`}
+            </p>
+          ) : null}
+
           <Paper className={classes.root}>
             <TableContainer className={classes.container}>
               <Table stickyHeader aria-label="sticky table">
@@ -279,7 +299,10 @@ export const BreadproofingBaskets = React.memo(function BreadproofingBaskets(
                       <TableCell
                         key={column.id}
                         align={column.align}
-                        style={{ minWidth: column.minWidth }}
+                        style={{
+                          minWidth: column.minWidth,
+                          padding: 8,
+                        }}
                       >
                         {column.label}
                       </TableCell>
@@ -291,9 +314,15 @@ export const BreadproofingBaskets = React.memo(function BreadproofingBaskets(
                     return (
                       <TableRow hover key={row.catalog}>
                         {columns.map((column) => {
-                          const value = row[column.id];
+                          let value = row[column.id];
                           return (
-                            <TableCell key={column.id} align={column.align}>
+                            <TableCell
+                              key={column.id}
+                              align={column.align}
+                              style={{
+                                padding: 8,
+                              }}
+                            >
                               {value}
                             </TableCell>
                           );

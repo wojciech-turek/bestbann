@@ -6,9 +6,9 @@
   align-items: center;
   text-align: center;
   font-family: "Montserrat";
+  overflow-x: hidden;
 }
 .WMUDImg {
-  width: 90%;
   max-width: 40vh;
   margin-bottom: 4%;
   margin-top: 5%;
@@ -23,7 +23,8 @@
   align-items: center;
   justify-content: flex-start;
   padding: 0 2%;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
+  overflow: hidden;
 }
 .WMUDCategory ul {
   list-style: none;
@@ -74,15 +75,15 @@
     font-weight: normal;
   }
   .WMUDCategory {
-    height: 600px;
+    height: 700px;
+    /* overflow-y: hidden; */
   }
 
-  .ImgWrapper {
-    margin-top: auto;
-  }
   .sectionContainer {
     flex-flow: row;
     position: relative;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
   .WMUDImg {
     max-width: 250px;
@@ -95,7 +96,7 @@
 @media (min-width: 1280px) {
   .WMUDImg {
     max-width: 320px;
-    margin-top: auto;
+    margin-top: 48px;
   }
   .WMUDCategory:nth-child(2) .WMUDImg {
     width: 450px;

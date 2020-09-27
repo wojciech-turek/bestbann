@@ -19,7 +19,7 @@ export default function NavProducts() {
     {
       title: t("mainSections.products.woodenBakingForm"),
       imgSrc: woodenBaseImg,
-      linkDest: "/products/woodenbase",
+      linkDest: "/products/woodenbakingforms",
     },
     {
       title: t("mainSections.products.withLiners"),
@@ -29,7 +29,7 @@ export default function NavProducts() {
     {
       title: "New product coming soon!",
       imgSrc: soon,
-      linkDest: "/products/basketswithliners",
+      linkDest: "/products/basketswithliners1",
     },
   ];
 
@@ -45,7 +45,7 @@ export default function NavProducts() {
         src={sect.imgSrc}
         alt={sect.title}
       />
-      <p>{sect.title.toUpperCase()}</p>
+      <p className={classes.ProductText}>{sect.title.toUpperCase()}</p>
     </NavLink>
   ));
   return <div className={classes.Container}>{productSections}</div>;

@@ -33,6 +33,7 @@
 .Image {
   border-radius: 15px;
   width: 100%;
+  cursor: pointer;
 }
 
 .SeeMoreBtn {
@@ -76,6 +77,18 @@
   opacity: 1;
   right: 0;
 }
+.Image:hover + .SeeMoreBtn {
+  background: linear-gradient(to right, #c06e34, #fe944a);
+}
+
+.Image:hover + .SeeMoreBtn span {
+  padding-right: 25px;
+}
+
+.Image:hover + .SeeMoreBtn span:after {
+  opacity: 1;
+  right: 0;
+}
 
 .product {
   padding: 20px 0;
@@ -87,6 +100,7 @@
   }
   .ParagraphWrap {
     width: 60%;
+    line-height: 1.5em;
   }
   .ImagesWrap {
     margin: 0 auto 20px auto;

@@ -15,6 +15,11 @@
   font-family: "Playfair Display";
   text-align: center;
   padding: 20px 0;
+  color: #5f5e5e;
+  font-size: 20px;
+}
+.FooterCopyright:hover {
+  color: tomato;
 }
 @media (min-width: 1024px) {
   .FooterContainer {
