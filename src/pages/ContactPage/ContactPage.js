@@ -7,7 +7,6 @@ import {
   faHome,
   faPhoneSquare,
 } from "@fortawesome/free-solid-svg-icons";
-import ContactForm from "./ContactForm/ContactForm";
 import Logo from "../../components/UI/Logo/Logo";
 import { Fade } from "@material-ui/core";
 

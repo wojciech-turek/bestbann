@@ -89,7 +89,22 @@
       "send": "Envía"
     }
   },
-
+  "productInfo": {
+    "title": "INFORMACIÓN DEL PRODUCTO:",
+    "line1": "Hecho a mano de ratán natural o ratán con fondo de madera",
+    "line2": "Lo mejor para hacer pan artesanal",
+    "line3": "Perfecto para panaderías y para uso doméstico",
+    "line4": "Por la absorción de parte de la humedad y el mantenimiento del calor, proporciona también una mejor estructura del pan y corteza crujiente. Da modelo magnífico de anillos harinosos",
+    "line5": "Productor europeo, productos artesanales",
+    "line6": "No utilizamos ningunos blanqueadores ni sustancias nocivas",
+    "line7": "Certificado PZH y SGS informes de las pruebas testimonian la seguridad del uso en contacto con alimentos, para la conformidad con:",
+    "line71": "Reglamento (CE) nº 1935/2004 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 27 de octubre de 2004, y",
+    "line72": "Ley alemana relativa a los alimentos y la nutrición LFGB (LMBG) §30, 31",
+    "line8": "También se puede utilizar como una decoración",
+    "line9": "Bannetons están disponibles en tamaños que figuran en de mesa o preparados por el encargo individual",
+    "line10": "Las dimensiones indicadas de canastas son dimensiones externas (± 5mm)",
+    "line11": "Bannetons están diseñadas sólo para el crecimiento de la masa, no son adecuadas como moldes para cocer el pan a altas temperaturas!"
+  },
   "productDetails": {
     "type": "tipo",
     "roundBaskets": "Cestas redondas para fermentar pan",
@@ -129,5 +144,72 @@
       "required": "* - fields are required",
       "subscribeBtn": "Subscribe"
     }
+  },
+  "privacyPolicy": {
+    "title": "Política de privacidad",
+    "intro": "Respetamos plenamente la privacidad de nuestros clientes y nos aseguramos de que sus datos personales estén completamente protegidos.",
+    "dataProtection": "Protección de Datos",
+    "point1": "1. Persona de contacto para la protección de datos",
+    "point1text1": "Si tiene alguna pregunta sobre la recopilación, procesamiento o uso de sus datos personales, información, corrección, bloqueo o eliminación de datos o la revocación de su consentimiento, comuníquese con: ",
+    "point2": "2. Tratamiento de datos personales cuando visita nuestro sitio web",
+    "point2text1": "Cada vez que un usuario accede a una página de nuestra oferta y cada vez que se llama a un archivo, nosotros / nuestro servicio / proveedor de alojamiento recopilamos datos sobre este proceso y los almacenamos en un archivo de registro. Después de siete días como máximo, los datos personales se anonimizan acortando la dirección IP a nivel de dominio y se nos transmiten.",
+    "point2text2": "Los datos se procesan exclusivamente por razones de seguridad técnica, en particular para defenderse de intentos de ataque a nuestro servidor web y de forma anónima con fines estadísticos. Estos datos no se combinan con otras fuentes de datos. A continuación, le dejaremos claro qué sucede con los datos y qué medidas de seguridad hemos tomado.",
+    "point2list": {
+      "listHeader": "En detalle, se guarda el siguiente registro de datos:",
+      "listp1": "nombre del sitio al que se accede,",
+      "listp2": "fecha y hora de acceso,",
+      "listp3": "cantidad de datos transferidos,",
+      "listp4": "la página desde la que se solicitó el archivo (URL de referencia),",
+      "listp5": "páginas a las que accede en nuestro sitio web,",
+      "listp6": "estado de acceso (archivo transferido, archivo no encontrado, etc.),",
+      "listp7": "el navegador web y el sistema operativo utilizados,",
+      "listp8": "nombre del proveedor de servicios,",
+      "listp9": "dirección IP completa del ordenador solicitante,",
+      "listp10": "notificación de si la llamada se ha realizado correctamente."
+    },
+    "point3": "3. Recopilación y almacenamiento de datos personales: tipo, finalidad y uso",
+    "point3text1": "Los datos personales (nombre, dirección, dirección de correo electrónico, número de teléfono, etc.) que nos proporciona (en relación con el procesamiento del pedido, el posible procesamiento posterior de la garantía) solo se recopilan, procesan y / o utilizan para el propósito de que ha proporcionado los datos personales. Esto se realiza en el marco de las disposiciones legales aplicables o solo con su consentimiento. ",
+    "point3text2": "Los datos con fines de investigación de mercado, consultoría y / o publicidad solo se recopilan, procesan y / o utilizan si nos ha dado su consentimiento previo. ",
+    "point3text3": "Hemos registrado y guardado el consentimiento que dio electrónicamente. Puede solicitarnos el contenido de este consentimiento en cualquier momento. Para ello, envíe un correo electrónico a nuestra persona de contacto para la protección de datos: office@bestbann.com ",
+    "point4": "4. Objeción o revocación al tratamiento de sus datos",
+    "point4text1": "En este contexto, nos gustaría señalar que puede revocar su consentimiento en cualquier momento para el futuro de forma electrónica o por correo (verifique los datos de contacto arriba). Después de recibir su objeción, ya no utilizaremos ni procesaremos los datos en cuestión con fines de marketing e inmediatamente dejaremos de enviarle material publicitario. Los datos que son necesarios para fines de facturación y contabilidad y / o están sujetos a períodos de retención legales no se ven afectados por una objeción. ",
+    "point4text2": "Usamos su nombre, dirección, dirección de correo electrónico y número de teléfono para procesar su pedido o para procesar su solicitud. Si es necesario, enviaremos sus datos personales al destinatario correcto dentro de la empresa para procesar su solicitud. Se eliminarán una vez que hayan expirado los períodos de retención legales. ",
+    "point4text3": "Como regla general, sus datos personales no se transmitirán a terceros, ni siquiera en extractos, a menos que así lo prescriba una norma legal o usted haya dado su consentimiento. ",
+    "point4text4": "En la medida en que utilizamos proveedores de servicios para llevar a cabo y procesar el procesamiento, las relaciones contractuales se rigen por las disposiciones del Reglamento general de protección de datos (GDPR). Para la entrega de las mercancías, utilizamos proveedores de servicios de envío como UPS, DPD, DHL, así como varias empresas de envío que reciben los nombres y direcciones de nuestros clientes. ",
+    "point5": "5. Tus derechos",
+    "point5list": {
+      "listHeader": "Tiene los siguientes derechos hacia nosotros con respecto a sus datos personales: ",
+      "listp1": "Derecho de información",
+      "listp1text": "Puede solicitar información sobre sus datos personales procesados por nosotros. En particular, puede obtener información sobre los fines del procesamiento, la categoría de datos personales, las categorías de destinatarios a los que se han divulgado o se divulgarán sus datos, el período de almacenamiento previsto, la existencia de un derecho de corrección, eliminación, restricción de procesamiento u objeción, la existencia de un derecho a presentar una queja, el origen de sus datos, si no los hemos recopilado, así como la existencia de toma de decisiones automatizada, incluida la elaboración de perfiles y, si es necesario, información significativa sobre sus detalles.",
+      "listp2": "Derecho a rectificación o supresión",
+      "listp2text": "Puede solicitar inmediatamente la corrección de los datos personales incorrectos o la finalización de sus datos personales almacenados por nosotros. Puede solicitar la supresión de sus datos personales almacenados por nosotros, salvo que el tratamiento sea necesario para ejercer el derecho a la libertad de expresión e información, para cumplir con una obligación legal, por motivos de interés público o para hacer valer, ejercitar o defender reclamaciones legales. ",
+
+      "listp3": "Derecho a la restricción",
+      "listp3text": "Puede solicitar la restricción del procesamiento de sus datos personales si disputa la exactitud de los datos, el procesamiento es ilegal, pero se niega a eliminarlo y ya no los necesitamos, pero los necesita para afirmar, ejercer o defender. reclamaciones legales o ha presentado una objeción al procesamiento. ",
+
+      "listp4": "Derecho a la portabilidad de datos",
+      "listp4text": "Puedes recibir tus datos personales que nos hayas facilitado en un formato estructurado, común y legible por máquina o solicitar que se transmitan a otro responsable. ",
+
+      "listp5": "Derecho a oponerse a un procesamiento posterior",
+      "listp5text": "Puede revocar su consentimiento una vez otorgado a nosotros en cualquier momento. Como resultado, ya no se nos permite continuar con el procesamiento de datos basado en este consentimiento en el futuro. ",
+      "listp6": "Derecho a quejarse",
+      "listp6text": "Puede presentar una queja ante una autoridad supervisora. Como norma, puede ponerse en contacto con la autoridad de control de su lugar de residencia o trabajo habitual o la sede de nuestra empresa. "
+    },
+    "point6": "6. Seguridad",
+    "point6text1": "La información que nos envíe sin cifrar por correo electrónico posiblemente pueda ser leída por terceros durante la transmisión. Por lo tanto, no se garantiza una comunicación legalmente segura por correo electrónico. Utilizamos filtros contra la publicidad no deseada ('filtros de SPAM'), que también pueden clasificar automáticamente los correos electrónicos normales como publicidad no deseada y eliminarlos. Los correos electrónicos que contienen malware (“virus”) también los eliminamos automáticamente. ",
+    "point6text2": "Si desea enviarnos datos sensibles (por ejemplo, datos de pago), le recomendamos que los cifre y, si es posible, también los firme electrónicamente para evitar el acceso no autorizado y la falsificación durante la transmisión o que nos envíe los datos por correo convencional.",
+    "point6text3": "Hemos tomado medidas técnicas y organizativas para proteger los datos personales de nuestros clientes, empleados y / o proveedores contra el acceso no autorizado, daño, pérdida, destrucción y / o manipulación. Estos se controlan continuamente y se adaptan al estado de la técnica. Para garantizar la confidencialidad de la comunicación con usted, utilizamos el denominado cifrado SSL (Secure Socket Layers). ",
+    "point7": "7. Cookies",
+    "point7text1": "Nuestro sitio web utiliza en varios lugares las llamadas cookies. Estos son pequeños archivos de texto que se almacenan en su computadora y son guardados por su navegador. Las cookies se utilizan para hacer que nuestra oferta sea más fácil de usar (ciertas entradas de su parte se almacenan de tal manera que no tenga que repetirlas repetidamente) y más segura. Estas cookies nos permiten analizar cómo los usuarios utilizan nuestros sitios web para que podamos diseñar el contenido de acuerdo con las necesidades de los visitantes. Además, las cookies nos permiten medir la efectividad de un anuncio en particular y determinar su ubicación, p. Ej. a realizar en función de los intereses temáticos del usuario. Usamos 'cookies de sesión'. Las cookies no dañan su computadora y no contienen virus. La mayoría de los navegadores web aceptan cookies automáticamente. Sin embargo, siempre es posible cambiar la configuración de su navegador si no desea enviar la información. Puede seguir utilizando las ofertas de nuestro sitio web sin restricciones (excepción: configuradores) o es posible que no pueda utilizar las ofertas de nuestro sitio web en su totalidad. ",
+    "point8": "8. Google Analytics",
+    "point8text1": "Este sitio web utiliza Google Analytics, un servicio de análisis web proporcionado por Google, Inc. ('Google'). Google Analytics utiliza 'cookies', que son archivos de texto colocados en su computadora, para ayudar al sitio web a analizar cómo los usuarios usan el sitio. La información generada por la cookie sobre su uso del sitio web (incluida su dirección IP) será transmitida y almacenada por Google en servidores en los Estados Unidos. En caso de activación de la anonimización de IP, Google truncará / anonimizará el último octeto de la dirección IP para los Estados miembros de la Unión Europea, así como para otras partes del Acuerdo sobre el Espacio Económico Europeo. Solo en casos excepcionales, los servidores de Google en EE. UU. Envían y acortan la dirección IP completa. En nombre del proveedor del sitio web, Google utilizará esta información con el fin de evaluar su uso del sitio web, compilar informes sobre la actividad del sitio web para los operadores del sitio web y proporcionar otros servicios relacionados con la actividad del sitio web y el uso de Internet al proveedor del sitio web. Google no asociará su dirección IP con ningún otro dato que tenga Google. Puede rechazar el uso de cookies seleccionando la configuración apropiada en su navegador. Sin embargo, tenga en cuenta que si hace esto, es posible que no pueda utilizar todas las funciones de este sitio web. Además, puede evitar la recopilación y el uso de datos por parte de Google (cookies y dirección IP) descargando e instalando el complemento del navegador disponible en (https://tools.google.com/dlpage/gaoptout?hl=en-GB). Puede rechazar el uso de Google Analytics haciendo clic en el siguiente enlace. Se establecerá una cookie de exclusión voluntaria en la computadora, que evita la recopilación futura de sus datos cuando visite este sitio web: Desactivar Google Analytics ",
+    "point8text2": "Puede encontrar más información sobre los términos y condiciones de uso y la privacidad de los datos en http://www.google.com/analytics/terms/gb.html o en https://support.google.com/analytics/answer/6004245 ? hl = en. Tenga en cuenta que en este sitio web, el código de Google Analytics se complementa con 'gat._anonymizeIp ();' para garantizar una recopilación anónima de direcciones IP (lo que se denomina enmascaramiento de IP). ",
+    "point9": "9. Cambios en la Política de privacidad",
+    "point9list": {
+      "listp1": "La Política de privacidad puede cambiar sin previo aviso.",
+      "listp2": "Las preguntas relacionadas con la Política de privacidad deben dirigirse a: office@bestbann.com",
+      "listp3": "Última modificación: 26/09/2020"
+    },
+    "outro": "Envíe sus preguntas, solicitudes y sugerencias relacionadas con la protección de su privacidad, y de sus datos personales en particular, a office@bestbann.com o por teléfono al +48.692933069. "
   }
 }

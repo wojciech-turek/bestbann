@@ -338,31 +338,32 @@ export const BreadproofingBaskets = React.memo(function BreadproofingBaskets(
             <h2 className={classes.productTitle}>{t("productInfo.title")}</h2>
             <div className={classes.productInfoFlex}>
               <ul className={classes.productInfoList}>
-                <li>{t("productInfo.line1")}</li>
+                <li>
+                  <strong>{t("productInfo.line1")}</strong>
+                </li>
                 <li>{t("productInfo.line2")}</li>
                 <li>
                   <strong>{t("productInfo.line3")}</strong>
                 </li>
                 <li>{t("productInfo.line4")}</li>
-                <li>{t("productInfo.line5")}</li>
+                <li>
+                  <strong>{t("productInfo.line5")}</strong>
+                </li>
                 <li>
                   <strong>{t("productInfo.line6")}</strong>
                 </li>
-                <li>{t("productInfo.line7")}</li>
-                <li>{t("productInfo.line8")}</li>
                 <li>
-                  <strong>{t("productInfo.line9")}</strong>
+                  <strong>{t("productInfo.line7")}</strong>
                   <ol>
-                    <li>{t("productInfo.line91")}</li>
-                    <li>{t("productInfo.line92")}</li>
+                    <li>{t("productInfo.line71")}</li>
+                    <li>{t("productInfo.line72")}</li>
                   </ol>
                 </li>
+                <li>{t("productInfo.line8")}</li>
+                <li>{t("productInfo.line9")}</li>
                 <li>{t("productInfo.line10")}</li>
-                <li>{t("productInfo.line11")}</li>
-                <li>{t("productInfo.line12")}</li>
-                <li>{t("productInfo.line13")}</li>
                 <li>
-                  <strong>{t("productInfo.line14")}</strong>
+                  <strong>{t("productInfo.line11")}</strong>
                 </li>
               </ul>
               <div className={classes.basketCerContainer}>

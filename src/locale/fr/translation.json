@@ -111,6 +111,23 @@
     "text": "Ce site Web utilise des cookies pour améliorer l'expérience utilisateur. Plus d'informations peuvent être trouvées dans la section Politique de confidentialité du site Web.",
     "button": "Je comprends et j'accepte"
   },
+
+  "productInfo": {
+    "title": "INFORMATIONS SUR LE PRODUIT:",
+    "line1": "Fabriqués manuellementen en rotin naturel ou en rotin naturel et en bois",
+    "line2": "Idéal pour la préparation du pain artisanal traditionnel",
+    "line3": "Parfait pour les boulangeries et pour un usage domestique",
+    "line4": "Par l'absorption d'une partie d’humidité et le maintien de la chaleur, assure également une meilleure structure du pain et de la croûte croustillante. Donne forme désirée et magnifique motif d'anneaux farineuses",
+    "line5": "Producteur européen",
+    "line6": "Nous n'utilisons pas d’eau de Javel et de substances nocives",
+    "line7": "SPour les Bannetons en rotin qui entrent en contact direct avec les aliments ont fourni des certificat appropriés - PZH et SGS rapports d'essai, garantissant la conformité à:",
+    "line71": "RÈGLEMENT (CE) Nº 1935/2004 DU PARLEMENT EUROPÉEN ET DU CONSEIL DU 27 OCTOBRE 2004, et",
+    "line72": "la loi allemande sur les aliments LFGB (LMBG) § 30, 31",
+    "line8": "Il peut également être utilisé comme décoration",
+    "line9": "Les Bannetons sont disponibles dans les tailles indiquées dans de table ou préparés sous la commande individuelle",
+    "line10": "Les dimensions sont des dimensions externes (± 5 mm)",
+    "line11": "Les paniers sont conçus seulement pour laisser lever la pâte, ne convient pas comme moules pour la cuisson du pain à des température élevées!"
+  },
   "footer": {
     "companyInfo": {
       "title": "Informations sur les entreprises",
@@ -130,5 +147,73 @@
       "required": "* - fields are required",
       "subscribeBtn": "Subscribe"
     }
+  },
+  "privacyPolicy": {
+    "title": "Politique de confidentialité",
+    "intro": "Nous respectons pleinement la vie privée de nos clients et veillons à ce que leurs données personnelles soient entièrement protégées.",
+    "dataProtection": "Protection des données",
+    "point1": "1. Personne de contact pour la protection des données",
+    "point1text1": "Si vous avez des questions concernant la collecte, le traitement ou l'utilisation de vos données personnelles, les informations, la correction, le blocage ou la suppression de données ou la révocation de votre consentement, veuillez contacter: ",
+    "point2": "2. Traitement des données personnelles lorsque vous visitez notre site Web",
+    "point2text1": "Chaque fois qu'un utilisateur accède à une page de notre offre et chaque fois qu'un fichier est appelé, des données sur ce processus sont collectées par nous / notre fournisseur de service / hôte et stockées dans un fichier journal. Au bout de sept jours au plus tard, les données personnelles sont anonymisées en raccourcissant l'adresse IP au niveau du domaine et nous sont transmises.",
+    "point2text2": "Les données sont traitées exclusivement pour des raisons de sécurité technique, notamment pour se défendre contre les tentatives d'attaques sur notre serveur web et sous forme anonyme à des fins statistiques. Ces données ne sont pas fusionnées avec d'autres sources de données. Dans ce qui suit, nous rendrons transparent pour vous ce qu'il advient des données et les mesures de sécurité que nous avons prises.",
+    "point2list": {
+      "listHeader": "En détail, l'enregistrement de données suivant est enregistré:",
+      "listp1": "nom du site consulté,",
+      "listp2": "date et heure d'accès,",
+      "listp3": "quantité de données transférées,",
+      "listp4": "la page à partir de laquelle le fichier a été demandé (URL de référence),",
+      "listp5": "les pages que vous consultez sur notre site Internet,",
+      "listp6": "l'état d'accès (fichier transféré, fichier introuvable, etc.),",
+      "listp7": "le navigateur Web et le système d'exploitation utilisés,",
+      "listp8": "nom du prestataire de services,",
+      "listp9": "l'adresse IP complète de l'ordinateur demandeur,",
+      "listp10": "notification si l'appel a réussi."
+    },
+    "point3": "3. Collecte et stockage des données personnelles: type, finalité et utilisation",
+    "point3text1": "Les données personnelles (nom, adresse, adresse e-mail, numéro de téléphone, etc.) que vous nous fournissez (dans le cadre du traitement de la commande, du traitement ultérieur éventuel de la garantie) ne sont collectées, traitées et / ou utilisées qu'aux fins de dont vous avez fourni les données personnelles. Cela a lieu dans le cadre des dispositions légales applicables ou uniquement avec votre consentement. ",
+    "point3text2": "Les données à des fins d'études de marché, de conseil et / ou de publicité ne sont collectées, traitées et / ou utilisées que si vous nous avez donné votre consentement préalable. ",
+    "point3text3": "Nous avons enregistré et enregistré le consentement que vous avez donné par voie électronique. Vous pouvez nous demander le contenu de ce consentement à tout moment. À cet effet, veuillez envoyer un e-mail à notre personne de contact pour la protection des données: office@bestbann.com ",
+    "point4": "4. Opposition ou révocation contre le traitement de vos données",
+    "point4text1": "Dans ce contexte, nous attirons votre attention sur le fait que vous pouvez à tout moment révoquer votre consentement pour l'avenir par voie électronique ou par courrier (veuillez consulter les coordonnées ci-dessus). Après réception de votre opposition, nous n'utiliserons et ne traiterons plus les données concernées à des fins de marketing et cesserons immédiatement de vous envoyer du matériel publicitaire. Les données nécessaires à des fins de facturation et de comptabilité et / ou soumises à des délais de conservation légaux ne sont pas affectées par une objection. ",
+    "point4text2": "Nous utilisons votre nom, adresse, adresse e-mail et numéro de téléphone pour traiter votre commande ou pour traiter votre demande. Si nécessaire, nous transmettrons vos données personnelles au bon destinataire au sein de l'entreprise pour traiter votre demande. Ils seront supprimés après l'expiration des délais de conservation légaux. ",
+    "point4text3": "En règle générale, vos données personnelles ne seront pas transmises à des tiers, même sous forme d'extraits, à moins que cela ne soit prescrit par une norme légale ou que vous ayez donné votre consentement. ",
+    "point4text4": "Dans la mesure où nous utilisons des prestataires de services pour effectuer et traiter le traitement, les relations contractuelles sont régies par les dispositions du Règlement général sur la protection des données (RGPD). Pour la livraison des marchandises, nous utilisons des prestataires de services d'expédition tels que UPS, DPD, DHL ainsi que diverses sociétés de transport qui reçoivent les noms et adresses de nos clients.",
+    "point5": "5. Vos droits",
+    "point5list": {
+      "listHeader": "Vous disposez des droits suivants à notre égard en ce qui concerne vos données personnelles:",
+      "listp1": "Droit à l'information",
+      "listp1text": "Vous pouvez demander des informations sur vos données personnelles que nous traitons. En particulier, vous pouvez obtenir des informations sur les finalités du traitement, la catégorie de données personnelles, les catégories de destinataires auxquels vos données ont été ou seront divulguées, la durée de conservation prévue, l'existence d'un droit de rectification, de suppression, de restriction de traitement ou opposition, l'existence d'un droit de déposer une réclamation, l'origine de vos données, si nous ne les avons pas collectées, ainsi que l'existence d'une prise de décision automatisée comprenant un profilage et, le cas échéant, des informations significatives sur leurs coordonnées. ",
+
+      "listp2": "Droit de rectification ou de suppression",
+      "listp2text": "Vous pouvez immédiatement demander la correction de données personnelles incorrectes ou la complétion de vos données personnelles que nous stockons. Vous pouvez demander la suppression de vos données personnelles que nous stockons, sauf si le traitement est nécessaire pour exercer le droit à la liberté d'expression et d'information, pour remplir une obligation légale, pour des raisons d'intérêt public ou pour faire valoir, exercer ou défendre des actions en justice. ",
+
+      "listp3": "Droit de restriction",
+      "listp3text": "Vous pouvez demander la limitation du traitement de vos données personnelles si vous contestez l'exactitude des données, le traitement est illicite, mais vous refusez de les supprimer et nous n'avons plus besoin des données, mais vous en avez besoin pour affirmer, exercer ou défendre des réclamations légales ou vous vous êtes opposé au traitement.",
+
+      "listp4": "Droit à la portabilité des données",
+      "listp4text": "Vous pouvez recevoir vos données personnelles que vous nous avez fournies dans un format structuré, commun et lisible par machine ou demander qu'elles soient transmises à une autre personne responsable. ",
+
+      "listp5": "Droit de s'opposer au traitement ultérieur",
+      "listp5text": "Vous pouvez révoquer votre consentement une fois donné à tout moment. En conséquence, nous ne sommes plus autorisés à poursuivre le traitement des données sur la base de ce consentement à l'avenir. ",
+      "listp6": "Droit de se plaindre",
+      "listp6text": "Vous pouvez vous plaindre auprès d'une autorité de contrôle. En règle générale, vous pouvez contacter l'autorité de surveillance de votre lieu de résidence ou de travail habituel ou de notre siège social."
+    },
+    "point6": "6. Sécurité ",
+    "point6text1": "Les informations que vous nous envoyez non cryptées par e-mail peuvent éventuellement être lues par des tiers lors de leur transmission. Une communication juridiquement sécurisée par e-mail n'est donc pas garantie. Nous utilisons des filtres contre la publicité indésirable («filtres anti-spam»), qui peuvent également classer automatiquement les e-mails normaux comme publicité indésirable et les supprimer. Les e-mails contenant des logiciels malveillants («virus») sont également automatiquement supprimés par nous. ",
+    "point6text2": "Si vous souhaitez nous envoyer des données sensibles (par exemple des données de paiement), nous vous recommandons de les crypter et, si possible, de les signer également par voie électronique afin d'éviter tout accès non autorisé et la falsification lors de la transmission ou de nous envoyer les données par courrier conventionnel. ",
+    "point6text3": "Nous avons pris des mesures techniques et organisationnelles pour protéger les données personnelles de nos clients, employés et / ou fournisseurs contre l'accès non autorisé, les dommages, la perte, la destruction et / ou la manipulation. Ceux-ci sont contrôlés en permanence et adaptés à l'état de la technique. Pour garantir la confidentialité des communications avec vous, nous utilisons le cryptage dit SSL (Secure Socket Layers).",
+    "point7": "7. Cookies",
+    "point7text1": "Notre site Web utilise à plusieurs endroits des cookies. Ce sont de petits fichiers texte qui sont stockés sur votre ordinateur et enregistrés par votre navigateur. Les cookies sont utilisés pour rendre notre offre plus conviviale (certaines entrées de votre part sont stockées de manière à ce que vous n'ayez pas à les répéter à plusieurs reprises) et plus sécurisée. Ces cookies nous permettent d'analyser la manière dont les utilisateurs utilisent nos sites Web afin que nous puissions concevoir le contenu en fonction des besoins des visiteurs. De plus, les cookies nous permettent de mesurer l'efficacité d'une annonce particulière et de déterminer son emplacement, par ex. à faire en fonction des intérêts thématiques des utilisateurs. Nous utilisons des 'cookies de session'. Les cookies n'endommagent pas votre ordinateur et ne contiennent pas de virus. La plupart des navigateurs Web acceptent automatiquement les cookies. Cependant, il est toujours possible de modifier les paramètres de votre navigateur si vous ne souhaitez pas envoyer les informations. Vous pouvez toujours utiliser les offres de notre site Web sans restrictions (exception: configurateurs) ou vous ne pourrez peut-être pas utiliser les offres de notre site Web dans leur intégralité. ",
+    "point8": "8. Google Analytics",
+    "point8text1": "Ce site Web utilise Google Analytics, un service d'analyse Web fourni par Google, Inc. («Google»). Google Analytics utilise des «cookies», qui sont des fichiers texte placés sur votre ordinateur, pour aider le site Internet à analyser l'utilisation du site par ses utilisateurs. Les informations générées par le cookie concernant votre utilisation du site Web (y compris votre adresse IP) seront transmises et stockées par Google sur des serveurs aux États-Unis. En cas d'activation de l'anonymisation IP, Google tronquera / anonymisera le dernier octet de l'adresse IP pour les États membres de l'Union européenne ainsi que pour les autres parties à l'accord sur l'Espace économique européen. Uniquement dans des cas exceptionnels, l'adresse IP complète est envoyée et raccourcie par les serveurs de Google aux États-Unis. Au nom du fournisseur du site Web, Google utilisera ces informations dans le but d'évaluer votre utilisation du site Web, de compiler des rapports sur l'activité du site Web pour les exploitants de site Web et de fournir d'autres services liés à l'activité du site Web et à l'utilisation d'Internet au fournisseur du site Web. Google n'associera votre adresse IP à aucune autre donnée détenue par Google. Vous pouvez refuser l'utilisation de cookies en sélectionnant les paramètres appropriés de votre navigateur. Cependant, veuillez noter que si vous faites cela, vous ne pourrez peut-être pas utiliser toutes les fonctionnalités de ce site Web. En outre, vous pouvez empêcher la collecte et l'utilisation de données par Google (cookies et adresse IP) en téléchargeant et en installant le plug-in de navigateur disponible sous (https://tools.google.com/dlpage/gaoptout?hl=fr-FR). Vous pouvez refuser l'utilisation de Google Analytics en cliquant sur le lien suivant. Un cookie de désactivation sera installé sur l'ordinateur, ce qui empêche la future collecte de vos données lors de la visite de ce site: Désactivez Google Analytics",
+    "point8text2": "Vous trouverez de plus amples informations concernant les conditions d'utilisation et la confidentialité des données à l'adresse http://www.google.com/analytics/terms/gb.html ou à l'adresse https://support.google.com/analytics/answer/6004245 ? hl = fr. Veuillez noter que sur ce site Web, le code Google Analytics est complété par 'gat._anonymizeIp ();'' pour garantir une collecte anonyme des adresses IP (ce que l'on appelle le masquage IP). ",
+    "point9": "9. Modifications de la politique de confidentialité",
+    "point9list": {
+      "listp1": "1. La politique de confidentialité peut changer, sans notification préalable.",
+      "listp2": "2. Les questions relatives à la politique de confidentialité doivent être adressées à: office@bestbann.com",
+      "listp3": "Dernière modification: 26/09/2020"
+    },
+    "outro": "Veuillez adresser vos questions, candidatures et suggestions relatives à la protection de votre vie privée, et des données personnelles en particulier, à office@bestbann.com ou par téléphone au +48.692933069. "
   }
 }

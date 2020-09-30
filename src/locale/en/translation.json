@@ -96,19 +96,16 @@
     "line1": "Made of natural rattan or natural rattan combined with wood base element",
     "line2": "Best for making healthy artisan bread",
     "line3": "Perfect for bakeries, bread shops and for home use",
-    "line4": "Helps to make the structure and shape of the bread better and gives more crispy crust because it holds warmth and absorbs part of the moisture",
-    "line5": "Gives gorgeous pattern of floury rings circling the deep-golden crust",
-    "line6": "European producer",
-    "line7": "Each bread proofing basket is handmade",
-    "line8": "Does not contain any bleaches, lacquers or preservatives",
-    "line9": "SGS test reports and PZH Certificate prove high quality of our materialsused for proofing baskets made of rattan, so that they can safely have contact with food, in accordance with:",
-    "line9.1": "Regulation (EC) No 1935/2004 of the European Parliament and of the Council of 27 October 2004 on materials and articles intended to come into contact with food and",
-    "line9.2": "German LFGB (LMBG) Food and Feed Law Art. 30, 31",
-    "line10": "It can also be used as a decoration",
-    "line11": "Sizes table above shows most popular dimensions of proofing baskets",
-    "line12": "Customized sizes available",
-    "line13": "Presented sizes are external dimensions (± 5 mm)",
-    "line14": "Baskets can be used only for proofing bread dough, never for baking bread in high temperatures!"
+    "line4": "Helps to make the structure and shape of the bread better and gives more crispy crust because it holds warmth and absorbs part of the moisture. Gives gorgeous pattern of floury rings circling the deep-golden crust",
+    "line5": "European producer, handmade products",
+    "line6": "Does not contain any bleaches, lacquers or preservatives",
+    "line7": "SGS test reports and PZH Certificate prove high quality of our materialsused for proofing baskets made of rattan, so that they can safely have contact with food, in accordance with:",
+    "line71": "Regulation (EC) No 1935/2004 of the European Parliament and of the Council of 27 October 2004 on materials and articles intended to come into contact with food and",
+    "line72": "German LFGB (LMBG) Food and Feed Law Art. 30, 31",
+    "line8": "It can also be used as a decoration",
+    "line9": "Sizes table above shows most popular dimensions of proofing baskets, but customized sizes also available",
+    "line10": "Presented sizes are external dimensions (± 5 mm)",
+    "line11": "Baskets can be used only for proofing bread dough, never for baking bread in high temperatures!"
   },
 
   "productDetails": {
@@ -151,5 +148,73 @@
       "required": "* - fields are required",
       "subscribeBtn": "Subscribe"
     }
+  },
+  "privacyPolicy": {
+    "title": "Privacy policy",
+    "intro": "We fully respect our customers’ privacy and ensure that their personal data is fully protected.",
+    "dataProtection": "Data protection",
+    "point1": "1. Contact person for data protection",
+    "point1text1": "If you have any questions about the collection, processing or use of your personal data, information, correction, blocking or deletion of data or the revocation of your consent, please contact:",
+    "point2": "2. Processing of personal data when you visit our website",
+    "point2text1": "Every time a user accesses a page from our offer and every time a file is called up, data about this process is collected by us / our service / host provider and stored in a log file. After seven days at the latest, the personal data is anonymized by shortening the IP address at domain level and transmitted to us. ",
+    "point2text2": "The data is processed exclusively for reasons of technical security, in particular to defend against attempted attacks on our web server and in anonymous form for statistical purposes. This data is not merged with other data sources. In the following, we will make it transparent for you what happens to the data and which security measures we have taken.",
+    "point2list": {
+      "listHeader": "In detail, the following data record is saved:",
+      "listp1": "name of the site accessed,",
+      "listp2": "date and time of access,",
+      "listp3": "amount of data transferred,",
+      "listp4": "the page from which the file was requested (referring URL),",
+      "listp5": "pages that you call up on our website,",
+      "listp6": "access status (file transferred, file not found, etc.),",
+      "listp7": "the web browser and operating system used,",
+      "listp8": "name of the service provider,",
+      "listp9": "full IP address of the requesting computer,",
+      "listp10": "notification whether the call was successful."
+    },
+    "point3": "3. Collection and storage of personal data: type, purpose and use",
+    "point3text1": "Personal data (name, address, e-mail address, telephone number, etc.) that you provide to us (in connection with the order processing, the possible subsequent warranty processing) are only collected, processed and / or used for the purpose for which you have provided the personal data.This takes place within the framework of the applicable legal provisions or only with your consent.",
+    "point3text2": "Data for market research, consulting and / or advertising purposes are only collected, processed and / or used if you have given us your prior consent.",
+    "point3text3": "We have logged and saved the consent you gav electronically. You can request the content of this consent from us at any time. For this purpose, please email our contact person for data protection: office@bestbann.com",
+    "point4": "4. Objection or revocation against the processing of your data",
+    "point4text1": "In this context, we would like to point out that you can revoke your consent at any time for the future electronically or by post (please check the contact details above). After receiving your objection, we will no longer use and process the data concerned for marketing purposes and will immediately stop sending you advertising material. Data that are necessary for billing and accounting purposes and / or are subject to statutory retention periods remain unaffected by an objection.",
+    "point4text2": "We use your name, address, e-mail address and telephone number to process your order or to process your request. If necessary, we will forward your personal data to the correct recipient within the company to process your request. They will be deleted after the statutory retention periods have expired.",
+    "point4text3": "As a rule, your personal data will not be passed on to third parties, even in excerpts, unless this is prescribed by a legal standard or you have given your consent.",
+    "point4text4": "Insofar as we use service providers to carry out and process processing, the contractual relationships are governed by the provisions of the The General Data Protection Regulation (GDPR). For the delivery of the goods, we use shipping service providers such as UPS, DPD, DHL as well as various shipping companies who receive the names and addresses of our customers.",
+    "point5": "5. Your rights",
+    "point5list": {
+      "listHeader": "You have the following rights towards us with regard to your personal data:",
+      "listp1": "Right to information",
+      "listp1text": "You can request information about your personal data processed by us. In particular, you can obtain information about the processing purposes, the category of personal data, the categories of recipients to whom your data has been or will be disclosed, the planned storage period, the existence of a right to correction, deletion, restriction of processing or objection, the existence of a Right to lodge a complaint, the origin of your data, if we have not collected it, as well as the existence of automated decision-making including profiling and, if necessary, meaningful information on their details.",
+
+      "listp2": "Right to correction or deletion",
+      "listp2text": "You can immediately request the correction of incorrect personal data or the completion of your personal data stored by us. You can request the deletion of your personal data stored by us, unless the processing is necessary to exercise the right to freedom of expression and information, to fulfill a legal obligation, for reasons of public interest or to assert, exercise or defend legal claims. ",
+
+      "listp3": "Right to restriction ",
+      "listp3text": "You can request the restriction of the processing of your personal data if you dispute the correctness of the data, the processing is unlawful, but you refuse to delete it and we no longer need the data, but you need it to assert, exercise or defend legal claims or you have filed an objection to the processing. ",
+
+      "listp4": "Right to data portability ",
+      "listp4text": "You can receive your personal data that you have provided to us in a structured, common and machine-readable format or request that it be transmitted to another person responsible",
+
+      "listp5": "Right to object to further processing ",
+      "listp5text": "You can revoke your once given consent to us at any time. As a result, we are no longer allowed to continue the data processing based on this consent in the future.",
+      "listp6": "Right to complain ",
+      "listp6text": "You can complain to a supervisory authority. As a rule, you can contact the supervisory authority of your usual place of residence or work or our company headquarters. "
+    },
+    "point6": "6. Security ",
+    "point6text1": "Information that you send to us unencrypted by e-mail can possibly be read by third parties during transmission. Legally secure communication via email is therefore not guaranteed. We use filters against unwanted advertising (“SPAM filters”), which can also automatically classify normal e-mails as unwanted advertising and delete them. E-mails that contain malware (“viruses”) are also automatically deleted by us. ",
+    "point6text2": "If you want to send us sensitive data (e.g. payment data), we recommend that you encrypt it and, if possible, also sign it electronically in order to prevent unauthorized access and falsification during transmission or to send the data to us by conventional mail.",
+    "point6text3": "We have taken technical and organizational measures to protect the personal data of our customers, employees and / or suppliers against unauthorized access, damage, loss, destruction and / or manipulation. These are continuously checked and adapted to the state of the art. To ensure the confidentiality of communication with you, we use so-called SSL (Secure Socket Layers) encryption. ",
+    "point7": "7. Cookies",
+    "point7text1": "Our website uses at several locations so-called cookies. These are small text files that are stored on your computer and saved by your browser. Cookies are used to make our offer more user-friendly (certain entries on your part are stored in such a way that you do not have to repeat them repeatedly) and more secure. These cookies enable us to analyze how users use our websites so that we can design the content according to visitor needs. In addition, the cookies allow us to measure the effectiveness of a particular ad and to determine its placement, e.g. to be done depending on the thematic user interests. We use session cookies. Cookies do not harm your computer and do not contain viruses. Most web browsers automatically accept cookies. However, it is always possible to change the settings of your browser if you do not want to send the information. You can still use the offers on our website without restrictions (exception: configurators) or you may not be able to use the offers on our website in full. ",
+    "point8": "8. Google Analytics",
+    "point8text1": "This website uses Google Analytics, a web analytics service provided by Google, Inc. (“Google“). Google Analytics uses “cookies“, which are text files placed on your computer, to help the website analyze how users use the site. The information generated by the cookie about your use of the website (including your IP address) will be transmitted to and stored by Google on servers in the United States. In case of activation of the IP anonymization, Google will truncate/anonymize the last octet of the IP address for Member States of the European Union as well as for other parties to the Agreement on the European Economic Area. Only in exceptional cases, the full IP address is sent to and shortened by Google servers in the USA. On behalf of the website provider Google will use this information for the purpose of evaluating your use of the website, compiling reports on website activity for website operators and providing other services relating to website activity and internet usage to the website provider. Google will not associate your IP address with any other data held by Google. You may refuse the use of cookies by selecting the appropriate settings on your browser. However, please note that if you do this, you may not be able to use the full functionality of this website. Furthermore you can prevent Google’s collection and use of data (cookies and IP address) by downloading and installing the browser plug-in available under (https://tools.google.com/dlpage/gaoptout?hl=en-GB).",
+    "point8text2": "You can refuse the use of Google Analytics by clicking on the following link. An opt-out cookie will be set on the computer, which prevents the future collection of your data when visiting this website: Disable Google Analytics Further information concerning the terms and conditions of use and data privacy can be found at http://www.google.com/analytics/terms/gb.htm l or at https://support.google.com/analytics/answer/6004245?hl=en. Please note that on this website, Google Analytics code is supplemented by gat._anonymizeIp(); to ensure an anonymized collection of IP addresses (so called IP-masking).",
+    "point9": "9. Changes to the Privacy Policy ",
+    "point9list": {
+      "listp1": "1. Privacy Policy may change, without prior notification",
+      "listp2": "2. Questions related to the Privacy Policy should be addressed to: office@bestbann.com",
+      "listp3": "Last modified: 26/09/2020"
+    },
+    "outro": "Please send any questions, applications and suggestions relating to the protection of your privacy, and personal data in particular, to office@bestbann.com or by telephone on +48.692933069. "
   }
 }
