@@ -20,7 +20,7 @@ export default function AboutUsPage() {
           </p>
           <p className={classes.introText}>- Weronika and Michal</p>
         </div>
-        <ScrollAnimation animateIn="animate__slideInRight" animateOnce={true}>
+        <ScrollAnimation animateIn="animate__fadeInUp" animateOnce={true}>
           <div className={classes.pairWrap}>
             <img
               src={owners}
@@ -40,7 +40,7 @@ export default function AboutUsPage() {
             </div>
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="animate__slideInLeft" animateOnce={true}>
+        <ScrollAnimation animateIn="animate__fadeInUp" animateOnce={true}>
           <div className={classes.pairWrap}>
             <img
               src={baskets}
@@ -60,7 +60,7 @@ export default function AboutUsPage() {
             </div>
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="animate__slideInRight" animateOnce={true}>
+        <ScrollAnimation animateIn="animate__fadeInUp" animateOnce={true}>
           <div className={classes.pairWrap}>
             <img src={michal} alt="Quality Check" className={classes.image} />
             <div className={classes.paragWrap}>
@@ -73,7 +73,7 @@ export default function AboutUsPage() {
             </div>
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="animate__slideInLeft" animateOnce={true}>
+        <ScrollAnimation animateIn="animate__fadeInUp" animateOnce={true}>
           <div className={classes.pairWrap}>
             <img
               src={provider}
@@ -92,7 +92,7 @@ export default function AboutUsPage() {
             </div>
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="animate__slideInRight" animateOnce={true}>
+        <ScrollAnimation animateIn="animate__fadeInUp" animateOnce={true}>
           <div className={classes.pairWrap}>
             <img src={bread} alt="Bread" className={classes.image} />
             <div className={classes.paragWrap}>
