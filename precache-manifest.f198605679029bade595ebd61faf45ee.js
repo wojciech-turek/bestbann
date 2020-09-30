@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5c6a823b4e1084e5aaab4be6f58c6b41",
+    "revision": "2f4de8b05209b52c2a404d76ec834bd0",
     "url": "/bestbann/index.html"
   },
   {
-    "revision": "f7f8a428627cb8bbd154",
+    "revision": "0ee6d94bca6cf8148f9c",
     "url": "/bestbann/static/css/2.d48510fc.chunk.css"
   },
   {
-    "revision": "9a6240813f29fbbda9c3",
-    "url": "/bestbann/static/css/main.d84da24f.chunk.css"
+    "revision": "cca51c615e5e3acc93ac",
+    "url": "/bestbann/static/css/main.b8d74689.chunk.css"
   },
   {
-    "revision": "f7f8a428627cb8bbd154",
-    "url": "/bestbann/static/js/2.43ce7422.chunk.js"
+    "revision": "0ee6d94bca6cf8148f9c",
+    "url": "/bestbann/static/js/2.676f94d7.chunk.js"
   },
   {
     "revision": "a05e8fcba87b95967dee509881e98eb5",
-    "url": "/bestbann/static/js/2.43ce7422.chunk.js.LICENSE.txt"
+    "url": "/bestbann/static/js/2.676f94d7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9a6240813f29fbbda9c3",
-    "url": "/bestbann/static/js/main.2dee6ba4.chunk.js"
+    "revision": "cca51c615e5e3acc93ac",
+    "url": "/bestbann/static/js/main.f548b23c.chunk.js"
   },
   {
     "revision": "e5e81b53cee179319d23",
@@ -116,6 +116,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bestbann/static/media/csimage2.259928fa.png"
   },
   {
+    "revision": "019aee76dfb447ecb3fa75f3f4f6712d",
+    "url": "/bestbann/static/media/fabryka.019aee76.jpg"
+  },
+  {
     "revision": "a452f1734b150c55f872d3658a23b907",
     "url": "/bestbann/static/media/herobannerOptimized.a452f173.jpg"
   },
@@ -154,6 +158,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6f17d592c3fc70b7feea8ed079df59e4",
     "url": "/bestbann/static/media/messenger.6f17d592.svg"
+  },
+  {
+    "revision": "0f9abcf918b42dabf974964e2c740d54",
+    "url": "/bestbann/static/media/michalsprawdza.0f9abcf9.jpg"
   },
   {
     "revision": "0ec615fe987fa8e6d669c2e120dcf770",
@@ -196,8 +204,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bestbann/static/media/sqxsboknoweSmallOptimized.a256aa76.jpg"
   },
   {
+    "revision": "83990a5181bb72c5d417d8a3b3e48935",
+    "url": "/bestbann/static/media/stoskoszykow.83990a51.jpg"
+  },
+  {
     "revision": "7b7d9e16be04f5dfd0d46dcf4f411266",
     "url": "/bestbann/static/media/tailoredCompressed.7b7d9e16.jpg"
+  },
+  {
+    "revision": "78692051afcc3b53015ff0e4fb071e2b",
+    "url": "/bestbann/static/media/weronikaimichal.78692051.jpg"
   },
   {
     "revision": "d89731b4869a0f0b9d69bf86146f8be2",
@@ -210,5 +226,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f65e8a83dfd7293cd19c96df15b1049f",
     "url": "/bestbann/static/media/woodenBakingForm.f65e8a83.png"
+  },
+  {
+    "revision": "4945e31e2f06ce2e030adb96748bf14d",
+    "url": "/bestbann/static/media/wypieczonychleb.4945e31e.jpg"
   }
 ]);

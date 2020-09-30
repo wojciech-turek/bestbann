@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/bestbann/static/css/main.d84da24f.chunk.css",
-    "main.js": "/bestbann/static/js/main.2dee6ba4.chunk.js",
-    "main.js.map": "/bestbann/static/js/main.2dee6ba4.chunk.js.map",
+    "main.css": "/bestbann/static/css/main.b8d74689.chunk.css",
+    "main.js": "/bestbann/static/js/main.f548b23c.chunk.js",
+    "main.js.map": "/bestbann/static/js/main.f548b23c.chunk.js.map",
     "runtime-main.js": "/bestbann/static/js/runtime-main.224ef31d.js",
     "runtime-main.js.map": "/bestbann/static/js/runtime-main.224ef31d.js.map",
     "static/css/2.d48510fc.chunk.css": "/bestbann/static/css/2.d48510fc.chunk.css",
-    "static/js/2.43ce7422.chunk.js": "/bestbann/static/js/2.43ce7422.chunk.js",
-    "static/js/2.43ce7422.chunk.js.map": "/bestbann/static/js/2.43ce7422.chunk.js.map",
+    "static/js/2.676f94d7.chunk.js": "/bestbann/static/js/2.676f94d7.chunk.js",
+    "static/js/2.676f94d7.chunk.js.map": "/bestbann/static/js/2.676f94d7.chunk.js.map",
     "index.html": "/bestbann/index.html",
-    "precache-manifest.fd8f3c37fa1a73c1947a36b59a1b8f7f.js": "/bestbann/precache-manifest.fd8f3c37fa1a73c1947a36b59a1b8f7f.js",
+    "precache-manifest.f198605679029bade595ebd61faf45ee.js": "/bestbann/precache-manifest.f198605679029bade595ebd61faf45ee.js",
     "service-worker.js": "/bestbann/service-worker.js",
     "static/css/2.d48510fc.chunk.css.map": "/bestbann/static/css/2.d48510fc.chunk.css.map",
-    "static/css/main.d84da24f.chunk.css.map": "/bestbann/static/css/main.d84da24f.chunk.css.map",
-    "static/js/2.43ce7422.chunk.js.LICENSE.txt": "/bestbann/static/js/2.43ce7422.chunk.js.LICENSE.txt",
+    "static/css/main.b8d74689.chunk.css.map": "/bestbann/static/css/main.b8d74689.chunk.css.map",
+    "static/js/2.676f94d7.chunk.js.LICENSE.txt": "/bestbann/static/js/2.676f94d7.chunk.js.LICENSE.txt",
     "static/media/BaguetteRO.jpg": "/bestbann/static/media/BaguetteRO.a8998ed8.jpg",
     "static/media/BaguetteROX.jpg": "/bestbann/static/media/BaguetteROX.aad961e3.jpg",
     "static/media/FBM720.jpg": "/bestbann/static/media/FBM720.a19fe7df.jpg",
@@ -36,6 +36,7 @@
     "static/media/certificate.png": "/bestbann/static/media/certificate.b7c4d6b2.png",
     "static/media/certificateSmall.png": "/bestbann/static/media/certificateSmall.24204f77.png",
     "static/media/csimage2.png": "/bestbann/static/media/csimage2.259928fa.png",
+    "static/media/fabryka.jpg": "/bestbann/static/media/fabryka.019aee76.jpg",
     "static/media/HeroBanner.module.css": "/bestbann/static/media/herobannerOptimizedMobile.cec79097.jpg",
     "static/media/linersoblong.jpg": "/bestbann/static/media/linersoblong.43cd5daa.jpg",
     "static/media/linersoval.jpg": "/bestbann/static/media/linersoval.1e3e2f8d.jpg",
@@ -44,6 +45,7 @@
     "static/media/loboksnowySmallOptimized.jpg": "/bestbann/static/media/loboksnowySmallOptimized.56939abb.jpg",
     "static/media/madeineu.png": "/bestbann/static/media/madeineu.8cc92b8b.png",
     "static/media/messenger.svg": "/bestbann/static/media/messenger.6f17d592.svg",
+    "static/media/michalsprawdza.jpg": "/bestbann/static/media/michalsprawdza.0f9abcf9.jpg",
     "static/media/miniRO.jpg": "/bestbann/static/media/miniRO.0ec615fe.jpg",
     "static/media/ovboksnowySmallOptimized.jpg": "/bestbann/static/media/ovboksnowySmallOptimized.e561a105.jpg",
     "static/media/quality.png": "/bestbann/static/media/quality.c93ef792.png",
@@ -54,16 +56,19 @@
     "static/media/soon.jpg": "/bestbann/static/media/soon.e8b7bcd9.jpg",
     "static/media/sqxsboknowe.png": "/bestbann/static/media/sqxsboknowe.b921ebec.png",
     "static/media/sqxsboknoweSmallOptimized.jpg": "/bestbann/static/media/sqxsboknoweSmallOptimized.a256aa76.jpg",
+    "static/media/stoskoszykow.jpg": "/bestbann/static/media/stoskoszykow.83990a51.jpg",
     "static/media/tailoredCompressed.jpg": "/bestbann/static/media/tailoredCompressed.7b7d9e16.jpg",
+    "static/media/weronikaimichal.jpg": "/bestbann/static/media/weronikaimichal.78692051.jpg",
     "static/media/whatsapp.svg": "/bestbann/static/media/whatsapp.d89731b4.svg",
     "static/media/withLiners.jpg": "/bestbann/static/media/withLiners.07164574.jpg",
-    "static/media/woodenBakingForm.png": "/bestbann/static/media/woodenBakingForm.f65e8a83.png"
+    "static/media/woodenBakingForm.png": "/bestbann/static/media/woodenBakingForm.f65e8a83.png",
+    "static/media/wypieczonychleb.jpg": "/bestbann/static/media/wypieczonychleb.4945e31e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.224ef31d.js",
     "static/css/2.d48510fc.chunk.css",
-    "static/js/2.43ce7422.chunk.js",
-    "static/css/main.d84da24f.chunk.css",
-    "static/js/main.2dee6ba4.chunk.js"
+    "static/js/2.676f94d7.chunk.js",
+    "static/css/main.b8d74689.chunk.css",
+    "static/js/main.f548b23c.chunk.js"
   ]
 }
