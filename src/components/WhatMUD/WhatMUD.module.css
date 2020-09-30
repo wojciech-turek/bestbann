@@ -9,7 +9,7 @@
   overflow-x: hidden;
 }
 .WMUDImg {
-  max-width: 40vh;
+  max-width: 240px;
   margin-bottom: 4%;
   margin-top: 5%;
   transition: width 0.4s;
@@ -48,6 +48,9 @@
 }
 
 .downloadLink {
+  display: block;
+  width: 140px;
+  margin: 0 auto;
   text-decoration: none;
   color: black;
   font-family: "Lato";

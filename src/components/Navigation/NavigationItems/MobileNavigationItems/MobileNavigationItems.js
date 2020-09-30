@@ -74,13 +74,7 @@ export default function MobileNavigationItems(props) {
 
   const { t } = useTranslation("common");
 
-  const homeIcon = (
-    <FontAwesomeIcon
-      className={classes.Icon}
-      icon={faHome}
-      onClick={() => props.setSideOpen(false)}
-    />
-  );
+  const homeIcon = <FontAwesomeIcon className={classes.Icon} icon={faHome} />;
   const productsIcon = (
     <FontAwesomeIcon
       className={classes.Icon}
@@ -89,11 +83,7 @@ export default function MobileNavigationItems(props) {
     />
   );
   const infoIcon = (
-    <FontAwesomeIcon
-      className={classes.Icon}
-      icon={faInfoCircle}
-      onClick={() => props.setSideOpen(false)}
-    />
+    <FontAwesomeIcon className={classes.Icon} icon={faInfoCircle} />
   );
   const phoneIcon = (
     <FontAwesomeIcon
@@ -110,6 +100,7 @@ export default function MobileNavigationItems(props) {
             to="/bestbann"
             className={classes.InactiveLink}
             activeClassName={classes.linkActive}
+            onClick={() => props.setSideOpen(false)}
           >
             {homeIcon}
             {t("menu.mainPage")}
@@ -219,6 +210,7 @@ export default function MobileNavigationItems(props) {
             to="/about"
             className={classes.InactiveLink}
             activeClassName={classes.linkActive}
+            onClick={() => props.setSideOpen(false)}
           >
             {infoIcon}
             {t("menu.aboutUs")}
@@ -229,6 +221,7 @@ export default function MobileNavigationItems(props) {
             to="/contact"
             className={classes.InactiveLink}
             activeClassName={classes.linkActive}
+            onClick={() => props.setSideOpen(false)}
           >
             {phoneIcon}
             {t("menu.contact")}

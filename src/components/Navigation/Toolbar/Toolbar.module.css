@@ -13,17 +13,18 @@
   z-index: 100;
   transition: top 0.3s;
 }
-
+/* SHOP NOW BUTTON */
 .shopNowBtn {
-  margin: 0;
+  margin: 0 0;
   padding: 0;
   position: relative;
   margin-right: 20px;
+  display: block;
   height: 32px;
-  width: 160px;
+  min-width: 130px;
   outline: none;
   color: rgba(0, 0, 0, 0.9);
-  background-color: #0066ff;
+  background-color: #e55934;
   font-family: "Montserrat";
   -webkit-font-smoothing: antialiased;
   font-size: 12px;
@@ -31,21 +32,20 @@
   border: none;
   text-transform: uppercase;
   cursor: pointer;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .cart {
+  display: block;
   margin: 0;
   padding: 0;
-  display: inline-block;
   position: relative;
   text-align: center;
+  width: 100%;
   top: 0;
   left: 0;
   color: white;
-  height: 32px;
-  width: 160px;
-  background-color: #025add;
+  background-color: #c53f1a;
   transition: left 0.4s ease-in-out;
   z-index: 1;
 }
@@ -68,10 +68,10 @@
   top: 0;
   text-align: left;
   opacity: 1;
-  width: 180px;
+  width: 200px;
   z-index: 0;
 }
-
+/* END OF SHOP NOW BUTTON */
 .navItems {
   display: none;
 }
@@ -148,6 +148,6 @@
   }
 
   .shopNowBtn:hover .cart {
-    left: 125px;
+    left: 120px;
   }
 }

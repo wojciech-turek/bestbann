@@ -7,8 +7,10 @@ import Hamburger from "../Hamburger/Hamburger";
 import NavProducts from "../NavProducts/NavProducts";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import { useTranslation } from "react-i18next";
 
 export default function Toolbar(props) {
+  const { t } = useTranslation("common");
   let toolbarClasses = [classes.toolbar];
   let prevScrollpos = window.pageYOffset;
   let productBarClasses = [classes.ProductsBar];
@@ -72,10 +74,9 @@ export default function Toolbar(props) {
           >
             <span className={classes.cart}>
               {shoppingCartIcon}
-              <span className={classes.cartTxt}>Visit our store</span>
+              <span className={classes.cartTxt}>{t("cart.visit")}</span>
             </span>
-
-            <span className={classes.btnTxtAreaTake}>Let's go!</span>
+            <span className={classes.btnTxtAreaTake}>{t("cart.go")}</span>
           </a>
         </div>
 
