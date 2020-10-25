@@ -9,6 +9,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Logo from "../../components/UI/Logo/Logo";
 import { Fade } from "@material-ui/core";
+import SEO from "../../utils/SEO";
 
 export default function ContactPage() {
   const { t } = useTranslation("common");
@@ -22,6 +23,7 @@ export default function ContactPage() {
   return (
     <Fade in={true} timeout={500}>
       <div className={classes.Container}>
+        <SEO title="Contact Us" />
         <h1 className={classes.header}>{t("menu.contact")}</h1>
         <div className={classes.paragraph}>
           <Trans>{t("contact.text")}</Trans>

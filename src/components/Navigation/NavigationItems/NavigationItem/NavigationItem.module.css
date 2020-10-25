@@ -4,9 +4,10 @@
   color: black;
   text-decoration: inherit;
   font-family: "Lato";
+  white-space: nowrap;
 }
 .active {
-  color: red;
+  color: tomato;
 }
 
 @media (min-width: 1024px) {

@@ -92,7 +92,8 @@
     "tableDough": "PESO DELLA PASTA",
     "tableMeasures": "MISURE ESTERNE IN CM / POLLICI",
     "tableMeasuresCM": "MISURE ESTERNE IN CM",
-    "tableCatalog": "NUMERO DI CATALOGO"
+    "tableCatalog": "NUMERO DI CATALOGO",
+    "linersAvailable": "Le fodere sono disponibili per dimensioni del cesto che vanno da"
   },
   "contact": {
     "text": "<p>Siamo a disposizione per rispondere alle vostre domande e richieste di preventivo dal lunedì al venerdì nel normale orario lavorativo. Facciamo del nostro meglio per rispondere entro 24 ore. Se la sua questione è urgente, non esitare a chiamarci ai numeri seguenti (polacco o inglese).</p><p>We accept emails in any languange.</p>",
@@ -121,9 +122,41 @@
     "line10": "Le dimensioni dei cestini si riferiscono alle dimensioni esterne (± 5 mm)",
     "line11": "Cestini sono progettati solo per far lievitare la pasta, non sono adatti come stampi per la cottura del pane alle alte temperature!"
   },
+  "needHelp": {
+    "title": "Avete domande?",
+    "ourCS": "Il nostro cordiale servizio clienti sarà lieto di risponderti e consigliarti sulla tua scelta!",
+    "wholesale": "Se sei il titolare o il dipendente di un panificio e sei interessato ad un ordine all'ingrosso, contattaci inviando una mail a:",
+    "individual": "Se sei un singolo cliente o desideri ordinare un campione, visita il nostro negozio:",
+    "message": "Per domande veloci, puoi contattarci tramite Messenger o WhatsApp"
+  },
   "cookie": {
     "text": "Questo sito Web utilizza i cookie per migliorare l'esperienza dell'utente. Ulteriori informazioni possono essere trovate nella sezione Privacy Policy del sito.",
     "button": "Capisco e accetto"
+  },
+  "aboutUsPage": {
+    "thankyou": "Grazie per aver visitato la nostra pagina!",
+    "welcome": "Siamo molto lieti di poterci presentare e raccontarvi di noi e di cosa facciamo. Condivideremo volentieri maggiori dettagli e faremo una chiacchierata, quindi non esitate a contattarci!",
+    "owners": "Weronika e Michal",
+    "familycompany": {
+      "title": "AZIENDA FAMIGLIARE",
+      "text": "Siamo un'azienda a conduzione familiare con oltre 12 anni di esperienza nel settore alimentare. I valori della famiglia sono molto importanti per noi ed è per questo che trattiamo ogni cliente come un membro della nostra grande famiglia di fornai. Siamo positivi, onesti, coraggiosi e determinati a dare il meglio e creare solo i prodotti migliori."
+    },
+    "ourproducts": {
+      "title": "I NOSTRI PRODOTTI",
+      "text": "Produciamo cestini da lievitazione per il pane, chiamati anche bannetons dalle nostre mani, con la massima cura. Per molti anni abbiamo migliorato in questo mestiere molto difficile per garantire la massima qualità dei nostri prodotti. Siamo profondamente coinvolti e appassionati del nostro lavoro."
+    },
+    "naturalmaterials": {
+      "title": "MATERIALI NATURALI",
+      "text": "I cestini sono realizzati in materiale naturale in rattan, non contengono conservanti o candeggine. Selezioniamo attentamente i nostri fornitori per garantire che il materiale sia adatto alle nostre esigenze."
+    },
+    "transformingcommunities": {
+      "title": "COMUNITÀ IN TRASFORMAZIONE",
+      "text": "Con la creazione indiretta di posti di lavoro sostenibili in località lontane in Asia, diamo la possibilità ai nostri fornitori di materiale naturale in rattan, ai loro lavoratori e a tutte le loro famiglie di spezzare il ciclo della povertà e costruire un futuro più luminoso."
+    },
+    "joinourfamily": {
+      "title": "UNISCITI ALLA NOSTRA FAMIGLIA BESTBANN BAKERS",
+      "text": "Con la determinazione al miglioramento continuo dei processi produttivi e l'ampliamento della gamma di prodotti, siamo in grado di offrire numerosi tipi e dimensioni di cestini da lievitazione, che abbiamo già consegnato in quasi tutti i continenti, in più di 30 paesi. Collaboriamo con successo con enormi grossisti, negozi online, panifici, hotel e ristoranti, nonché con singoli clienti."
+    }
   },
   "footer": {
     "companyInfo": {
@@ -132,6 +165,7 @@
       "street": "Via: ",
       "city": "Città: "
     },
+    "siteMap": "Mappa del sito",
     "contact": {
       "title": "Contatto",
       "email": "E-mail: ",

@@ -12,12 +12,10 @@
   padding-left: 0px;
 }
 
-.SecondaryList {
-  list-style: none;
-  padding-left: 8px;
-}
-.SecondaryList li {
-  padding: 6px 0;
+.secondaryList {
+  margin-left: 40px;
+  margin-bottom: 16px;
+  font-size: 18px;
 }
 
 .Icon {
@@ -27,11 +25,19 @@
   margin-right: 10px;
 }
 a {
+  text-decoration: none;
   color: inherit;
+}
+
+.MobNavContainer a {
+  display: block;
+  color: inherit;
+  width: 90%;
+  box-sizing: border-box;
   text-decoration: none;
 }
 .linkActive {
-  padding: 10px 20px 10px 40px;
+  padding: 3px 20px 0 40px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   color: white;
@@ -41,8 +47,13 @@ a {
   transition: all 0.4s ease;
 }
 
+.accordionSummary > div {
+  margin: 0 !important;
+}
+
 .InactiveLink {
   padding-left: 20px;
+  line-height: 40px;
 }
 
 .root {
@@ -56,17 +67,6 @@ a {
   font-size: 18px;
   position: relative;
   line-height: 40px;
-}
-
-.secondaryListItem {
-  font-size: 16px;
-  height: 5vh;
-  line-height: 5vh;
-}
-.ProductsTertiaryList {
-  display: none;
-  opacity: 0;
-  height: 0;
 }
 
 .active {

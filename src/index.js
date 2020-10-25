@@ -16,6 +16,7 @@ i18next.use(detector).init({
   detection: {
     lookupLocalStorage: "language",
   },
+  fallbackLng: "en",
   resources: {
     en: {
       common: common_en,
@@ -39,10 +40,8 @@ i18next.use(detector).init({
 });
 
 ReactDOM.render(
-  <React.StrictMode>
-    <I18nextProvider i18n={i18next}>
-      <App />
-    </I18nextProvider>
-  </React.StrictMode>,
+  <I18nextProvider i18n={i18next}>
+    <App />
+  </I18nextProvider>,
   document.getElementById("root")
 );

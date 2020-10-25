@@ -7,10 +7,10 @@ import longImg from "../../../assets/loboksnowySmallOptimized.jpg";
 import rominiImg from "../../../assets/rominiSmallOptimized.jpg";
 import squareLongImg from "../../../assets/slxsboknowySmallOptimized.jpg";
 import squareImg from "../../../assets/sqxsboknoweSmallOptimized.jpg";
-
 import { Trans, useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { Fade } from "@material-ui/core";
+import SEO from "../../../utils/SEO";
 
 export default function Products() {
   const { t } = useTranslation("common");
@@ -62,6 +62,7 @@ export default function Products() {
   return (
     <Fade in={true} timeout={500}>
       <div className={classes.ContentWrapper}>
+        <SEO title="Bread Proofing Baskets" />
         <h1 className={classes.sectionTitle}>
           {t("mainSections.products.breadProofing")}
         </h1>

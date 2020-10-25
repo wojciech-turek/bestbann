@@ -71,7 +71,6 @@
   width: 200px;
   z-index: 0;
 }
-/* END OF SHOP NOW BUTTON */
 .navItems {
   display: none;
 }
@@ -107,6 +106,7 @@
   }
   .navItems {
     display: block;
+    min-width: 400px;
     margin-right: 20px;
   }
 

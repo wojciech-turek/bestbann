@@ -122,9 +122,16 @@
     "tableDough": "DOUGH WEIGHT",
     "tableMeasures": "EXTERNAL MEASURES IN CM / INCHES",
     "tableMeasuresCM": "EXTERNAL MEASURES IN CM",
-    "tableCatalog": "CATALOG NUMBER"
+    "tableCatalog": "CATALOG NUMBER",
+    "linersAvailable": "Liners are available for basket sizes ranging from"
   },
-
+  "needHelp": {
+    "title": "Do you have any questions?",
+    "ourCS": "Our friendly Customer Service department will be happy to answer them and advise you on your choice!",
+    "wholesale": "If you are the owner or an employee of a bakery and you are interested in a wholesale order, please contact us by sending an email to:",
+    "individual": "If you are an individual customer or would like to order a sample, please visit our store:",
+    "message": "For quick questions, you can contact us via Messenger or WhatsApp"
+  },
   "cookie": {
     "text": "This website uses cookies to enhance the user experience. More information can be found in Privacy Policy section of the website.",
     "button": "I understand and accept"
@@ -141,6 +148,7 @@
       "email": "Email: ",
       "telephone": "Phone: "
     },
+    "siteMap": "Site Map",
     "newsletter": {
       "title": "Newsletter Signup",
       "name": "Your name*",
@@ -216,6 +224,31 @@
       "listp3": "Last modified: 26/09/2020"
     },
     "outro": "Please send any questions, applications and suggestions relating to the protection of your privacy, and personal data in particular, to office@bestbann.com or by telephone on +48.692933069. "
+  },
+  "aboutUsPage": {
+    "thankyou": "Thank you for visiting our page!",
+    "welcome": "We're very pleased to be able to introduce ourselves and tell you about us and what we do. We will gladly share more details and have a chat so please do not hesitate to contact us!",
+    "owners": "Weronika and Michal",
+    "familycompany": {
+      "title": "Family Company",
+      "text": "We are a family owned company with over 12-years’ of experience in the food industry. Family values are very important to us and that is why we treat each customer as a member of our great bakers family. We're positive, honest, brave and determined to give our best and create only the best products."
+    },
+    "ourproducts": {
+      "title": "Our Products",
+      "text": "We are producing bread proofing baskets, also called bannetons by our own hands, with the utmost care. For many years we have been improving in this very difficult craft to ensure the highest quality of our products. We're deeply engaged and passionate about our work."
+    },
+    "naturalmaterials": {
+      "title": "Natural Materials",
+      "text": "Baskets are made of natural rattan material, do not contain preservatives or bleaches. We carefully select our suppliers to ensure that the material is suitable to our needs."
+    },
+    "transformingcommunities": {
+      "title": "TRANSFORMING COMMUNITIES",
+      "text": "By indirect sustainable job creation in distant locations in Asia, we empower our natural rattan material suppliers, their workers and all their families to break the cycle of poverty and build a brighter future."
+    },
+    "joinourfamily": {
+      "title": "Join our bestbann bakers family",
+      "text": "With the determination to continuous improvement of production processes and expanding the range of products, we are able to offer numerous types and sizes of bread proofing baskets, which we have already delivered to almost all continents, to more than 30 countries. We successfully cooperate with huge wholesalers, online stores, bakeries, hotels and restaurants, as well as with individual customers."
+    }
   },
   "cart": {
     "visit": "Shop",

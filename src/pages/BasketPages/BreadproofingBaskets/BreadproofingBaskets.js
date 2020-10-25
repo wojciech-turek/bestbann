@@ -23,6 +23,8 @@ import MiniRO from "../../../assets/miniRO.jpg";
 import SquareROX from "../../../assets/SquareROX.jpg";
 import LongROX from "../../../assets/LongROX.jpg";
 import CheckCircleOutlineIcon from "@material-ui/icons/CheckCircleOutline";
+import { Fade } from "@material-ui/core";
+import SEO from "../../../utils/SEO";
 
 export const BreadproofingBaskets = React.memo(function BreadproofingBaskets(
   props
@@ -231,155 +233,158 @@ export const BreadproofingBaskets = React.memo(function BreadproofingBaskets(
   }
 
   return (
-    <div className={classes.Container}>
-      <div className={classes.wrapper}>
-        <div className={classes.productDetails}>
-          <h1 className={classes.productTitle}>
-            {basketTypes.roundBreadProofing.title}
-          </h1>
-          <DividerLine height="3px" width="10%" color="darkred" />
-          <div className={classes.basketTypes}>
-            <div
-              className={classes.type}
-              style={!basketTypes.imageTypeRO ? { display: "none" } : {}}
-            >
-              <h3 className={classes.typeTitle}>
-                {t("productDetails.type")} RO
-              </h3>
-              <DividerLine height="2px" width="12%" color="rgb(255,195,11)" />
-              <p>{t("productDetails.entirelyRattan")}</p>
-              <img
-                className={classes.typeImage}
-                src={basketTypes.imageTypeRO}
-                alt="Rattan round basket"
-              />
-            </div>
-            <div
-              className={classes.type}
-              style={!basketTypes.imageTypeROX ? { display: "none" } : {}}
-            >
-              <h3 className={classes.typeTitle}>
-                {t("productDetails.type")} ROX
-              </h3>
-              <DividerLine height="2px" width="12%" color="rgb(255,195,11)" />
-              <p>{t("productDetails.woodBase")}</p>
-
-              <img
-                className={classes.typeImage}
-                src={basketTypes.imageTypeROX}
-                alt="Rattan round basket with wooden base"
-              />
-            </div>
-          </div>
-          {props.title === "RoundBaskets" ||
-          props.title === "OblongBaskets" ||
-          props.title === "OvalBaskets" ? (
-            <p className={classes.linersAvailable}>
-              <CheckCircleOutlineIcon
-                style={{ color: "green", marginRight: 8 }}
-              />
-              {`Liners are available for basket sizes ranging from ${
-                props.title === "RoundBaskets"
-                  ? "250g to 1500g."
-                  : props.title === "OblongBaskets"
-                  ? "250g to 1750g."
-                  : props.title === "OvalBaskets"
-                  ? "250g to 1000g."
-                  : null
-              }`}
-            </p>
-          ) : null}
-
-          <Paper className={classes.root}>
-            <TableContainer className={classes.container}>
-              <Table stickyHeader aria-label="sticky table">
-                <TableHead>
-                  <TableRow>
-                    {columns.map((column) => (
-                      <TableCell
-                        key={column.id}
-                        align={column.align}
-                        style={{
-                          minWidth: column.minWidth,
-                          padding: 8,
-                        }}
-                      >
-                        {column.label}
-                      </TableCell>
-                    ))}
-                  </TableRow>
-                </TableHead>
-                <TableBody>
-                  {tableRows.map((row) => {
-                    return (
-                      <TableRow hover key={row.catalog}>
-                        {columns.map((column) => {
-                          let value = row[column.id];
-                          return (
-                            <TableCell
-                              key={column.id}
-                              align={column.align}
-                              style={{
-                                padding: 8,
-                              }}
-                            >
-                              {value}
-                            </TableCell>
-                          );
-                        })}
-                      </TableRow>
-                    );
-                  })}
-                </TableBody>
-              </Table>
-            </TableContainer>
-          </Paper>
-          <div className={classes.productInfo}>
-            <h2 className={classes.productTitle}>{t("productInfo.title")}</h2>
-            <div className={classes.productInfoFlex}>
-              <ul className={classes.productInfoList}>
-                <li>
-                  <strong>{t("productInfo.line1")}</strong>
-                </li>
-                <li>{t("productInfo.line2")}</li>
-                <li>
-                  <strong>{t("productInfo.line3")}</strong>
-                </li>
-                <li>{t("productInfo.line4")}</li>
-                <li>
-                  <strong>{t("productInfo.line5")}</strong>
-                </li>
-                <li>
-                  <strong>{t("productInfo.line6")}</strong>
-                </li>
-                <li>
-                  <strong>{t("productInfo.line7")}</strong>
-                  <ol>
-                    <li>{t("productInfo.line71")}</li>
-                    <li>{t("productInfo.line72")}</li>
-                  </ol>
-                </li>
-                <li>{t("productInfo.line8")}</li>
-                <li>{t("productInfo.line9")}</li>
-                <li>{t("productInfo.line10")}</li>
-                <li>
-                  <strong>{t("productInfo.line11")}</strong>
-                </li>
-              </ul>
-              <div className={classes.basketCerContainer}>
+    <Fade in={true} timeout={500}>
+      <div className={classes.Container}>
+        <SEO title={props.title} />
+        <div className={classes.wrapper}>
+          <div className={classes.productDetails}>
+            <h1 className={classes.productTitle}>
+              {basketTypes.roundBreadProofing.title}
+            </h1>
+            <DividerLine height="3px" width="10%" color="darkred" />
+            <div className={classes.basketTypes}>
+              <div
+                className={classes.type}
+                style={!basketTypes.imageTypeRO ? { display: "none" } : {}}
+              >
+                <h3 className={classes.typeTitle}>
+                  {t("productDetails.type")} RO
+                </h3>
+                <DividerLine height="2px" width="12%" color="rgb(255,195,11)" />
+                <p>{t("productDetails.entirelyRattan")}</p>
                 <img
-                  className={classes.basketsCertImage}
-                  src={BasketsCertificationImage}
-                  alt="Baskets with Certificates"
+                  className={classes.typeImage}
+                  src={basketTypes.imageTypeRO}
+                  alt="Rattan round basket"
+                />
+              </div>
+              <div
+                className={classes.type}
+                style={!basketTypes.imageTypeROX ? { display: "none" } : {}}
+              >
+                <h3 className={classes.typeTitle}>
+                  {t("productDetails.type")} ROX
+                </h3>
+                <DividerLine height="2px" width="12%" color="rgb(255,195,11)" />
+                <p>{t("productDetails.woodBase")}</p>
+
+                <img
+                  className={classes.typeImage}
+                  src={basketTypes.imageTypeROX}
+                  alt="Rattan round basket with wooden base"
                 />
               </div>
             </div>
+            {props.title === "RoundBaskets" ||
+            props.title === "OblongBaskets" ||
+            props.title === "OvalBaskets" ? (
+              <p className={classes.linersAvailable}>
+                <CheckCircleOutlineIcon
+                  style={{ color: "green", marginRight: 8 }}
+                />
+                {`${t("productDetails.linersAvailable")} ${
+                  props.title === "RoundBaskets"
+                    ? "250g ➥ 1500g."
+                    : props.title === "OblongBaskets"
+                    ? "250g ➥ 1750g."
+                    : props.title === "OvalBaskets"
+                    ? "250g ➥ 1000g."
+                    : null
+                }`}
+              </p>
+            ) : null}
+
+            <Paper className={classes.root}>
+              <TableContainer className={classes.container}>
+                <Table stickyHeader aria-label="sticky table">
+                  <TableHead>
+                    <TableRow>
+                      {columns.map((column) => (
+                        <TableCell
+                          key={column.id}
+                          align={column.align}
+                          style={{
+                            minWidth: column.minWidth,
+                            padding: 8,
+                          }}
+                        >
+                          {column.label}
+                        </TableCell>
+                      ))}
+                    </TableRow>
+                  </TableHead>
+                  <TableBody>
+                    {tableRows.map((row) => {
+                      return (
+                        <TableRow hover key={row.catalog}>
+                          {columns.map((column) => {
+                            let value = row[column.id];
+                            return (
+                              <TableCell
+                                key={column.id}
+                                align={column.align}
+                                style={{
+                                  padding: 8,
+                                }}
+                              >
+                                {value}
+                              </TableCell>
+                            );
+                          })}
+                        </TableRow>
+                      );
+                    })}
+                  </TableBody>
+                </Table>
+              </TableContainer>
+            </Paper>
+            <div className={classes.productInfo}>
+              <h2 className={classes.productTitle}>{t("productInfo.title")}</h2>
+              <div className={classes.productInfoFlex}>
+                <ul className={classes.productInfoList}>
+                  <li>
+                    <strong>{t("productInfo.line1")}</strong>
+                  </li>
+                  <li>{t("productInfo.line2")}</li>
+                  <li>
+                    <strong>{t("productInfo.line3")}</strong>
+                  </li>
+                  <li>{t("productInfo.line4")}</li>
+                  <li>
+                    <strong>{t("productInfo.line5")}</strong>
+                  </li>
+                  <li>
+                    <strong>{t("productInfo.line6")}</strong>
+                  </li>
+                  <li>
+                    <strong>{t("productInfo.line7")}</strong>
+                    <ol>
+                      <li>{t("productInfo.line71")}</li>
+                      <li>{t("productInfo.line72")}</li>
+                    </ol>
+                  </li>
+                  <li>{t("productInfo.line8")}</li>
+                  <li>{t("productInfo.line9")}</li>
+                  <li>{t("productInfo.line10")}</li>
+                  <li>
+                    <strong>{t("productInfo.line11")}</strong>
+                  </li>
+                </ul>
+                <div className={classes.basketCerContainer}>
+                  <img
+                    className={classes.basketsCertImage}
+                    src={BasketsCertificationImage}
+                    alt="Baskets with Certificates"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={classes.side}>
+            <NeedHelpSection />
           </div>
         </div>
-        <div className={classes.side}>
-          <NeedHelpSection />
-        </div>
       </div>
-    </div>
+    </Fade>
   );
 });

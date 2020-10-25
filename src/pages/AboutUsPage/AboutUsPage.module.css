@@ -1,8 +1,9 @@
 .Container {
   min-height: 80vh;
   width: 100%;
-  margin: 10vh auto;
+  margin: 100px auto;
   text-align: center;
+  /* overflow-x: hidden; */
 }
 .aboutUsWrap {
   display: flex;

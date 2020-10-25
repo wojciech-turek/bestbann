@@ -1,12 +1,14 @@
 import React from "react";
 import classes from "./PrivacyPolicy.module.css";
 import { Fade } from "@material-ui/core";
-import { Trans, useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
+import SEO from "../../../utils/SEO";
 export default function PrivacyPolicy() {
   const { t } = useTranslation("common");
   return (
     <Fade in={true} timeout={500}>
       <div className={classes.Container}>
+        <SEO title="Privacy Policy" />
         <h1 className={classes.header}>{t("privacyPolicy.title")}</h1>
         <div className={classes.paragraph}>
           <p>
@@ -31,6 +33,7 @@ export default function PrivacyPolicy() {
             <li>{t("privacyPolicy.point2list.listp9")}</li>
             <li>{t("privacyPolicy.point2list.listp10")}</li>
           </ul>
+
           <p>{t("privacyPolicy.point3")}</p>
           <p>{t("privacyPolicy.point3text1")}</p>
           <p>{t("privacyPolicy.point3text2")}</p>

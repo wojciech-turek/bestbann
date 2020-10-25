@@ -1,18 +1,14 @@
-import React, { useEffect } from "react";
+import React from "react";
 import classes from "./WithLiners.module.css";
 import ovalImg from "../../../assets/linersoval.jpg";
 import roungImg from "../../../assets/linersround.jpg";
 import longImg from "../../../assets/linersoblong.jpg";
-
 import { Trans, useTranslation } from "react-i18next";
 import { Fade } from "@material-ui/core";
 import { Link } from "react-router-dom";
+import SEO from "../../../utils/SEO";
 
 export default function Products() {
-  useEffect(() => {
-    document.title = "BestBann - Products";
-  }, []);
-
   const { t } = useTranslation("common");
   const productsImages = [
     {
@@ -38,6 +34,7 @@ export default function Products() {
   return (
     <Fade in={true} timeout={500}>
       <div className={classes.ContentWrapper}>
+        <SEO title="Baskets with liners" />
         <h1 className={classes.sectionTitle}>
           {t("mainSections.products.withLiners")}
         </h1>

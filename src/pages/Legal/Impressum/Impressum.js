@@ -1,13 +1,14 @@
 import React from "react";
 import classes from "./Impressum.module.css";
 import { Fade } from "@material-ui/core";
-
+import SEO from "../../../utils/SEO";
 export default function Impressum() {
   return (
     <Fade in={true} timeout={500}>
       <div className={classes.Container}>
+        <SEO title="Impressum" />
         <h1 className={classes.header}>Impressum</h1>
-        <div className={classes.paragraph}>
+        <section className={classes.section}>
           <p>
             <strong>
               BestBann Weronika Pozłutko
@@ -49,7 +50,7 @@ export default function Impressum() {
             <br />
             Further pictures: AdobeStock
           </p>
-        </div>
+        </section>
       </div>
     </Fade>
   );

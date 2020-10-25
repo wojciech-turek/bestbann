@@ -2,8 +2,8 @@
   display: flex;
   flex-flow: column;
   position: fixed;
-  width: 240px;
-  max-width: 70%;
+  width: 300px;
+  max-width: 85%;
   min-height: calc(100vh - 60px);
   left: 0;
   top: 0;

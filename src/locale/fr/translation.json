@@ -93,7 +93,8 @@
     "tableDough": "POIDS DE LA PÂTE",
     "tableMeasures": "MESURES EXTERNES EN CM / INCHES",
     "tableMeasuresCM": "MESURES EXTERNES EN CM",
-    "tableCatalog": "NUMÉRO DE CATALOGUE"
+    "tableCatalog": "NUMÉRO DE CATALOGUE",
+    "linersAvailable": "Les doublures sont disponibles pour des tailles de panier allant de"
   },
 
   "contact": {
@@ -111,7 +112,38 @@
     "text": "Ce site Web utilise des cookies pour améliorer l'expérience utilisateur. Plus d'informations peuvent être trouvées dans la section Politique de confidentialité du site Web.",
     "button": "Je comprends et j'accepte"
   },
-
+  "needHelp": {
+    "title": "Avez-vous des questions?",
+    "ourCS": "Notre sympathique service client se fera un plaisir d'y répondre et de vous conseiller sur votre choix!",
+    "wholesale": "Si vous êtes propriétaire ou employé d'une boulangerie et que vous êtes intéressé par une commande en gros, veuillez nous contacter en envoyant un email à:",
+    "individual": "Si vous êtes un client individuel ou souhaitez commander un échantillon, veuillez visiter notre magasin:",
+    "message": "Pour des questions rapides, vous pouvez nous contacter via Messenger ou WhatsApp"
+  },
+  "aboutUsPage": {
+    "thankyou": "Merci d'avoir visité notre page!",
+    "welcome": "Nous sommes très heureux de pouvoir nous présenter et vous parler de nous et de ce que nous faisons. Nous partagerons avec plaisir plus de détails et discuterons, alors n'hésitez pas à nous contacter!",
+    "owners": "Weronika et Michal",
+    "familycompany": {
+      "title": "ENTREPRISE FAMILIALE",
+      "text": "Nous sommes une entreprise familiale avec plus de 12 ans d’expérience dans l’industrie alimentaire. Les valeurs familiales sont très importantes pour nous et c'est pourquoi nous traitons chaque client comme un membre de notre grande famille de boulangers. Nous sommes positifs, honnêtes, courageux et déterminés à donner le meilleur de nous-mêmes et à créer uniquement les meilleurs produits."
+    },
+    "ourproducts": {
+      "title": "NOS PRODUITS",
+      "text": "Nous produisons de nos propres mains des paniers à pain, également appelés bannetons, avec le plus grand soin. Depuis de nombreuses années, nous nous améliorons dans ce métier très difficile pour assurer la plus haute qualité de nos produits. Nous sommes profondément engagés et passionnés par notre travail."
+    },
+    "naturalmaterials": {
+      "title": "MATÉRIAUX NATURELS",
+      "text": "Les bannetons sont en rotin naturel, ne contiennent ni conservateurs ni agents de blanchiment. Nous sélectionnons soigneusement nos fournisseurs pour nous assurer que le matériau est adapté à nos besoins."
+    },
+    "transformingcommunities": {
+      "title": "TRANSFORMER LES COMMUNAUTÉS",
+      "text": "En créant indirectement des emplois durables dans des régions éloignées d'Asie, nous donnons les moyens à nos fournisseurs de matériaux en rotin naturel, à leurs travailleurs et à toutes leurs familles de briser le cycle de la pauvreté et de bâtir un avenir meilleur."
+    },
+    "joinourfamily": {
+      "title": "REJOIGNEZ NOTRE FAMILLE BESTBANN BAKERS",
+      "text": "Avec la volonté d'améliorer continuellement les processus de production et d'élargir la gamme de produits, nous sommes en mesure de proposer de nombreux types et tailles de paniers à pain, que nous avons déjà livrés sur presque tous les continents, dans plus de 30 pays. Nous coopérons avec succès avec d'énormes grossistes, des magasins en ligne, des boulangeries, des hôtels et des restaurants, ainsi qu'avec des clients particuliers."
+    }
+  },
   "productInfo": {
     "title": "INFORMATIONS SUR LE PRODUIT:",
     "line1": "Fabriqués manuellementen en rotin naturel ou en rotin naturel et en bois",
@@ -130,11 +162,12 @@
   },
   "footer": {
     "companyInfo": {
-      "title": "Informations sur les entreprises",
+      "title": "Informations",
       "office": "Bureau: ",
       "street": "Rue: ",
       "city": "Ville: "
     },
+    "siteMap": "Plan du site",
     "contact": {
       "title": "Contactez",
       "email": "Courriel: ",

@@ -42,6 +42,9 @@
   color: tomato;
   cursor: pointer;
 }
+.email a {
+  width: 100%;
+}
 
 @media (min-width: 1024px) {
   .Container {

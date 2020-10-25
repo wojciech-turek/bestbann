@@ -14,28 +14,29 @@ import FDC715 from "../../../assets/FDC715.jpg";
 import FOD737 from "../../../assets/FOS727FOD737.jpg";
 import { Trans } from "react-i18next";
 import { Fade } from "@material-ui/core";
+import SEO from "../../../utils/SEO";
 export default function WoodenBakingForms() {
   const { t } = useTranslation("common");
 
   const products = [
     {
       pathToImg: FBM720,
-      alt: "Wooden Baking Form",
+      alt: "Wooden Baking Form FBM720",
       data: [createData("14 x 9 x 5 cm", "FBM720")],
     },
     {
       pathToImg: FMC708,
-      alt: "Wooden Baking Form",
+      alt: "Wooden Baking Form FMC708",
       data: [createData("20 x 10 x 7 cm", "FMC708")],
     },
     {
       pathToImg: FDC715,
-      alt: "Wooden Baking Form",
+      alt: "Wooden Baking Form FDC715",
       data: [createData("25 x 11 x 7,5 cm", "FDC715")],
     },
     {
       pathToImg: FOD737,
-      alt: "Wooden Baking Form",
+      alt: "Wooden Baking Form FOD737",
       data: [
         createData("Φ 18 x 5,5 cm", "FOD737"),
         createData("Φ 14 x 4,5 cm", "FOS727"),
@@ -58,6 +59,7 @@ export default function WoodenBakingForms() {
   return (
     <Fade in={true} timeout={500}>
       <div className={classes.ContentWrapper}>
+        <SEO title="Wooden Baking Forms" />
         <h1 className={classes.sectionTitle}>
           {t("mainSections.products.woodenBakingForm")}
         </h1>

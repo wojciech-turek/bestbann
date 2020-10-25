@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import HeroBanner from "../../components/HeroBanner/HeroBanner";
 import MainSection from "../../components/MainSection/MainSection";
 import AboutUs from "../../components/AboutUs/AboutUs";
@@ -9,21 +9,21 @@ import classes from "./MainPage.module.css";
 import Products from "../../components/Products/Products";
 import { Fade } from "@material-ui/core";
 import Cookies from "universal-cookie";
+import SEO from "../../utils/SEO";
 
-function MainPage() {
+function MainPage(props) {
   const cookies = new Cookies();
   let cookiesAcc = cookies.get("cookieAcc");
   const setCookiesAcc = () => {
     cookies.set("cookieAcc", true, { path: "/" });
   };
-  useEffect(() => {
-    document.title = "BestBann - Home";
-  }, []);
-  const { t } = useTranslation("common");
 
+  const { t } = useTranslation("common");
+  console.log(props);
   return (
     <Fade in={true} timeout={500}>
       <div className={classes.Main}>
+        <SEO title="Homepage" />
         <HeroBanner />
         <MainSection
           title={t("mainSections.aboutUs.title")}

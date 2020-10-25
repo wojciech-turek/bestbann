@@ -17,7 +17,7 @@ const Layout = () => {
   const nodeRef = useRef(null);
 
   const routes = [
-    { path: "/bestbann", name: "Home", Component: MainPage },
+    { path: "/", name: "Home", Component: MainPage },
     {
       path: "/products/breadproofingbaskets",
       name: "Products - Bread Proofing Baskets",
@@ -95,7 +95,7 @@ const Layout = () => {
   const AnimatedSwitch = withRouter(({ location }) => (
     <Switch>
       {routeList}
-      <Route render={() => <Redirect to={{ pathname: "/bestbann" }} />} />
+      <Route render={() => <Redirect to={{ pathname: "/" }} />} />
     </Switch>
   ));
 

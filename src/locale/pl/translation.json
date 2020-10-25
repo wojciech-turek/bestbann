@@ -121,15 +121,40 @@
     "tableDough": "WAGA CIASTA",
     "tableMeasures": "WYMIARY ZEWNĘTRZNE W CM / CALACH",
     "tableMeasuresCM": "WYMIARY ZEWNĘTRZNE W CM",
-    "tableCatalog": "NUMER KATALOGOWY"
+    "tableCatalog": "NUMER KATALOGOWY",
+    "linersAvailable": "Poszewki są dostępne dla rozmiarów koszy od"
   },
-
+  "aboutUsPage": {
+    "thankyou": "Dziękujemy za odwiedzenie naszej strony!",
+    "welcome": "Jesteśmy bardzo zadowoleni, że możemy opowiedzieć Państwu o nas oraz o tym, co robimy. Chętnie podamy więcej szczegółów i porozmawiamy na ten temat, więc zapraszamy do kontaktu.",
+    "owners": "Weronika i Michal",
+    "familycompany": {
+      "title": "FIRMA RODZINNA",
+      "text": "Jesteśmy firmą rodzinną, z ponad 12-letnim doświadczeniem w branży spożywczej. Wartości rodzinne są dla nas bardzo ważne, dlatego każdego klienta traktujemy jak członka naszej wspaniałej piekarniczej rodziny. Jesteśmy pozytywnie nastawieni, uczciwi, odważni i zdeterminowani, aby dawać z siebie wszystko i tworzyć tylko najlepsze produkty."
+    },
+    "ourproducts": {
+      "title": "NASZE PRODUKTY",
+      "text": "Nasze kosze do wyrastania chleba wykonujemy własnoręcznie z najwyższą starannością. Od wielu lat doskonalimy się w tym bardzo trudnym rzemiośle, aby zapewnić najwyższą jakość naszych produktów. Jesteśmy głęboko zaangażowani i pełni pasji w wykonywaniu naszej pracy."
+    },
+    "naturalmaterials": {
+      "title": "NATURALNE MATERIAŁY",
+      "text": "Nasz kosze wykonane są z naturalnego rattanu, nie zawierają konserwantów ani wybielaczy. Starannie dobieramy naszych dostawców, aby upewnić się, że materiał jest najwyższej jakości, odpowiedni do naszych potrzeb."
+    },
+    "transformingcommunities": {
+      "title": "PRZEKSZTAŁCANIE SPOŁECZNOŚCI",
+      "text": "Poprzez pośrednie tworzenie trwałych miejsc pracy w odległych miejscach w Azji, umożliwiamy naszym dostawcom naturalnego rattanu, ich pracownikom i wszystkim ich rodzinom przerwanie kręgu ubóstwa i zbudowanie lepszej przyszłości."
+    },
+    "joinourfamily": {
+      "title": "DOŁĄCZ DO NASZEJ PIEKARNICZEJ RODZINY BESTBANN",
+      "text": "Dążąc do ciągłego doskonalenia procesów produkcyjnych i poszerzania asortymentu, jesteśmy w stanie zaoferować wiele rodzajów i rozmiarów koszy do wyrastania pieczywa, które dostarczyliśmy już na prawie wszystkie kontynenty, do ponad 30 krajów. Z powodzeniem współpracujemy z dużymi hurtowniami, sklepami internetowymi, piekarniami, hotelami i restauracjami, a także z klientami indywidualnymi."
+    }
+  },
   "needHelp": {
-    "title": "Mają Państwo jakieś pytania?",
-    "ourCS": "Nasz przyjazny dział Obsługi Klienta chętnie postara sie na nie odpowiedzieć lub doradzić w wyborze!",
-    "wholesale": "Jeśli jesteś właśicielem lub pracownikiem piekarni i jesteś zainsteresowany zamówieniem hurtowym, skontaktuj się z nami wysyłając maila na:",
-    "individual": "Jeśli jesteś klientem indywidualnym lub chciałbyś/a zamówić próbkę, odwiedź nasz sklep:",
-    "message": "Jeśli chcesz o coś szybko zapytać, możesz skontaktować się z nami poprzez komunikatory Messenger lub WhatsApp"
+    "title": "Służymy pomocą!",
+    "ourCS": "Nasz przyjazny dział Obsługi Klienta chętnie postara się odpowiedzieć na wszystkie pytania i doradzi w wyborze!",
+    "wholesale": "Jeśli jesteś właścicielem lub pracownikiem piekarni i jesteś zainteresowany zamówieniem hurtowym, skontaktuj się z nami wysyłając maila na:",
+    "individual": "Jeśli jesteś Klientem indywidualnym lub chcesz zamówić próbkę, odwiedź nasz sklep:",
+    "message": "Możesz także skontaktować się z nami poprzez komunikatory Messenger lub WhatsApp"
   },
   "cookie": {
     "text": "Ta strona używa plików cookie w celu zwiększenia komfortu użytkowania. Więcej informacji można znaleźć w sekcji Polityka Prywatności.",
@@ -142,6 +167,7 @@
       "street": "Ulica: ",
       "city": "Miasto: "
     },
+    "siteMap": "Mapa Strony",
     "contact": {
       "title": "Kontakt",
       "email": "Email: ",

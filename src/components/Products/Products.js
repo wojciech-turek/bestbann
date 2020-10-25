@@ -46,6 +46,7 @@ export default function Products(props) {
       animateIn="animate__fadeInUp"
       delay={sect.delay}
       animateOnce={true}
+      key={sect.delay}
     >
       <ProductsCategory
         title={sect.title}
