@@ -1,5 +1,5 @@
 .ContentWrapper {
-  margin-top: 15vh;
+  margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
   max-width: 1920px;
@@ -8,7 +8,7 @@
 }
 .sectionTitle {
   font-family: "Lato";
-  width: 60%;
+  width: 90%;
   margin: 0 auto;
   padding-bottom: 5%;
   border-bottom: 2px solid rgba(0, 0, 0, 0.2);

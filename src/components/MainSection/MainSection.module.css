@@ -1,10 +1,10 @@
 .SectionTitle {
   width: 80%;
   margin: 3vh auto;
-  height: 10vh;
+  height: 100px;
   background-color: #f7f7f7;
   text-align: center;
-  line-height: 10vh;
+  line-height: 100px;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   font-family: "Lato";

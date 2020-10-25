@@ -68,6 +68,7 @@ export default function MobileNavigationItems(props) {
         <li className={classes.PrimaryItem}>
           <NavLink
             to="/"
+            exact={props.link !== "/products" ? true : false}
             className={classes.InactiveLink}
             activeClassName={classes.linkActive}
             onClick={() => props.setSideOpen(false)}

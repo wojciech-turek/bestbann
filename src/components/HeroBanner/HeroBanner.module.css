@@ -1,6 +1,6 @@
 .heroBanner {
   height: 70vh;
-  max-height: 1000px;
+  max-height: 952px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image: url("../../assets/herobannerProgressiveMobile.jpg");
@@ -22,7 +22,7 @@
 @media (min-width: 620px) {
   .heroBanner {
     background-image: url("../../assets/herobannerProgressiveMedium.jpg");
-    background-position: left bottom;
+    /* background-position: left bottom; */
     height: 80vh;
   }
 }
@@ -40,6 +40,7 @@
   }
   .LogoBanner {
     width: 50vh;
+    min-width: 400px;
     padding: 10px;
   }
 }
