@@ -14,10 +14,16 @@
 
 .secondaryList {
   margin-left: 40px;
-  margin-bottom: 16px;
   font-size: 18px;
+  margin-top: 12px;
+  line-height: normal;
 }
-
+.secondaryList a {
+  margin-bottom: 16px;
+}
+.secondaryList .active {
+  color: tomato;
+}
 .Icon {
   margin-right: 20px;
 }

@@ -109,7 +109,7 @@ export default function MobileNavigationItems(props) {
                   activeClassName={classes.active}
                   onClick={() => props.setSideOpen(false)}
                 >
-                  Bread Proofing Baskets
+                  {t("mainSections.products.breadProofing")}
                 </NavLink>
 
                 <NavLink
@@ -117,7 +117,7 @@ export default function MobileNavigationItems(props) {
                   activeClassName={classes.active}
                   onClick={() => props.setSideOpen(false)}
                 >
-                  Wooden Baking Forms
+                  {t("mainSections.products.woodenBakingForm")}
                 </NavLink>
 
                 <NavLink
@@ -125,7 +125,7 @@ export default function MobileNavigationItems(props) {
                   activeClassName={classes.active}
                   onClick={() => props.setSideOpen(false)}
                 >
-                  Baskets with Liners
+                  {t("mainSections.products.withLiners")}
                 </NavLink>
               </div>
             </AccordionDetails>
