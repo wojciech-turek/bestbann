@@ -19,7 +19,6 @@ function MainPage(props) {
   };
 
   const { t } = useTranslation("common");
-  console.log(props);
   return (
     <Fade in={true} timeout={500}>
       <div className={classes.Main}>

@@ -1,4 +1,5 @@
 import React from "react";
+import Img from "react-cool-img";
 import classes from "./WhatMUD.module.css";
 import rattanImg from "../../assets/rattanMaterialCompressed.jpg";
 import certificateImg from "../../assets/certificateSmall.png";
@@ -22,7 +23,7 @@ export default function WhatMUD() {
             <div>{t("mainSections.whatMUD.material.content")}</div>
           </Trans>
           <div className={classes.ImgWrapper}>
-            <img
+            <Img
               className={classes.WMUDImg}
               src={rattanImg}
               alt="Natural Rattan"

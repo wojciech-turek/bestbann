@@ -11,7 +11,7 @@ export default function SiteNav() {
       <nav>
         <ul className={classes.footerNav}>
           <li>
-            <Link to="/bestbann">{t("menu.mainPage")}</Link>
+            <Link to="/">{t("menu.mainPage")}</Link>
           </li>
           <li>
             <Link to="/products/breadproofingbaskets">

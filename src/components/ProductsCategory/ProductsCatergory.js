@@ -10,9 +10,9 @@ export default function ProductsCatergory(props) {
   }
   if (props.btnTxt) {
     btn = (
-      <Link to={`/products/${props.destination}`}>
-        <button className={classes.SeeMoreBtn}>{props.btnTxt}</button>
-      </Link>
+      <button className={classes.SeeMoreBtn}>
+        <Link to={`/products/${props.destination}`}>{props.btnTxt}</Link>
+      </button>
     );
   }
   return (

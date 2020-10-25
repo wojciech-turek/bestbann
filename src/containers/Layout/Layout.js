@@ -85,7 +85,7 @@ const Layout = () => {
   let routeList = routes.map(({ path, Component, name }) => (
     <Route
       key={path}
-      exact
+      exact={true}
       path={path}
       nodeRef={nodeRef}
       render={(props) => <Component {...props} title={name} />}

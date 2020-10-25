@@ -1,8 +1,8 @@
 import React from "react";
-import breadProofingImg from "../../assets/OvBaskets.png";
-import woodenBaseImg from "../../assets/sqxsboknowe.png";
-import withLinersImg from "../../assets/withLiners.jpg";
-import woodenBakingImg from "../../assets/woodenBakingForm.png";
+import breadProofingImg from "../../assets/ovboksnowySmallOptimized.jpg";
+import woodenBaseImg from "../../assets/sqxsboknoweOptimized.jpg";
+import withLinersImg from "../../assets/withLinersOptimized1.jpg";
+import woodenBakingImg from "../../assets/woodenBakingFormOptimized.jpg";
 import ScrollAnimation from "react-animate-on-scroll";
 import ProductsCategory from "../../components/ProductsCategory/ProductsCatergory";
 import { useTranslation } from "react-i18next";
