@@ -109,7 +109,10 @@ export default function MobileNavigationItems(props) {
                   activeClassName={classes.active}
                   onClick={() => props.setSideOpen(false)}
                 >
-                  {t("mainSections.products.breadProofing")}
+                  <div className={classes.listItem}>
+                    <span className={classes.listIcon}>⁕</span>
+                    {t("mainSections.products.breadProofing")}
+                  </div>
                 </NavLink>
 
                 <NavLink
@@ -117,7 +120,10 @@ export default function MobileNavigationItems(props) {
                   activeClassName={classes.active}
                   onClick={() => props.setSideOpen(false)}
                 >
-                  {t("mainSections.products.woodenBakingForm")}
+                  <div className={classes.listItem}>
+                    <span className={classes.listIcon}>⁕</span>
+                    {t("mainSections.products.woodenBakingForm")}
+                  </div>
                 </NavLink>
 
                 <NavLink
@@ -125,7 +131,10 @@ export default function MobileNavigationItems(props) {
                   activeClassName={classes.active}
                   onClick={() => props.setSideOpen(false)}
                 >
-                  {t("mainSections.products.withLiners")}
+                  <div className={classes.listItem}>
+                    <span className={classes.listIcon}>⁕</span>
+                    {t("mainSections.products.withLiners")}
+                  </div>
                 </NavLink>
               </div>
             </AccordionDetails>

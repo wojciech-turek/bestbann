@@ -1,17 +1,26 @@
-import React, { useRef } from "react";
+import React, { useRef, lazy } from "react";
 import { Route, Redirect, withRouter, Switch } from "react-router-dom";
 import Navigation from "../Navigation/Navigation";
 import Footer from "../../components/Footer/Footer";
 import MainPage from "../../pages/MainPage/MainPage";
-import BreadProofing from "../../pages/ProductsPage/BreadProofing/BreadProofing";
-import WithLiners from "../../pages/ProductsPage/WithLiners/WithLiners";
 import ScrollToTop from "../../components/UI/ScrollToTop/ScrollToTop";
-import ContactPage from "../../pages/ContactPage/ContactPage";
-import AboutUsPage from "../../pages/AboutUsPage/AboutUsPage";
-import { BreadproofingBaskets } from "../../pages/BasketPages/BreadproofingBaskets/BreadproofingBaskets";
 import WoodenBakingForms from "../../pages/ProductsPage/WoodenBakingForms/WoodenBakingForms";
 import Impressum from "../../pages/Legal/Impressum/Impressum";
 import PrivacyPolicy from "../../pages/Legal/PrivacyPolicy/PrivacyPolicy";
+
+const BreadProofingBaskets = lazy(() =>
+  import("../../pages/BasketPages/BreadproofingBaskets/BreadproofingBaskets")
+);
+const WithLiners = lazy(() =>
+  import("../../pages/ProductsPage/WithLiners/WithLiners")
+);
+
+const BreadProofing = lazy(() =>
+  import("../../pages/ProductsPage/BreadProofing/BreadProofing")
+);
+
+const ContactPage = lazy(() => import("../../pages/ContactPage/ContactPage"));
+const AboutUsPage = lazy(() => import("../../pages/AboutUsPage/AboutUsPage"));
 
 const Layout = () => {
   const nodeRef = useRef(null);
@@ -38,37 +47,37 @@ const Layout = () => {
     {
       path: "/products/breadproofingbaskets/round",
       name: "RoundBaskets",
-      Component: BreadproofingBaskets,
+      Component: BreadProofingBaskets,
     },
     {
       path: "/products/breadproofingbaskets/oblong",
       name: "OblongBaskets",
-      Component: BreadproofingBaskets,
+      Component: BreadProofingBaskets,
     },
     {
       path: "/products/breadproofingbaskets/oval",
       name: "OvalBaskets",
-      Component: BreadproofingBaskets,
+      Component: BreadProofingBaskets,
     },
     {
       path: "/products/breadproofingbaskets/mini",
       name: "MiniBaskets",
-      Component: BreadproofingBaskets,
+      Component: BreadProofingBaskets,
     },
     {
       path: "/products/breadproofingbaskets/long",
       name: "LongBaskets",
-      Component: BreadproofingBaskets,
+      Component: BreadProofingBaskets,
     },
     {
       path: "/products/breadproofingbaskets/square",
       name: "SquareBaskets",
-      Component: BreadproofingBaskets,
+      Component: BreadProofingBaskets,
     },
     {
       path: "/products/breadproofingbaskets/baguette",
       name: "BaguetteBaskets",
-      Component: BreadproofingBaskets,
+      Component: BreadProofingBaskets,
     },
     {
       path: "/legalnotice",

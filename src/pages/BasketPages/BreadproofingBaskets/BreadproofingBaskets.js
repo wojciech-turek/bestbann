@@ -26,9 +26,7 @@ import CheckCircleOutlineIcon from "@material-ui/icons/CheckCircleOutline";
 import { Fade } from "@material-ui/core";
 import SEO from "../../../utils/SEO";
 
-export const BreadproofingBaskets = React.memo(function BreadproofingBaskets(
-  props
-) {
+export default function BreadproofingBaskets(props) {
   const { t } = useTranslation("common");
 
   const basketTypes = {
@@ -387,4 +385,4 @@ export const BreadproofingBaskets = React.memo(function BreadproofingBaskets(
       </div>
     </Fade>
   );
-});
+}

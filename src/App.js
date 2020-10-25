@@ -6,7 +6,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 function App() {
   return (
     <Router>
-      <Suspense fallback="loading">
+      <Suspense fallback={null}>
         <Layout />
       </Suspense>
     </Router>

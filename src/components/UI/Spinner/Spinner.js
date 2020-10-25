@@ -8,14 +8,16 @@ function Spinner(props) {
   let circle = useRef(null);
 
   useEffect(() => {
-    TweenMax.to(app, 0, { css: { visibility: "visible" } });
-    setTimeout(() => {
-      TweenMax.to(circle, 0, { css: { opacity: 0 } });
-      TweenMax.to(app, 0.2, { css: { opacity: 0 } });
-    }, 700);
-    setTimeout(() => {
-      props.setLoading(false);
-    }, 1000);
+    if (props.loading) {
+      TweenMax.to(app, 0, { css: { visibility: "visible" } });
+      setTimeout(() => {
+        TweenMax.to(circle, 0, { css: { opacity: 0 } });
+        TweenMax.to(app, 0.2, { css: { opacity: 0 } });
+      }, 700);
+      setTimeout(() => {
+        props.setLoading(false);
+      }, 1000);
+    }
   }, [props]);
 
   return (
