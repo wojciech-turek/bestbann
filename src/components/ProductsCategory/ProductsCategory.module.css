@@ -15,8 +15,10 @@
 .SeeMoreBtn {
   width: 140px;
   height: 40px;
+  line-height: 40px;
   border-radius: 360px;
   border: none;
+  margin: 0 auto;
   background-color: #ffbf46;
   font-family: "Lato";
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);

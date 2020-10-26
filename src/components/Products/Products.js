@@ -1,5 +1,5 @@
 import React from "react";
-import breadProofingImg from "../../assets/ovboksnowySmallOptimized.jpg";
+import breadProofingImg from "../../assets/ovboksnowySmallProgressive.jpg";
 import woodenBaseImg from "../../assets/sqxsboknoweOptimized.jpg";
 import withLinersImg from "../../assets/withLinersOptimized1.jpg";
 import woodenBakingImg from "../../assets/woodenBakingFormOptimized.jpg";

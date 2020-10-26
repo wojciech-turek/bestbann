@@ -1,8 +1,8 @@
 import React from "react";
 import classes from "./NavProducts.module.css";
-import breadProofingImg from "../../../assets/OvBasketsTransparent.jpg";
-import woodenBaseImg from "../../../assets/boodenbakingforms.jpg";
-import withLinersImg from "../../../assets/linerstransparent1.jpg";
+import breadProofingImg from "../../../assets/NavProducts/OvBasketsTransparentOptimized.jpg";
+import woodenBaseImg from "../../../assets/NavProducts/boodenbakingformsOptimized.jpg";
+import withLinersImg from "../../../assets/NavProducts/linerstransparent1Optimized.jpg";
 import soon from "../../../assets/soon.jpg";
 import { NavLink } from "react-router-dom";
 
