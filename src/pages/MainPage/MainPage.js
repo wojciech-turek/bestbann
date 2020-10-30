@@ -36,7 +36,7 @@ function MainPage(props) {
           title={t("mainSections.whatMUD.title")}
           content={<WhatMUD />}
         />
-        {cookiesAcc === "false" ? (
+        {cookiesAcc === undefined ? (
           <CookieConsent
             location="bottom"
             buttonText={t("cookie.button")}
