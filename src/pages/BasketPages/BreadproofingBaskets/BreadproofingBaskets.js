@@ -34,6 +34,8 @@ export default function BreadproofingBaskets(props) {
       title: "",
       imageTypeRO: null,
       imageTypeROX: null,
+      typeO: "",
+      typeOX: "",
     },
   };
 
@@ -174,18 +176,24 @@ export default function BreadproofingBaskets(props) {
       basketTypes.imageTypeRO = RoundROImage;
       basketTypes.imageTypeROX = RoundROXImage;
       tableRows = RoundBasketRows;
+      basketTypes.typeO = " RO";
+      basketTypes.typeOX = " ROX";
       break;
     case "OblongBaskets":
       basketTypes.roundBreadProofing.title = t("productDetails.oblongBaskets");
       tableRows = OblongBasketRows;
       basketTypes.imageTypeRO = OblongRO;
       basketTypes.imageTypeROX = OblongROX;
+      basketTypes.typeO = " LO";
+      basketTypes.typeOX = " LOX";
       break;
     case "OvalBaskets":
       basketTypes.roundBreadProofing.title = t("productDetails.ovalBaskets");
       tableRows = OvalBasketRows;
       basketTypes.imageTypeRO = OvalRO;
       basketTypes.imageTypeROX = OvalROX;
+      basketTypes.typeO = " OV";
+      basketTypes.typeOX = " OVX";
       break;
     case "BaguetteBaskets":
       basketTypes.roundBreadProofing.title = t(
@@ -194,24 +202,32 @@ export default function BreadproofingBaskets(props) {
       tableRows = BaguetteBasketRows;
       basketTypes.imageTypeRO = BaguetteRO;
       basketTypes.imageTypeROX = BaguetteROX;
+      basketTypes.typeO = " BG";
+      basketTypes.typeOX = " BGX";
       break;
     case "MiniBaskets":
       basketTypes.roundBreadProofing.title = t("productDetails.miniBaskets");
       tableRows = MiniBasketRows;
       basketTypes.imageTypeRO = MiniRO;
       basketTypes.imageTypeROX = null;
+      basketTypes.typeO = " RO";
+      basketTypes.typeOX = "";
       break;
     case "SquareBaskets":
       basketTypes.roundBreadProofing.title = t("productDetails.squareBaskets");
       tableRows = SquareBasketRows;
       basketTypes.imageTypeRO = null;
       basketTypes.imageTypeROX = SquareROX;
+      basketTypes.typeO = " SQ";
+      basketTypes.typeOX = " SQX";
       break;
     case "LongBaskets":
       basketTypes.roundBreadProofing.title = t("productDetails.bigBaskets");
       tableRows = LongBasketRows;
       basketTypes.imageTypeRO = null;
       basketTypes.imageTypeROX = LongROX;
+      basketTypes.typeO = "";
+      basketTypes.typeOX = " SLX";
       break;
     default:
   }
@@ -246,7 +262,8 @@ export default function BreadproofingBaskets(props) {
                 style={!basketTypes.imageTypeRO ? { display: "none" } : {}}
               >
                 <h3 className={classes.typeTitle}>
-                  {t("productDetails.type")} RO
+                  {t("productDetails.type")}
+                  {basketTypes.typeO ? basketTypes.typeO : null}
                 </h3>
                 <DividerLine height="2px" width="12%" color="rgb(255,195,11)" />
                 <p>{t("productDetails.entirelyRattan")}</p>
@@ -261,7 +278,8 @@ export default function BreadproofingBaskets(props) {
                 style={!basketTypes.imageTypeROX ? { display: "none" } : {}}
               >
                 <h3 className={classes.typeTitle}>
-                  {t("productDetails.type")} ROX
+                  {t("productDetails.type")}{" "}
+                  {basketTypes.typeOX ? basketTypes.typeOX : null}
                 </h3>
                 <DividerLine height="2px" width="12%" color="rgb(255,195,11)" />
                 <p>{t("productDetails.woodBase")}</p>
