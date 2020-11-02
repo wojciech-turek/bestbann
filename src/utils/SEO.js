@@ -1,7 +1,10 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import ReactGA from "react-ga";
 
 export default function SEO({ children, location, title, image }) {
+  ReactGA.pageview(window.location.pathname);
+  ReactGA.ga("send", "pageview", window.location.pathname);
   return (
     <Helmet titleTemplate={`Bestbann - %s`}>
       <html lang="en" />
@@ -11,15 +14,16 @@ export default function SEO({ children, location, title, image }) {
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta charSet="utf-8" />
       <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
+
       <meta
         name="description"
         content="We are a family-owned company with over 9-years’ of experience in food industry. We are manufacturing bread proofing baskets from natural rattan material, without any chemicals or bleaches."
       />
-      <meta property="od:url" content="http://www.noclegigorlice.pl" />
+      <meta property="og:url" content="http://www.bestbann.com" />
       <meta property="og:image" content="/logo192.png" />
       <meta property="og:title" content={`Bestbann - ${title}`} key="ogtitle" />
       <meta
-        property="of:site_name"
+        property="og:site_name"
         content="We are a family-owned company with over 9-years’ of experience in food industry. We are manufacturing bread proofing baskets from natural rattan material, without any chemicals or bleaches."
         key="ogsitename"
       />

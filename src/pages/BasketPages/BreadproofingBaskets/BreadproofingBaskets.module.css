@@ -35,6 +35,9 @@
   flex-grow: 1;
   font-family: "Montserrat";
   margin-bottom: 36px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
 }
 
 .typeImage {
