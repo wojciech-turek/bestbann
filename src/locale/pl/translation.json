@@ -3,6 +3,26 @@
     "part1": "",
     "part2": ""
   },
+
+  "links":{
+    "home":"/pl/",
+    "breadProofing": "/pl/kosze-do-wyrastania-chleba/",
+    "roundBaskets": "/pl/okragle-kosze-rozrostowe/",
+    "oblongBaskets": "/pl/podluzne-kosze-rozrostowe/",
+    "ovalBaskets": "/pl/owalne-kosze-do-wyrastania-chleba/",
+    "baguetteBaskets": "/pl/kosze-na-bagietki/",
+    "miniBaskets": "/pl/koszyki-na-mini-chlebki/",
+    "squareBaskets": "/pl/kwadratowe-kosze-wyrastania-chleba/",
+    "bigSlicedBaskets": "/pl/kosze-duzy-chleb-krojony/",
+    "woodenBakingForms": "/pl/drewniane-foremki/",
+    "withLiners": "/pl/kosze-z-materialowymi-poszewkami",
+    "aboutUs": "/pl/o-firmie/",
+    "contact": "/pl/kontakt/",
+    "privacyPolicy": "/pl/polityka-prywatnosci",
+    "engraved":"/pl/grawerowane/",
+    "impressum": "/pl/impressum"
+  },
+
   "heroBanner": "",
   "title": "Witaj na stronie BestBann",
   "menu": {

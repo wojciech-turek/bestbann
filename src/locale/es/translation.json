@@ -14,6 +14,24 @@
     "bigWoodenBase": "Grande pan rebanado",
     "square": "Cuadradas"
   },
+  "links":{
+    "home":"/es/",
+    "breadProofing": "/es/los-bannetons/",
+    "roundBaskets": "/es/redondas-bannetons/",
+    "oblongBaskets": "/es/oblongas-bannetons/",
+    "ovalBaskets": "/es/ovaladas-bannetons/",
+    "baguetteBaskets": "/es/baguette-bannetons/",
+    "miniBaskets": "/es/mini-panes-bannetons/",
+    "squareBaskets": "/es/cuadradas-bannetons/",
+    "bigSlicedBaskets": "/es/grande-pan-rebanado/",
+    "woodenBakingForms": "/es/moldes-para-hornear-de-madera/",
+    "withLiners": "/es/bannetones-con-telas-de-lino",
+    "aboutUs": "/es/sobre-la-empresa/",
+    "contact": "/es/contacto/",
+    "privacyPolicy": "/es/politica-de-privacidad",
+    "engraved":"/es/grabado/",
+    "impressum": "/es/impressum"
+  },
   "menu": {
     "mainPage": "Pagina principal",
     "products": "Productos",

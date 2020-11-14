@@ -59,7 +59,7 @@ export default function WoodenBakingForms() {
   return (
     <Fade in={true} timeout={500}>
       <div className={classes.ContentWrapper}>
-        <SEO title="Wooden Baking Forms" />
+        <SEO title={t("mainSections.products.woodenBakingForm")} />
         <h1 className={classes.sectionTitle}>
           {t("mainSections.products.woodenBakingForm")}
         </h1>

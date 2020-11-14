@@ -22,7 +22,7 @@ function MainPage(props) {
   return (
     <Fade in={true} timeout={500}>
       <div className={classes.Main}>
-        <SEO title="Homepage" />
+        <SEO title={t("menu.mainPage")} />
         <HeroBanner />
         <MainSection
           title={t("mainSections.aboutUs.title")}

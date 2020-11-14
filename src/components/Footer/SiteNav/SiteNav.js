@@ -11,34 +11,34 @@ export default function SiteNav() {
       <nav>
         <ul className={classes.footerNav}>
           <li>
-            <Link to="/">{t("menu.mainPage")}</Link>
+            <Link to={t("links.home")}>{t("menu.mainPage")}</Link>
           </li>
           <li>
-            <Link to="/products/breadproofingbaskets">
+            <Link to={t("links.breadProofing")}>
               {t("mainSections.products.breadProofing")}
             </Link>
           </li>
           <li>
-            <Link to="/products/woodenbakingforms">
+            <Link to={t("links.woodenBakingForms")}>
               {t("mainSections.products.woodenBakingForm")}
             </Link>
           </li>
           <li>
-            <Link to="/products/basketswithliners">
+            <Link to={t("links.withLiners")}>
               {t("mainSections.products.withLiners")}
             </Link>
           </li>
           <li>
-            <Link to="/about">{t("menu.aboutUs")}</Link>
+            <Link to={t("links.aboutUs")}>{t("menu.aboutUs")}</Link>
           </li>
           <li>
-            <Link to="/contact">{t("menu.contact")}</Link>
+            <Link to={t("links.contact")}>{t("menu.contact")}</Link>
           </li>
           <li>
-            <Link to="/privacypolicy">{t("privacyPolicy.title")}</Link>
+            <Link to={t("links.privacyPolicy")}>{t("privacyPolicy.title")}</Link>
           </li>
           <li>
-            <Link to="/legalnotice">Impressum</Link>
+            <Link to={t("links.impressum")}>Impressum</Link>
           </li>
         </ul>
       </nav>

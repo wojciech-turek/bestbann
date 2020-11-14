@@ -67,7 +67,7 @@ export default function MobileNavigationItems(props) {
       <ul className={classes.MainList}>
         <li className={classes.PrimaryItem}>
           <NavLink
-            to="/"
+            to={t("links.home")}
             exact={props.link !== "/products" ? true : false}
             className={classes.InactiveLink}
             activeClassName={classes.linkActive}
@@ -105,7 +105,7 @@ export default function MobileNavigationItems(props) {
             <AccordionDetails className={styles.accordionContent}>
               <div className={classes.secondaryList}>
                 <NavLink
-                  to="/products/breadproofingbaskets"
+                  to={t("links.breadProofing")}
                   activeClassName={classes.active}
                   onClick={() => props.setSideOpen(false)}
                 >
@@ -116,7 +116,7 @@ export default function MobileNavigationItems(props) {
                 </NavLink>
 
                 <NavLink
-                  to="/products/woodenbakingforms"
+                  to={t("links.woodenBakingForms")}
                   activeClassName={classes.active}
                   onClick={() => props.setSideOpen(false)}
                 >
@@ -127,7 +127,7 @@ export default function MobileNavigationItems(props) {
                 </NavLink>
 
                 <NavLink
-                  to="/products/basketswithliners"
+                  to={t("links.withLiners")}
                   activeClassName={classes.active}
                   onClick={() => props.setSideOpen(false)}
                 >
@@ -142,7 +142,7 @@ export default function MobileNavigationItems(props) {
         </li>
         <li className={classes.PrimaryItem}>
           <NavLink
-            to="/about"
+            to={t("links.aboutUs")}
             className={classes.InactiveLink}
             activeClassName={classes.linkActive}
             onClick={() => props.setSideOpen(false)}
@@ -153,7 +153,7 @@ export default function MobileNavigationItems(props) {
         </li>
         <li className={classes.PrimaryItem}>
           <NavLink
-            to="/contact"
+            to={t("links.contact")}
             className={classes.InactiveLink}
             activeClassName={classes.linkActive}
             onClick={() => props.setSideOpen(false)}

@@ -15,26 +15,26 @@ export default function Products() {
       pathToImg: ovalImg,
       alt: "Oblong Basket",
       btnTxt: t("baskets.oval"),
-      link: "/products/breadproofingbaskets/oval",
+      link: t("links.ovalBaskets"),
     },
     {
       pathToImg: roungImg,
       alt: "Round Basket",
       btnTxt: t("baskets.round"),
-      link: "/products/breadproofingbaskets/round",
+      link: t("links.roundBaskets"),
     },
     {
       pathToImg: longImg,
       alt: "Oblong Basket",
       btnTxt: t("baskets.oblong"),
-      link: "/products/breadproofingbaskets/oblong",
+      link: t("links.oblongBaskets"),
     },
   ];
 
   return (
     <Fade in={true} timeout={500}>
       <div className={classes.ContentWrapper}>
-        <SEO title="Baskets with liners" />
+        <SEO title= {t("mainSections.products.withLiners")} />
         <h1 className={classes.sectionTitle}>
           {t("mainSections.products.withLiners")}
         </h1>

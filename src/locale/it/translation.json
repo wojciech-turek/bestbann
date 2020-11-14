@@ -20,6 +20,24 @@
     "bigWoodenBase": "Grande pane a fette",
     "square": "Quadrati"
   },
+  "links":{
+    "home":"/it/",
+    "breadProofing": "/it/cestini-da-lievitazione/",
+    "roundBaskets": "/it/tondi-cestini-da-lievitazione/",
+    "oblongBaskets": "/it/oblunghi-cestini-da-lievitazione/",
+    "ovalBaskets": "/it/ovali-cestini-da-lievitazione/",
+    "baguetteBaskets": "/it/baguette-cestini-da-lievitazione/",
+    "miniBaskets": "/it/pani-mini-cestini/",
+    "squareBaskets": "/it/quadrati-cestini-da-lievitazione/",
+    "bigSlicedBaskets": "/it/grosse-pane-a-fette/",
+    "woodenBakingForms": "/it/stampi-in-legno-con-carta-da-forno/",
+    "withLiners": "/it/cestini-con-teli",
+    "aboutUs": "/it/chi-siamo/",
+    "contact": "/it/contatto/",
+    "privacyPolicy": "/it/politica-sulla-riservatezza",
+    "engraved":"/it/incisione/",
+    "impressum": "/it/impressum"
+  },
   "mainSections": {
     "aboutUs": {
       "title": "Riguardo a noi",

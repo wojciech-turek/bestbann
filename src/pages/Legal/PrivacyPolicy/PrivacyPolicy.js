@@ -8,7 +8,7 @@ export default function PrivacyPolicy() {
   return (
     <Fade in={true} timeout={500}>
       <div className={classes.Container}>
-        <SEO title="Privacy Policy" />
+        <SEO title={t("privacyPolicy.title")} />
         <h1 className={classes.header}>{t("privacyPolicy.title")}</h1>
         <div className={classes.paragraph}>
           <p>

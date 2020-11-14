@@ -15,7 +15,7 @@ export default function AboutUsPage() {
   return (
     <Fade in={true} timeout={500}>
       <div className={classes.Container}>
-        <SEO title="About Us" />
+        <SEO title={t("menu.aboutUs")} />
         <section className={classes.aboutUsWrap}>
           <div className={classes.introWrap}>
             <p className={classes.introTitle}>{t("aboutUsPage.thankyou")}</p>

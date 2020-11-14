@@ -68,9 +68,9 @@ export default function Toolbar(props) {
         <div className={classes.shopNowBtn}>
           <a
             className={classes.storeLink}
-            href="https://bestbannshop.eu/"
+            href="https://bestbannshop.eu/en_US/index"
             target="blank"
-            alt="store link"
+            alt="store"
           >
             <span className={classes.cart}>
               {shoppingCartIcon}

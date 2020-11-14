@@ -11,6 +11,24 @@
     "aboutUs": "À propos de nous",
     "contact": "Contactez"
   },
+  "links":{
+    "home":"/fr/",
+    "breadProofing": "/fr/banneton-a-pain/",
+    "roundBaskets": "/fr/ronde-banneton-a-pain/",
+    "oblongBaskets": "/fr/oblongue-banneton-a-pain/",
+    "ovalBaskets": "/fr/ovale-banneton-a-pain/",
+    "baguetteBaskets": "/fr/baguette-banneton-a-pain/",
+    "miniBaskets": "/fr/mini-pains-bannetons/",
+    "squareBaskets": "/fr/carree-banneton-a-pain/",
+    "bigSlicedBaskets": "/fr/grande-pain-tranche-banneton/",
+    "woodenBakingForms": "/fr/moules-de-cuisson-en-bois/",
+    "withLiners": "/fr/bannetons-avec-doublures/",
+    "aboutUs": "/fr/sur-la-societe/",
+    "contact": "/fr/contact-2/",
+    "privacyPolicy": "/fr/politique-de-confidentialite",
+    "engraved":"/fr/gravures/",
+    "impressum": "/fr/impressum"
+  },
   "baskets": {
     "baguette": "Forme baguette",
     "oval": "Forme ovale",

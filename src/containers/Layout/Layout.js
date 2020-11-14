@@ -1,5 +1,5 @@
 import React, { useRef, lazy } from "react";
-import { Route, Redirect, withRouter, Switch } from "react-router-dom";
+import { Route, withRouter, Switch } from "react-router-dom";
 import Navigation from "../Navigation/Navigation";
 import Footer from "../../components/Footer/Footer";
 import MainPage from "../../pages/MainPage/MainPage";
@@ -7,6 +7,9 @@ import ScrollToTop from "../../components/UI/ScrollToTop/ScrollToTop";
 import WoodenBakingForms from "../../pages/ProductsPage/WoodenBakingForms/WoodenBakingForms";
 import Impressum from "../../pages/Legal/Impressum/Impressum";
 import PrivacyPolicy from "../../pages/Legal/PrivacyPolicy/PrivacyPolicy";
+import { useTranslation } from "react-i18next";
+
+
 
 const BreadProofingBaskets = lazy(() =>
   import("../../pages/BasketPages/BreadproofingBaskets/BreadproofingBaskets")
@@ -22,70 +25,80 @@ const BreadProofing = lazy(() =>
 const ContactPage = lazy(() => import("../../pages/ContactPage/ContactPage"));
 const AboutUsPage = lazy(() => import("../../pages/AboutUsPage/AboutUsPage"));
 
-const Layout = () => {
+const Layout = (props) => {
+  const { t } = useTranslation("common");
   const nodeRef = useRef(null);
-
   const routes = [
-    { path: "/", name: "Home", Component: MainPage },
+    { path: `/pl`, name: "Home", Component: MainPage },
+    { path: `/es`, name: "Home", Component: MainPage },
+    { path: `/ru`, name: "Home", Component: MainPage },
+    { path: `/fr`, name: "Home", Component: MainPage },
+    { path: `/en`, name: "Home", Component: MainPage },
+    { path: `/it`, name: "Home", Component: MainPage },
     {
-      path: "/products/breadproofingbaskets",
+      path: t("links.breadProofing"),
       name: "Products - Bread Proofing Baskets",
       Component: BreadProofing,
     },
     {
-      path: "/products/basketswithliners",
+      path:  t("links.withLiners"),
       name: "Products - Baskets with Liners",
       Component: WithLiners,
     },
     {
-      path: "/products/woodenbakingforms",
+      path: t("links.woodenBakingForms"),
       name: "Products - Wooden Baking Forms",
       Component: WoodenBakingForms,
     },
-    { path: "/about", name: "About", Component: AboutUsPage },
-    { path: "/contact", name: "Contact", Component: ContactPage },
     {
-      path: "/products/breadproofingbaskets/round",
+      path: t("links.engraved"),
+      name: "Products - Wooden Baking Forms",
+      Component: WoodenBakingForms,
+    },
+    { path: t("links.aboutUs"), name: "About", Component: AboutUsPage },
+    { path: t("links.contact"), name: "Contact", Component: ContactPage },
+    {
+      path: t("links.roundBaskets"),
       name: "RoundBaskets",
       Component: BreadProofingBaskets,
     },
     {
-      path: "/products/breadproofingbaskets/oblong",
+      path: t("links.oblongBaskets"),
       name: "OblongBaskets",
       Component: BreadProofingBaskets,
     },
     {
-      path: "/products/breadproofingbaskets/oval",
+      path: t("links.ovalBaskets"),
       name: "OvalBaskets",
       Component: BreadProofingBaskets,
     },
     {
-      path: "/products/breadproofingbaskets/mini",
+      path: t("links.miniBaskets"),
       name: "MiniBaskets",
       Component: BreadProofingBaskets,
     },
     {
-      path: "/products/breadproofingbaskets/long",
+      path: t("links.bigSlicedBaskets"),
       name: "LongBaskets",
       Component: BreadProofingBaskets,
     },
     {
-      path: "/products/breadproofingbaskets/square",
+      path: t("links.squareBaskets"),
       name: "SquareBaskets",
       Component: BreadProofingBaskets,
     },
     {
-      path: "/products/breadproofingbaskets/baguette",
+      path: t("links.baguetteBaskets"),
       name: "BaguetteBaskets",
       Component: BreadProofingBaskets,
     },
     {
-      path: "/legalnotice",
+      path: "/impressum",
       name: "Legal Notice",
       Component: Impressum,
     },
     {
-      path: "/privacypolicy",
+      path: t("links.privacyPolicy"),
       name: "Privacy Policy",
       Component: PrivacyPolicy,
     },
@@ -104,7 +117,7 @@ const Layout = () => {
   const AnimatedSwitch = withRouter(({ location }) => (
     <Switch>
       {routeList}
-      <Route render={() => <Redirect to={{ pathname: "/" }} />} />
+      {/* <Route render={() => <Redirect to={{ pathname: t("links.home") }} />} /> */}
     </Switch>
   ));
 
@@ -118,4 +131,4 @@ const Layout = () => {
   );
 };
 
-export default Layout;
+export default withRouter(Layout);

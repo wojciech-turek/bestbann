@@ -26,7 +26,7 @@ export default function NavigationItem(props) {
           : null
       }
       onMouseOver={
-        props.link === "/about"
+        props.link !== "/products"
           ? () => productsBarShown.setProductsBarShown(false)
           : null
       }

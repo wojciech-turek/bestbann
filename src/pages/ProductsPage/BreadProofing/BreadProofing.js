@@ -20,49 +20,49 @@ export default function Products() {
       pathToImg: roboksImg,
       alt: "Round Basket",
       btnTxt: t("baskets.round"),
-      link: "/products/breadproofingbaskets/round",
+      link: t("links.roundBaskets"),
     },
     {
       pathToImg: longImg,
       alt: "Oblong Basket",
       btnTxt: t("baskets.oblong"),
-      link: "/products/breadproofingbaskets/oblong",
+      link: t("links.oblongBaskets"),
     },
     {
       pathToImg: ovalImg,
       alt: "Oval Basket",
       btnTxt: t("baskets.oval"),
-      link: "/products/breadproofingbaskets/oval",
+      link: t("links.ovalBaskets"),
     },
     {
       pathToImg: baguetteImg,
       alt: "Baguette Shaped Basket",
       btnTxt: t("baskets.baguette"),
-      link: "/products/breadproofingbaskets/baguette",
+      link: t("links.baguetteBaskets"),
     },
     {
       pathToImg: rominiImg,
       alt: "Mini Basket",
       btnTxt: t("baskets.mini"),
-      link: "/products/breadproofingbaskets/mini",
+      link: t("links.miniBaskets"),
     },
     {
       pathToImg: squareImg,
       alt: "Square Basket",
       btnTxt: t("baskets.square"),
-      link: "/products/breadproofingbaskets/square",
+      link: t("links.squareBaskets"),
     },
     {
       pathToImg: squareLongImg,
       alt: "Big with wooden base Basket",
       btnTxt: t("baskets.bigWoodenBase"),
-      link: "/products/breadproofingbaskets/long",
+      link: t("links.bigSlicedBaskets"),
     },
   ];
   return (
     <Fade in={true} timeout={500}>
       <div className={classes.ContentWrapper}>
-        <SEO title="Bread Proofing Baskets" />
+        <SEO title={t("mainSections.products.breadProofing")} />
         <h1 className={classes.sectionTitle}>
           {t("mainSections.products.breadProofing")}
         </h1>

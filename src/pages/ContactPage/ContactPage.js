@@ -23,7 +23,7 @@ export default function ContactPage() {
   return (
     <Fade in={true} timeout={500}>
       <div className={classes.Container}>
-        <SEO title="Contact Us" />
+        <SEO title={t("menu.contact")} />
         <h1 className={classes.header}>{t("menu.contact")}</h1>
         <div className={classes.paragraph}>
           <Trans>{t("contact.text")}</Trans>

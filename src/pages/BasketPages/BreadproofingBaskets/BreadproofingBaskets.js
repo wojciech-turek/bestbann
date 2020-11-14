@@ -249,7 +249,7 @@ export default function BreadproofingBaskets(props) {
   return (
     <Fade in={true} timeout={500}>
       <div className={classes.Container}>
-        <SEO title={props.title} />
+        <SEO title={basketTypes.roundBreadProofing.title} />
         <div className={classes.wrapper}>
           <div className={classes.productDetails}>
             <h1 className={classes.productTitle}>

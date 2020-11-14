@@ -11,6 +11,24 @@
     "aboutUs": "О нас",
     "contact": "Свяжитесь с нами"
   },
+  "links":{
+    "home":"/ru/",
+    "breadProofing": "/ru/корзинки-из-ротанга/",
+    "roundBaskets": "/ru/круглый-корзинки-из-ротанга/",
+    "oblongBaskets": "/ru/продолговатые-корзинки-из-ротанга/",
+    "ovalBaskets": "/ru/oвальные-корзинки-из-ротанга/",
+    "baguetteBaskets": "/ru/багет-корзинки-из-ротанга/",
+    "miniBaskets": "/ru/мини-хлеб-корзинки-из-ротанга/",
+    "squareBaskets": "/ru/квадратные-корзинки-из-ротанга/",
+    "bigSlicedBaskets": "/ru/большой-нарезанный-хлеб/",
+    "woodenBakingForms": "/ru/Формы-деревянные-для-выпечки/",
+    "withLiners": "/ru/Корзины-с-наволочкой",
+    "aboutUs": "/ru/о-компании/",
+    "contact": "/ru/контакт/",
+    "privacyPolicy": "/ru/Политика-конфиденциальности",
+    "engraved":"/ru/гравировка/",
+    "impressum": "/ru/impressum"
+  },
   "baskets": {
     "baguette": "Багет",
     "oval": "Овал",

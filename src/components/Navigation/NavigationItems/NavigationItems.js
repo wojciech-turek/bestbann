@@ -2,14 +2,15 @@ import React from "react";
 import NavigationItem from "./NavigationItem/NavigationItem";
 import classes from "./NavigationItems.module.css";
 import { useTranslation } from "react-i18next";
+import i18next from "i18next";
 
 export default function NavigationItems(props) {
   const { t } = useTranslation("common");
   const navRoutes = [
-    { link: "/", name: "Home", txt: "menu.mainPage" },
+    { link: `/${i18next.language}`, name: "Home", txt: "menu.mainPage" },
     { link: "/products", name: "Products", txt: "menu.products" },
-    { link: "/about", name: "About", txt: "menu.aboutUs" },
-    { link: "/contact", name: "Contact", txt: "menu.contact" },
+    { link: t("links.aboutUs"), name: "About", txt: "menu.aboutUs" },
+    { link: t("links.contact"), name: "Contact", txt: "menu.contact" },
   ];
 
   let navMobItems = navRoutes.map((el) => (

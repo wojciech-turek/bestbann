@@ -11,6 +11,24 @@
     "aboutUs": "About Us",
     "contact": "Contact"
   },
+  "links":{
+    "home":"/en/",
+    "breadProofing": "/en/bread-proofing-baskets/",
+    "roundBaskets": "/en/round-bread-proofing-baskets/",
+    "oblongBaskets": "/en/oblong-bread-proofing-baskets/",
+    "ovalBaskets": "/en/oval-bread-proofing-baskets/",
+    "baguetteBaskets": "/en/baguette-dough-proofing-baskets/",
+    "miniBaskets": "/en/mini-bread-proofing-baskets/",
+    "squareBaskets": "/en/square-bread-proofing-baskets/",
+    "bigSlicedBaskets": "/en/big-sliced-bread-proofing-baskets/",
+    "woodenBakingForms": "/en/wooden-baking-forms/",
+    "withLiners": "/en/baskets-with-liners",
+    "aboutUs": "/en/about-us/",
+    "contact": "/en/contact/",
+    "privacyPolicy": "/en/privacy-policy",
+    "engraved":"/en/engraved/",
+    "impressum": "/en/impressum"
+  },
   "baskets": {
     "baguette": "Baguette",
     "oval": "Oval",
