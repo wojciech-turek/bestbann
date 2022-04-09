@@ -18,10 +18,12 @@
     "oblong": "Oblunghi",
     "mini": "Mini cestini",
     "bigWoodenBase": "Grande pane a fette",
-    "square": "Quadrati"
+    "square": "Quadrati",
+    "roundSmall": "Tondi piccoli",
+    "oblongSmall": "Oblunghi piccoli"
   },
-  "links":{
-    "home":"/it/",
+  "links": {
+    "home": "/it/",
     "breadProofing": "/it/cestini-da-lievitazione/",
     "roundBaskets": "/it/tondi-cestini-da-lievitazione/",
     "oblongBaskets": "/it/oblunghi-cestini-da-lievitazione/",
@@ -34,9 +36,12 @@
     "withLiners": "/it/cestini-con-teli",
     "aboutUs": "/it/chi-siamo/",
     "contact": "/it/contatto/",
+    "bambooFiber": "/it/fibra-di-bambu-cestini-da-lievitazione",
+    "bambooRound": "/it/tondi-fibra-di-bambu-cestini-da-lievitazione",
+    "bambooOblong": "/it/oblunghi-fibra-di-bambu-cestini-da-lievitazione",
     "privacyPolicy": "/it/politica-sulla-riservatezza",
-    "engraved":"/it/incisione/",
-    "impressum": "/it/impressum"
+    "engraved": "/it/incisione/",
+    "impressum": "/it/legal-notice"
   },
   "mainSections": {
     "aboutUs": {
@@ -46,10 +51,11 @@
     },
     "products": {
       "title": "Prodotti",
-      "breadProofing": "Cestini per lievitazione pane",
+      "breadProofing": "Cestini per lievitazione pane in rattan",
       "woodenBase": "Cestini con base in legno",
       "withLiners": "Cestini con teli",
       "woodenBakingForm": "Stampi in legno con carta da forno",
+      "bambooFiber": "Cestini in fibra di bambù",
       "button": "Vedi altro"
     },
     "whatMUD": {
@@ -94,6 +100,19 @@
         "paragraph1": "<p>Gli stampi in legno con carta da forno sono progettati per cuocere al forno mini pane o torta. Sono ideali per trasformare i dolci fatti in casa in un regalo perfetto o un prodotto speciale che i clienti noteranno e apprezzeranno. Basta posizionare il rivestimento di carta all'interno dello stampo, riempire di pasta e cuocere in forno normalmente. Il legno si scurirà leggermente durante la cottura, perché è progettato per essere monouso. Tuttavia, è possibile riutilizzare lo stampo, posizionando il nuovo carta da forno all'interno dello stampo e cuocendolo nuovamente.</p>",
         "paragraph2": "<p>Gli stampi sono realizzati in <strong>legno di pioppo naturale al 100%, sono biodegradabili e riciclabili</strong>, quindi possono essere compostati in sicurezza. Gli stampi tollerano temperature che vanno da -40 ° C a + 220 ° C (da -104 ° F a + 428 ° F).</p>"
       }
+    },
+    "bambooFiber": {
+      "description": {
+        "paragraph1": "<p>I cestini da lievitazione di plastica e in fibra di bambù sono <strong>un prodotto unico</strong>, i <strong>primi cestini per la lievitazione del pane al mondo fatti in fibra di bambù e plastica</strong>. Combinano i principali vantaggi dei cestini in rattan, che sono una <strong>buona ventilazione</strong> e un <strong>grande aspetto artigianale</strong> grazie ai cerchi di farina sul pane, eliminando al contempo il problema principale della muffa all'interno, che si traduce in un tempo di <strong>utilizzo stimato più lungo</strong>.</p>",
+        "paragraph2": "<p>I cestini in fibra di bambù e plastica possono essere utilizzati in <strong>piccole panetterie</strong>, da panettieri che tengono all'igiene in primo luogo, e anche da <strong>enormi panetterie industriali</strong>, che hanno bisogno di ridurre il tempo speso per la pulizia dei cestini.</p>",
+        "paragraph3": "<p>I banneton cestini sono <strong>progettati per la lievitazione e la fermentazione dell'impasto del pane</strong>, che resiste, non si versa ed è più alto dopo la cottura. La lievitazione in cesti <strong>aiuta a rendere la struttura del pane migliore e a dare una crosta più croccante</strong> perché trattengono il calore all'interno.</p>",
+        "paragraph4": "<p>I nostri cestini sono fatti di fibre di bambù (40%), amido di mais (30%) e PP alimentare (30%). Il contenuto del <strong>70% di ingredienti naturali</strong> rende il nostro prodotto più ecologico dei cestini fatti interamente di PP.</p>",
+        "paragraph5": "<p>I cestini in fibra di bambù e plastica sono <strong>molto igienici</strong>, possono essere tranquillamente lavati in lavastoviglie, il che impedisce la crescita di muffe all'interno e aiuta a mantenere i cestini <strong>perfettamente puliti</strong>. Inoltre, soddisfano i requisiti del sistema HACCP. Abbiamo i <strong>rapporti di test SGS e il certificato PZH</strong> che dimostrano l'alta qualità dei nostri prodotti, che non contengono composti nocivi o metalli, in modo che possano avere un contatto sicuro con gli alimenti, in conformità con:</p>",
+        "paragraph6": "<p>I nostri cestini in fibra di bambù e plastica per la lievitazione del pane sono <strong>progettati in Polonia, da BestBann</strong>. Sono prodotti in collaborazione con produttori asiatici.</p>",
+        "paragraph7": "<p>È possibile ordinare le forme più popolari dei cestini - rotonde e oblunghe, entrambe con diverse dimensioni. Possono essere utilizzati con fodere, per un impasto più idratato o senza teli, per ottenere un look più tradizionale e artigianale.</p>",
+        "paragraph8": "<p>I cestini di plastica in fibra di bambù sono disponibili per la vendita in paesi selezionati: BE, BG, HR, HU, CY, DK, EE, FI, GR, IE, IL, IS, IT, LT, LU, LV, MT, NL, PL, RO, TR</p>",
+        "warning": "<p><strong>Nota: I cestini possono essere utilizzati solo per la lievitazione dell'impasto del pane, mai per la cottura del pane ad alte temperature!</strong></p>"
+      }
     }
   },
   "productDetails": {
@@ -107,6 +126,16 @@
     "bigBaskets": "Grandi cestini da lievitazione per pane a fette",
     "entirelyRattan": "Interamente realizzato in rattan naturale",
     "woodBase": "Realizzato in rattan naturale e base in legno",
+    "bambooRoundSmall": "Piccoli cestini rotondi",
+    "bambooRoundLarge": "Cesti rotondi grandi",
+    "bambooRoundSmallLiners": "Piccoli cestini rotondi con teli",
+    "bambooRoundLargeLiners": "Cesti rotondi grandi con teli",
+    "bambooRound": "Rotondi cestini da lievitazione per pane in fibra di bambù e plastica",
+    "bambooOblong": "Oblunghi cestini da lievitazione per pane in fibra di bambù e plastica",
+    "bambooOblongSmall": "Piccoli cestini oblunghi",
+    "bambooOblongLarge": "Grandi cesti oblunghi",
+    "bambooOblongSmallLiners": "Piccoli cestini oblunghi con fodere",
+    "bambooOblongLargeLiners": "Grandi cesti oblunghi con fodere",
     "tableDough": "PESO DELLA PASTA",
     "tableMeasures": "MISURE ESTERNE IN CM / POLLICI",
     "tableMeasuresCM": "MISURE ESTERNE IN CM",
@@ -138,7 +167,18 @@
     "line8": "Può essere utilizzato anche come decorazione",
     "line9": "Cestini sono disponibili nei formati elencati nelle dimensioni tabelle o preparati sotto l'ordine individuale",
     "line10": "Le dimensioni dei cestini si riferiscono alle dimensioni esterne (± 5 mm)",
-    "line11": "Cestini sono progettati solo per far lievitare la pasta, non sono adatti come stampi per la cottura del pane alle alte temperature!"
+    "line11": "Cestini sono progettati solo per far lievitare la pasta, non sono adatti come stampi per la cottura del pane alle alte temperature!",
+    "bamboo": {
+      "line1": "<strong>Prodotto unico</strong>, i primi cestini per la lievitazione del pane al mondo in fibra di bambù e plastica, <strong>progettati in Polonia, in BestBann</strong>",
+      "line2": "La fibra di bambù è l'ingrediente principale (40%), contiene anche amido di mais (30%) e PP alimentare come adesivo (30%)",
+      "line3": "Sono <strong>molto igienici</strong>, possono essere lavati in lavastoviglie, soddisfano i requisiti del sistema HACCP",
+      "line4": "I <strong>rapporti di prova SGS e il certificato PZH</strong> confermano la sicurezza d'uso a contatto con gli  alimenti, non contenendo composti o metalli nocivi",
+      "line5": "I cestini sono prodotti in collaborazione con il produttore asiatico",
+      "line6": "Possono essere utilizzati con o senza fodere",
+      "line7": "Rispetto ai cesti in rattan, <strong>il tempo stimato di utilizzo è molto più lungo</strong>, perché i cesti in fibra di bambù e plastica non crescono con la muffa",
+      "line8": "Rispetto ai cesti in plastica, i cesti in fibra di bambù e plastica sono <strong>più ecologici</strong> - contengono il 70% di ingredienti naturali",
+      "line9": "I cesti sono biodegradabili nelle giuste condizioni"
+    }
   },
   "needHelp": {
     "title": "Avete domande?",

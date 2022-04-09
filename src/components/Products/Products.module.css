@@ -17,4 +17,7 @@
   .sectionContainer {
     align-items: flex-end;
   }
+  .sectionContainer > * {
+    width: 25%;
+  }
 }

@@ -6,7 +6,6 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Spinner from "./components/UI/Spinner/Spinner";
 
-
 ReactGA.initialize("UA-73653343-2");
 ReactGA.set({ page: window.location.pathname });
 ReactGA.pageview(window.location.pathname);
@@ -16,17 +15,31 @@ function App() {
   const [loading, setLoading] = useState(true);
   const { i18n } = useTranslation("common");
   useEffect(() => {
-    setLoading(true)
+    setLoading(true);
     const changeLang = () => {
-      i18n.changeLanguage(window.location.pathname[1]+window.location.pathname[2]);
-  };
-    changeLang()
-  }, [i18n])
+      if (
+        window.location.pathname[1] + window.location.pathname[2] === "en" ||
+        window.location.pathname[1] + window.location.pathname[2] === "es" ||
+        window.location.pathname[1] + window.location.pathname[2] === "pl" ||
+        window.location.pathname[1] + window.location.pathname[2] === "it" ||
+        window.location.pathname[1] + window.location.pathname[2] === "ru" ||
+        window.location.pathname[1] + window.location.pathname[2] === "fr"
+      ) {
+        i18n.changeLanguage(
+          window.location.pathname[1] + window.location.pathname[2]
+        );
+      }
+    };
+    changeLang();
+  }, [i18n]);
   return (
     <Router>
       <Suspense fallback={null}>
-      {loading ? <Spinner setLoading={setLoading} loading={loading} /> : <Layout />}
-        
+        {loading ? (
+          <Spinner setLoading={setLoading} loading={loading} />
+        ) : (
+          <Layout />
+        )}
       </Suspense>
     </Router>
   );

@@ -11,7 +11,7 @@ export default function ProductsCatergory(props) {
     <div className={classes.ProductsCategory}>
       <h3 className={classes.ProductsTitle}>{props.title}</h3>
       {paragraph}
-      <Link to={`/products/${props.destination}`}>
+      <Link to={props.destination}>
         <img
           className={classes.ProductsImg}
           src={props.imgSrc}

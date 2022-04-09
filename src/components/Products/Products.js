@@ -1,6 +1,6 @@
 import React from "react";
 import breadProofingImg from "../../assets/ovboksnowySmallProgressive.jpg";
-import woodenBaseImg from "../../assets/sqxsboknoweOptimized.jpg";
+import woodenBaseImg from "../../assets/Bamboo-fiber-plastic-bannetons.jpg";
 import withLinersImg from "../../assets/withLinersOptimized1.jpg";
 import woodenBakingImg from "../../assets/woodenBakingFormOptimized.jpg";
 import ScrollAnimation from "react-animate-on-scroll";
@@ -16,28 +16,28 @@ export default function Products(props) {
       title: t("mainSections.products.breadProofing"),
       imgSrc: breadProofingImg,
       btnTxt: t("mainSections.products.button"),
-      destination: "breadproofingbaskets",
+      destination: t("links.breadProofing"),
       delay: 0,
     },
     {
-      title: t("mainSections.products.woodenBase"),
+      title: t("mainSections.products.bambooFiber"),
       imgSrc: woodenBaseImg,
       btnTxt: t("mainSections.products.button"),
-      destination: "breadproofingbaskets",
+      destination: t("links.bambooFiber"),
       delay: 200,
     },
     {
       title: t("mainSections.products.withLiners"),
       imgSrc: withLinersImg,
       btnTxt: t("mainSections.products.button"),
-      destination: "basketswithliners",
+      destination: t("links.withLiners"),
       delay: 400,
     },
     {
       title: t("mainSections.products.woodenBakingForm"),
       imgSrc: woodenBakingImg,
       btnTxt: t("mainSections.products.button"),
-      destination: "woodenbakingforms",
+      destination: t("links.woodenBakingForms"),
       delay: 600,
     },
   ];

@@ -17,8 +17,8 @@ export default function Footer() {
       </div>
 
       <div className={classes.FooterCopyright}>
-        Copyright© 2020{" "}
-        <a href="https:/www.wojciechturek.com" target="blank" rel="noopener">
+        Copyright© {new Date().getFullYear()}{" "}
+        <a href="https://www.wojciechturek.com" target="blank">
           Wojciech Turek
         </a>
       </div>

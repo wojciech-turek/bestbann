@@ -1,5 +1,5 @@
 .ProductsImg {
-  width: 90%;
+  max-width: 90%;
   margin-bottom: 4%;
   border-radius: 20px;
 }

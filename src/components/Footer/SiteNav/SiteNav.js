@@ -29,16 +29,23 @@ export default function SiteNav() {
             </Link>
           </li>
           <li>
+            <Link to={t("links.bambooFiber")}>
+              {t("mainSections.products.bambooFiber")}
+            </Link>
+          </li>
+          <li>
             <Link to={t("links.aboutUs")}>{t("menu.aboutUs")}</Link>
           </li>
           <li>
             <Link to={t("links.contact")}>{t("menu.contact")}</Link>
           </li>
           <li>
-            <Link to={t("links.privacyPolicy")}>{t("privacyPolicy.title")}</Link>
+            <Link to={t("links.privacyPolicy")}>
+              {t("privacyPolicy.title")}
+            </Link>
           </li>
           <li>
-            <Link to={t("links.impressum")}>Impressum</Link>
+            <Link to={t("links.impressum")}>Legal notice</Link>
           </li>
         </ul>
       </nav>

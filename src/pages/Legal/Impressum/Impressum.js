@@ -6,8 +6,8 @@ export default function Impressum() {
   return (
     <Fade in={true} timeout={500}>
       <div className={classes.Container}>
-        <SEO title="Impressum" />
-        <h1 className={classes.header}>Impressum</h1>
+        <SEO title="Legal notice" />
+        <h1 className={classes.header}>Legal notice</h1>
         <section className={classes.section}>
           <p>
             <strong>

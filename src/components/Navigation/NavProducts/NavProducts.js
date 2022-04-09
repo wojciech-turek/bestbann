@@ -3,10 +3,9 @@ import classes from "./NavProducts.module.css";
 import breadProofingImg from "../../../assets/NavProducts/OvBasketsTransparentOptimized.jpg";
 import woodenBaseImg from "../../../assets/NavProducts/boodenbakingformsOptimized.jpg";
 import withLinersImg from "../../../assets/NavProducts/linerstransparent1Optimized.jpg";
-import soon from "../../../assets/soon.jpg";
+import bambooBaskets from "../../../assets/NavProducts/bambooBaskets.jpg";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-
 
 export default function NavProducts() {
   const { t } = useTranslation("common");
@@ -27,15 +26,15 @@ export default function NavProducts() {
       linkDest: t("links.withLiners"),
     },
     {
-      title: "New product coming soon!",
-      imgSrc: soon,
-      linkDest: "/",
+      title: t("mainSections.products.bambooFiber"),
+      imgSrc: bambooBaskets,
+      linkDest: t("links.bambooFiber"),
     },
   ];
 
   let productSections = productCategories.map((sect) => (
     <NavLink
-    exact
+      exact
       key={sect.title}
       className={classes.Product}
       to={sect.linkDest}

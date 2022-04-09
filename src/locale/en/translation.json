@@ -11,23 +11,26 @@
     "aboutUs": "About Us",
     "contact": "Contact"
   },
-  "links":{
-    "home":"/en/",
-    "breadProofing": "/en/bread-proofing-baskets/",
-    "roundBaskets": "/en/round-bread-proofing-baskets/",
-    "oblongBaskets": "/en/oblong-bread-proofing-baskets/",
-    "ovalBaskets": "/en/oval-bread-proofing-baskets/",
-    "baguetteBaskets": "/en/baguette-dough-proofing-baskets/",
-    "miniBaskets": "/en/mini-bread-proofing-baskets/",
-    "squareBaskets": "/en/square-bread-proofing-baskets/",
-    "bigSlicedBaskets": "/en/big-sliced-bread-proofing-baskets/",
-    "woodenBakingForms": "/en/wooden-baking-forms/",
+  "links": {
+    "home": "/en/",
+    "breadProofing": "/en/bread-proofing-baskets",
+    "roundBaskets": "/en/round-bread-proofing-baskets",
+    "oblongBaskets": "/en/oblong-bread-proofing-baskets",
+    "ovalBaskets": "/en/oval-bread-proofing-baskets",
+    "baguetteBaskets": "/en/baguette-dough-proofing-baskets",
+    "miniBaskets": "/en/mini-bread-proofing-baskets",
+    "squareBaskets": "/en/square-bread-proofing-baskets",
+    "bigSlicedBaskets": "/en/big-sliced-bread-proofing-baskets",
+    "woodenBakingForms": "/en/wooden-baking-forms",
     "withLiners": "/en/baskets-with-liners",
-    "aboutUs": "/en/about-us/",
-    "contact": "/en/contact/",
+    "aboutUs": "/en/about-us",
+    "contact": "/en/contact",
+    "bambooFiber": "/en/bamboo-fiber-plastic-baskets",
+    "bambooRound": "/en/round-bamboo-fiber-baskets",
+    "bambooOblong": "/en/oblong-bamboo-fiber-baskets",
     "privacyPolicy": "/en/privacy-policy",
-    "engraved":"/en/engraved/",
-    "impressum": "/en/impressum"
+    "engraved": "/en/engraved",
+    "impressum": "/en/legal-notice"
   },
   "baskets": {
     "baguette": "Baguette",
@@ -36,7 +39,9 @@
     "oblong": "Oblong",
     "mini": "Mini Baskets",
     "bigWoodenBase": "Big Sliced Bread",
-    "square": "Square"
+    "square": "Square",
+    "roundSmall": "Small Round",
+    "oblongSmall": "Small Oblong"
   },
   "mainSections": {
     "aboutUs": {
@@ -46,10 +51,11 @@
     },
     "products": {
       "title": "Products",
-      "breadProofing": "Bread proofing baskets",
+      "breadProofing": "Rattan bread proofing baskets",
       "woodenBase": "Wooden base baskets",
       "withLiners": "Baskets with liners",
       "woodenBakingForm": "Wooden baking forms",
+      "bambooFiber": "Bamboo fiber baskets",
       "button": "See more"
     },
     "whatMUD": {
@@ -95,6 +101,19 @@
         "paragraph1": "<p>Wooden baking trays are designed for baking mini breads or small cakes in the oven. They are ideal for giving them as a gift, they can also be an exceptional product that customers will notice and appreciate. Just cover the form with baking paper attached, fill in the cake and bake in the oven as usual. After baking, the wood darkens slightly as it is designed for single use, however, it is possible to use it multiple times. Just put the new baking paper inside the form and enjoy another well shaped bread or cake.</p>",
         "paragraph2": "<p>Molds are made of <strong>100% natural poplar wood, they are biodegradable and recyclable,</strong> therefore can be composted safely. Molds tolerate temperatures ranging from -40°C to +220°C (-104°F to +428°F).</p>"
       }
+    },
+    "bambooFiber": {
+      "description": {
+        "paragraph1": "<p>Bamboo fiber plastic baskets are the <strong>unique product</strong>, the <strong>first bread proofing baskets in the world made of bamboo fiber plastic</strong>. They combine the main advantages of rattan baskets, which are <strong>good air ventilation and great, artisan look</strong> thanks to the flour circles on the bread, while eliminating the main problem with mold inside, which results in <strong>longer estimated time of </strong>.</p>",
+        "paragraph2": "<p>Bamboo fiber plastic baskets can be used in <strong>small bakeries</strong>, by bakers who care about hygiene in the first place, and also by <strong>huge industrial bakeries</strong>, which needs to reduce the time spent on cleaning the baskets.</p>",
+        "paragraph3": "<p>Banneton baskets are <strong>designed for proofing and fermenting bread dough</strong>, which is holding up, does not pours out and is higher after baking. Proofing in baskets <strong>helps to make the structure of the bread better and give more crispy crust</strong> because they hold warmth inside.</p>",
+        "paragraph4": "<p>Our baskets are made of bamboo fibers (40%), corn starch (30%) and food grade PP (30%). The content of <strong>70% of natural ingredients</strong> make our product more environmentally friendly than baskets made entirely of PP.</p>",
+        "paragraph5": "<p>Bamboo fiber plastic baskets are <strong>very hygienic</strong>, they could be safely washed in the dishwasher, which prevents from growing mold inside and helps to keep the baskets <strong>perfectly clean</strong>. Moreover, they meet the requirements of the HACCP system. We have the <strong>SGS test reports and PZH Certificate</strong> proving high quality of our products, which do not contain any harmful compounds or metals, so that they can safely have contact with food, in accordance with:</p>",
+        "paragraph6": "<p>Our bamboo fiber plastic bread proofing baskets are <strong>designed in Poland, by BestBann</strong>. They are produced in cooperation with Asian manufacturers.</p>",
+        "paragraph7": "<p>You can order the most popular shapes of the baskets -  round and oblong, both with different sizes. They can be used with liners, for more hydrated dough or without and covers to gain a more traditional, artisan look.</p>",
+        "paragraph8": "<p>Bamboo fiber plastic baskets are available for sale to selected countries: BE, BG, HR, HU, CY, DK, EE, FI, GR, IE, IL, IS, IT, LT, LU, LV, MT, NL, PL, RO, TR</p>",
+        "warning": "<p><strong>Note: Baskets with liners can be used only for proofing bread dough, never for baking bread in high temperatures!</strong></p>"
+      }
     }
   },
   "contact": {
@@ -123,7 +142,18 @@
     "line8": "It can also be used as a decoration",
     "line9": "Sizes table above shows most popular dimensions of proofing baskets, but customized sizes also available",
     "line10": "Presented sizes are external dimensions (± 5 mm)",
-    "line11": "Baskets can be used only for proofing bread dough, never for baking bread in high temperatures!"
+    "line11": "Baskets can be used only for proofing bread dough, never for baking bread in high temperatures!",
+    "bamboo": {
+      "line1": "<strong>Unique product</strong>, first bread proofing baskets in the world made of bamboo fiber, <strong>designed in Poland, in BestBann</strong>",
+      "line2": "Bamboo fiber is the main ingredient (40%), it also contains corn starch (30%) and food grade PP as an adhesive (30%)",
+      "line3": "They are <strong>very hygienic</strong>, could be washed in dishwasher, meet the requirements of the HACCP system",
+      "line4": "The <strong>SGS test reports and PZH Certificate</strong> confirm the safety of use in contact with food, not containing any harmful compounds or metals",
+      "line5": "Baskets are produced in cooperation with Asian manufacturer",
+      "line6": "They can be used with or without liners",
+      "line7": "Compared with rattan baskets, <strong>estimated time of use is much longer</strong>, because bamboo fiber baskets don't grow with mould",
+      "line8": "Compared with plastic baskets, bamboo fiber plastic baskets are <strong>more eco friendly</strong> - contain 70% of natural ingredients",
+      "line9": "Baskets are biodegradable under the right conditions"
+    }
   },
 
   "productDetails": {
@@ -137,6 +167,16 @@
     "bigBaskets": "Big Sliced bread proofing baskets",
     "entirelyRattan": "Entirely made out of natural rattan",
     "woodBase": "Made out of natural rattan and wooden base",
+    "bambooRoundSmall": "Small round basket",
+    "bambooRoundLarge": "Large round basket",
+    "bambooRoundSmallLiners": "Small round basket with liners",
+    "bambooRoundLargeLiners": "Large round basket with liners",
+    "bambooRound": "Round bamboo fiber plastic bread proofing baskets",
+    "bambooOblong": "Oblong bamboo fiber plastic bread proofing baskets",
+    "bambooOblongSmall": "Small oblong basket",
+    "bambooOblongLarge": "Large oblong basket",
+    "bambooOblongSmallLiners": "Small oblong basket with liner",
+    "bambooOblongLargeLiners": "Large oblong basket with liner",
     "tableDough": "DOUGH WEIGHT",
     "tableMeasures": "EXTERNAL MEASURES IN CM / INCHES",
     "tableMeasuresCM": "EXTERNAL MEASURES IN CM",

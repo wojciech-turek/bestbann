@@ -4,23 +4,26 @@
     "part2": ""
   },
 
-  "links":{
-    "home":"/pl/",
-    "breadProofing": "/pl/kosze-do-wyrastania-chleba/",
-    "roundBaskets": "/pl/okragle-kosze-rozrostowe/",
-    "oblongBaskets": "/pl/podluzne-kosze-rozrostowe/",
-    "ovalBaskets": "/pl/owalne-kosze-do-wyrastania-chleba/",
-    "baguetteBaskets": "/pl/kosze-na-bagietki/",
-    "miniBaskets": "/pl/koszyki-na-mini-chlebki/",
-    "squareBaskets": "/pl/kwadratowe-kosze-wyrastania-chleba/",
-    "bigSlicedBaskets": "/pl/kosze-duzy-chleb-krojony/",
-    "woodenBakingForms": "/pl/drewniane-foremki/",
+  "links": {
+    "home": "/pl/",
+    "breadProofing": "/pl/kosze-do-wyrastania-chleba",
+    "roundBaskets": "/pl/okragle-kosze-rozrostowe",
+    "oblongBaskets": "/pl/podluzne-kosze-rozrostowe",
+    "ovalBaskets": "/pl/owalne-kosze-do-wyrastania-chleba",
+    "baguetteBaskets": "/pl/kosze-na-bagietki",
+    "miniBaskets": "/pl/koszyki-na-mini-chlebki",
+    "squareBaskets": "/pl/kwadratowe-kosze-wyrastania-chleba",
+    "bigSlicedBaskets": "/pl/kosze-duzy-chleb-krojony",
+    "woodenBakingForms": "/pl/drewniane-foremki",
     "withLiners": "/pl/kosze-z-materialowymi-poszewkami",
-    "aboutUs": "/pl/o-firmie/",
-    "contact": "/pl/kontakt/",
+    "aboutUs": "/pl/o-firmie",
+    "contact": "/pl/kontakt",
     "privacyPolicy": "/pl/polityka-prywatnosci",
-    "engraved":"/pl/grawerowane/",
-    "impressum": "/pl/impressum"
+    "engraved": "/pl/grawerowane",
+    "impressum": "/pl/legal-notice",
+    "bambooFiber": "/pl/kosze-z-wlokna-bambusowego",
+    "bambooRound": "/pl/okragle-kosze-z-wlokna-bambusowego",
+    "bambooOblong": "/pl/podluzne-kosze-z-wlokna-bambusowego"
   },
 
   "heroBanner": "",
@@ -38,7 +41,9 @@
     "oblong": "Podłużne",
     "mini": "Mini koszyczki",
     "bigWoodenBase": "Duży chleb krojony",
-    "square": "Kwadratowe"
+    "square": "Kwadratowe",
+    "roundSmall": "Okrągłe małe",
+    "oblongSmall": "Podłużne małe"
   },
   "mainSections": {
     "aboutUs": {
@@ -48,11 +53,12 @@
     },
     "products": {
       "title": "Produkty",
-      "breadProofing": "Kosze do wyrastania chleba",
+      "breadProofing": "Kosze do wyrastania chleba z rattanu",
       "woodenBase": "Kosze z drewnianym dnem",
       "withLiners": "Kosze z materiałowymi poszewkami",
       "woodenBakingForm": "Drewniane foremki do pieczenia chleba",
-      "button": "Zobacz więcej"
+      "button": "Zobacz więcej",
+      "bambooFiber": "Koszyki z włókna bambusowego"
     },
     "whatMUD": {
       "title": "Co nas wyróżnia?",
@@ -96,6 +102,19 @@
         "paragraph1": "<p>Drewniane foremki do pieczenia przeznaczone są do wypieku mini chlebów lub małych ciast w piekarniku. Idealnie nadają się do tego, aby podarować je w prezencie, mogą być także wyjątkowym produktem, który klienci zauważą i docenią. Wystarczy wyłożyć formę załączonym papierem do pieczenia, wypełnić ciastem i upiec w piekarniku jak zwykle. Po upieczeniu drewno lekko ciemnieje, ponieważ jest przeznaczone do jednorazowego użytku, jednakże możliwe jest ponowne użycie formy. Wystarczy umieścić nowy papier do pieczenia wewnątrz formy i ponownie użyć.</p>",
         "paragraph2": "<p><strong>Formy wykonane są w 100% z naturalnego drewna topolowego, są biodegradowalne i nadają się do recyklingu</strong>, dzięki czemu można je bezpiecznie kompostować. Formy przeznaczone są do wypieków w temperaturach od -40 °C do + 220 °C.</p>"
       }
+    },
+    "bambooFiber": {
+      "description": {
+        "paragraph1": "<p>Kosze z włókna bambusowego i PP to unikalny produkt, pierwsze na świecie kosze do garowania pieczywa wykonane z włókna bambusowego z dodatkiem tworzywa sztucznego. Łączą w sobie główne zalety koszy rattanowych, którymi są dobra wentylacja i wspaniały, rzemieślniczy wygląd dzięki powstającym z mąki okręgom na chlebie, jednocześnie eliminując główny problem z pojawianiem się pleśni wewnątrz, co przekłada się na dłuższy szacowany czas użytkowania.</p>",
+        "paragraph2": "<p>Kosze z włókna bambusowego i polipropylenu mogą być stosowane w małych piekarniach, przez piekarzy dbających przede wszystkim o higienę, jak również przez duże piekarnie przemysłowe, które muszą ograniczyć czas poświęcany na czyszczenie koszy.</p>",
+        "paragraph3": "<p>Kosze przeznaczone są do wyrastania i fermentacji ciasta chlebowego, które po wypieku trzyma się, nie wylewa i jest wyższe. Dzięki garowaniu w koszach struktura chleba jest lepsza, a skórka bardziej chrupiąca, ponieważ kosze utrzymują ciepło wewnątrz.</p>",
+        "paragraph4": "<p>Nasze koszyki wykonane są z włókien bambusowych (40%), skrobi kukurydzianej (30%) i spożywczego PP (30%). Zawartość 70% naturalnych składników sprawia, że nasz produkt jest bardziej przyjazny dla środowiska niż koszyki wykonane w całości z PP.</p>",
+        "paragraph5": "<p>Kosze z włókna bambusowego i plastiku są bardzo higieniczne, można je bezpiecznie myć w zmywarce, co zapobiega rozwojowi pleśni wewnątrz i pomaga utrzymać kosze w idealnej czystości. Ponadto  spełniają wymagania systemu HACCP. Posiadamy raporty z badań SGS oraz Certyfikat PZH potwierdzające wysoką jakość naszych produktów, które nie zawierają żadnych szkodliwych związków ani metali, dzięki czemu mogą bezpiecznie mieć kontakt z żywnością, zgodnie z:</p>",
+        "paragraph6": "<p>Nasze koszyki do garowania chleba z włókna bambusowego i tworzywa sztucznego zostały zaprojektowane w Polsce, przez firmę BestBann. Produkowane są we współpracy z producentami azjatyckimi.</p>",
+        "paragraph7": "<p>W naszej ofercie znajdziecie Państwo najpopularniejsze kształty koszyków - okrągłe i podłużne, w różnych rozmiarach. Mogą być używane z poszewkami, dla bardziej rzadkich ciast lub bez, aby uzyskać bardziej tradycyjny, rzemieślniczy wygląd.</p>",
+        "paragraph8": "<p>Kosze z włókna bambusowego i PP są dostępne w sprzedaży do wybranych krajów: BE, BG, HR, HU, CY, DK, EE, FI, GR, IE, IL, IS, IT, LT, LU, LV, MT, NL, PL, RO, TR</p>",
+        "warning": "<p><strong>Uwaga: Kosze mogą być używane tylko do garowania ciasta chlebowego, nigdy do pieczenia chleba w wysokich temperaturach!</strong></p>"
+      }
     }
   },
   "contact": {
@@ -124,7 +143,18 @@
     "line8": "Może służyć także w celach dekoracyjnych",
     "line9": "Koszyki dostępne w rozmiarach podanych w tabeli lub rozmiarach przygotowywanych pod indywidualne zamówienie",
     "line10": "Podane rozmiary są wymiarami zewnętrznymi (± 5 mm)",
-    "line11": "Kosze przeznaczone są jedynie do wyrastania ciasta na chleb, nie służą jako forma do pieczenia!"
+    "line11": "Kosze przeznaczone są jedynie do wyrastania ciasta na chleb, nie służą jako forma do pieczenia!",
+    "bamboo": {
+      "line1": "<strong>Unikalny produkt</strong>, pierwsze na świecie koszyki do garowania pieczywa wykonane z włókna bambusowego i PP, <strong>zaprojektowane w Polsce, w firmie BestBann</strong>",
+      "line2": "Włókno bambusowe jest głównym składnikiem (40%), kosze zawierają również skrobię kukurydzianą (30%) i przeznaczony do celów spożywczych polipropylen (30%)",
+      "line3": "Są <strong>bardzo higieniczne</strong>, można je myć w zmywarkach, spełniają wymagania systemu HACCP",
+      "line4": "<strong>Raporty z badań SGS i Certyfikat PZH</strong> potwierdzają bezpieczeństwo stosowania w kontakcie z żywnością, kosze nie zawierają żadnych szkodliwych związków ani metali",
+      "line5": "Kosze produkowane są we współpracy z producentem azjatyckim",
+      "line6": "Mogą być używane z poszewkami lub bez",
+      "line7": "W porównaniu z koszami rattanowymi <strong>szacowany czas użytkowania jest znacznie dłuższy</strong>, ponieważ kosze z włókna bambusowego i PP nie porastają pleśnią",
+      "line8": "W porównaniu z koszami plastikowymi, kosze z włókna bambusowego i PP są <strong>bardziej przyjazne dla środowiska</strong> - zawierają 70% składników naturalnych",
+      "line9": "W odpowiednich warunkach kosze ulegają biodegradacji"
+    }
   },
 
   "productDetails": {
@@ -142,7 +172,17 @@
     "tableMeasures": "WYMIARY ZEWNĘTRZNE W CM / CALACH",
     "tableMeasuresCM": "WYMIARY ZEWNĘTRZNE W CM",
     "tableCatalog": "NUMER KATALOGOWY",
-    "linersAvailable": "Poszewki są dostępne dla rozmiarów koszy od"
+    "linersAvailable": "Poszewki są dostępne dla rozmiarów koszy od",
+    "bambooRoundSmall": "Małe koszyki",
+    "bambooRoundLarge": "Duże koszyki",
+    "bambooRoundSmallLiners": "Małe koszyki z poszewkami",
+    "bambooRoundLargeLiners": "Duże koszyki z poszewkami",
+    "bambooOblongSmall": "Małe podłużne koszyki",
+    "bambooOblongLarge": "Duże podłużne koszyki",
+    "bambooOblongSmallLiners": "Małe podłużne koszyki z poszewką",
+    "bambooOblongLargeLiners": "Duże podłużne koszyki z poszewką",
+    "bambooRound": "Okrągłe koszyki do wyrastania chleba z włókna bambusowego i polipropylenu",
+    "bambooOblong": "Podłużne koszyki do wyrastania chleba z włókna bambusowego i polipropylenu"
   },
   "aboutUsPage": {
     "thankyou": "Dziękujemy za odwiedzenie naszej strony!",

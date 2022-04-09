@@ -11,23 +11,26 @@
     "aboutUs": "À propos de nous",
     "contact": "Contactez"
   },
-  "links":{
-    "home":"/fr/",
-    "breadProofing": "/fr/banneton-a-pain/",
-    "roundBaskets": "/fr/ronde-banneton-a-pain/",
-    "oblongBaskets": "/fr/oblongue-banneton-a-pain/",
-    "ovalBaskets": "/fr/ovale-banneton-a-pain/",
-    "baguetteBaskets": "/fr/baguette-banneton-a-pain/",
-    "miniBaskets": "/fr/mini-pains-bannetons/",
-    "squareBaskets": "/fr/carree-banneton-a-pain/",
-    "bigSlicedBaskets": "/fr/grande-pain-tranche-banneton/",
-    "woodenBakingForms": "/fr/moules-de-cuisson-en-bois/",
-    "withLiners": "/fr/bannetons-avec-doublures/",
-    "aboutUs": "/fr/sur-la-societe/",
-    "contact": "/fr/contact-2/",
+  "links": {
+    "home": "/fr/",
+    "breadProofing": "/fr/banneton-a-pain",
+    "roundBaskets": "/fr/ronde-banneton-a-pain",
+    "oblongBaskets": "/fr/oblongue-banneton-a-pain",
+    "ovalBaskets": "/fr/ovale-banneton-a-pain",
+    "baguetteBaskets": "/fr/baguette-banneton-a-pain",
+    "miniBaskets": "/fr/mini-pains-bannetons",
+    "squareBaskets": "/fr/carree-banneton-a-pain",
+    "bigSlicedBaskets": "/fr/grande-pain-tranche-banneton",
+    "woodenBakingForms": "/fr/moules-de-cuisson-en-bois",
+    "withLiners": "/fr/bannetons-avec-doublures",
+    "aboutUs": "/fr/sur-la-societe",
+    "contact": "/fr/contact-2",
+    "bambooFiber": "/fr/fibre-de-bambou-baskets",
+    "bambooRound": "/fr/ronde-fibre-de-bambou-baskets",
+    "bambooOblong": "/fr/oblongue-fibre-de-bambou-baskets",
     "privacyPolicy": "/fr/politique-de-confidentialite",
-    "engraved":"/fr/gravures/",
-    "impressum": "/fr/impressum"
+    "engraved": "/fr/gravures",
+    "impressum": "/fr/legal-notice"
   },
   "baskets": {
     "baguette": "Forme baguette",
@@ -36,7 +39,9 @@
     "oblong": "Forme oblongue",
     "mini": "Mini bannetons",
     "bigWoodenBase": "Gros pain tranché",
-    "square": "Forme carrée"
+    "square": "Forme carrée",
+    "roundSmall": "Ronde petit",
+    "oblongSmall": "Oblongue petit"
   },
   "mainSections": {
     "aboutUs": {
@@ -50,6 +55,7 @@
       "woodenBase": "Bannetons avec base en bois",
       "withLiners": "Bannetons avec doublures",
       "woodenBakingForm": "Moules de cuisson en bois",
+      "bambooFiber": "Bannetons en fibre de bambou",
       "button": "En savoir plus"
     },
     "whatMUD": {
@@ -94,6 +100,19 @@
         "paragraph1": "<p>Les moules de cuisson en bois sont conçus pour cuire des mini pains ou des gâteaux au four. Ils sont idéaux pour faire de la pâtisserie maison le cadeau parfait ou un produit spécial que les clients remarqueront et apprécieront. Il suffit de placer la doublure en papier à l'intérieur du moule, de remplir de pâte et de cuire au four comme d'habitude. Le bois s'assombrit légèrement lorsqu'il est cuit, car il est conçu pour être à usage unique. Cependant, il est possible de réutiliser le moule, de placer le nouveau revêtement à l'intérieur du moule et de le cuire à nouveau.</p>",
         "paragraph2": "<p>Les moules sont faits <strong>de bois de peuplier 100% naturel, ils sont biodégradables et recyclables</strong>, ils peuvent donc être compostés en toute sécurité. Les moisissures tolèrent des températures allant de -40 ° C à + 220 ° C (-104 ° F à + 428 ° F).</p>"
       }
+    },
+    "bambooFiber": {
+      "description": {
+        "paragraph1": "<p>Les bannetons en plastique de fibre de bambou sont <strong>un produit unique</strong>, les <strong>premiers bannetons à pain au monde fabriqués de fibre de bambou et plastique</strong>. Ils combinent les principaux avantages des paniers en rotin, à savoir <strong>une bonne ventilation</strong> et un aspect artisanal grâce aux cercles de farine sur le pain, tout en éliminant le principal problème de la moisissure à l'intérieur, ce qui se traduit par une durée <strong>d'utilisation estimée plus longue</strong>.</p>",
+        "paragraph2": "<p>Les bannetons en fibre de bambou et plastique peuvent être utilisés dans <strong>les petites boulangeries</strong>, par les boulangers qui se soucient avant tout de l'hygiène, mais aussi par <strong>les grandes boulangeries industrielles</strong>, qui ont besoin de réduire le temps passé à nettoyer les paniers.</p>",
+        "paragraph3": "<p>Les bannetons sont conçus <strong>pour le levage et la fermentation de la pâte à pain</strong>, qui tient bien, ne coule pas et est plus haute après la cuisson. La fermentation dans les paniers <strong>permet d'améliorer la structure du pain et de donner une croûte plus croustillante car ils retiennent la chaleur à l'intérieur.</p>",
+        "paragraph4": "<p>Nos bannetons sont fabriqués à partir de fibres de bambou (40%), d'amidon de maïs (30%) et de PP de qualité alimentaire (30%). Le contenu de <strong>70% d'ingrédients naturels</strong> rend notre produit plus respectueux de l'environnement que les bannetons fabriqués entièrement en PP.</p>",
+        "paragraph5": "<p>Les bannetons en fibre de bambou et PP sont <strong>très hygiéniques</strong>, ils peuvent être lavés en toute sécurité au lave-vaisselle, ce qui empêche la formation de moisissures à l'intérieur et permet de garder les paniers <strong>parfaitement propres</strong>. De plus, ils répondent aux exigences du système HACCP. Nous disposons <strong>des rapports de test SGS et du certificat PZH</strong> qui prouvent la haute qualité de nos produits, qui ne contiennent aucun composé ou métal nocif, de sorte qu'ils peuvent entrer en contact avec les aliments en toute sécurité, conformément à:</p>",
+        "paragraph6": "<p>Nos bannetons à pain en fibre de bambou et plastique sont <strong>conçus en Pologne, par BestBann</strong>. Elles sont produites en coopération avec des fabricants asiatiques.</p>",
+        "paragraph7": "<p>YVous pouvez commander les formes les plus populaires de paniers - rondes et oblongues, toutes deux avec des tailles différentes. Ils peuvent être utilisés avec des doublures, pour une pâte plus hydratée, ou sans doublure, pour obtenir un aspect plus traditionnel et artisanal.</p>",
+        "paragraph8": "<p>Les bannetons en fibre de bambou et plastique sont disponibles à la vente dans certains pays: BE, BG, HR, HU, CY, DK, EE, FI, GR, IE, IL, IS, IT, LT, LU, LV, MT, NL, PL, RO, TR.</p>",
+        "warning": "<p><strong>Remarque : Les bannetons ne peuvent être utilisés que pour la fermentation de la pâte à pain, jamais pour la cuisson du pain à haute température!</strong></p>"
+      }
     }
   },
 
@@ -112,6 +131,16 @@
     "tableMeasures": "MESURES EXTERNES EN CM / INCHES",
     "tableMeasuresCM": "MESURES EXTERNES EN CM",
     "tableCatalog": "NUMÉRO DE CATALOGUE",
+    "bambooRoundSmall": "Petit banneton rond",
+    "bambooRoundLarge": "Grand banneton rond",
+    "bambooRoundSmallLiners": "Petit banneton rond avec doublure",
+    "bambooRoundLargeLiners": "Grand banneton rond avec doublure",
+    "bambooRound": "Bannetons à pain rond en fibre de bambou et plastique",
+    "bambooOblong": "Bannetons à pain oblongs en fibre de bambou et plastique",
+    "bambooOblongSmall": "Petits paniers oblongs",
+    "bambooOblongLarge": "Grands paniers oblongs",
+    "bambooOblongSmallLiners": "Petits paniers oblongs avec doublure",
+    "bambooOblongLargeLiners": "Grands paniers oblongs avec doublure",
     "linersAvailable": "Les doublures sont disponibles pour des tailles de panier allant de"
   },
 
@@ -176,7 +205,18 @@
     "line8": "Il peut également être utilisé comme décoration",
     "line9": "Les Bannetons sont disponibles dans les tailles indiquées dans de table ou préparés sous la commande individuelle",
     "line10": "Les dimensions sont des dimensions externes (± 5 mm)",
-    "line11": "Les paniers sont conçus seulement pour laisser lever la pâte, ne convient pas comme moules pour la cuisson du pain à des température élevées!"
+    "line11": "Les paniers sont conçus seulement pour laisser lever la pâte, ne convient pas comme moules pour la cuisson du pain à des température élevées!",
+    "bamboo": {
+      "line1": "<strong>Produit unique</strong>, premières bannetons à pain au monde en fibre de bambou et plastique, <strong>conçues en Pologne, à BestBann</strong>.",
+      "line2": "La fibre de bambou est l'ingrédient principal (40%), elle contient également de l'amidon de maïs (30%) et du PP de qualité alimentaire comme adhésif (30%).",
+      "line3": "Ils sont <strong>très hygiéniques</strong>, peuvent être lavés au lave-vaisselle et répondent aux exigences du système HACCP.",
+      "line4": "Les <strong>rapports de test SGS et le certificat PZH</strong> confirment la sécurité de l'utilisation en contact avec les aliments, ne contenant aucun composé ou métal nocif.",
+      "line5": "Les bannetons sont produits en coopération avec un fabricant asiatique",
+      "line6": "Ils peuvent être utilisés avec ou sans doublure",
+      "line7": "Par rapport aux paniers en rotin, <strong>la durée d'utilisation estimée est beaucoup plus longue</strong>, car les paniers en fibre de bambou et PP ne présentent pas de moisissures.",
+      "line8": "Comparés aux paniers en plastique, les paniers en fibre de bambou et PP sont <strong>plus écologiques</strong> - ils contiennent 70 % d'ingrédients naturels.",
+      "line9": "Les bannetons sont biodégradables dans de bonnes conditions."
+    }
   },
   "footer": {
     "companyInfo": {

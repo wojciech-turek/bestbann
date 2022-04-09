@@ -1,5 +1,5 @@
 import React, { useRef, lazy } from "react";
-import { Route, withRouter, Switch } from "react-router-dom";
+import { Route, withRouter, Switch, Redirect } from "react-router-dom";
 import Navigation from "../Navigation/Navigation";
 import Footer from "../../components/Footer/Footer";
 import MainPage from "../../pages/MainPage/MainPage";
@@ -8,8 +8,6 @@ import WoodenBakingForms from "../../pages/ProductsPage/WoodenBakingForms/Wooden
 import Impressum from "../../pages/Legal/Impressum/Impressum";
 import PrivacyPolicy from "../../pages/Legal/PrivacyPolicy/PrivacyPolicy";
 import { useTranslation } from "react-i18next";
-
-
 
 const BreadProofingBaskets = lazy(() =>
   import("../../pages/BasketPages/BreadproofingBaskets/BreadproofingBaskets")
@@ -22,10 +20,14 @@ const BreadProofing = lazy(() =>
   import("../../pages/ProductsPage/BreadProofing/BreadProofing")
 );
 
+const BambooFiberBaskets = lazy(() =>
+  import("../../pages/ProductsPage/BambooFiber/BambooFiberBaskets")
+);
+
 const ContactPage = lazy(() => import("../../pages/ContactPage/ContactPage"));
 const AboutUsPage = lazy(() => import("../../pages/AboutUsPage/AboutUsPage"));
 
-const Layout = (props) => {
+const Layout = () => {
   const { t } = useTranslation("common");
   const nodeRef = useRef(null);
   const routes = [
@@ -41,7 +43,7 @@ const Layout = (props) => {
       Component: BreadProofing,
     },
     {
-      path:  t("links.withLiners"),
+      path: t("links.withLiners"),
       name: "Products - Baskets with Liners",
       Component: WithLiners,
     },
@@ -54,6 +56,11 @@ const Layout = (props) => {
       path: t("links.engraved"),
       name: "Products - Wooden Baking Forms",
       Component: WoodenBakingForms,
+    },
+    {
+      path: t("links.bambooFiber"),
+      name: "Products - Bamboo fiber plastic bread proofing baskets",
+      Component: BambooFiberBaskets,
     },
     { path: t("links.aboutUs"), name: "About", Component: AboutUsPage },
     { path: t("links.contact"), name: "Contact", Component: ContactPage },
@@ -93,7 +100,22 @@ const Layout = (props) => {
       Component: BreadProofingBaskets,
     },
     {
-      path: "/impressum",
+      path: t("links.bambooFiber"),
+      name: "BambooBaskets",
+      Component: BreadProofingBaskets,
+    },
+    {
+      path: t("links.bambooRound"),
+      name: "BambooBasketsRound",
+      Component: BreadProofingBaskets,
+    },
+    {
+      path: t("links.bambooOblong"),
+      name: "BambooBasketsOblong",
+      Component: BreadProofingBaskets,
+    },
+    {
+      path: t("links.impressum"),
       name: "Legal Notice",
       Component: Impressum,
     },
@@ -117,7 +139,7 @@ const Layout = (props) => {
   const AnimatedSwitch = withRouter(({ location }) => (
     <Switch>
       {routeList}
-      {/* <Route render={() => <Redirect to={{ pathname: t("links.home") }} />} /> */}
+      <Route render={() => <Redirect to={{ pathname: t("links.home") }} />} />
     </Switch>
   ));
 

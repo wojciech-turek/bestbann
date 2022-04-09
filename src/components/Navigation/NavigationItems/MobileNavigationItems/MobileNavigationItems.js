@@ -125,7 +125,6 @@ export default function MobileNavigationItems(props) {
                     {t("mainSections.products.woodenBakingForm")}
                   </div>
                 </NavLink>
-
                 <NavLink
                   to={t("links.withLiners")}
                   activeClassName={classes.active}
@@ -134,6 +133,16 @@ export default function MobileNavigationItems(props) {
                   <div className={classes.listItem}>
                     <span className={classes.listIcon}>⁕</span>
                     {t("mainSections.products.withLiners")}
+                  </div>
+                </NavLink>
+                <NavLink
+                  to={t("links.bambooFiber")}
+                  activeClassName={classes.active}
+                  onClick={() => props.setSideOpen(false)}
+                >
+                  <div className={classes.listItem}>
+                    <span className={classes.listIcon}>⁕</span>
+                    {t("mainSections.products.bambooFiber")}
                   </div>
                 </NavLink>
               </div>

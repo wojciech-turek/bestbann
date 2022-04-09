@@ -10,7 +10,7 @@ import TableCell from "@material-ui/core/TableCell";
 import TableContainer from "@material-ui/core/TableContainer";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
-import { useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 import BasketsCertificationImage from "../../../assets/basketatest.png";
 import NeedHelpSection from "../../../components/NeedHelpSection/NeedHelpSection";
 import OblongRO from "../../../assets/OblongRO.jpg";
@@ -22,6 +22,14 @@ import BaguetteROX from "../../../assets/BaguetteROX.jpg";
 import MiniRO from "../../../assets/miniRO.jpg";
 import SquareROX from "../../../assets/SquareROX.jpg";
 import LongROX from "../../../assets/LongROX.jpg";
+import BambooBigRound from "../../../assets/bambooBigRound.jpg";
+import BambooBigRoundLiner from "../../../assets/bambooBigRoundLiner.jpg";
+import BambooSmallRound from "../../../assets/bambooSmallRound.jpg";
+import BambooSmallRoundLiner from "../../../assets/bambooSmallRoundLiner.jpg";
+import BambooBigOblong from "../../../assets/bambooBigOblong.jpg";
+import BambooBigOblongLiner from "../../../assets/bambooBigOblongLiner.jpg";
+import BambooSmallOblong from "../../../assets/bambooSmallOblong.jpg";
+import BambooSmallOblongLiner from "../../../assets/bambooSmallOblongLiner.jpg";
 import CheckCircleOutlineIcon from "@material-ui/icons/CheckCircleOutline";
 import { Fade } from "@material-ui/core";
 import SEO from "../../../utils/SEO";
@@ -51,6 +59,31 @@ export default function BreadproofingBaskets(props) {
     createData("2500 g / 5,50 lb", '⌀ 30,5 cm / 12"', "RO/ROX 3OK2500M"),
     createData("3000 g / 6,60 lb", '⌀ 32 cm / 12,6"', "RO/ROX 3OK3000C"),
     createData("5000 g / 11,00 lb", '⌀ 42 cm / 16,5"', "RO/ROX 3OK5000V"),
+  ];
+
+  const BambooBasketsRound = [
+    createData(
+      "400-700 g / 0,9 - 1,5 lb",
+      '⌀ 19,5 x 8,5 cm / 7,7" x 3,3”',
+      "ROBBS0500"
+    ),
+    createData(
+      "800-1100 g / 1,8 - 2,4 lb",
+      '⌀ 22,5 x 8,5 cm / 8,3" x 3,3”',
+      "ROBBD1000"
+    ),
+  ];
+  const BambooBasketsOblong = [
+    createData(
+      "400-700 g / 0,9 - 1,5 lb",
+      '24 x 12,5 x 7H cm / 9.5" x 4.9” x 2.8”H',
+      "LOBBS0500"
+    ),
+    createData(
+      "800-1100 g / 1,8 - 2,4 lb",
+      '32 x 14,5 x 8H cm / 12.6" x 5.7” x 3.2”H',
+      "LOBBS01000"
+    ),
   ];
 
   const OblongBasketRows = [
@@ -229,6 +262,28 @@ export default function BreadproofingBaskets(props) {
       basketTypes.typeO = "";
       basketTypes.typeOX = " SLX";
       break;
+    case "BambooBasketsRound":
+      basketTypes.roundBreadProofing.title = t("productDetails.bambooRound");
+      tableRows = BambooBasketsRound;
+      basketTypes.imageTypeRO = BambooSmallRound;
+      basketTypes.imageTypeROX = BambooBigRound;
+      basketTypes.imageTypeBamboo1 = BambooSmallRoundLiner;
+      basketTypes.imageTypeBamboo2 = BambooBigRoundLiner;
+      basketTypes.typeO = " S";
+      basketTypes.typeOX = " L";
+      basketTypes.bamboo = true;
+      break;
+    case "BambooBasketsOblong":
+      basketTypes.roundBreadProofing.title = t("productDetails.bambooOblong");
+      tableRows = BambooBasketsOblong;
+      basketTypes.imageTypeRO = BambooSmallOblong;
+      basketTypes.imageTypeROX = BambooBigOblong;
+      basketTypes.imageTypeBamboo1 = BambooSmallOblongLiner;
+      basketTypes.imageTypeBamboo2 = BambooBigOblongLiner;
+      basketTypes.typeO = " S";
+      basketTypes.typeOX = " L";
+      basketTypes.bamboo = true;
+      break;
     default:
   }
 
@@ -266,12 +321,26 @@ export default function BreadproofingBaskets(props) {
                   {basketTypes.typeO ? basketTypes.typeO : null}
                 </h3>
                 <DividerLine height="2px" width="12%" color="rgb(255,195,11)" />
-                <p>{t("productDetails.entirelyRattan")}</p>
+                {basketTypes.bamboo ? (
+                  <p>{t("productDetails.bambooRoundSmall")}</p>
+                ) : (
+                  <p>{t("productDetails.entirelyRattan")}</p>
+                )}
                 <img
                   className={classes.typeImage}
                   src={basketTypes.imageTypeRO}
-                  alt="Rattan round basket"
+                  alt="Small round bamboo fiber basket"
                 />
+                {basketTypes.bamboo ? (
+                  <>
+                    <p>{t("productDetails.bambooRoundSmallLiners")}</p>
+                    <img
+                      className={classes.typeImage}
+                      src={basketTypes.imageTypeBamboo1}
+                      alt="Small round bamboo fiber basket with liners"
+                    />
+                  </>
+                ) : null}
               </div>
               <div
                 className={classes.type}
@@ -282,13 +351,26 @@ export default function BreadproofingBaskets(props) {
                   {basketTypes.typeOX ? basketTypes.typeOX : null}
                 </h3>
                 <DividerLine height="2px" width="12%" color="rgb(255,195,11)" />
-                <p>{t("productDetails.woodBase")}</p>
-
+                {basketTypes.bamboo ? (
+                  <p>{t("productDetails.bambooRoundLarge")}</p>
+                ) : (
+                  <p>{t("productDetails.woodBase")}</p>
+                )}
                 <img
                   className={classes.typeImage}
                   src={basketTypes.imageTypeROX}
-                  alt="Rattan round basket with wooden base"
+                  alt="Round bamboo fiber basket"
                 />
+                {basketTypes.bamboo ? (
+                  <>
+                    <p>{t("productDetails.bambooRoundLargeLiners")}</p>
+                    <img
+                      className={classes.typeImage}
+                      src={basketTypes.imageTypeBamboo2}
+                      alt="Round bamboo fiber basket with liners"
+                    />
+                  </>
+                ) : null}
               </div>
             </div>
             {props.title === "RoundBaskets" ||
@@ -357,42 +439,66 @@ export default function BreadproofingBaskets(props) {
             <div className={classes.productInfo}>
               <h2 className={classes.productTitle}>{t("productInfo.title")}</h2>
               <div className={classes.productInfoFlex}>
-                <ul className={classes.productInfoList}>
-                  <li>
-                    <strong>{t("productInfo.line1")}</strong>
-                  </li>
-                  <li>{t("productInfo.line2")}</li>
-                  <li>
-                    <strong>{t("productInfo.line3")}</strong>
-                  </li>
-                  <li>{t("productInfo.line4")}</li>
-                  <li>
-                    <strong>{t("productInfo.line5")}</strong>
-                  </li>
-                  <li>
-                    <strong>{t("productInfo.line6")}</strong>
-                  </li>
-                  <li>
-                    <strong>{t("productInfo.line7")}</strong>
-                    <ol>
-                      <li>{t("productInfo.line71")}</li>
-                      <li>{t("productInfo.line72")}</li>
-                    </ol>
-                  </li>
-                  <li>{t("productInfo.line8")}</li>
-                  <li>{t("productInfo.line9")}</li>
-                  <li>{t("productInfo.line10")}</li>
-                  <li>
-                    <strong>{t("productInfo.line11")}</strong>
-                  </li>
-                </ul>
-                <div className={classes.basketCerContainer}>
-                  <img
-                    className={classes.basketsCertImage}
-                    src={BasketsCertificationImage}
-                    alt="Baskets with Certificates"
-                  />
-                </div>
+                {basketTypes.bamboo ? (
+                  <Trans>
+                    <ul className={classes.productInfoList}>
+                      <li>{t("productInfo.bamboo.line1")}</li>
+                      <li>{t("productInfo.bamboo.line2")}</li>
+                      <li>{t("productInfo.bamboo.line3")}</li>
+                      <li>{t("productInfo.bamboo.line4")}</li>
+                      <li>{t("productInfo.bamboo.line5")}</li>
+                      <li>{t("productInfo.bamboo.line6")}</li>
+                      <li>{t("productInfo.bamboo.line7")}</li>
+                      <li>{t("productInfo.bamboo.line8")}</li>
+                      <li>{t("productInfo.bamboo.line9")}</li>
+                      <li>{t("productInfo.line11")}</li>
+                      <li>
+                        <strong>
+                          {t("productsPage.bambooFiber.description.paragraph8")}
+                        </strong>
+                      </li>
+                    </ul>
+                  </Trans>
+                ) : (
+                  <ul className={classes.productInfoList}>
+                    <li>
+                      <strong>{t("productInfo.line1")}</strong>
+                    </li>
+                    <li>{t("productInfo.line2")}</li>
+                    <li>
+                      <strong>{t("productInfo.line3")}</strong>
+                    </li>
+                    <li>{t("productInfo.line4")}</li>
+                    <li>
+                      <strong>{t("productInfo.line5")}</strong>
+                    </li>
+                    <li>
+                      <strong>{t("productInfo.line6")}</strong>
+                    </li>
+                    <li>
+                      <strong>{t("productInfo.line7")}</strong>
+                      <ol>
+                        <li>{t("productInfo.line71")}</li>
+                        <li>{t("productInfo.line72")}</li>
+                      </ol>
+                    </li>
+                    <li>{t("productInfo.line8")}</li>
+                    <li>{t("productInfo.line9")}</li>
+                    <li>{t("productInfo.line10")}</li>
+                    <li>
+                      <strong>{t("productInfo.line11")}</strong>
+                    </li>
+                  </ul>
+                )}
+                {basketTypes.bamboo ? null : (
+                  <div className={classes.basketCerContainer}>
+                    <img
+                      className={classes.basketsCertImage}
+                      src={BasketsCertificationImage}
+                      alt="Baskets with Certificates"
+                    />
+                  </div>
+                )}
               </div>
             </div>
           </div>

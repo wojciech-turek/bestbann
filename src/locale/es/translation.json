@@ -12,25 +12,30 @@
     "oblong": "Oblongas",
     "mini": "Mini bannetones",
     "bigWoodenBase": "Grande pan rebanado",
-    "square": "Cuadradas"
+    "square": "Cuadradas",
+    "roundSmall": "Redondas Pequeño",
+    "oblongSmall": "Oblongas Pequeño"
   },
-  "links":{
-    "home":"/es/",
-    "breadProofing": "/es/los-bannetons/",
-    "roundBaskets": "/es/redondas-bannetons/",
-    "oblongBaskets": "/es/oblongas-bannetons/",
-    "ovalBaskets": "/es/ovaladas-bannetons/",
-    "baguetteBaskets": "/es/baguette-bannetons/",
-    "miniBaskets": "/es/mini-panes-bannetons/",
-    "squareBaskets": "/es/cuadradas-bannetons/",
-    "bigSlicedBaskets": "/es/grande-pan-rebanado/",
+  "links": {
+    "home": "/es/",
+    "breadProofing": "/es/los-bannetons",
+    "roundBaskets": "/es/redondas-bannetons",
+    "oblongBaskets": "/es/oblongas-bannetons",
+    "ovalBaskets": "/es/ovaladas-bannetons",
+    "baguetteBaskets": "/es/baguette-bannetons",
+    "miniBaskets": "/es/mini-panes-bannetons",
+    "squareBaskets": "/es/cuadradas-bannetons",
+    "bigSlicedBaskets": "/es/grande-pan-rebanado",
     "woodenBakingForms": "/es/moldes-para-hornear-de-madera/",
     "withLiners": "/es/bannetones-con-telas-de-lino",
-    "aboutUs": "/es/sobre-la-empresa/",
-    "contact": "/es/contacto/",
+    "aboutUs": "/es/sobre-la-empresa",
+    "contact": "/es/contacto",
+    "bambooFiber": "/es/fibra-de-bambu-bannetons",
+    "bambooRound": "/es/redondas-fibra-de-bambu-bannetons",
+    "bambooOblong": "/es/oblongas-fibra-de-bambu-bannetons",
     "privacyPolicy": "/es/politica-de-privacidad",
-    "engraved":"/es/grabado/",
-    "impressum": "/es/impressum"
+    "engraved": "/es/grabado",
+    "impressum": "/es/legal-notice"
   },
   "menu": {
     "mainPage": "Pagina principal",
@@ -46,10 +51,11 @@
     },
     "products": {
       "title": "Productos",
-      "breadProofing": "Bannetones - Cestas de fermentación para el pan",
+      "breadProofing": "Bannetones - cestas para fermentación de ratán",
       "woodenBase": "Bannetones con base de madera",
       "withLiners": "Bannetones con telas de lino",
       "woodenBakingForm": "Moldes para hornear de madera",
+      "bambooFiber": "Bannetones de fibra de bambú",
       "button": "Ver más"
     },
     "whatMUD": {
@@ -94,6 +100,19 @@
         "paragraph1": "<p>Los moldes para hornear de madera están diseñados para hornear mini panes o pasteles de pan en el horno. Son ideales para hacer de la repostería casera el regalo perfecto o el producto especial que los clientes notarán y apreciarán. Solo hay que colocar el revestimiento de papel dentro del molde, rellenar con masa y hornear en el horno como de costumbre. La madera se oscurecerá ligeramente cuando se hornee, porque está diseñada para ser de un solo uso. Sin embargo, es posible reutilizar el molde, colocando el nuevo revestimiento dentro del molde y horneando en él nuevamente.</p>",
         "paragraph2": "<p>Los moldes están <strong>hechos de madera de álamo 100% natural, son biodegradables y reciclables</strong>, por lo que se pueden compostar de forma segura. Los moldes toleran temperaturas que van desde -40 ° C a + 220 ° C (-104 ° F a + 428 ° F).</p>"
       }
+    },
+    "bambooFiber": {
+      "description": {
+        "paragraph1": "<p>Los bannetones de fibra de bambú y plástico son un <strong>producto único</strong>, <strong>las primeras cestas de fermentación de pan del mundo hechas de fibra de bambú y plástico</strong>. Combinan las principales ventajas de los bannetones de ratán, que son una <strong>buena ventilación</strong> y un <strong>gran aspecto artesanal</strong>, gracias a los círculos de harina en el pan, al tiempo que eliminan el principal problema del moho en el interior, lo que se traduce en un <strong>mayor tiempo estimado de uso</strong>.</p>",
+        "paragraph2": "<p>Los bannetones de fibra de bambú y plástico pueden ser utilizadas en <strong>panaderías pequeñas</strong>, por panaderos que se preocupan por la higiene en primer lugar, y también por <strong>grandes panaderías industriales</strong>, que necesitan reducir el tiempo dedicado a la limpieza de las cestas.</p>",
+        "paragraph3": "<p>Las cestas banneton están <strong>diseñadas para la prueba y la fermentación de la masa de pan</strong>, que se mantiene, no se derrama y es más alta después de la cocción. La fermentación en cestas <strong>ayuda a que la estructura del pan sea mejor y a que la corteza sea más crujiente</strong> porque mantienen el calor en su interior.</p>",
+        "paragraph4": "<p>Nuestros bannetones están hechos de fibras de bambú (40%), almidón de maíz (30%) y PP de calidad alimentaria (30%). El contenido del <strong>70% de ingredientes naturales</strong> hace que nuestro producto sea más respetuoso con el medio ambiente que las cestas fabricadas totalmente con PP.</p>",
+        "paragraph5": "<p>Los bannetones de fibra de bambú y plástico son <strong>muy higiénicas</strong>, se pueden lavar con seguridad en el lavavajillas, lo que evita el crecimiento de moho en su interior y ayuda a mantener las cestas <strong>perfectamente limpias</strong>. Además, cumplen los requisitos del sistema HACCP. Disponemos de los informes de <strong>pruebas de SGS y del certificado PZH</strong> que demuestran la alta calidad de nuestros productos, que no contienen compuestos ni metales nocivos, por lo que pueden tener contacto con los alimentos de forma segura, de acuerdo con:</p>",
+        "paragraph6": "<p>Nuestros bannetones de fibra de bambú para pan están <strong>diseñados en Polonia, por BestBann</strong>. Se producen en colaboración con fabricantes asiáticos.</p>",
+        "paragraph7": "<p>Puede pedir las formas más populares de los bannetones - redondas y oblongas, ambas con diferentes tamaños. Se pueden utilizar con forros, para una masa más hidratada, o sin ellas, para conseguir un aspecto más tradicional y artesanal.</p>",
+        "paragraph8": "<p>Los bannetons de fibra de bambú y plástico están disponibles para su venta a determinados países: BE, BG, HR, HU, CY, DK, EE, FI, GR, IE, IL, IS, IT, LT, LU, LV, MT, NL, PL, RO, TR</p>",
+        "warning": "<p><strong>Nota: Las cestas bannetones sólo pueden utilizarse para fermentar la masa de pan, nunca para hornear pan a altas temperaturas.</strong></p>"
+      }
     }
   },
   "contact": {
@@ -121,7 +140,18 @@
     "line8": "También se puede utilizar como una decoración",
     "line9": "Bannetons están disponibles en tamaños que figuran en de mesa o preparados por el encargo individual",
     "line10": "Las dimensiones indicadas de canastas son dimensiones externas (± 5mm)",
-    "line11": "Bannetons están diseñadas sólo para el crecimiento de la masa, no son adecuadas como moldes para cocer el pan a altas temperaturas!"
+    "line11": "Bannetons están diseñadas sólo para el crecimiento de la masa, no son adecuadas como moldes para cocer el pan a altas temperaturas!",
+    "bamboo": {
+      "line1": "<strong>Producto único</strong>, las primeras cestas para pan del mundo hechas de fibra de bambú y plástico, <strong>diseñadas en Polonia, en BestBann</strong>",
+      "line2": "La fibra de bambú es el ingrediente principal (40%), también contiene almidón de maíz (30%) y PP de calidad alimentaria como adhesivo (30%)",
+      "line3": "Son <strong>muy higiénicos</strong>, se pueden lavar en el lavavajillas, cumplen los requisitos del sistema HACCP",
+      "line4": "Los informes de las <strong>pruebas de SGS y el certificado PZH</strong> confirman la seguridad de su uso en contacto con los alimentos, no contienen compuestos ni metales nocivos",
+      "line5": "Los bannetones de fibra de bambú y plástico se producen en colaboración con un fabricante asiático",
+      "line6": "Pueden utilizarse con o sin forro",
+      "line7": "En comparación con las cestas de ratán, <strong>el tiempo estimado de uso es mucho mayor</strong>, ya que en las cestas de fibra de bambú y plástico no crece el moho",
+      "line8": "En comparación con las cestas de plástico, bannetones de fibra de bambú y plástico son <strong>más ecológicas</strong>: contienen un 70% de ingredientes naturales",
+      "line9": "Las cestas son biodegradables en las condiciones adecuadas"
+    }
   },
   "productDetails": {
     "type": "tipo",
@@ -135,6 +165,16 @@
     "entirelyRattan": "Totalmente hecho de ratán natural",
     "woodBase": "Hecho de ratán natural y base de madera.",
     "tableDough": "PESO MASA",
+    "bambooRoundSmall": "Pequeños bannetones redondos",
+    "bambooRoundLarge": "Bannetones redondos grandes",
+    "bambooRoundSmallLiners": "Pequeños bannetones redondos con forros",
+    "bambooRoundLargeLiners": "Bannetones redondos grandes con forros",
+    "bambooRound": "Redondos bannetones - cestas para fermentación de pan de fibra de bambú y plástico",
+    "bambooOblong": "Alargados bannetones - cestas para fermentación de pan de fibra de bambú y plástico",
+    "bambooOblongSmall": "Pequeños bannetones alargados",
+    "bambooOblongLarge": "Grandes bannetones oblongos",
+    "bambooOblongSmallLiners": "Pequeños bannetones alargados con forros",
+    "bambooOblongLargeLiners": "Grandes bannetones oblongos con forros",
     "tableMeasures": "MEDIDAS EXTERNAS EN CM / PULGADAS",
     "tableMeasuresCM": "MEDIDAS EXTERNAS EN CM",
     "tableCatalog": "NUMERO DE CATALOGO",
