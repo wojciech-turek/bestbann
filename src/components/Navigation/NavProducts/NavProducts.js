@@ -16,6 +16,21 @@ export default function NavProducts() {
       linkDest: t("links.breadProofing"),
     },
     {
+      title: t("mainSections.products.breadProofing"),
+      imgSrc: breadProofingImg,
+      linkDest: t("links.breadProofing"),
+    },
+    {
+      title: t("mainSections.products.bambooFiber"),
+      imgSrc: bambooBaskets,
+      linkDest: t("links.bambooFiber"),
+    },
+    {
+      title: t("mainSections.products.bambooFiber"),
+      imgSrc: bambooBaskets,
+      linkDest: t("links.bambooFiber"),
+    },
+    {
       title: t("mainSections.products.woodenBakingForm"),
       imgSrc: woodenBaseImg,
       linkDest: t("links.woodenBakingForms"),
@@ -24,11 +39,6 @@ export default function NavProducts() {
       title: t("mainSections.products.withLiners"),
       imgSrc: withLinersImg,
       linkDest: t("links.withLiners"),
-    },
-    {
-      title: t("mainSections.products.bambooFiber"),
-      imgSrc: bambooBaskets,
-      linkDest: t("links.bambooFiber"),
     },
   ];
 
