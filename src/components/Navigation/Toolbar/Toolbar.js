@@ -5,8 +5,6 @@ import classes from "./Toolbar.module.css";
 import Logo from "../../UI/Logo/Logo";
 import Hamburger from "../Hamburger/Hamburger";
 import NavProducts from "../NavProducts/NavProducts";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import { useTranslation } from "react-i18next";
 
 export default function Toolbar(props) {
@@ -20,10 +18,6 @@ export default function Toolbar(props) {
   } else {
     toolbarClasses = [classes.toolbar, classes.toolbarHidden];
   }
-
-  const shoppingCartIcon = (
-    <FontAwesomeIcon className={classes.Icon} icon={faShoppingCart} />
-  );
 
   window.onscroll = function () {
     let currentScrollPos = window.pageYOffset;
@@ -64,22 +58,6 @@ export default function Toolbar(props) {
             setProductsBarShown={props.setProductsBarShown}
           />
         </div>
-
-        <div className={classes.shopNowBtn}>
-          <a
-            className={classes.storeLink}
-            href="https://bestbannshop.eu/en_US/index"
-            target="blank"
-            alt="store"
-          >
-            <span className={classes.cart}>
-              {shoppingCartIcon}
-              <span className={classes.cartTxt}>{t("cart.visit")}</span>
-            </span>
-            <span className={classes.btnTxtAreaTake}>{t("cart.go")}</span>
-          </a>
-        </div>
-
         <div className={classes.languageOptionsContainer}>
           <LanguageOptions
             loading={props.loading}
