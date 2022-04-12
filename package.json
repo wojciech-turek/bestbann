@@ -21,7 +21,6 @@
     "i18next": "^19.5.4",
     "i18next-browser-languagedetector": "^5.0.0",
     "i18next-http-backend": "^1.0.16",
-    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-addons-transition-group": "^15.6.2",
     "react-animate-on-scroll": "^2.1.5",
@@ -38,6 +37,7 @@
     "react-scripts": "3.4.1",
     "react-transition-group": "^4.4.1",
     "react-visibility-sensor": "^5.1.1",
+    "sass": "^1.50.0",
     "scrollmagic": "^2.0.7",
     "simple-react-lightbox": "^3.2.3-3",
     "universal-cookie": "^4.0.4"
