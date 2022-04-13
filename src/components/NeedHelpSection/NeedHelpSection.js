@@ -21,17 +21,6 @@ export default function NeedHelpSection() {
           </strong>
         </span>
       </p>
-      <p>
-        {t("needHelp.individual")}
-        <br />
-        <span className={classes.email}>
-          <strong>
-            <a href="https://bestbannshop.eu/" target="blank" alt="store link">
-              www.bestbannshop.eu
-            </a>
-          </strong>
-        </span>
-      </p>
       <p>{t("needHelp.message")}</p>
       <br />
       <div className={classes.socialIcons}>

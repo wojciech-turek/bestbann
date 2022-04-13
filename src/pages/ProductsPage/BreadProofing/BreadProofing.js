@@ -62,9 +62,9 @@ export default function Products() {
   return (
     <Fade in={true} timeout={500}>
       <div className={classes.ContentWrapper}>
-        <SEO title={t("mainSections.products.breadProofing")} />
+        <SEO title={t("mainSections.products.rattan")} />
         <h1 className={classes.sectionTitle}>
-          {t("mainSections.products.breadProofing")}
+          {t("mainSections.products.rattan")}
         </h1>
         <Trans>
           <div className={classes.ParagraphWrap}>

@@ -10,6 +10,7 @@ import Products from "../../components/Products/Products";
 import { Fade } from "@material-ui/core";
 import Cookies from "universal-cookie";
 import SEO from "../../utils/SEO";
+import { Alert, AlertTitle } from "@material-ui/lab";
 
 function MainPage(props) {
   const cookies = new Cookies();
@@ -24,6 +25,10 @@ function MainPage(props) {
       <div className={classes.Main}>
         <SEO title={t("menu.mainPage")} />
         <HeroBanner />
+        <Alert severity="warning" className={classes.warning}>
+          <AlertTitle>{t("note.title")}</AlertTitle>
+          {t("note.content")}
+        </Alert>
         <MainSection
           title={t("mainSections.aboutUs.title")}
           content={<AboutUs />}

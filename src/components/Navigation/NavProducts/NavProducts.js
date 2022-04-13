@@ -1,9 +1,11 @@
 import React from "react";
 import classes from "./NavProducts.module.css";
-import breadProofingImg from "../../../assets/NavProducts/OvBasketsTransparentOptimized.jpg";
-import woodenBaseImg from "../../../assets/NavProducts/boodenbakingformsOptimized.jpg";
-import withLinersImg from "../../../assets/NavProducts/linerstransparent1Optimized.jpg";
-import bambooBaskets from "../../../assets/NavProducts/bambooBaskets.jpg";
+import rattan from "../../../assets/imgs/Rattan.png";
+import cork from "../../../assets/imgs/Korek.png";
+import bamboo from "../../../assets/imgs/Bambus.png";
+import plastic from "../../../assets/imgs/Plastik.png";
+import engraved from "../../../assets/imgs/Grawer.png";
+import liners from "../../../assets/imgs/Liners.png";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
@@ -11,34 +13,34 @@ export default function NavProducts() {
   const { t } = useTranslation("common");
   const productCategories = [
     {
-      title: t("mainSections.products.breadProofing"),
-      imgSrc: breadProofingImg,
-      linkDest: t("links.breadProofing"),
+      title: t("mainSections.products.rattan"),
+      imgSrc: rattan,
+      linkDest: t("mainSections.products.rattanLink"),
     },
     {
-      title: t("mainSections.products.breadProofing"),
-      imgSrc: breadProofingImg,
-      linkDest: t("links.breadProofing"),
+      title: t("mainSections.products.cork"),
+      imgSrc: cork,
+      linkDest: t("mainSections.products.corkLink"),
     },
     {
-      title: t("mainSections.products.bambooFiber"),
-      imgSrc: bambooBaskets,
-      linkDest: t("links.bambooFiber"),
+      title: t("mainSections.products.bamboo"),
+      imgSrc: bamboo,
+      linkDest: t("mainSections.products.bambooLink"),
     },
     {
-      title: t("mainSections.products.bambooFiber"),
-      imgSrc: bambooBaskets,
-      linkDest: t("links.bambooFiber"),
+      title: t("mainSections.products.plastic"),
+      imgSrc: plastic,
+      linkDest: t("mainSections.products.plasticLink"),
     },
     {
-      title: t("mainSections.products.woodenBakingForm"),
-      imgSrc: woodenBaseImg,
-      linkDest: t("links.woodenBakingForms"),
+      title: t("mainSections.products.engraved"),
+      imgSrc: engraved,
+      linkDest: t("mainSections.products.engravedLink"),
     },
     {
-      title: t("mainSections.products.withLiners"),
-      imgSrc: withLinersImg,
-      linkDest: t("links.withLiners"),
+      title: t("mainSections.products.liners"),
+      imgSrc: liners,
+      linkDest: t("mainSections.products.linersLink"),
     },
   ];
 

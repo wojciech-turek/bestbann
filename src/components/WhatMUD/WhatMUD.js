@@ -3,7 +3,7 @@ import Img from "react-cool-img";
 import classes from "./WhatMUD.module.css";
 import rattanImg from "../../assets/rattanMaterialCompressed.jpg";
 import certificateImg from "../../assets/certificateSmall.png";
-import certificateImgBig from "../../assets/certificate.png";
+import certificateImgBig from "../../assets/certificates.pdf";
 import tailoredImg from "../../assets/tailoredCompressed.jpg";
 import { useTranslation, Trans } from "react-i18next";
 import ScrollAnimation from "react-animate-on-scroll";

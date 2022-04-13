@@ -9,6 +9,7 @@
   line-height: 120%;
   flex-flow: column;
   align-items: center;
+  justify-content: center;
   margin-bottom: 2%;
 }
 
@@ -37,7 +38,7 @@
   font-size: 20px;
   padding: 8% 8%;
   font-family: "Montserrat";
-  font-weight: 700;
+  font-weight: 400;
 }
 
 @media (min-width: 1024px) {

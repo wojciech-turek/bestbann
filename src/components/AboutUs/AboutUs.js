@@ -23,6 +23,9 @@ export default function AboutUs(props) {
             <p className={classes.aboutUsParagraph}>
               {t("mainSections.aboutUs.content2")}
             </p>
+            <p className={classes.aboutUsParagraph}>
+              {t("mainSections.aboutUs.content3")}
+            </p>
           </Trans>
         </div>
         <img

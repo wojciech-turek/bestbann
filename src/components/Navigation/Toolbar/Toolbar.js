@@ -5,10 +5,8 @@ import classes from "./Toolbar.module.css";
 import Logo from "../../UI/Logo/Logo";
 import Hamburger from "../Hamburger/Hamburger";
 import NavProducts from "../NavProducts/NavProducts";
-import { useTranslation } from "react-i18next";
 
 export default function Toolbar(props) {
-  const { t } = useTranslation("common");
   let toolbarClasses = [classes.toolbar];
   let prevScrollpos = window.pageYOffset;
   let productBarClasses = [classes.ProductsBar];
