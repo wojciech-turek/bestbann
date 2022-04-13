@@ -1,0 +1,143 @@
+.Container {
+  min-height: 80vh;
+  margin: 100px 20px 4vh 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column;
+}
+
+.productTitle {
+  margin: 0;
+  font-family: "Lato";
+  color: #333;
+}
+
+.side {
+  min-height: 200px;
+}
+
+.basketTypes {
+  margin-top: 48px;
+  display: flex;
+  flex-flow: column;
+}
+
+.typeTitle {
+  margin: 0;
+  padding-bottom: 10px;
+  font-family: "Lato";
+  text-transform: uppercase;
+}
+
+.type {
+  flex-grow: 1;
+  font-family: "Montserrat";
+  margin-bottom: 36px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.typeImage {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+.root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+}
+.productInfo {
+  margin-top: 48px;
+  width: 100%;
+}
+
+.linersAvailable {
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.productInfoList {
+  font-family: "Montserrat";
+  line-height: 1.5em;
+}
+
+.productInfoFlex {
+  display: flex;
+  padding-right: 16px;
+  flex-flow: column;
+}
+
+.basketsCertImage {
+  width: 90%;
+  min-width: 200px;
+  max-width: 400px;
+}
+
+.basketCerContainer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.side {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 1140px) {
+  .Container {
+    min-height: 80vh;
+    width: 98%;
+  }
+  .wrapper {
+    flex-flow: row;
+  }
+  .productDetails {
+    padding: 20px;
+    border-right: 6px solid #ffb20b;
+    border-radius: 5%;
+    margin-right: 40px;
+  }
+  .productDetails {
+    flex-basis: 60%;
+  }
+  .side {
+    flex-basis: 30%;
+  }
+
+  .basketCerContainer {
+    flex-flow: column;
+    justify-content: center;
+  }
+  .basketTypes {
+    flex-flow: row;
+  }
+  .root {
+    width: 95%;
+    padding: 16px;
+  }
+  .typeImage {
+    width: 90%;
+  }
+  .productInfo {
+    width: 90%;
+  }
+  .productInfoList {
+    min-width: 500px;
+  }
+  .productInfoFlex {
+    flex-flow: row;
+  }
+  .basketsCertImage {
+    max-width: 400px;
+  }
+}

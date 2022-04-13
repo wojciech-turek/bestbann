@@ -34,7 +34,13 @@
     "bambooOblong": "/en/oblong-bamboo-fiber-baskets",
     "privacyPolicy": "/en/privacy-policy",
     "engraved": "/en/engraved",
-    "impressum": "/en/legal-notice"
+    "impressum": "/en/legal-notice",
+    "corkRound": "/en/cork-round",
+    "corkOblong": "/en/cork-oblong",
+    "corkOval": "/en/cork-oval",
+    "corkRectangular": "/en/cork-rectangular",
+    "corkBaguette": "/en/cork-baguetter",
+    "corkEngraved": "/en/cork-engraved"
   },
   "baskets": {
     "baguette": "Baguette",
@@ -45,7 +51,9 @@
     "bigWoodenBase": "Big Sliced Bread",
     "square": "Square",
     "roundSmall": "Small Round",
-    "oblongSmall": "Small Oblong"
+    "oblongSmall": "Small Oblong",
+    "rectangular": "Rectangular",
+    "engraved": "Engraved"
   },
   "mainSections": {
     "aboutUs": {
@@ -126,6 +134,15 @@
         "paragraph8": "<p>Bamboo fiber plastic baskets are available for sale to selected countries: BE, BG, HR, HU, CY, DK, EE, FI, GR, IE, IL, IS, IT, LT, LU, LV, MT, NL, PL, RO, TR</p>",
         "warning": "<p><strong>Note: Baskets with liners can be used only for proofing bread dough, never for baking bread in high temperatures!</strong></p>"
       }
+    },
+    "cork": {
+      "description": {
+        "paragraph1": "<p>Proofing baskets are used in almost every bakery. They are used for bread dough rising - thanks to them the dough does not spill over to the sides and the bread after baking is taller. <strong>Rising in a basket, thanks to absorbing some of the moisture and keeping warm, also ensures better structure of bread and crispier crust.</strong> There are many types of bread proofing baskets on the market - rattan, wicker, plastic, wood pulp bannetons, but <strong>only our company produces baskets made of cork</strong>.</p>",
+        "paragraph2": "<p><strong>The baskets made of natural cork granulate</strong> are our innovative invention, for which we have a <strong>patent pending</strong>. Despite the fact that the baskets have no visible holes or perforations, the rising dough breathes and the proofing process takes place flawlessly through the micro-gaps between the cork granulate fractions. Thanks to the natural roughness of cork we obtain the effect of good adhesion of flour to the inner edges of the forms, which <strong>prevents the dough from sticking and helps it fall out of the bannetons</strong> after the proofing process is completed.</p>",
+        "paragraph3": "<p><strong>The baskets are durable and can be washed many times</strong>, even in hot water. Cork material, thanks to the presence of tannins in its composition and the absence of protein substances prone to decomposition, retains its <strong>resistance to mould and mildew</strong>, which is a great advantage over bannetons made of rattan or wicker, which are relatively quickly subject to such processes. Its surface and structure do not provide a breeding ground for fungi and mould and do not create conditions for them to colonize. Cork material has an increased resistance to biological corrosion resulting from moisture and conditions conducive to rotting processes often found in bakeries. Cork baskets have very good thermal insulation properties, which helps the dough for bread to rise by retaining some of the heat inside the basket.</p>",
+        "paragraph4": "<p>Our baskets are available in various designs and sizes. Round, oblong, oval, square. We also offer baskets with engraved bottoms - you can order one of our many designs or place your own. Your own design makes your bread unique and can be a great advertisement.</p>",
+        "warning": "<p><strong>Please note: Baskets can be used only for proofing bread dough, never for baking bread in high temperatures, because they can burn!</strong></p>"
+      }
     }
   },
   "contact": {
@@ -165,6 +182,20 @@
       "line7": "Compared with rattan baskets, <strong>estimated time of use is much longer</strong>, because bamboo fiber baskets don't grow with mould",
       "line8": "Compared with plastic baskets, bamboo fiber plastic baskets are <strong>more eco friendly</strong> - contain 70% of natural ingredients",
       "line9": "Baskets are biodegradable under the right conditions"
+    },
+    "cork": {
+      "line1": "Baskets made from natural cork granules, sourced from Europe",
+      "line2": "Ideal for preparing traditional bread",
+      "line3": "Used by professionals in bakeries, as well as for home use",
+      "line4": "Thanks to absorbing part of the moisture and retaining heat, the cork basket ensures better structure of the bread and crispiness of the crust, as well as the desired shape and wonderful pattern",
+      "line5": "Thanks to the micro-gaps in the granulate fractions, the dough breathes, which promotes the proofing process",
+      "line6": "Thanks to the natural roughness of the cork we obtain the effect of good adhesion of flour to the inner edges of the basket, which prevents the dough from sticking and facilitates its falling out after the proofing process",
+      "line7": "The baskets are durable and can be washed many times, even in hot water",
+      "line8": "Cork material, thanks to the presence of tannins in its composition and the absence of protein substances prone to decomposition, retains its resistance to mould and mildew, and has increased resistance to biological corrosion resulting from dampness and conditions conducive to rotting processes often encountered in bakeries",
+      "line9": "A Polish product, certified by the National Institute of Hygiene as safe for contact with food",
+      "line10": "Baskets available in sizes given in the table or dimensions tailored to individual orders",
+      "line11": "Dimensions given are outside dimensions (± 5 mm)",
+      "line12": "Baskets are intended only for bread dough rising, they can not be used as a baking form!"
     }
   },
 
@@ -193,7 +224,16 @@
     "tableMeasures": "EXTERNAL MEASURES IN CM / INCHES",
     "tableMeasuresCM": "EXTERNAL MEASURES IN CM",
     "tableCatalog": "CATALOG NUMBER",
-    "linersAvailable": "Liners are available for basket sizes ranging from"
+    "linersAvailable": "Liners are available for basket sizes ranging from",
+    "corkRound": "Round cork baskets",
+    "corkOblong": "Oblong cork baskets",
+    "corkOval": "Oval cork baskets",
+    "corkBaguette": "Baguette cork baskets",
+    "corkRectangular": "Rectangular cork baskets",
+    "corkEngraved": "Round cork baskets",
+    "corkPlain": "Plain basket",
+    "corkGroovedSides": "Grooved sides basket",
+    "corkGrooved": "Grooved basket"
   },
   "needHelp": {
     "title": "Do you have any questions?",
