@@ -51,8 +51,11 @@ export default function WoodenBakingForms() {
         </h1>
         <Trans>
           <div className={classes.ParagraphWrap}>
-            {t("productsPage.woodenBakingForms.description.paragraph1")}
-            {t("productsPage.woodenBakingForms.description.paragraph2")}
+            {t("productsPage.engraved.description.paragraph1")}
+            {t("productsPage.engraved.description.paragraph2")}
+            {t("productsPage.engraved.description.paragraph3")}
+            {t("productsPage.engraved.description.paragraph4")}
+            <strong> {t("productsPage.engraved.description.warning")}</strong>
           </div>
         </Trans>
         <div className={classes.FlexContainer}>
