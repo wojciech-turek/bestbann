@@ -4,7 +4,7 @@ import Navigation from "../Navigation/Navigation";
 import Footer from "../../components/Footer/Footer";
 import MainPage from "../../pages/MainPage/MainPage";
 import ScrollToTop from "../../components/UI/ScrollToTop/ScrollToTop";
-import WoodenBakingForms from "../../pages/ProductsPage/WoodenBakingForms/WoodenBakingForms";
+import WoodenBakingForms from "../../pages/ProductsPage/Extras/Extras";
 import Impressum from "../../pages/Legal/Impressum/Impressum";
 import PrivacyPolicy from "../../pages/Legal/PrivacyPolicy/PrivacyPolicy";
 import { useTranslation } from "react-i18next";
@@ -15,6 +15,12 @@ const BreadProofingBaskets = lazy(() =>
 const WithLiners = lazy(() =>
   import("../../pages/ProductsPage/WithLiners/WithLiners")
 );
+
+const PlasticBaskets = lazy(() =>
+  import("../../pages/ProductsPage/PlasticBaskets/PlasticBaskets")
+);
+
+const Extras = lazy(() => import("../../pages/ProductsPage/Extras/Extras"));
 
 const BreadProofing = lazy(() =>
   import("../../pages/ProductsPage/BreadProofing/BreadProofing")
@@ -58,7 +64,7 @@ const Layout = () => {
     {
       path: t("mainSections.products.plasticLink"),
       name: "Products - Polypropylene baskets",
-      Component: WithLiners,
+      Component: PlasticBaskets,
     },
     {
       path: t("mainSections.products.corkLink"),
@@ -68,7 +74,7 @@ const Layout = () => {
     {
       path: t("mainSections.products.engravedLink"),
       name: "Products - Baskets with engraved bottom",
-      Component: WoodenBakingForms,
+      Component: Extras,
     },
     {
       path: t("mainSections.products.bambooLink"),
@@ -125,6 +131,16 @@ const Layout = () => {
     {
       path: t("links.bambooOblong"),
       name: "BambooBasketsOblong",
+      Component: BreadProofingBaskets,
+    },
+    {
+      path: t("links.plasticRound"),
+      name: "PlasticRound",
+      Component: BreadProofingBaskets,
+    },
+    {
+      path: t("links.plasticOblong"),
+      name: "PlasticOblong",
       Component: BreadProofingBaskets,
     },
     {

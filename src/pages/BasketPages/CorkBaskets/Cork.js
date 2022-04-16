@@ -1,8 +1,6 @@
 import React from "react";
 import DividerLine from "../../../components/UI/DividerLine/DividerLine";
 import classes from "./Cork.module.css";
-import RoundROImage from "../../../assets/RoundROOptimized.jpg";
-import RoundROXImage from "../../../assets/RoundROXOptimized.jpg";
 import Paper from "@material-ui/core/Paper";
 import Table from "@material-ui/core/Table";
 import TableBody from "@material-ui/core/TableBody";
@@ -10,22 +8,27 @@ import TableCell from "@material-ui/core/TableCell";
 import TableContainer from "@material-ui/core/TableContainer";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
-import { Trans, useTranslation } from "react-i18next";
-import BasketsCertificationImage from "../../../assets/basketatest.png";
+import { useTranslation } from "react-i18next";
 import NeedHelpSection from "../../../components/NeedHelpSection/NeedHelpSection";
-import OblongRO from "../../../assets/OblongRO.jpg";
-import OblongROX from "../../../assets/OblongROX.jpg";
-import OvalRO from "../../../assets/OvalRO.jpg";
-import OvalROX from "../../../assets/OvalROX.jpg";
-import BaguetteRO from "../../../assets/BaguetteRO.jpg";
-import BaguetteROX from "../../../assets/BaguetteROX.jpg";
-import MiniRO from "../../../assets/miniRO.jpg";
-import SquareROX from "../../../assets/SquareROX.jpg";
+import baguette from "../../../assets/imgs/IMG_0010.JPG";
 
+import loader from "../../../assets/videos/200w.gif";
+import korek1 from "../../../assets/videos/korek1.mp4";
+import ciasto1 from "../../../assets/videos/ciasto1.mp4";
 import korekfront1 from "../../../assets/videos/korekf1.mp4";
 import korekfront2 from "../../../assets/videos/korekf2.mp4";
 import korekfront3 from "../../../assets/videos/korekf3.mp4";
-import CheckCircleOutlineIcon from "@material-ui/icons/CheckCircleOutline";
+import korekfront4 from "../../../assets/videos/korekf4.mp4";
+import korekfront5 from "../../../assets/videos/korekf5.mp4";
+import korekfront6 from "../../../assets/videos/korekf6.mp4";
+import korekfront7 from "../../../assets/videos/korekf7.mp4";
+import korekfront8 from "../../../assets/videos/korekf8.mp4";
+import korekfront9 from "../../../assets/videos/korekf9.mp4";
+import korekfront10 from "../../../assets/videos/korekf10.mp4";
+import korekfront11 from "../../../assets/videos/korekf11.mp4";
+import korekfront12 from "../../../assets/videos/korekf12.mp4";
+import korekfront13 from "../../../assets/videos/korekf13.mp4";
+import korekfront14 from "../../../assets/videos/korekf14.mp4";
 import { Fade } from "@material-ui/core";
 import SEO from "../../../utils/SEO";
 
@@ -39,6 +42,7 @@ export default function BreadproofingBaskets(props) {
       imageTypeROX: null,
       typeO: "",
       typeOX: "",
+      imageType: "",
     },
   };
 
@@ -94,47 +98,57 @@ export default function BreadproofingBaskets(props) {
       basketTypes.typeO = " RO";
       basketTypes.typeOX = " ROX";
       basketTypes.typeOE = " ROE";
+      basketTypes.imageType = "video";
       break;
     case "CorkOblong":
       basketTypes.roundBreadProofing.title = t("productDetails.corkOblong");
       tableRows = Oblong;
-      basketTypes.imageTypeRO = OblongRO;
-      basketTypes.imageTypeROX = OblongROX;
+      basketTypes.imageTypeRO = korekfront7;
+      basketTypes.imageTypeROX = korekfront8;
+      basketTypes.imageTypeROE = korekfront9;
       basketTypes.typeO = " LO";
       basketTypes.typeOX = " LOX";
+      basketTypes.typeOX = " LOE";
+      basketTypes.imageType = "video";
       break;
     case "CorkOval":
       basketTypes.roundBreadProofing.title = t("productDetails.corkOval");
       tableRows = Oval;
-      basketTypes.imageTypeRO = OvalRO;
-      basketTypes.imageTypeROX = OvalROX;
+      basketTypes.imageTypeRO = korekfront4;
+      basketTypes.imageTypeROX = korekfront5;
+      basketTypes.imageTypeROE = korekfront6;
       basketTypes.typeO = " OV";
       basketTypes.typeOX = " OVX";
+      basketTypes.typeOX = " OVE";
+      basketTypes.imageType = "video";
       break;
     case "CorkBaguette":
       basketTypes.roundBreadProofing.title = t("productDetails.corkBaguette");
       tableRows = Baguette;
-      basketTypes.imageTypeRO = BaguetteRO;
-      basketTypes.imageTypeROX = BaguetteROX;
+      basketTypes.imageTypeRO = baguette;
       basketTypes.typeO = " BG";
-      basketTypes.typeOX = " BGX";
+      basketTypes.imageType = "photo";
       break;
     case "CorkRectangular":
       basketTypes.roundBreadProofing.title = t(
         "productDetails.corkRectangular"
       );
       tableRows = Rectangular;
-      basketTypes.imageTypeRO = MiniRO;
-      basketTypes.imageTypeROX = null;
-      basketTypes.typeO = " RO";
-      basketTypes.typeOX = "";
+      basketTypes.imageTypeRO = korekfront10;
+      basketTypes.imageTypeROX = korekfront11;
+      basketTypes.imageTypeROE = korekfront12;
+      basketTypes.typeO = "RO";
+      basketTypes.typeOX = "ROX";
+      basketTypes.typeOX = "ROE";
+      basketTypes.imageType = "video";
       break;
     case "CorkEngraved":
       basketTypes.roundBreadProofing.title = t("productDetails.corkEngraved");
-      basketTypes.imageTypeRO = null;
-      basketTypes.imageTypeROX = SquareROX;
+      basketTypes.imageTypeRO = korekfront13;
+      basketTypes.imageTypeROX = korekfront14;
       basketTypes.typeO = " SQ";
       basketTypes.typeOX = " SQX";
+      basketTypes.imageType = "video";
       break;
     default:
   }
@@ -172,15 +186,22 @@ export default function BreadproofingBaskets(props) {
                   {t("productDetails.corkPlain")}
                 </h3>
                 <DividerLine height="2px" width="12%" color="rgb(255,195,11)" />
-
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  className={classes.typeImage}
-                  src={basketTypes.imageTypeRO}
-                  alt="Small round bamboo fiber basket"
-                />
+                {basketTypes.imageType === "photo" ? (
+                  <img
+                    src={basketTypes.imageTypeRO}
+                    className={classes.typeImage}
+                    alt=""
+                  />
+                ) : (
+                  <video
+                    autoPlay
+                    muted
+                    loop
+                    className={classes.typeImage}
+                    src={basketTypes.imageTypeRO}
+                    alt="Small round bamboo fiber basket"
+                  />
+                )}
               </div>
               <div
                 className={classes.type}
@@ -190,121 +211,157 @@ export default function BreadproofingBaskets(props) {
                   {t("productDetails.corkGroovedSides")}
                 </h3>
                 <DividerLine height="2px" width="12%" color="rgb(255,195,11)" />
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  className={classes.typeImage}
-                  src={basketTypes.imageTypeROX}
-                  alt="Round bamboo fiber basket"
-                />
+                {basketTypes.imageType === "photo" ? (
+                  <img
+                    src={basketTypes.imageTypeROx}
+                    className={classes.typeImage}
+                    alt=""
+                  />
+                ) : (
+                  <video
+                    autoPlay
+                    muted
+                    loop
+                    className={classes.typeImage}
+                    src={basketTypes.imageTypeROX}
+                    alt="Round bamboo fiber basket"
+                  />
+                )}
               </div>
               <div
                 className={classes.type}
-                style={!basketTypes.imageTypeROX ? { display: "none" } : {}}
+                style={!basketTypes.imageTypeROE ? { display: "none" } : {}}
               >
                 <h3 className={classes.typeTitle}>
                   {t("productDetails.corkGrooved")}
                 </h3>
                 <DividerLine height="2px" width="12%" color="rgb(255,195,11)" />
-
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  className={classes.typeImage}
-                  src={basketTypes.imageTypeROX}
-                  alt="Round bamboo fiber basket"
-                />
-              </div>
-            </div>
-            <Paper className={classes.root}>
-              <TableContainer className={classes.container}>
-                <Table stickyHeader aria-label="sticky table">
-                  <TableHead>
-                    <TableRow>
-                      {columns.map((column) => (
-                        <TableCell
-                          key={column.id}
-                          align={column.align}
-                          style={{
-                            minWidth: column.minWidth,
-                            padding: 8,
-                          }}
-                        >
-                          {column.label}
-                        </TableCell>
-                      ))}
-                    </TableRow>
-                  </TableHead>
-                  <TableBody>
-                    {tableRows.map((row) => {
-                      return (
-                        <TableRow hover key={row.catalog}>
-                          {columns.map((column) => {
-                            let value = row[column.id];
-                            return (
-                              <TableCell
-                                key={column.id}
-                                align={column.align}
-                                style={{
-                                  padding: 8,
-                                }}
-                              >
-                                {value}
-                              </TableCell>
-                            );
-                          })}
-                        </TableRow>
-                      );
-                    })}
-                  </TableBody>
-                </Table>
-              </TableContainer>
-            </Paper>
-            <div className={classes.productInfo}>
-              <h2 className={classes.productTitle}>{t("productInfo.title")}</h2>
-              <div className={classes.productInfoFlex}>
-                <ul className={classes.productInfoList}>
-                  <li>
-                    <strong>{t("productInfo.cork.line1")}</strong>
-                  </li>
-                  <li>{t("productInfo.cork.line2")}</li>
-                  <li>
-                    <strong>{t("productInfo.cork.line3")}</strong>
-                  </li>
-                  <li>{t("productInfo.cork.line4")}</li>
-                  <li>{t("productInfo.cork.line5")}</li>
-                  <li>{t("productInfo.cork.line6")}</li>
-                  <li>
-                    <strong>{t("productInfo.cork.line7")}</strong>
-                  </li>
-                  <li>{t("productInfo.cork.line8")}</li>
-                  <strong>
-                    {" "}
-                    <li>{t("productInfo.cork.line9")}</li>
-                  </strong>
-                  <li>{t("productInfo.cork.line10")}</li>
-                  <li>{t("productInfo.cork.line11")}</li>
-                  <li>
-                    <strong>{t("productInfo.cork.line12")}</strong>
-                  </li>
-                </ul>
-                {basketTypes.bamboo ? null : (
-                  <div className={classes.basketCerContainer}>
-                    <img
-                      className={classes.basketsCertImage}
-                      src={BasketsCertificationImage}
-                      alt="Baskets with Certificates"
-                    />
-                  </div>
+                {basketTypes.imageType === "photo" ? (
+                  <img
+                    src={basketTypes.imageTypeROE}
+                    className={classes.typeImage}
+                    alt=""
+                  />
+                ) : (
+                  <video
+                    autoPlay
+                    muted
+                    loop
+                    className={classes.typeImage}
+                    src={basketTypes.imageTypeROE}
+                    alt="Round bamboo fiber basket"
+                  />
                 )}
               </div>
             </div>
+            {props.title !== "CorkEngraved" ? (
+              <Paper className={classes.root}>
+                <TableContainer className={classes.container}>
+                  <Table stickyHeader aria-label="sticky table">
+                    <TableHead>
+                      <TableRow>
+                        {columns.map((column) => (
+                          <TableCell
+                            key={column.id}
+                            align={column.align}
+                            style={{
+                              minWidth: column.minWidth,
+                              padding: 8,
+                            }}
+                          >
+                            {column.label}
+                          </TableCell>
+                        ))}
+                      </TableRow>
+                    </TableHead>
+                    <TableBody>
+                      {tableRows.map((row) => {
+                        return (
+                          <TableRow hover key={row.catalog}>
+                            {columns.map((column) => {
+                              let value = row[column.id];
+                              return (
+                                <TableCell
+                                  key={column.id}
+                                  align={column.align}
+                                  style={{
+                                    padding: 8,
+                                  }}
+                                >
+                                  {value}
+                                </TableCell>
+                              );
+                            })}
+                          </TableRow>
+                        );
+                      })}
+                    </TableBody>
+                  </Table>
+                </TableContainer>
+              </Paper>
+            ) : null}
+            {props.title !== "CorkEngraved" ? (
+              <div className={classes.productInfo}>
+                <h2 className={classes.productTitle}>
+                  {t("productInfo.title")}
+                </h2>
+                <div className={classes.productInfoFlex}>
+                  <ul className={classes.productInfoList}>
+                    <li>
+                      <strong>{t("productInfo.cork.line1")}</strong>
+                    </li>
+                    <li>{t("productInfo.cork.line2")}</li>
+                    <li>
+                      <strong>{t("productInfo.cork.line3")}</strong>
+                    </li>
+                    <li>{t("productInfo.cork.line4")}</li>
+                    <li>{t("productInfo.cork.line5")}</li>
+                    <li>{t("productInfo.cork.line6")}</li>
+                    <li>
+                      <strong>{t("productInfo.cork.line7")}</strong>
+                    </li>
+                    <li>{t("productInfo.cork.line8")}</li>
+                    <strong>
+                      {" "}
+                      <li>{t("productInfo.cork.line9")}</li>
+                    </strong>
+                    <li>{t("productInfo.cork.line10")}</li>
+                    <li>{t("productInfo.cork.line11")}</li>
+                    <li>
+                      <strong>{t("productInfo.cork.line12")}</strong>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            ) : (
+              <h2 className={classes.message}>
+                {t("productDetails.engravedMessage")}
+              </h2>
+            )}
           </div>
           <div className={classes.side}>
             <NeedHelpSection />
           </div>
+        </div>
+        <div className={classes.videos}>
+          <video
+            poster={loader}
+            src={korek1}
+            loop
+            autoPlay
+            muted
+            preload="auto"
+            className={classes.video}
+          ></video>
+          <video
+            poster={loader}
+            src={ciasto1}
+            loop
+            autoPlay
+            muted
+            preload="auto"
+            className={classes.video}
+          ></video>
         </div>
       </div>
     </Fade>

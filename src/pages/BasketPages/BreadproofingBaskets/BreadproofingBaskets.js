@@ -22,14 +22,10 @@ import BaguetteROX from "../../../assets/BaguetteROX.jpg";
 import MiniRO from "../../../assets/miniRO.jpg";
 import SquareROX from "../../../assets/SquareROX.jpg";
 import LongROX from "../../../assets/LongROX.jpg";
-import BambooBigRound from "../../../assets/bambooBigRound.jpg";
-import BambooBigRoundLiner from "../../../assets/bambooBigRoundLiner.jpg";
-import BambooSmallRound from "../../../assets/bambooSmallRound.jpg";
-import BambooSmallRoundLiner from "../../../assets/bambooSmallRoundLiner.jpg";
-import BambooBigOblong from "../../../assets/bambooBigOblong.jpg";
-import BambooBigOblongLiner from "../../../assets/bambooBigOblongLiner.jpg";
-import BambooSmallOblong from "../../../assets/bambooSmallOblong.jpg";
-import BambooSmallOblongLiner from "../../../assets/bambooSmallOblongLiner.jpg";
+import bamboof1 from "../../../assets/videos/bamboof1.mp4";
+import bamboof2 from "../../../assets/videos/bamboof2.mp4";
+import plasticf1 from "../../../assets/videos/plasticf1.mp4";
+import plasticf2 from "../../../assets/videos/plasticf2.mp4";
 import CheckCircleOutlineIcon from "@material-ui/icons/CheckCircleOutline";
 import { Fade } from "@material-ui/core";
 import SEO from "../../../utils/SEO";
@@ -44,6 +40,7 @@ export default function BreadproofingBaskets(props) {
       imageTypeROX: null,
       typeO: "",
       typeOX: "",
+      type: "",
     },
   };
 
@@ -83,6 +80,31 @@ export default function BreadproofingBaskets(props) {
       "800-1100 g / 1,8 - 2,4 lb",
       '32 x 14,5 x 8H cm / 12.6" x 5.7” x 3.2”H',
       "LOBBS01000"
+    ),
+  ];
+
+  const PlasticBasketsRound = [
+    createData(
+      "400-700 g / 0,9 - 1,5 lb",
+      '⌀ 19,5 x 8,5 cm / 7,7" x 3,3”',
+      "ROPLS0500"
+    ),
+    createData(
+      "800-1100 g / 1,8 - 2,4 lb",
+      '⌀ 22,5 x 8,5 cm / 8,3" x 3,3”',
+      "ROPLD1000"
+    ),
+  ];
+  const PlasticBasketsOblong = [
+    createData(
+      "400-700 g / 0,9 - 1,5 lb",
+      '24 x 12,5 x 7H cm / 9.5" x 4.9” x 2.8”H',
+      "LOPLS0500"
+    ),
+    createData(
+      "800-1100 g / 1,8 - 2,4 lb",
+      '32 x 14,5 x 8H cm / 12.6" x 5.7” x 3.2”H',
+      "LOPLS01000"
     ),
   ];
 
@@ -265,24 +287,34 @@ export default function BreadproofingBaskets(props) {
     case "BambooBasketsRound":
       basketTypes.roundBreadProofing.title = t("productDetails.bambooRound");
       tableRows = BambooBasketsRound;
-      basketTypes.imageTypeRO = BambooSmallRound;
-      basketTypes.imageTypeROX = BambooBigRound;
-      basketTypes.imageTypeBamboo1 = BambooSmallRoundLiner;
-      basketTypes.imageTypeBamboo2 = BambooBigRoundLiner;
-      basketTypes.typeO = " S";
-      basketTypes.typeOX = " L";
+      basketTypes.imageTypeRO = bamboof1;
+      basketTypes.typeO = " ROUND";
       basketTypes.bamboo = true;
+      basketTypes.type = "video";
       break;
     case "BambooBasketsOblong":
       basketTypes.roundBreadProofing.title = t("productDetails.bambooOblong");
       tableRows = BambooBasketsOblong;
-      basketTypes.imageTypeRO = BambooSmallOblong;
-      basketTypes.imageTypeROX = BambooBigOblong;
-      basketTypes.imageTypeBamboo1 = BambooSmallOblongLiner;
-      basketTypes.imageTypeBamboo2 = BambooBigOblongLiner;
-      basketTypes.typeO = " S";
-      basketTypes.typeOX = " L";
+      basketTypes.imageTypeRO = bamboof2;
+      basketTypes.typeO = " OBLONG";
       basketTypes.bamboo = true;
+      basketTypes.type = "video";
+      break;
+    case "PlasticRound":
+      basketTypes.roundBreadProofing.title = t("productDetails.plasticRound");
+      tableRows = PlasticBasketsRound;
+      basketTypes.imageTypeRO = plasticf1;
+      basketTypes.typeO = " ROUND";
+      basketTypes.type = "video";
+      basketTypes.plastic = true;
+      break;
+    case "PlasticOblong":
+      basketTypes.roundBreadProofing.title = t("productDetails.plasticOblong");
+      tableRows = PlasticBasketsOblong;
+      basketTypes.imageTypeRO = plasticf2;
+      basketTypes.typeO = " OBLONG";
+      basketTypes.type = "video";
+      basketTypes.plastic = true;
       break;
     default:
   }
@@ -321,26 +353,26 @@ export default function BreadproofingBaskets(props) {
                   {basketTypes.typeO ? basketTypes.typeO : null}
                 </h3>
                 <DividerLine height="2px" width="12%" color="rgb(255,195,11)" />
-                {basketTypes.bamboo ? (
-                  <p>{t("productDetails.bambooRoundSmall")}</p>
-                ) : (
+                {basketTypes.bamboo ? null : (
                   <p>{t("productDetails.entirelyRattan")}</p>
                 )}
-                <img
-                  className={classes.typeImage}
-                  src={basketTypes.imageTypeRO}
-                  alt="Small round bamboo fiber basket"
-                />
-                {basketTypes.bamboo ? (
-                  <>
-                    <p>{t("productDetails.bambooRoundSmallLiners")}</p>
-                    <img
-                      className={classes.typeImage}
-                      src={basketTypes.imageTypeBamboo1}
-                      alt="Small round bamboo fiber basket with liners"
-                    />
-                  </>
-                ) : null}
+                {basketTypes.ba}{" "}
+                {basketTypes.type !== "video" ? (
+                  <img
+                    className={classes.typeImage}
+                    src={basketTypes.imageTypeRO}
+                    alt="Small round bamboo fiber basket"
+                  />
+                ) : (
+                  <video
+                    autoPlay
+                    muted
+                    loop
+                    className={classes.typeImage}
+                    src={basketTypes.imageTypeRO}
+                    alt="Round bamboo fiber basket"
+                  />
+                )}
               </div>
               <div
                 className={classes.type}
@@ -351,26 +383,25 @@ export default function BreadproofingBaskets(props) {
                   {basketTypes.typeOX ? basketTypes.typeOX : null}
                 </h3>
                 <DividerLine height="2px" width="12%" color="rgb(255,195,11)" />
-                {basketTypes.bamboo ? (
-                  <p>{t("productDetails.bambooRoundLarge")}</p>
-                ) : (
+                {basketTypes.bamboo ? null : (
                   <p>{t("productDetails.woodBase")}</p>
                 )}
-                <img
-                  className={classes.typeImage}
-                  src={basketTypes.imageTypeROX}
-                  alt="Round bamboo fiber basket"
-                />
-                {basketTypes.bamboo ? (
-                  <>
-                    <p>{t("productDetails.bambooRoundLargeLiners")}</p>
-                    <img
-                      className={classes.typeImage}
-                      src={basketTypes.imageTypeBamboo2}
-                      alt="Round bamboo fiber basket with liners"
-                    />
-                  </>
-                ) : null}
+                {basketTypes.type !== "video" ? (
+                  <img
+                    className={classes.typeImage}
+                    src={basketTypes.imageTypeROX}
+                    alt="Round bamboo fiber basket"
+                  />
+                ) : (
+                  <video
+                    autoPlay
+                    muted
+                    loop
+                    className={classes.typeImage}
+                    src={basketTypes.imageTypeROX}
+                    alt="Round bamboo fiber basket"
+                  />
+                )}
               </div>
             </div>
             {props.title === "RoundBaskets" ||
@@ -490,7 +521,7 @@ export default function BreadproofingBaskets(props) {
                     </li>
                   </ul>
                 )}
-                {basketTypes.bamboo ? null : (
+                {basketTypes.bamboo || basketTypes.plastic ? null : (
                   <div className={classes.basketCerContainer}>
                     <img
                       className={classes.basketsCertImage}

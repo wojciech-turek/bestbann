@@ -7,7 +7,7 @@ import bambooBigRound from "../../../assets/imgs/bamboo1.jpeg";
 import { Fade } from "@material-ui/core";
 import SEO from "../../../utils/SEO";
 import { Link } from "react-router-dom";
-export default function WoodenBakingForms() {
+export default function PlasticBaskets() {
   const { t } = useTranslation("common");
 
   const productsImages = [
@@ -15,22 +15,22 @@ export default function WoodenBakingForms() {
       pathToImg: bambooBigRound,
       alt: "Big Round Bamboo Basket",
       btnTxt: t("baskets.round"),
-      link: t("links.bambooRound"),
+      link: t("links.plasticRound"),
     },
     {
       pathToImg: bambooBigOblong,
       alt: "Big Oblong Bamboo Basket",
       btnTxt: t("baskets.oblong"),
-      link: t("links.bambooOblong"),
+      link: t("links.plasticOblong"),
     },
   ];
 
   return (
     <Fade in={true} timeout={500}>
       <div className={classes.ContentWrapper}>
-        <SEO title={t("mainSections.products.bamboo")} />
+        <SEO title={t("mainSections.products.plastic")} />
         <h1 className={classes.sectionTitle}>
-          {t("mainSections.products.bamboo")}
+          {t("mainSections.products.plastic")}
         </h1>
         <Trans>
           <div className={classes.ParagraphWrap}>

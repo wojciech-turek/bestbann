@@ -32,6 +32,8 @@
     "bambooFiber": "/en/bamboo-fiber-plastic-baskets",
     "bambooRound": "/en/round-bamboo-fiber-baskets",
     "bambooOblong": "/en/oblong-bamboo-fiber-baskets",
+    "plasticRound": "/en/round-plastic-baskets",
+    "plasticOblong": "/en/oblong-plastic-baskets",
     "privacyPolicy": "/en/privacy-policy",
     "engraved": "/en/engraved",
     "impressum": "/en/legal-notice",
@@ -120,6 +122,15 @@
       "description": {
         "paragraph1": "<p>Wooden baking trays are designed for baking mini breads or small cakes in the oven. They are ideal for giving them as a gift, they can also be an exceptional product that customers will notice and appreciate. Just cover the form with baking paper attached, fill in the cake and bake in the oven as usual. After baking, the wood darkens slightly as it is designed for single use, however, it is possible to use it multiple times. Just put the new baking paper inside the form and enjoy another well shaped bread or cake.</p>",
         "paragraph2": "<p>Molds are made of <strong>100% natural poplar wood, they are biodegradable and recyclable,</strong> therefore can be composted safely. Molds tolerate temperatures ranging from -40°C to +220°C (-104°F to +428°F).</p>"
+      }
+    },
+    "engraved": {
+      "description": {
+        "paragraph1": "<p>We also offer baskets with an engraved base - you can order one of our many designs or place your own. Your own design makes your bread unique and can be a great advertisement.</p>",
+        "paragraph2": "<p>Proofing baskets are used in almost every bakery. They are used to rise bread dough - thanks to them the dough does not spill over to the sides and the bread is higher after baking. Rising in a basket, thanks to absorbing some of the moisture and keeping warm, also ensures better structure of bread and crispier crust.</p>",
+        "paragraph3": "<p>The baskets are made of natural rattan and wood. We do not use any bleaches or harmful substances. The extra long staples we use ensure a longer durability of the baskets.</p>",
+        "paragraph4": "<p>We produce our baskets by hand. They are available in various designs and sizes. Round, oblong, oval, square and others.</p>",
+        "warning": "<p>Please note: Baskets are only intended for proofing bread dough, they are not used as a baking form. At high temperatures they may burn!</p>"
       }
     },
     "bambooFiber": {
@@ -230,10 +241,13 @@
     "corkOval": "Oval cork baskets",
     "corkBaguette": "Baguette cork baskets",
     "corkRectangular": "Rectangular cork baskets",
-    "corkEngraved": "Round cork baskets",
+    "corkEngraved": "Baskets with engraved bottom",
     "corkPlain": "Plain basket",
+    "plasticRound": "Round plastic baskets",
+    "plasticOblong": "Oblong plastic baskets",
     "corkGroovedSides": "Grooved sides basket",
-    "corkGrooved": "Grooved basket"
+    "corkGrooved": "Grooved basket",
+    "engravedMessage": "Available in all shapes and sizes!"
   },
   "needHelp": {
     "title": "Do you have any questions?",
@@ -341,7 +355,7 @@
     "owners": "Weronika and Michal",
     "familycompany": {
       "title": "Family Company",
-      "text": "We are a family owned company with over 12-years’ of experience in the food industry. Family values are very important to us and that is why we treat each customer as a member of our great bakers family. We're positive, honest, brave and determined to give our best and create only the best products."
+      "text": "We are a family owned company with over 14-years’ of experience in the food industry. Family values are very important to us and that is why we treat each customer as a member of our great bakers family. We're positive, honest, brave and determined to give our best and create only the best products."
     },
     "ourproducts": {
       "title": "Our Products",

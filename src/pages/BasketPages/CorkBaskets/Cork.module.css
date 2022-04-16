@@ -39,6 +39,9 @@
   flex-flow: column;
   justify-content: space-between;
 }
+.message {
+  font-family: "Montserrat";
+}
 
 .typeImage {
   width: 100%;
@@ -55,6 +58,13 @@
 .productInfo {
   margin-top: 48px;
   width: 100%;
+}
+
+.videos {
+  display: flex;
+}
+.video {
+  width: 50%;
 }
 
 .linersAvailable {
@@ -106,6 +116,7 @@
     border-right: 6px solid #ffb20b;
     border-radius: 5%;
     margin-right: 40px;
+    margin-bottom: 24px;
   }
   .productDetails {
     flex-basis: 60%;

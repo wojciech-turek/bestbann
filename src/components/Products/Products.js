@@ -25,14 +25,14 @@ export default function Products(props) {
       title: t("mainSections.products.cork"),
       imgSrc: cork,
       btnTxt: t("mainSections.products.button"),
-      destination: t("mainSections.products.bambooLink"),
+      destination: t("mainSections.products.corkLink"),
       delay: 200,
     },
     {
       title: t("mainSections.products.bamboo"),
       imgSrc: bamboo,
       btnTxt: t("mainSections.products.button"),
-      destination: t("mainSections.products.linersLink"),
+      destination: t("mainSections.products.bambooLink"),
       delay: 400,
     },
     {
