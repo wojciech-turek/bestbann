@@ -26,7 +26,15 @@
     "impressum": "/pl/legal-notice",
     "bambooFiber": "/pl/kosze-z-wlokna-bambusowego",
     "bambooRound": "/pl/okragle-kosze-z-wlokna-bambusowego",
-    "bambooOblong": "/pl/podluzne-kosze-z-wlokna-bambusowego"
+    "bambooOblong": "/pl/podluzne-kosze-z-wlokna-bambusowego",
+    "plasticRound": "/pl/okragle-kosze-plastikowe",
+    "plasticOblong": "/pl/podluzne-kosze-plastikowe",
+    "corkRound": "/pl/okragle-kosze-korkowe",
+    "corkOblong": "/pl/podluzne-kosze-korkowe",
+    "corkOval": "/pl/owalne-kosze-korkowe",
+    "corkRectangular": "/pl/prostokatne-kosze-korkowe",
+    "corkBaguette": "/pl/kosze-korkowe-na-bagietki",
+    "corkEngraved": "/pl/grawerowane-kosze-korkowe"
   },
 
   "heroBanner": "",
@@ -46,22 +54,32 @@
     "bigWoodenBase": "Duży chleb krojony",
     "square": "Kwadratowe",
     "roundSmall": "Okrągłe małe",
-    "oblongSmall": "Podłużne małe"
+    "oblongSmall": "Podłużne małe",
+    "rectangular": "Prostokątne",
+    "engraved": "Kosze z frezowaną podstawką"
   },
   "mainSections": {
     "aboutUs": {
       "title": "O nas",
-      "content1": "<strong>Jesteśmy firmą rodzinną</strong> z ponad 12-letnim doświadczeniem w branży spożywczej. Produkujemy <strong>kosze do wypieku chleba z naturalnego rattanu</strong>, bez dodatku chemikaliów i wybielaczy.",
-      "content2": "Każdy nasz produkt jest <strong>wykonany ręcznie</strong>, z najwyższą starannością. Przywiązując najwyższą wagę do procesu produkcyjnego, jesteśmy w stanie zapewnić <strong>bardzo wysoką jakość</strong> naszych produktów."
+      "content1": "<strong>Jesteśmy firmą rodzinną</strong> z ponad 14-letnim doświadczeniem w branży spożywczej, specjalizującą się w koszykach do wyrastania chleba. Produkujemy <strong>kosze do garowania chleba z naturalnych materiałów, jak rattan czy korek</strong>. W swojej ofercie mamy także kosze z tworzywa sztucznego i mieszane z włókna bambusowego i plastiku.",
+      "content2": "Nasze kosze z naturalnego rattanu <strong>wykonane są ręcznie</strong>, z najwyższą starannością, bez użycia wybielaczy i innych chemikaliów. Przywiązując najwyższą wagę do procesu produkcyjnego, jesteśmy w stanie zapewnić <strong>bardzo wysoką jakość</strong> naszych produktów.",
+      "content3": "<strong>Kosze z granulatu korkowego</strong> są naszym autorskim wynalazkiem, na który mamy <strong>patent w toku</strong>. Mogą być myte pod bieżącą wodą z resztek mąki i ciasta, co stanowi znaczące ułatwienie w kwestii utrzymania koszy w czystości."
     },
     "products": {
       "title": "Produkty",
-      "breadProofing": "Kosze do wyrastania chleba z rattanu",
-      "woodenBase": "Kosze z drewnianym dnem",
-      "withLiners": "Kosze z materiałowymi poszewkami",
-      "woodenBakingForm": "Drewniane foremki do pieczenia chleba",
-      "button": "Zobacz więcej",
-      "bambooFiber": "Koszyki z włókna bambusowego"
+      "rattan": "Kosze do wyrastania chleba z rattanu",
+      "rattanLink": "/pl/kosze-do-wyrastania-chleba-z-rattanu",
+      "cork": "Kosze do wyrastania chleba z korka",
+      "corkLink": "/pl/kosze-do-wyrastania-chleba-z-korka",
+      "plastic": "Kosze z tworzywa sztucznego",
+      "plasticLink": "/pl/kosze-z-tworzywa-sztucznego",
+      "engraved": "Kosze z grawerowaną podstawką",
+      "engravedLink": "/pl/kosze-z-grawerowana-podstawka",
+      "bamboo": "Kosze z włókna bambusowego i plastiku",
+      "bambooLink": "/pl/kosze-z-wlokna-bambusowego-i-plastiku",
+      "liners": "Poszewki na kosze",
+      "linersLink": "/pl/poszewki-na-kosze",
+      "button": "Zobacz więcej"
     },
     "whatMUD": {
       "title": "Co nas wyróżnia?",
@@ -104,6 +122,36 @@
       "description": {
         "paragraph1": "<p>Drewniane foremki do pieczenia przeznaczone są do wypieku mini chlebów lub małych ciast w piekarniku. Idealnie nadają się do tego, aby podarować je w prezencie, mogą być także wyjątkowym produktem, który klienci zauważą i docenią. Wystarczy wyłożyć formę załączonym papierem do pieczenia, wypełnić ciastem i upiec w piekarniku jak zwykle. Po upieczeniu drewno lekko ciemnieje, ponieważ jest przeznaczone do jednorazowego użytku, jednakże możliwe jest ponowne użycie formy. Wystarczy umieścić nowy papier do pieczenia wewnątrz formy i ponownie użyć.</p>",
         "paragraph2": "<p><strong>Formy wykonane są w 100% z naturalnego drewna topolowego, są biodegradowalne i nadają się do recyklingu</strong>, dzięki czemu można je bezpiecznie kompostować. Formy przeznaczone są do wypieków w temperaturach od -40 °C do + 220 °C.</p>"
+      }
+    },
+    "engraved": {
+      "description": {
+        "paragraph1": "<p>W naszej ofercie posiadamy również <strong>koszyki z grawerowanym dnem</strong> - można zamówić jeden z wielu naszych wzorów lub umieścić własny. Własny wzór sprawia, że Twój chleb jest niepowtarzalny i może stanowić doskonałą reklamę.</p>",
+        "paragraph2": "<p>Koszyki rozrostowe wykorzystywane są w niemal każdej piekarni. Służą do wyrastania ciasta na chleb - dzięki nim ciasto nie rozlewa się na boki, a chleb po upieczeniu jest wyższy. <strong>Wyrastanie w koszyku, dzięki pochłanianiu części wilgoci i utrzymywaniu ciepła, zapewnia także lepszą strukturę pieczywa oraz chrupkość skórki</strong>.</p>",
+        "paragraph3": "<p><strong>Koszyki wykonane są z naturalnego rattanu i drewna</strong>. Nie stosujemy żadnych wybielaczy i szkodliwych substancji. Wykorzystywane przez nas bardzo długie zszywki zapewniają większą trwałość koszy.</p>",
+        "paragraph4": "<p><strong>Nasze koszyki produkujemy ręcznie</strong>. Dostępne są w różnych wzorach i rozmiarach. Okrągłe, podłużne, owalne, kwadratowe. </p>",
+        "warning": "<p>Uwaga: Kosze przeznaczone są jedynie do wyrastania ciasta na chleb, nie służą jako forma do pieczenia. W wysokich temperaturach mogą ulec spaleniu!</p>"
+      }
+    },
+    "cork": {
+      "description": {
+        "paragraph1": "<p>Koszyki rozrostowe wykorzystywane są w niemal każdej piekarni. Służą do wyrastania ciasta na chleb - dzięki nim ciasto nie rozlewa się na boki, a chleb po upieczeniu jest wyższy. <strong>Wyrastanie w koszyku, dzięki pochłanianiu części wilgoci i utrzymywaniu ciepła, zapewnia także lepszą strukturę pieczywa oraz chrupkość skórki</strong>. Na rynku istnieje wiele typów koszy do wyrastania chleba - rattanowe, wiklinowe, plastikowe, z pulpy drzewnej, ale <strong>jedynie nasza firma produkuje kosze z korka</strong>.</p>",
+        "paragraph2": "<p><strong>Koszyki wykonane z naturalnego granulatu korkowego</strong> są naszym innowacyjnym wynalazkiem, na który mamy <strong>patent w toku</strong>. Pomimo, że kosze nie posiadają widocznych otworów i perforacji, rosnące ciasto oddycha i proces garowania zachodzi bez zarzutu poprzez mikroszczeliny pomiędzy frakcjami granulatu korkowego. Dzięki naturalnej chropowatości korka uzyskujemy efekt dobrego przylegania mąki do brzegów wewnętrznych, co <strong>zapobiega przywieraniu ciasta i ułatwia jego wypadanie z koszyka</strong> po ukończonym procesie garowania.</p>",
+        "paragraph3": "<p><strong>Kosze z korka są trwałe i można je wielokrotnie myć</strong>, również w gorącej wodzie. Korek, dzięki obecności garbników w swoim składzie i absencji substancji białkowych podatnych na rozkład, zachowuje <strong>odporność na zagrzybienie i pleśń</strong>, co stanowi dużą przewagę nad formami z rattanu lub wikliny, które stosunkowo szybko podlegają takim procesom. Jego powierzchnia i struktura nie stanowią pożywki dla grzybów i pleśni, nie stwarzają im warunków do zasiedleń. Korek posiada zwiększoną odporność na korozję biologiczną wynikającą z zawilgoceń i warunków sprzyjających procesom gnilnym, często spotykanym w piekarniach. Kosze z korka posiadają bardzo dobre właściwości termoizolacyjne, co pomaga w rośnięciu ciasta na chleb poprzez zatrzymywanie części ciepła wewnątrz formy.</p>",
+        "paragraph4": "<p>Nasze koszyki dostępne są w różnych wzorach i rozmiarach. Okrągłe, podłużne, owalne, kwadratowe. W naszej ofercie posiadamy również koszyki z grawerowanym dnem - można zamówić jeden z wielu naszych wzorów lub umieścić własny. Własny wzór sprawia, że Twój chleb jest niepowtarzalny i może stanowić doskonałą reklamę.</p>",
+        "warning": "<p><strong>Uwaga: Kosze przeznaczone są jedynie do wyrastania ciasta na chleb, nie służą jako forma do pieczenia. W wysokich temperaturach mogą ulec spaleniu!</strong></p>"
+      }
+    },
+    "plastic": {
+      "description": {
+        "paragraph1": "<p>Kosze z tworzywa sztucznego jakim jest polipropylen łączą w sobie główne zalety koszy rattanowych, którymi są <strong>dobra wentylacja i wspaniały, rzemieślniczy wygląd</strong> dzięki powstającym z mąki okręgom na chlebie, jednocześnie eliminując główny problem z pojawianiem się pleśni wewnątrz, co przekłada się na <strong>dłuższy szacowany czas użytkowania</strong>.</p>",
+        "paragraph2": "<p>Kosze z polipropylenu mogą być stosowane w małych piekarniach, przez piekarzy dbających przede wszystkim o higienę, jak również przez duże piekarnie przemysłowe, które muszą ograniczyć czas poświęcany na czyszczenie koszy.</p>",
+        "paragraph3": "<p>Kosze przeznaczone są do wyrastania i fermentacji ciasta chlebowego, które po wypieku trzyma się, nie wylewa i jest wyższe. Dzięki garowaniu w koszach <strong>struktura chleba jest lepsza, a skórka bardziej chrupiąca</strong>, ponieważ kosze utrzymują ciepło wewnątrz.</p>",
+        "paragraph4": "<p>Nasze koszyki wykonane są z polipropylenu przeznaczonego do produktów mających kontakt z żywnością. Są bardzo higieniczne, <strong>można je bezpiecznie myć w zmywarce</strong>, co zapobiega rozwojowi pleśni wewnątrz i pomaga utrzymać kosze w idealnej czystości. Ponadto <strong>spełniają wymagania systemu HACCP</strong>. Posiadamy raporty z badań SGS oraz Certyfikat PZH potwierdzające wysoką jakość naszych produktów, które nie zawierają żadnych szkodliwych związków ani metali, dzięki czemu mogą bezpiecznie mieć kontakt z żywnością, zgodnie z:</p>",
+        "paragraph5": "<p>Nasze koszyki do garowania chleba z tworzywa sztucznego zostały zaprojektowane w Polsce, przez firmę BestBann. Produkowane są we współpracy z producentami azjatyckimi.</p>",
+        "paragraph6": "<p>W naszej ofercie znajdziecie Państwo najpopularniejsze kształty koszyków - okrągłe i podłużne, w różnych rozmiarach. Mogą być używane z poszewkami, dla bardziej rzadkich ciast lub bez, aby uzyskać bardziej tradycyjny, rzemieślniczy wygląd.</p>",
+        "paragraph7": "<p>Kosze z polipropylenu są dostępne w sprzedaży do wybranych krajów: BE, BG, HR, HU, CY, DK, EE, FI, GR, IE, IL, IS, IT, LT, LU, LV, MT, NL, PL, RO, TR.</p>",
+        "warning": "<p><strong>Uwaga: Kosze mogą być używane tylko do garowania ciasta chlebowego, nigdy do pieczenia chleba w wysokich temperaturach!</strong></p>"
       }
     },
     "bambooFiber": {
@@ -157,9 +205,32 @@
       "line7": "W porównaniu z koszami rattanowymi <strong>szacowany czas użytkowania jest znacznie dłuższy</strong>, ponieważ kosze z włókna bambusowego i PP nie porastają pleśnią",
       "line8": "W porównaniu z koszami plastikowymi, kosze z włókna bambusowego i PP są <strong>bardziej przyjazne dla środowiska</strong> - zawierają 70% składników naturalnych",
       "line9": "W odpowiednich warunkach kosze ulegają biodegradacji"
+    },
+    "cork": {
+      "line1": "Kosze wykonane z naturalnego granulatu korkowego, pochodzącego z Europy",
+      "line2": "Idealne do przygotowywania tradycyjnego chleba",
+      "line3": "Wykorzystywane przez profesjonalistów w piekarniach, jak również do użytku domowego",
+      "line4": "Koszyk korkowy dzięki pochłanianiu części wilgoci i utrzymywaniu ciepła, zapewnia lepszą strukturę pieczywa oraz chrupkość skórki, a także pożądany przez nas kształt oraz wspaniały wzór",
+      "line5": "Poprzez mikroszczeliny we frakcjach granulatu ciasto oddycha co sprzyja procesowi garowania",
+      "line6": "Dzięki naturalnej chropowatości korka uzyskujemy efekt dobrego przylegania mąki do brzegów wewnętrznych kosza, co zapobiega przywieraniu ciasta i ułatwia jego wypadanie po ukończonym procesie garowania",
+      "line7": "Kosze są trwałe i można je wielokrotnie myć, również w gorącej wodzie",
+      "line8": "Korek, dzięki obecności garbników w swoim składzie i absencji substancji białkowych podatnych na rozkład, zachowuje odporność na zagrzybienie i pleśń, posiada zwiększoną odporność na korozję biologiczną wynikającą z zawilgoceń i warunków sprzyjających procesom gnilnym, często spotykanym w piekarniach",
+      "line9": "Produkt polski, posiada Atest PZH potwierdzający bezpieczeństwo do kontaktu z żywnością",
+      "line10": "Koszyki dostępne w rozmiarach podanych w tabeli lub rozmiarach przygotowywanych pod indywidualne zamówienie",
+      "line11": "Podane rozmiary są wymiarami zewnętrznymi (± 5 mm)",
+      "line12": "Kosze przeznaczone są jedynie do wyrastania ciasta na chleb, nie służą jako forma do pieczenia!"
+    },
+    "plastic": {
+      "line1": "Kosze z polipropylenu przeznaczonego do celów spożywczych, <strong>zaprojektowane w Polsce, w firmie BestBann</strong>",
+      "line2": "Są bardzo higieniczne, można je myć w zmywarkach, spełniają wymagania systemu HACCP",
+      "line3": "<strong>Raporty z badań SGS i Certyfikat PZH</strong> potwierdzają bezpieczeństwo stosowania w kontakcie z żywnością, kosze nie zawierają żadnych szkodliwych związków ani metali",
+      "line4": "Mogą być używane z poszewkami lub bez",
+      "line5": "W porównaniu z koszami rattanowymi <strong>szacowany czas użytkowania jest znacznie dłuższy</strong>, ponieważ kosze z PP nie porastają pleśnią",
+      "line6": "Kosze produkowane są we współpracy z producentem azjatyckim",
+      "line7": "Kosze z tworzywa sztucznego są dostępne w sprzedaży do wybranych krajów: BE, BG, HR, HU, CY, DK, EE, FI, GR, IE, IL, IS, IT, LT, LU, LV, MT, NL, PL, RO, TR",
+      "line8": "Kosze przeznaczone są jedynie do wyrastania ciasta na chleb, nie służą jako forma do pieczenia!"
     }
   },
-
   "productDetails": {
     "type": "typ",
     "roundBaskets": "Okrągłe kosze do wyrastania chleba",
@@ -185,7 +256,19 @@
     "bambooOblongSmallLiners": "Małe podłużne koszyki z poszewką",
     "bambooOblongLargeLiners": "Duże podłużne koszyki z poszewką",
     "bambooRound": "Okrągłe koszyki do wyrastania chleba z włókna bambusowego i polipropylenu",
-    "bambooOblong": "Podłużne koszyki do wyrastania chleba z włókna bambusowego i polipropylenu"
+    "bambooOblong": "Podłużne koszyki do wyrastania chleba z włókna bambusowego i polipropylenu",
+    "corkRound": "Okrągłe kosze korkowe",
+    "corkOblong": "Podłużne kosze korkowe",
+    "corkOval": "Owalne kosze z korka",
+    "corkBaguette": "Koszyki korkowe na bagietki",
+    "corkRectangular": "Prostokątne kosze korkowe",
+    "corkEngraved": "Grawerowane kosze korkowe",
+    "corkPlain": "Kosz gładki",
+    "plasticRound": "Okrągłe kosze plastikowe",
+    "plasticOblong": "Podłużne kosze plastikowe",
+    "corkGroovedSides": "Kosz żłobione boki",
+    "corkGrooved": "Kosz żłobiony",
+    "engravedMessage": "Dostępne we wszystkich kształtach i rozmiarach!"
   },
   "aboutUsPage": {
     "thankyou": "Dziękujemy za odwiedzenie naszej strony!",
@@ -193,7 +276,7 @@
     "owners": "Weronika i Michal",
     "familycompany": {
       "title": "FIRMA RODZINNA",
-      "text": "Jesteśmy firmą rodzinną, z ponad 12-letnim doświadczeniem w branży spożywczej. Wartości rodzinne są dla nas bardzo ważne, dlatego każdego klienta traktujemy jak członka naszej wspaniałej piekarniczej rodziny. Jesteśmy pozytywnie nastawieni, uczciwi, odważni i zdeterminowani, aby dawać z siebie wszystko i tworzyć tylko najlepsze produkty."
+      "text": "Jesteśmy firmą rodzinną, z ponad 14-letnim doświadczeniem w branży spożywczej. Wartości rodzinne są dla nas bardzo ważne, dlatego każdego klienta traktujemy jak członka naszej wspaniałej piekarniczej rodziny. Jesteśmy pozytywnie nastawieni, uczciwi, odważni i zdeterminowani, aby dawać z siebie wszystko i tworzyć tylko najlepsze produkty."
     },
     "ourproducts": {
       "title": "NASZE PRODUKTY",

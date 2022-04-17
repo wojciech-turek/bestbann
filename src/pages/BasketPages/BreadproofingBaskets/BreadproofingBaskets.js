@@ -353,7 +353,7 @@ export default function BreadproofingBaskets(props) {
                   {basketTypes.typeO ? basketTypes.typeO : null}
                 </h3>
                 <DividerLine height="2px" width="12%" color="rgb(255,195,11)" />
-                {basketTypes.bamboo ? null : (
+                {basketTypes.bamboo || basketTypes.plastic ? null : (
                   <p>{t("productDetails.entirelyRattan")}</p>
                 )}
                 {basketTypes.ba}{" "}

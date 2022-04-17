@@ -18,7 +18,9 @@
     "bigWoodenBase": "Grande pan rebanado",
     "square": "Cuadradas",
     "roundSmall": "Redondas Pequeño",
-    "oblongSmall": "Oblongas Pequeño"
+    "oblongSmall": "Oblongas Pequeño",
+    "rectangular": "Rectángulo",
+    "engraved": "Bannetones con fondo grabado"
   },
   "links": {
     "home": "/es/",
@@ -39,7 +41,15 @@
     "bambooOblong": "/es/oblongas-fibra-de-bambu-bannetons",
     "privacyPolicy": "/es/politica-de-privacidad",
     "engraved": "/es/grabado",
-    "impressum": "/es/legal-notice"
+    "impressum": "/es/legal-notice",
+    "plasticRound": "/es/cestas-de-plastico-redondas",
+    "plasticOblong": "/es/cestas-de-plastico-alargadas",
+    "corkRound": "/es/cestas-de-corcho-redondas",
+    "corkOblong": "/es/cestas-de-corcho-oblongas",
+    "corkOval": "/es/cestas-de-corcho-ovaladas",
+    "corkRectangular": "/es/cestas-de-corcho-rectangulares",
+    "corkBaguette": "/es/cestas-de-corcho-baguette",
+    "corkEngraved": "/es/cestos-de-corcho-grabados"
   },
   "menu": {
     "mainPage": "Pagina principal",
@@ -50,16 +60,24 @@
   "mainSections": {
     "aboutUs": {
       "title": "Acerca de nosotros",
-      "content1": "<strong>Somos una empresa familiar</strong> con más de 12 años de experiencia en la industria alimentaria. Estamos fabricando <strong>bannetones para pan de material natural de ratán</strong>, sin productos químicos ni blanqueadores.",
-      "content2": "Todos nuestros productos son <strong>hechos a mano</strong>,  con el máximo cuidado. Prestando gran atención al proceso de producción, podemos garantizar una muy alta calidad de nuestros productos."
+      "content1": "Somos una <strong>empresa familiar</strong> con más de 14 años de experiencia en la industria alimentaria, especializada en cestas de fermentación del pan también llamadas bannetones. Fabricamos <strong>bannetones de pan a partir de materiales naturales como el ratán y el corcho</strong>. En nuestra oferta también puede encontrar cestas de plástico y mixtas de fibra de bambú y plástico.",
+      "content2": "Nuestras bannetones de ratán natural están <strong>hechas a mano</strong>, con el máximo cuidado y sin el uso de lejía u otros productos químicos. Al prestar gran atención al proceso de fabricación, podemos garantizar <strong>una calidad muy alta</strong> de nuestros productos.",
+      "content3": "<strong>Les bannetones hechas con gránulos de corcho</strong> son una invención nuestra, para la que tenemos una <strong>patente pendiente</strong>. Se pueden lavar bajo el agua de los restos de harina y masa, lo que supone una importante simplificación a la hora de mantener limpias les bannetones."
     },
     "products": {
       "title": "Productos",
-      "breadProofing": "Bannetones - cestas para fermentación de ratán",
-      "woodenBase": "Bannetones con base de madera",
-      "withLiners": "Bannetones con telas de lino",
-      "woodenBakingForm": "Moldes para hornear de madera",
-      "bambooFiber": "Bannetones de fibra de bambú",
+      "rattan": "Bannetones - cestas para fermentación de ratán",
+      "rattanLink": "/es/cestas-para-fermentacion-de-ratan",
+      "cork": "Bannetones de corcho",
+      "corkLink": "/es/bannetones-de-corcho",
+      "plastic": "Bannetones de polipropileno",
+      "plasticLink": "/es/bannetones-de-polipropileno",
+      "engraved": "Bannetones con fondo grabado",
+      "engravedLink": "/es/bannetones-con-fondo-grabado",
+      "bamboo": "Bannetones de fibra de bambú y plástico",
+      "bambooLink": "/es/bannetones-de-fibra-de-bambu-y-plastico",
+      "liners": "Telas de lino para bannetones",
+      "linersLink": "/es/telas-de-lino-para-bannetones",
       "button": "Ver más"
     },
     "whatMUD": {
@@ -103,6 +121,36 @@
       "description": {
         "paragraph1": "<p>Los moldes para hornear de madera están diseñados para hornear mini panes o pasteles de pan en el horno. Son ideales para hacer de la repostería casera el regalo perfecto o el producto especial que los clientes notarán y apreciarán. Solo hay que colocar el revestimiento de papel dentro del molde, rellenar con masa y hornear en el horno como de costumbre. La madera se oscurecerá ligeramente cuando se hornee, porque está diseñada para ser de un solo uso. Sin embargo, es posible reutilizar el molde, colocando el nuevo revestimiento dentro del molde y horneando en él nuevamente.</p>",
         "paragraph2": "<p>Los moldes están <strong>hechos de madera de álamo 100% natural, son biodegradables y reciclables</strong>, por lo que se pueden compostar de forma segura. Los moldes toleran temperaturas que van desde -40 ° C a + 220 ° C (-104 ° F a + 428 ° F).</p>"
+      }
+    },
+    "engraved": {
+      "description": {
+        "paragraph1": "<p>También ofrecemos <strong>bannetons con base grabada</strong> - puede pedir uno de nuestros muchos diseños o poner el suyo propio. Su propio diseño hace que su pan sea único y puede ser una gran publicidad.</p>",
+        "paragraph2": "<p>Los bannetons de fermentación se utilizan en casi todas las panaderías. Se utilizan para elevar la masa de pan - gracias a ellos la masa no se desborda hacia los lados y el pan es más alto después de la cocción. <strong>La fermentación en un banneton, gracias a que absorbe parte de la humedad y se mantiene caliente, también garantiza una mejor estructura del pan y una corteza más crujiente</strong>.</p>",
+        "paragraph3": "<p><strong>Los bannetons están hechos de ratán natural y madera</strong>. No utilizamos lejías ni sustancias nocivas. Las grapas extra largas que utilizamos aseguran una mayor durabilidad de los bannetons.</p>",
+        "paragraph4": "<p><strong>Producimos nuestros bannetons a mano</strong>. Están disponibles en varios diseños y tamaños. Redondos, oblongos, ovalados, cuadrados y otros.</p>",
+        "warning": "<p>Tenga en cuenta que los bannetons sólo están pensados para fermentar la masa de pan, no se utilizan como forma de hornear. A altas temperaturas pueden quemarse.</p>"
+      }
+    },
+    "cork": {
+      "description": {
+        "paragraph1": "<p>Los bannetones de fermentación se utilizan en casi todas las panaderías. Se utilizan para la fermentación de la masa de pan: gracias a ellas, la masa no se desborda hacia los lados y el pan, después de la cocción, es más alto. <strong>La fermentación en un banneton, gracias a que absorbe parte de la humedad y se mantiene caliente, también garantiza una mejor estructura del pan y una corteza más crujiente</strong>. Hay muchos tipos de bannetones del pan en el mercado: de ratán, de mimbre, de plástico, bannetons de pulpa de madera, pero <strong>sólo nuestra empresa produce banetónes de corcho</strong>.</p>",
+        "paragraph2": "<p><strong>Los bannetones hechas de granulado de corcho natural son nuestra invención innovadora, para la que tenemos una patente pendiente</strong>. A pesar de que los bannetons no tienen agujeros ni perforaciones visibles, la masa ascendente respira y el proceso de fermentación tiene lugar sin problemas a través de los microespacios entre las fracciones de granulado de corcho. Gracias a la rugosidad natural del corcho se obtiene el efecto de una buena adherencia de la harina a los bordes interiores de las formas, lo que <strong>evita que la masa se pegue y ayuda a que se desprenda de los bannetons</strong> una vez finalizado el proceso de fermentación.</p>",
+        "paragraph3": "<p><strong>Los bannetons son duraderos y pueden lavarse muchas veces</strong>, incluso en agua caliente. El material de corcho, gracias a la presencia de taninos en su composición y a la ausencia de sustancias proteicas propensas a la descomposición, conserva su <strong>resistencia al moho</strong>, lo que supone una gran ventaja frente a los <strong>banetónes de ratán o mimbre</strong>, que se someten con relativa rapidez a estos procesos. Su superficie y su estructura no son un caldo de cultivo para los hongos y el moho, y no crean condiciones para que los colonicen. El material de corcho tiene una mayor resistencia a la corrosión biológica derivada de la humedad y de las condiciones que favorecen los procesos de putrefacción que suelen darse en las panaderías. Los bannetones de corcho tienen muy buenas propiedades de aislamiento térmico, lo que ayuda a que la masa del pan suba al retener parte del calor dentro de los banneton.</p>",
+        "paragraph4": "<p>Nuestros bannetons están disponibles en varios diseños y tamaños. Redondas, oblongas, ovaladas y cuadradas. También ofrecemos cestas con fondos grabados: puede pedir uno de nuestros muchos diseños o poner el suyo propio. Su propio diseño hace que su pan sea único y puede ser una gran publicidad.</p>",
+        "warning": "<p><strong>Nota: Los bannetones sólo pueden utilizarse para fermentar la masa de pan, nunca para hornear pan a altas temperaturas, porque pueden quemarse.</strong></p>"
+      }
+    },
+    "plastic": {
+      "description": {
+        "paragraph1": "<p>Los bannetones de plástico de polipropileno combinan las principales ventajas de los bannetones de ratán, que son una <strong>buena ventilación y un gran aspecto artesanal</strong> gracias a los círculos de harina que se forman en el pan, al tiempo que eliminan el principal problema de la aparición de moho en el interior, lo que <strong>se traduce en una mayor vida útil estimada</strong>.</p>",
+        "paragraph2": "<p>Los bannetons de polipropileno pueden ser utilizados en pequeñas panaderías, por panaderos preocupados principalmente por la higiene, así como por grandes panaderías industriales que necesitan reducir el tiempo de limpieza de los bannetons.</p>",
+        "paragraph3": "<p>Los bannetones están diseñados para la subida y fermentación de la masa de pan, que después de la cocción se mantiene unida, no se derrama y es más alta. Al fermentar en bannetones, <strong>la estructura del pan es mejor y la corteza es más crujiente</strong>, ya que las cestas mantienen el calor en su interior.</p>",
+        "paragraph4": "<p>Nuestros bannetons son de polipropileno y están diseñados para productos en contacto con alimentos. Son muy higiénicos, <strong>aptos para el lavavajillas</strong>, lo que evita la aparición de moho en su interior y ayuda a mantener las cestas perfectamente limpias. Además, <strong>cumplen los requisitos del sistema APPCC</strong>. Disponemos de informes de pruebas de SGS y del certificado PZH que confirman la alta calidad de nuestros productos, que no contienen compuestos ni metales nocivos, por lo que pueden entrar en contacto con los alimentos de forma segura, según:</p>",
+        "paragraph5": "<p>Nuestros bannetons de plástico han sido diseñados en Polonia, por la empresa BestBann. Se fabrican en colaboración con productores asiáticos.</p>",
+        "paragraph6": "<p>En nuestra oferta encontrará las formas más populares de bannetones - redondos y oblongos, en varios tamaños. Pueden utilizarse con telas de lino, para una masa más hidratada, o sin ellos, para un aspecto más tradicional y artesanal.</p>",
+        "paragraph7": "<p>Los bannetons de polipropileno están disponibles para su venta a países seleccionados: BE, BG, HR, HU, CY, DK, EE, FI, GR, IE, IL, IS, IT, LT, LU, LV, MT, NL, PL, RO, TR.</p>",
+        "warning": "<p><strong>Nota: Los panes sólo pueden utilizarse para fermentar la masa de pan, nunca para hornear pan a altas temperaturas.</strong></p>"
       }
     },
     "bambooFiber": {
@@ -155,6 +203,30 @@
       "line7": "En comparación con las cestas de ratán, <strong>el tiempo estimado de uso es mucho mayor</strong>, ya que en las cestas de fibra de bambú y plástico no crece el moho",
       "line8": "En comparación con las cestas de plástico, bannetones de fibra de bambú y plástico son <strong>más ecológicas</strong>: contienen un 70% de ingredientes naturales",
       "line9": "Las cestas son biodegradables en las condiciones adecuadas"
+    },
+    "cork": {
+      "line1": "Bannetons hechos de gránulos de corcho natural, procedentes de Europa",
+      "line2": "Ideal para la elaboración de pan tradicional",
+      "line3": "Utilizado por los profesionales en las panaderías, así como para uso doméstico",
+      "line4": "Gracias a que absorbe parte de la humedad y retiene el calor, el banneton de corcho garantiza una mejor estructura del pan y una corteza crujiente, así como la forma deseada y un dibujo maravilloso",
+      "line5": "Gracias a los microespacios de las fracciones de granulado, la masa respira, lo que favorece el proceso de fermentación",
+      "line6": "Gracias a la rugosidad natural del corcho, obtenemos el efecto de una buena adherencia de la harina a los bordes interiores del banneton, lo que evita que la masa se pegue y facilita su caída tras el proceso de fermentación",
+      "line7": "Los bannetones de corcho son duraderos y pueden lavarse muchas veces, incluso en agua caliente",
+      "line8": "El material de corcho, gracias a la presencia de taninos en su composición y a la ausencia de sustancias proteínicas propensas a la descomposición, conserva su resistencia al moho y a los hongos, y tiene una mayor resistencia a la corrosión biológica resultante de la humedad y de las condiciones que favorecen los procesos de putrefacción que suelen darse en las panaderías",
+      "line9": "Un producto europeo, certificado por el Instituto Nacional de Higiene como seguro para el contacto con los alimentos",
+      "line10": "Las cestas están disponibles en los tamaños indicados en la tabla o en dimensiones adaptadas a los pedidos individuales",
+      "line11": "Las dimensiones indicadas son exteriores (± 5 mm)",
+      "line12": "Los bannetons están destinados únicamente a la fermentación de la masa de pan, no pueden utilizarse como forma de hornear."
+    },
+    "plastic": {
+      "line1": "Bannetones de polipropileno de calidad alimentaria, <strong>diseñadas en Polonia, por BestBann</strong>",
+      "line2": "<strong>Muy higiénicas, aptas para el lavavajillas</strong>, cumplen con los requisitos HACCP.",
+      "line3": "<strong>Los informes de las pruebas de SGS y el certificado del PZH</strong> (Instituto Nacional de Higiene) confirman la seguridad alimentaria, las bannetones no contienen compuestos ni metales nocivos",
+      "line4": "Pueden utilizarse con o sin telas de lino",
+      "line5": "En comparación con los bannetons de ratán, la <strong>vida útil estimada es mucho mayor</strong>, ya que en los bannetons de plástico no crece el moho",
+      "line6": "Los bannetons se fabrican en colaboración con un productor asiático",
+      "line7": "Los bannetones de plástico están disponibles para la venta en los siguientes países: BE, BG, HR, HU, CY, DK, EE, FI, GR, IE, IL, IS, IT, LT, LU, LV, MT, NL, PL, RO, TR",
+      "line8": "Los bannetons sólo están pensados para fermentar la masa de pan, no se pueden utilizar como forma de hornear."
     }
   },
   "productDetails": {
@@ -182,7 +254,19 @@
     "tableMeasures": "MEDIDAS EXTERNAS EN CM / PULGADAS",
     "tableMeasuresCM": "MEDIDAS EXTERNAS EN CM",
     "tableCatalog": "NUMERO DE CATALOGO",
-    "linersAvailable": "Los revestimientos están disponibles para tamaños de cesta que van desde"
+    "linersAvailable": "Los revestimientos están disponibles para tamaños de cesta que van desde",
+    "corkRound": "Cestas de corcho redondas",
+    "corkOblong": "Cestas de corcho oblongas",
+    "corkOval": "Cestas de corcho ovaladas",
+    "corkBaguette": "Cestas de corcho para baguette",
+    "corkRectangular": "Cestas de corcho rectangulares",
+    "corkEngraved": "Cestas de corcho grabadas",
+    "corkPlain": "Banneton liso",
+    "plasticRound": "Cestas de plástico redondas",
+    "plasticOblong": "Cestas de plástico oblongas",
+    "corkGroovedSides": "Banneton de lados acanalados",
+    "corkGrooved": "Banneton acanalado",
+    "engravedMessage": "Disponible en todas las formas y tamaños."
   },
   "needHelp": {
     "title": "¿Tiene usted alguna pregunta?",
@@ -197,7 +281,7 @@
     "owners": "Weronika y Michal",
     "familycompany": {
       "title": "COMPAÑÍA FAMILIAR",
-      "text": "Somos una empresa familiar con más de 12 años de experiencia en la industria alimentaria. Los valores familiares son muy importantes para nosotros y es por eso que tratamos a cada cliente como un miembro de nuestra gran familia de panaderos. Somos positivos, honestos, valientes y estamos decididos a dar lo mejor de nosotros y a crear solo los mejores productos."
+      "text": "Somos una empresa familiar con más de 14 años de experiencia en la industria alimentaria. Los valores familiares son muy importantes para nosotros y es por eso que tratamos a cada cliente como un miembro de nuestra gran familia de panaderos. Somos positivos, honestos, valientes y estamos decididos a dar lo mejor de nosotros y a crear solo los mejores productos."
     },
     "ourproducts": {
       "title": "NUESTROS PRODUCTOS",
