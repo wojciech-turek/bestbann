@@ -34,11 +34,10 @@ export default function PlasticBaskets() {
         </h1>
         <Trans>
           <div className={classes.ParagraphWrap}>
-            {t("productsPage.bambooFiber.description.paragraph1")}
-            {t("productsPage.bambooFiber.description.paragraph2")}
-            {t("productsPage.bambooFiber.description.paragraph3")}
-            {t("productsPage.bambooFiber.description.paragraph4")}
-            {t("productsPage.bambooFiber.description.paragraph5")}
+            {t("productsPage.plastic.description.paragraph1")}
+            {t("productsPage.plastic.description.paragraph2")}
+            {t("productsPage.plastic.description.paragraph3")}
+            {t("productsPage.plastic.description.paragraph4")}
             <ul className={classes.Regulations}>
               <li className={classes.Regulation}>
                 - {t("mainSections.whatMUD.certificate.point1")}
@@ -48,10 +47,11 @@ export default function PlasticBaskets() {
                 - {t("mainSections.whatMUD.certificate.point2")}
               </li>
             </ul>
-            {t("productsPage.bambooFiber.description.paragraph6")}
-            {t("productsPage.bambooFiber.description.paragraph7")}
-            {t("productsPage.bambooFiber.description.paragraph8")}
-            {t("productsPage.bambooFiber.description.warning")}
+            {t("productsPage.plastic.description.paragraph5")}
+
+            {t("productsPage.plastic.description.paragraph6")}
+            {t("productsPage.plastic.description.paragraph7")}
+            <strong>{t("productsPage.plastic.description.warning")}</strong>
           </div>
         </Trans>
         <div className={classes.ImagesWrap}>

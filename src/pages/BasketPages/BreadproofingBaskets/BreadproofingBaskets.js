@@ -470,7 +470,7 @@ export default function BreadproofingBaskets(props) {
             <div className={classes.productInfo}>
               <h2 className={classes.productTitle}>{t("productInfo.title")}</h2>
               <div className={classes.productInfoFlex}>
-                {basketTypes.bamboo ? (
+                {basketTypes.bamboo && (
                   <Trans>
                     <ul className={classes.productInfoList}>
                       <li>{t("productInfo.bamboo.line1")}</li>
@@ -490,7 +490,24 @@ export default function BreadproofingBaskets(props) {
                       </li>
                     </ul>
                   </Trans>
-                ) : (
+                )}
+                {basketTypes.plastic && (
+                  <Trans>
+                    <ul className={classes.productInfoList}>
+                      <li>{t("productInfo.plastic.line1")}</li>
+                      <li>{t("productInfo.plastic.line2")}</li>
+                      <li>{t("productInfo.plastic.line3")}</li>
+                      <li>{t("productInfo.plastic.line4")}</li>
+                      <li>{t("productInfo.plastic.line5")}</li>
+                      <li>{t("productInfo.plastic.line6")}</li>
+                      <li>{t("productInfo.plastic.line7")}</li>
+                      <li>
+                        <strong>{t("productInfo.plastic.line8")}</strong>
+                      </li>
+                    </ul>
+                  </Trans>
+                )}
+                {!basketTypes.plastic && !basketTypes.bamboo && (
                   <ul className={classes.productInfoList}>
                     <li>
                       <strong>{t("productInfo.line1")}</strong>

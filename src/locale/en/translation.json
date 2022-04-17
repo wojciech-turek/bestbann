@@ -154,6 +154,18 @@
         "paragraph4": "<p>Our baskets are available in various designs and sizes. Round, oblong, oval, square. We also offer baskets with engraved bottoms - you can order one of our many designs or place your own. Your own design makes your bread unique and can be a great advertisement.</p>",
         "warning": "<p><strong>Please note: Baskets can be used only for proofing bread dough, never for baking bread in high temperatures, because they can burn!</strong></p>"
       }
+    },
+    "plastic": {
+      "description": {
+        "paragraph1": "<p>Baskets made of polypropylene plastic combine the main advantages of rattan baskets, which are <strong>good ventilation and a great artisanal look</strong> thanks to the flour circles formed on the bread, while eliminating the main problem with the appearance of mould inside, which results in a <strong>longer estimated lifetime.</strong></p>",
+        "paragraph2": "<p>Polypropylene bannetons can be used in small bakeries, by bakers who are primarily concerned with hygiene, as well as by large industrial bakeries who need to reduce the time spent on cleaning baskets.</p>",
+        "paragraph3": "<p>The baskets are designed for the rising and fermentation of bread dough, which after baking holds together, does not spill over and is higher. By proofing in baskets, the <strong>structure of the bread is better and the crust is crispier</strong>, as the baskets keep the heat inside.</p>",
+        "paragraph4": "<p>Our baskets are made of polypropylene designed for products in contact with food. They are very hygienic and <strong>dishwasher safe</strong>, which prevents the growth of mould inside and helps to keep the baskets perfectly clean. In addition, they <strong>meet the requirements of the HACCP system</strong>. We have SGS test reports and PZH Certificate confirming the high quality of our products, which do not contain any harmful compounds or metals, so they can safely come into contact with food, according to:</p>",
+        "paragraph5": "<p>Our plastic bread proofing baskets have been designed in Poland, by the BestBann company. They are manufactured in cooperation with Asian producers.</p>",
+        "paragraph6": "<p>In our offer you will find the most popular shapes of plastic bannetons - round and oblong, in various sizes. They can be used with liners, for more hydrated dough or without, for a more traditional, artisan look.</p>",
+        "paragraph7": "<p>Polypropylene baskets are available for sale to selected countries: BE, BG, HR, HU, CY, DK, EE, FI, GR, IE, IL, IS, IT, LT, LU, LV, MT, NL, PL, RO, TR.</p>",
+        "warning": "<p><strong>Please note: Baskets can be used only for proofing bread dough, never for baking bread in high temperatures, because they can burn!</strong></p>"
+      }
     }
   },
   "contact": {
@@ -207,6 +219,16 @@
       "line10": "Baskets available in sizes given in the table or dimensions tailored to individual orders",
       "line11": "Dimensions given are outside dimensions (± 5 mm)",
       "line12": "Baskets are intended only for bread dough rising, they can not be used as a baking form!"
+    },
+    "plastic": {
+      "line1": "Food grade polypropylene baskets, <strong>designed in Poland, by BestBann</strong>",
+      "line2": "Very hygienic, dishwasher safe, compliant with HACCP requirements",
+      "line3": "SGS test reports and PZH (National Institute of Hygiene) certificate confirm the food safety, the baskets do not contain any harmful compounds or metals",
+      "line4": "Can be used with or without liners",
+      "line5": "In comparison with rattan baskets, the estimated lifetime is much longer, as plastic bannetons do not grow mould",
+      "line6": "The baskets are manufactured in cooperation with an Asian producer",
+      "line7": "The plastic baskets are available for sale in the following countries: BE, BG, HR, HU, CY, DK, EE, FI, GR, IE, IL, IS, IT, LT, LU, LV, MT, NL, PL, RO, TR",
+      "line8": "Baskets are intended only for bread dough rising, they can not be used as a baking form!"
     }
   },
 
