@@ -45,6 +45,9 @@
 
 .typeImage {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   max-width: 500px;
   border-radius: 4px;
   margin-bottom: 16px;
@@ -62,9 +65,13 @@
 
 .videos {
   display: flex;
+  flex-direction: column;
 }
 .video {
-  width: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .linersAvailable {
@@ -110,6 +117,12 @@
   }
   .wrapper {
     flex-flow: row;
+  }
+  .videos {
+    flex-direction: row;
+  }
+  .video {
+    width: 50%;
   }
   .productDetails {
     padding: 20px;

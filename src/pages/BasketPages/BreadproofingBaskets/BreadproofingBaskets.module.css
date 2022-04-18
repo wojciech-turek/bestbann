@@ -45,6 +45,9 @@
   max-width: 500px;
   border-radius: 4px;
   margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .root {
   width: 100%;

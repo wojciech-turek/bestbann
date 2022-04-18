@@ -1,6 +1,7 @@
 import React from "react";
 import DividerLine from "../../../components/UI/DividerLine/DividerLine";
 import classes from "./Cork.module.css";
+import loader from "../../../assets/videos/200w.gif";
 import Paper from "@material-ui/core/Paper";
 import Table from "@material-ui/core/Table";
 import TableBody from "@material-ui/core/TableBody";
@@ -199,6 +200,7 @@ export default function BreadproofingBaskets(props) {
                     muted
                     loop
                     preload="auto"
+                    poster={loader}
                     playsInline={true}
                   ></video>
                 )}
@@ -225,6 +227,7 @@ export default function BreadproofingBaskets(props) {
                     muted
                     loop
                     preload="auto"
+                    poster={loader}
                     playsInline={true}
                   ></video>
                 )}
@@ -251,6 +254,7 @@ export default function BreadproofingBaskets(props) {
                     muted
                     loop
                     preload="auto"
+                    poster={loader}
                     playsInline={true}
                   ></video>
                 )}
@@ -353,6 +357,7 @@ export default function BreadproofingBaskets(props) {
             muted
             loop
             preload="auto"
+            poster={loader}
             playsInline={true}
           ></video>
           <video
@@ -362,6 +367,7 @@ export default function BreadproofingBaskets(props) {
             muted
             loop
             preload="auto"
+            poster={loader}
             playsInline={true}
           ></video>
         </div>

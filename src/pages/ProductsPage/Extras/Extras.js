@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./WoodenBakingForms.module.css";
+import loader from "../../../assets/videos/200w.gif";
 import { useTranslation } from "react-i18next";
 import engravedf1 from "../../../assets/videos/engravedf1.mp4";
 import engravedf2 from "../../../assets/videos/engravedf2.mp4";
@@ -66,6 +67,7 @@ export default function WoodenBakingForms() {
                   autoPlay
                   muted
                   loop
+                  poster={loader}
                   className={classes.basketImage}
                   src={el.pathToImg}
                   alt="Round bamboo fiber basket"

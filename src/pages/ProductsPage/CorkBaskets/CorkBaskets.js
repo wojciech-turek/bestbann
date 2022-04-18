@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./CorkBaskets.module.css";
+import loader from "../../../assets/videos/200w.gif";
 import round from "../../../assets/imgs/IMG_0027.JPG";
 import oblong from "../../../assets/imgs/IMG_0033.JPG";
 import oval from "../../../assets/imgs/IMG_0030.JPG";
@@ -76,6 +77,7 @@ export default function Products() {
             autoPlay
             muted
             loop
+            poster={loader}
             preload="auto"
             playsInline={true}
           ></video>
@@ -102,6 +104,7 @@ export default function Products() {
             autoPlay
             muted
             loop
+            poster={loader}
             preload="auto"
             playsInline={true}
           ></video>

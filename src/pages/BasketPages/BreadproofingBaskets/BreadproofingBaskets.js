@@ -1,6 +1,7 @@
 import React from "react";
 import DividerLine from "../../../components/UI/DividerLine/DividerLine";
 import classes from "./BreadproofingBaskets.module.css";
+import loader from "../../../assets/videos/200w.gif";
 import RoundROImage from "../../../assets/RoundROOptimized.jpg";
 import RoundROXImage from "../../../assets/RoundROXOptimized.jpg";
 import Paper from "@material-ui/core/Paper";
@@ -368,6 +369,7 @@ export default function BreadproofingBaskets(props) {
                     autoPlay
                     muted
                     loop
+                    poster={loader}
                     className={classes.typeImage}
                     src={basketTypes.imageTypeRO}
                     playsInline={true}
@@ -398,6 +400,7 @@ export default function BreadproofingBaskets(props) {
                     autoPlay
                     muted
                     loop
+                    poster={loader}
                     className={classes.typeImage}
                     src={basketTypes.imageTypeROX}
                     playsInline={true}
