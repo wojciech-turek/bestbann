@@ -370,6 +370,7 @@ export default function BreadproofingBaskets(props) {
                     loop
                     className={classes.typeImage}
                     src={basketTypes.imageTypeRO}
+                    playsInline={true}
                     alt="Round bamboo fiber basket"
                   />
                 )}
@@ -399,6 +400,7 @@ export default function BreadproofingBaskets(props) {
                     loop
                     className={classes.typeImage}
                     src={basketTypes.imageTypeROX}
+                    playsInline={true}
                     alt="Round bamboo fiber basket"
                   />
                 )}

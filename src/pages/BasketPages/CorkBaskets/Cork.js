@@ -30,7 +30,6 @@ import korekfront13 from "../../../assets/videos/korekf13.mp4";
 import korekfront14 from "../../../assets/videos/korekf14.mp4";
 import { Fade } from "@material-ui/core";
 import SEO from "../../../utils/SEO";
-import Loader from "../../../components/Loader/Loader";
 
 export default function BreadproofingBaskets(props) {
   const { t } = useTranslation("common");
@@ -194,13 +193,14 @@ export default function BreadproofingBaskets(props) {
                   />
                 ) : (
                   <video
+                    src={basketTypes.imageTypeRO}
+                    className={classes.typeImage}
                     autoPlay
                     muted
                     loop
-                    className={classes.typeImage}
-                    src={basketTypes.imageTypeRO}
-                    alt="Small round bamboo fiber basket"
-                  />
+                    preload="auto"
+                    playsInline={true}
+                  ></video>
                 )}
               </div>
               <div
@@ -219,13 +219,14 @@ export default function BreadproofingBaskets(props) {
                   />
                 ) : (
                   <video
+                    src={basketTypes.imageTypeROX}
+                    className={classes.typeImage}
                     autoPlay
                     muted
                     loop
-                    className={classes.typeImage}
-                    src={basketTypes.imageTypeROX}
-                    alt="Round bamboo fiber basket"
-                  />
+                    preload="auto"
+                    playsInline={true}
+                  ></video>
                 )}
               </div>
               <div
@@ -244,13 +245,14 @@ export default function BreadproofingBaskets(props) {
                   />
                 ) : (
                   <video
+                    src={basketTypes.imageTypeROE}
+                    className={classes.typeImage}
                     autoPlay
                     muted
                     loop
-                    className={classes.typeImage}
-                    src={basketTypes.imageTypeROE}
-                    alt="Round bamboo fiber basket"
-                  />
+                    preload="auto"
+                    playsInline={true}
+                  ></video>
                 )}
               </div>
             </div>
@@ -346,19 +348,21 @@ export default function BreadproofingBaskets(props) {
         <div className={classes.videos}>
           <video
             src={korek1}
-            loop
+            className={classes.video}
             autoPlay
             muted
+            loop
             preload="auto"
-            className={classes.video}
+            playsInline={true}
           ></video>
           <video
             src={ciasto1}
-            loop
+            className={classes.video}
             autoPlay
             muted
+            loop
             preload="auto"
-            className={classes.video}
+            playsInline={true}
           ></video>
         </div>
       </div>

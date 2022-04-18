@@ -71,7 +71,14 @@ export default function Products() {
           </div>
         </Trans>
         <div className={classes.videoWrapper}>
-          <video src={korek1} loop autoPlay muted preload="auto"></video>
+          <video
+            src={korek1}
+            autoPlay
+            muted
+            loop
+            preload="auto"
+            playsInline={true}
+          ></video>
         </div>
         <div className={classes.ImagesWrap}>
           {productsImages.map((el) => (
@@ -90,7 +97,14 @@ export default function Products() {
           ))}
         </div>
         <div className={classes.videoWrapper}>
-          <video src={ciasto1} loop autoPlay muted preload="auto"></video>
+          <video
+            src={ciasto1}
+            autoPlay
+            muted
+            loop
+            preload="auto"
+            playsInline={true}
+          ></video>
         </div>
       </div>
     </Fade>
