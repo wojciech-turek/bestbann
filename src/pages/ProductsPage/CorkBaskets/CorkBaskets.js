@@ -8,12 +8,10 @@ import baguette from "../../../assets/imgs/IMG_0010.JPG";
 import engraved from "../../../assets/imgs/IMG_0023.JPG";
 import korek1 from "../../../assets/videos/korek1.mp4";
 import ciasto1 from "../../../assets/videos/ciasto1.mp4";
-import loader from "../../../assets/videos/200w.gif";
 import { Trans, useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { Fade } from "@material-ui/core";
 import SEO from "../../../utils/SEO";
-import Loader from "../../../components/Loader/Loader";
 
 export default function Products() {
   const { t } = useTranslation("common");
@@ -73,14 +71,7 @@ export default function Products() {
           </div>
         </Trans>
         <div className={classes.videoWrapper}>
-          <video
-            poster={<Loader width={200} height={200} />}
-            src={korek1}
-            loop
-            autoPlay
-            muted
-            preload="auto"
-          ></video>
+          <video src={korek1} loop autoPlay muted preload="auto"></video>
         </div>
         <div className={classes.ImagesWrap}>
           {productsImages.map((el) => (
@@ -99,14 +90,7 @@ export default function Products() {
           ))}
         </div>
         <div className={classes.videoWrapper}>
-          <video
-            poster={<Loader width={200} height={200} />}
-            src={ciasto1}
-            loop
-            autoPlay
-            muted
-            preload="auto"
-          ></video>
+          <video src={ciasto1} loop autoPlay muted preload="auto"></video>
         </div>
       </div>
     </Fade>

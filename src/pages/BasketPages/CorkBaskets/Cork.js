@@ -12,7 +12,6 @@ import { useTranslation } from "react-i18next";
 import NeedHelpSection from "../../../components/NeedHelpSection/NeedHelpSection";
 import baguette from "../../../assets/imgs/IMG_0010.JPG";
 
-import loader from "../../../assets/videos/200w.gif";
 import korek1 from "../../../assets/videos/korek1.mp4";
 import ciasto1 from "../../../assets/videos/ciasto1.mp4";
 import korekfront1 from "../../../assets/videos/korekf1.mp4";
@@ -195,7 +194,6 @@ export default function BreadproofingBaskets(props) {
                   />
                 ) : (
                   <video
-                    poster={<Loader width={120} height={120} />}
                     autoPlay
                     muted
                     loop
@@ -222,7 +220,6 @@ export default function BreadproofingBaskets(props) {
                 ) : (
                   <video
                     autoPlay
-                    poster={<Loader width={120} height={120} />}
                     muted
                     loop
                     className={classes.typeImage}
@@ -248,7 +245,6 @@ export default function BreadproofingBaskets(props) {
                 ) : (
                   <video
                     autoPlay
-                    poster={<Loader width={120} height={120} />}
                     muted
                     loop
                     className={classes.typeImage}
@@ -349,7 +345,6 @@ export default function BreadproofingBaskets(props) {
         </div>
         <div className={classes.videos}>
           <video
-            poster={<Loader height={160} width={160} />}
             src={korek1}
             loop
             autoPlay
@@ -358,7 +353,6 @@ export default function BreadproofingBaskets(props) {
             className={classes.video}
           ></video>
           <video
-            poster={<Loader height={160} width={160} />}
             src={ciasto1}
             loop
             autoPlay
