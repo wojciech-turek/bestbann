@@ -105,44 +105,63 @@ export default function MobileNavigationItems(props) {
             <AccordionDetails className={styles.accordionContent}>
               <div className={classes.secondaryList}>
                 <NavLink
-                  to={t("links.breadProofing")}
+                  to={t("mainSections.products.rattanLink")}
                   activeClassName={classes.active}
                   onClick={() => props.setSideOpen(false)}
                 >
                   <div className={classes.listItem}>
                     <span className={classes.listIcon}>⁕</span>
-                    {t("mainSections.products.breadProofing")}
-                  </div>
-                </NavLink>
-
-                <NavLink
-                  to={t("links.woodenBakingForms")}
-                  activeClassName={classes.active}
-                  onClick={() => props.setSideOpen(false)}
-                >
-                  <div className={classes.listItem}>
-                    <span className={classes.listIcon}>⁕</span>
-                    {t("mainSections.products.woodenBakingForm")}
+                    {t("mainSections.products.rattan")}
                   </div>
                 </NavLink>
                 <NavLink
-                  to={t("links.withLiners")}
+                  to={t("mainSections.products.corkLink")}
                   activeClassName={classes.active}
                   onClick={() => props.setSideOpen(false)}
                 >
                   <div className={classes.listItem}>
                     <span className={classes.listIcon}>⁕</span>
-                    {t("mainSections.products.withLiners")}
+                    {t("mainSections.products.cork")}
                   </div>
                 </NavLink>
                 <NavLink
-                  to={t("links.bambooFiber")}
+                  to={t("mainSections.products.bambooLink")}
                   activeClassName={classes.active}
                   onClick={() => props.setSideOpen(false)}
                 >
                   <div className={classes.listItem}>
                     <span className={classes.listIcon}>⁕</span>
-                    {t("mainSections.products.bambooFiber")}
+                    {t("mainSections.products.bamboo")}
+                  </div>
+                </NavLink>
+                <NavLink
+                  to={t("mainSections.products.plasticLink")}
+                  activeClassName={classes.active}
+                  onClick={() => props.setSideOpen(false)}
+                >
+                  <div className={classes.listItem}>
+                    <span className={classes.listIcon}>⁕</span>
+                    {t("mainSections.products.plastic")}
+                  </div>
+                </NavLink>
+                <NavLink
+                  to={t("mainSections.products.engravedLink")}
+                  activeClassName={classes.active}
+                  onClick={() => props.setSideOpen(false)}
+                >
+                  <div className={classes.listItem}>
+                    <span className={classes.listIcon}>⁕</span>
+                    {t("mainSections.products.engraved")}
+                  </div>
+                </NavLink>
+                <NavLink
+                  to={t("mainSections.products.linersLink")}
+                  activeClassName={classes.active}
+                  onClick={() => props.setSideOpen(false)}
+                >
+                  <div className={classes.listItem}>
+                    <span className={classes.listIcon}>⁕</span>
+                    {t("mainSections.products.liners")}
                   </div>
                 </NavLink>
               </div>
