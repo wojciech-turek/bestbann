@@ -31,6 +31,7 @@ import korekfront13 from "../../../assets/videos/korekf13.mp4";
 import korekfront14 from "../../../assets/videos/korekf14.mp4";
 import { Fade } from "@material-ui/core";
 import SEO from "../../../utils/SEO";
+import Loader from "../../../components/Loader/Loader";
 
 export default function BreadproofingBaskets(props) {
   const { t } = useTranslation("common");
@@ -194,6 +195,7 @@ export default function BreadproofingBaskets(props) {
                   />
                 ) : (
                   <video
+                    poster={<Loader width={120} height={120} />}
                     autoPlay
                     muted
                     loop
@@ -220,6 +222,7 @@ export default function BreadproofingBaskets(props) {
                 ) : (
                   <video
                     autoPlay
+                    poster={<Loader width={120} height={120} />}
                     muted
                     loop
                     className={classes.typeImage}
@@ -245,6 +248,7 @@ export default function BreadproofingBaskets(props) {
                 ) : (
                   <video
                     autoPlay
+                    poster={<Loader width={120} height={120} />}
                     muted
                     loop
                     className={classes.typeImage}
@@ -345,7 +349,7 @@ export default function BreadproofingBaskets(props) {
         </div>
         <div className={classes.videos}>
           <video
-            poster={loader}
+            poster={<Loader height={160} width={160} />}
             src={korek1}
             loop
             autoPlay
@@ -354,7 +358,7 @@ export default function BreadproofingBaskets(props) {
             className={classes.video}
           ></video>
           <video
-            poster={loader}
+            poster={<Loader height={160} width={160} />}
             src={ciasto1}
             loop
             autoPlay

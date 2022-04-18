@@ -13,6 +13,7 @@ import { Trans, useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { Fade } from "@material-ui/core";
 import SEO from "../../../utils/SEO";
+import Loader from "../../../components/Loader/Loader";
 
 export default function Products() {
   const { t } = useTranslation("common");
@@ -73,7 +74,7 @@ export default function Products() {
         </Trans>
         <div className={classes.videoWrapper}>
           <video
-            poster={loader}
+            poster={<Loader width={200} height={200} />}
             src={korek1}
             loop
             autoPlay
@@ -99,7 +100,7 @@ export default function Products() {
         </div>
         <div className={classes.videoWrapper}>
           <video
-            poster={loader}
+            poster={<Loader width={200} height={200} />}
             src={ciasto1}
             loop
             autoPlay
