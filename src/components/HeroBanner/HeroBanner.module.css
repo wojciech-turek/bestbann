@@ -1,13 +1,27 @@
 .heroBanner {
   height: 70vh;
   max-height: 952px;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-image: url("../../assets/herobannerProgressiveMobile.jpg");
   position: relative;
   bottom: 0;
   left: 0;
 }
+
+.video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.videoOverlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.06);
+  z-index: 2;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
 .LogoBanner {
   position: absolute;
   top: 50%;
