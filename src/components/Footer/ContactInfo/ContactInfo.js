@@ -10,13 +10,21 @@ export default function ContactInfo() {
       <p>
         <strong>{t("footer.contact.email")}</strong>
       </p>
-      <p>office@bestbann.com</p>
-      <p>shop@bestbann.com</p>
+      <a href="mailto:office@bestbann.com" className={classes.link}>
+        office@bestbann.com
+      </a>
+      <a href="mailto:shop@bestbann.com" className={classes.link}>
+        shop@bestbann.com
+      </a>
       <p>
         <strong>{t("footer.contact.telephone")}</strong>
       </p>
-      <p>+48 12 307 28 77</p>
-      <p>+48 692 933 069</p>
+      <a href="tel:+48123072877" className={classes.link}>
+        +48 12 307 28 77
+      </a>
+      <a href="tel:+48692933069" className={classes.link}>
+        +48 692 933 069
+      </a>
     </div>
   );
 }

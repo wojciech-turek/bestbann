@@ -3,6 +3,10 @@
     "part1": "",
     "part2": ""
   },
+  "note": {
+    "title": "NOTA IMPORTANTE:",
+    "content": "Nonostante la situazione di Covid e l'aggressione russa in Ucraina, stiamo lavorando normalmente, realizziamo tutti gli ordini senza ritardi. Siamo un'azienda familiare polacca, quindi non abbiamo la mancanza di personale. La guerra in Ucraina non influenza il funzionamento dell'azienda o l'elaborazione degli ordini."
+  },
   "heroBanner": "",
   "title": "Benvenuto a BestBann",
   "menu": {
@@ -20,7 +24,9 @@
     "bigWoodenBase": "Grande pane a fette",
     "square": "Quadrati",
     "roundSmall": "Tondi piccoli",
-    "oblongSmall": "Oblunghi piccoli"
+    "oblongSmall": "Oblunghi piccoli",
+    "rectangular": "Rettangolare",
+    "engraved": "Cestini con fondo inciso"
   },
   "links": {
     "home": "/it/",
@@ -41,21 +47,37 @@
     "bambooOblong": "/it/oblunghi-fibra-di-bambu-cestini-da-lievitazione",
     "privacyPolicy": "/it/politica-sulla-riservatezza",
     "engraved": "/it/incisione/",
-    "impressum": "/it/legal-notice"
+    "impressum": "/it/legal-notice",
+    "plasticRound": "/it/cestini-di-plastica-rotondi",
+    "plasticOblong": "/it/cestini-di-plastica-oblunghi",
+    "corkRound": "/it/sughero-tondi",
+    "corkOblong": "/it/sughero-oblungi",
+    "corkOval": "/it/sughero-ovali",
+    "corkRectangular": "/it/sughero-rettangolare",
+    "corkBaguette": "/it/sughero-baguette",
+    "corkEngraved": "/it/sughero-inciso"
   },
   "mainSections": {
     "aboutUs": {
       "title": "Riguardo a noi",
-      "content1": "<strong>Siamo un'azienda a conduzione familiare</strong> con oltre 12 anni di esperienza nel settore alimentare. Produciamo <strong>cestini per lievitazione del pane in materiale di rattan naturale</strong>, senza prodotti chimici o candeggina.",
-      "content2": "Ogni nostro prodotto è <strong>fatto a mano</strong>, con la massima cura. Prestando grande attenzione al processo di produzione, possiamo garantire <strong>un'altissima qualità</strong> dei nostri prodotti."
+      "content1": "Siamo <strong>un'azienda a conduzione familiare</strong> con oltre 14 anni di esperienza nell'industria alimentare, specializzata in cestini per la lievitazione del pane chiamati anche banneton. Produciamo <strong>cestini per la lievitazione del pane da materiali naturali come il rattan e il sughero</strong>. Nella nostra offerta potete trovare anche cestini in plastica e misto fibra di bambù e plastica.",
+      "content2": "I nostri cestini in rattan naturale sono <strong>fatti a mano</strong>, con la massima cura e senza l'uso di candeggina o altri prodotti chimici. Prestando grande attenzione al processo di fabbricazione, siamo in grado di garantire una <strong>qualità molto alta</strong> dei nostri prodotti.",
+      "content3": "<strong>I cesti in granuli di sughero</strong> sono una nostra invenzione, per la quale abbiamo un <strong>brevetto in corso</strong>. Possono essere lavati sotto l'acqua dai resti di farina e pasta, il che è una notevole semplificazione in termini di mantenimento della pulizia dei cestini."
     },
     "products": {
       "title": "Prodotti",
-      "breadProofing": "Cestini per lievitazione pane in rattan",
-      "woodenBase": "Cestini con base in legno",
-      "withLiners": "Cestini con teli",
-      "woodenBakingForm": "Stampi in legno con carta da forno",
-      "bambooFiber": "Cestini in fibra di bambù",
+      "rattan": "Cestini per lievitazione pane in rattan",
+      "rattanLink": "/it/cestini-da-lievitazione/",
+      "cork": "Cestini per lievitazione pane in sughero",
+      "corkLink": "/it/cestini-per-lievitazione-pane-in-sughero",
+      "plastic": "Cestini in polipropilene",
+      "plasticLink": "/it/cestini-in-polipropilene",
+      "engraved": "Cestini con incisioni",
+      "engravedLink": "/it/cestini-con-incisioni",
+      "bamboo": "Cestini in fibra di bambù e plastica",
+      "bambooLink": "/it/cestini-in-fibra-di-bamb-e-plastica",
+      "liners": "Teli per cestini",
+      "linersLink": "/it/teli-per-cestini",
       "button": "Vedi altro"
     },
     "whatMUD": {
@@ -101,6 +123,36 @@
         "paragraph2": "<p>Gli stampi sono realizzati in <strong>legno di pioppo naturale al 100%, sono biodegradabili e riciclabili</strong>, quindi possono essere compostati in sicurezza. Gli stampi tollerano temperature che vanno da -40 ° C a + 220 ° C (da -104 ° F a + 428 ° F).</p>"
       }
     },
+    "engraved": {
+      "description": {
+        "paragraph1": "<p>Offriamo anche <strong>cestini con un fondo inciso</strong> - puoi ordinare uno dei nostri tanti disegni o mettere il vostro. Il vostro design rende il vostro pane unico e può essere una grande pubblicità.</p>",
+        "paragraph2": "<p>I cesti di lievitazione sono usati in quasi tutti i panifici. Sono usati per far lievitare l'impasto del pane - grazie ad essi l'impasto non si rovescia sui lati e il pane è più alto dopo la cottura. <strong>La lievitazione in un cesto, grazie all'assorbimento di parte dell'umidità e al mantenimento del calore, assicura anche una migliore struttura del pane e una crosta più croccante</strong>.</p>",
+        "paragraph3": "<p><strong>I cestini sono fatti</strong> di rattan naturale e legno. Non usiamo sbiancanti o sostanze nocive. Le graffe extra lunghe che usiamo assicurano una maggiore durata dei cestini.</p>",
+        "paragraph4": "<p><strong>Produciamo i nostri cesti a mano</strong>. Sono disponibili in vari design e dimensioni. Rotondi, oblunghi, ovali, quadrati e altri.</p>",
+        "warning": "<p>Nota bene: I cestini sono destinati solo alla lievitazione della pasta di pane, non sono utilizzati come forma di cottura. Ad alte temperature possono bruciare!</p>"
+      }
+    },
+    "cork": {
+      "description": {
+        "paragraph1": "<p>I cesti di lievitazione sono usati in quasi tutti i panifici. Sono utilizzati per la lievitazione dell'impasto del pane - grazie ad essi l'impasto non si rovescia sui lati e il pane dopo la cottura è più alto. <strong>La lievitazione in un cesto, grazie all'assorbimento di parte dell'umidità e al mantenimento del calore, assicura anche una migliore struttura del pane e una crosta più croccante.</strong> Ci sono molti tipi di cesti per la lievitazione del pane sul mercato - rattan, vimini, plastica, cestini di polpa di legno, ma <strong>solo la nostra azienda produce cesti in sughero</strong>.</p>",
+        "paragraph2": "<p><strong>I cestini in granulato di sughero naturale sono la nostra invenzione innovativa, per la quale abbiamo un brevetto in corso</strong>. Nonostante il fatto che i cestini non abbiano fori o perforazioni visibili, la pasta lievitata respira e il processo di lievitazione avviene senza problemi attraverso i microspazi tra le frazioni di granulato di sughero. Grazie alla ruvidità naturale del sughero si ottiene l'effetto di una <strong>buona adesione della farina ai bordi interni delle forme, che impedisce all'impasto di attaccarsi e lo aiuta a cadere dai banneton</strong> al termine del processo di lievitazione.</p>",
+        "paragraph3": "<p><strong>I cestini sono durevoli e possono essere lavati molte volte</strong>, anche in acqua calda. Il sughero, grazie alla presenza di tannini nella sua composizione e all'assenza di sostanze proteiche inclini alla decomposizione, mantiene la sua resistenza a muffe e funghi, il che è un grande vantaggio rispetto ai banneton in rattan o vimini, che sono soggetti a tali processi in modo relativamente rapido. La sua superficie e la sua struttura non forniscono un terreno <strong>fertile per funghi e muffe</strong> e non creano le condizioni per la loro colonizzazione. Il materiale di sughero ha una maggiore resistenza alla corrosione biologica derivante dall'umidità e dalle condizioni favorevoli ai processi di putrefazione che si trovano spesso nelle panetterie. I cesti di sughero hanno ottime proprietà di isolamento termico, il che aiuta l'impasto del pane a lievitare trattenendo parte del calore all'interno del cesto.</p>",
+        "paragraph4": "<p>I nostri cesti sono disponibili in vari design e dimensioni. Rotondi, oblunghi, ovali, quadrati. Offriamo anche cestini con fondo inciso - puoi ordinare uno dei nostri tanti disegni o inserire il vostro. Il vostro design rende il vostro pane unico e può essere una grande pubblicità.</p>",
+        "warning": "<p><strong>Nota bene: I cestini possono essere usati solo per la prova dell'impasto del pane, mai per cuocere il pane ad alte temperature, perché possono bruciare!</strong></p>"
+      }
+    },
+    "plastic": {
+      "description": {
+        "paragraph1": "<p>I cesti in plastica di polipropilene combinano i principali vantaggi dei cesti in rattan, che sono una <strong>buona ventilazione e un grande aspetto artigianale</strong> grazie ai cerchi di farina che si formano sul pane, pur eliminando il problema principale della comparsa di muffe all'interno, il che si traduce in una <strong>maggiore durata stimata</strong>.</p>",
+        "paragraph2": "<p>I cestini in polipropilene possono essere utilizzati nelle piccole panetterie, dai panettieri che si preoccupano principalmente dell'igiene, così come dalle grandi panetterie industriali che hanno bisogno di ridurre il tempo dedicato alla pulizia dei cestini.</p>",
+        "paragraph3": "<p>I cesti sono progettati per la lievitazione e la fermentazione dell'impasto del pane, che dopo la cottura si tiene insieme, non si rovescia ed è più alto. Con la lievitazione in cesti, <strong>la struttura del pane è migliore e la crosta è più croccante</strong>, poiché i cesti mantengono il calore all'interno.</p>",
+        "paragraph4": "<p>I nostri cestini sono fatti di polipropilene progettati per prodotti a contatto con il cibo. Sono molto igienici, <strong>lavabili in lavastoviglie</strong>, il che impedisce la crescita di muffe all'interno e aiuta a mantenere i cestini perfettamente puliti. Inoltre, <strong>soddisfano i requisiti del sistema HACCP</strong>. Abbiamo rapporti di test SGS e certificato PZH che confermano l'alta qualità dei nostri prodotti, che non contengono composti o metalli nocivi, quindi possono entrare in contatto con gli alimenti in modo sicuro, secondo:</p>",
+        "paragraph5": "<p>I nostri cestini di plastica per la lievitazione del pane sono stati progettati in Polonia, dalla società BestBann. Sono fabbricati in collaborazione con produttori asiatici.</p>",
+        "paragraph6": "<p>Nella nostra offerta troverete le forme più popolari di cesti - rotondi e oblunghi, in varie dimensioni. Possono essere utilizzati con fodere, per un impasto più idratato o senza, per un look più tradizionale e artigianale.</p>",
+        "paragraph7": "<p>I cestini in polipropilene sono disponibili per la vendita in paesi selezionati: BE, BG, HR, HU, CY, DK, EE, FI, GR, IE, IL, IS, IT, LT, LU, LV, MT, NL, PL, RO, TR.</p>",
+        "warning": "<p><strong>Nota: I cestelli possono essere utilizzati solo per la lievitazione dell'impasto del pane, mai per la cottura del pane ad alte temperature!</strong></p>"
+      }
+    },
     "bambooFiber": {
       "description": {
         "paragraph1": "<p>I cestini da lievitazione di plastica e in fibra di bambù sono <strong>un prodotto unico</strong>, i <strong>primi cestini per la lievitazione del pane al mondo fatti in fibra di bambù e plastica</strong>. Combinano i principali vantaggi dei cestini in rattan, che sono una <strong>buona ventilazione</strong> e un <strong>grande aspetto artigianale</strong> grazie ai cerchi di farina sul pane, eliminando al contempo il problema principale della muffa all'interno, che si traduce in un tempo di <strong>utilizzo stimato più lungo</strong>.</p>",
@@ -140,7 +192,19 @@
     "tableMeasures": "MISURE ESTERNE IN CM / POLLICI",
     "tableMeasuresCM": "MISURE ESTERNE IN CM",
     "tableCatalog": "NUMERO DI CATALOGO",
-    "linersAvailable": "Le fodere sono disponibili per dimensioni del cesto che vanno da"
+    "linersAvailable": "Le fodere sono disponibili per dimensioni del cesto che vanno da",
+    "corkRound": "Cestini rotondi di sughero",
+    "corkOblong": "Cestini di sughero oblunghi",
+    "corkOval": "Cestini di sughero ovali",
+    "corkBaguette": "Cestini di sughero baguette",
+    "corkRectangular": "Cestini rettangolari in sughero",
+    "corkEngraved": "Cestini con fondo inciso",
+    "corkPlain": "Cestino semplice",
+    "plasticRound": "Cestini rotondi di plastica",
+    "plasticOblong": "Cestini di plastica oblunghi",
+    "corkGroovedSides": "Cestino con lati scanalati",
+    "corkGrooved": "Cestino scanalato",
+    "engravedMessage": "Available in all shapes and sizes!"
   },
   "contact": {
     "text": "<p>Siamo a disposizione per rispondere alle vostre domande e richieste di preventivo dal lunedì al venerdì nel normale orario lavorativo. Facciamo del nostro meglio per rispondere entro 24 ore. Se la sua questione è urgente, non esitare a chiamarci ai numeri seguenti (polacco o inglese).</p><p>We accept emails in any languange.</p>",
@@ -178,6 +242,30 @@
       "line7": "Rispetto ai cesti in rattan, <strong>il tempo stimato di utilizzo è molto più lungo</strong>, perché i cesti in fibra di bambù e plastica non crescono con la muffa",
       "line8": "Rispetto ai cesti in plastica, i cesti in fibra di bambù e plastica sono <strong>più ecologici</strong> - contengono il 70% di ingredienti naturali",
       "line9": "I cesti sono biodegradabili nelle giuste condizioni"
+    },
+    "cork": {
+      "line1": "Cestini realizzati con granuli di sughero naturale, provenienti dall'Europa",
+      "line2": "Ideale per la preparazione del pane tradizionale",
+      "line3": "Utilizzato dai professionisti nelle panetterie, così come per uso domestico",
+      "line4": "Grazie all'assorbimento di parte dell'umidità e al mantenimento del calore, il cestino di sughero assicura una migliore struttura del pane e la croccantezza della crosta, oltre alla forma desiderata e al meraviglioso disegno",
+      "line5": "Grazie alle microfessure nelle frazioni di granulato, l'impasto respira, il che favorisce il processo di lievitazione",
+      "line6": "Grazie alla ruvidità naturale del sughero si ottiene l'effetto di una buona adesione della farina ai bordi interni del cestino, che impedisce all'impasto di attaccarsi e ne facilita la caduta dopo il processo di lievitazione",
+      "line7": "I cestini in sughero sono durevoli e possono essere lavati molte volte, anche in acqua calda",
+      "line8": "Il materiale di sughero, grazie alla presenza di tannini nella sua composizione e all'assenza di sostanze proteiche soggette a decomposizione, mantiene la sua resistenza a muffe e funghi, e ha una maggiore resistenza alla corrosione biologica derivante dall'umidità e dalle condizioni favorevoli ai processi di putrefazione che si incontrano spesso nei panifici",
+      "line9": "Un prodotto europeo, certificato dall'Istituto Nazionale d'Igiene come sicuro per il contatto con gli alimenti",
+      "line10": "Cesti disponibili nelle dimensioni indicate nella tabella o nelle dimensioni su misura per ordini individuali",
+      "line11": "Le dimensioni indicate sono quelle esterne (± 5 mm)",
+      "line12": "I cesti sono destinati esclusivamente alla lievitazione della pasta di pane, non possono essere utilizzati come forma di cottura!"
+    },
+    "plastic": {
+      "line1": "Cesti in polipropilene alimentare, <strong>progettati in Polonia, da BestBann</strong>",
+      "line2": "<strong>Molto igienici, lavabili in lavastoviglie</strong>, conformi ai requisiti HACCP",
+      "line3": "<strong>I rapporti di test SGS e il certificato PZH</strong> (Istituto Nazionale di Igiene) confermano la sicurezza alimentare, i cestini non contengono composti o metalli nocivi",
+      "line4": "Può essere usato con o senza telo",
+      "line5": "Rispetto ai cesti in rattan, la <strong>durata stimata è molto più lunga</strong>, poiché i cesti in plastica non sviluppano muffe",
+      "line6": "I cestini sono prodotti in collaborazione con un produttore asiatico",
+      "line7": "I cestini di plastica sono disponibili per la vendita nei seguenti paesi: BE, BG, HR, HU, CY, DK, EE, FI, GR, IE, IL, IS, IT, LT, LU, LV, MT, NL, PL, RO, TR",
+      "line8": "I cesti sono destinati esclusivamente alla lievitazione della pasta di pane, non possono essere utilizzati come forma di cottura!"
     }
   },
   "needHelp": {
@@ -197,7 +285,7 @@
     "owners": "Weronika e Michal",
     "familycompany": {
       "title": "AZIENDA FAMIGLIARE",
-      "text": "Siamo un'azienda a conduzione familiare con oltre 12 anni di esperienza nel settore alimentare. I valori della famiglia sono molto importanti per noi ed è per questo che trattiamo ogni cliente come un membro della nostra grande famiglia di fornai. Siamo positivi, onesti, coraggiosi e determinati a dare il meglio e creare solo i prodotti migliori."
+      "text": "Siamo un'azienda a conduzione familiare con oltre 14 anni di esperienza nel settore alimentare. I valori della famiglia sono molto importanti per noi ed è per questo che trattiamo ogni cliente come un membro della nostra grande famiglia di fornai. Siamo positivi, onesti, coraggiosi e determinati a dare il meglio e creare solo i prodotti migliori."
     },
     "ourproducts": {
       "title": "I NOSTRI PRODOTTI",

@@ -4,7 +4,6 @@ import Navigation from "../Navigation/Navigation";
 import Footer from "../../components/Footer/Footer";
 import MainPage from "../../pages/MainPage/MainPage";
 import ScrollToTop from "../../components/UI/ScrollToTop/ScrollToTop";
-import WoodenBakingForms from "../../pages/ProductsPage/WoodenBakingForms/WoodenBakingForms";
 import Impressum from "../../pages/Legal/Impressum/Impressum";
 import PrivacyPolicy from "../../pages/Legal/PrivacyPolicy/PrivacyPolicy";
 import { useTranslation } from "react-i18next";
@@ -16,12 +15,26 @@ const WithLiners = lazy(() =>
   import("../../pages/ProductsPage/WithLiners/WithLiners")
 );
 
+const PlasticBaskets = lazy(() =>
+  import("../../pages/ProductsPage/PlasticBaskets/PlasticBaskets")
+);
+
+const Extras = lazy(() => import("../../pages/ProductsPage/Extras/Extras"));
+
 const BreadProofing = lazy(() =>
   import("../../pages/ProductsPage/BreadProofing/BreadProofing")
 );
 
 const BambooFiberBaskets = lazy(() =>
   import("../../pages/ProductsPage/BambooFiber/BambooFiberBaskets")
+);
+
+const CorkBasketsTypes = lazy(() =>
+  import("../../pages/BasketPages/CorkBaskets/Cork")
+);
+
+const CorkBaskets = lazy(() =>
+  import("../../pages/ProductsPage/CorkBaskets/CorkBaskets")
 );
 
 const ContactPage = lazy(() => import("../../pages/ContactPage/ContactPage"));
@@ -38,28 +51,33 @@ const Layout = () => {
     { path: `/en`, name: "Home", Component: MainPage },
     { path: `/it`, name: "Home", Component: MainPage },
     {
-      path: t("links.breadProofing"),
+      path: t("mainSections.products.rattanLink"),
       name: "Products - Bread Proofing Baskets",
       Component: BreadProofing,
     },
     {
-      path: t("links.withLiners"),
-      name: "Products - Baskets with Liners",
+      path: t("mainSections.products.linersLink"),
+      name: "Products - Liners",
       Component: WithLiners,
     },
     {
-      path: t("links.woodenBakingForms"),
-      name: "Products - Wooden Baking Forms",
-      Component: WoodenBakingForms,
+      path: t("mainSections.products.plasticLink"),
+      name: "Products - Polypropylene baskets",
+      Component: PlasticBaskets,
     },
     {
-      path: t("links.engraved"),
-      name: "Products - Wooden Baking Forms",
-      Component: WoodenBakingForms,
+      path: t("mainSections.products.corkLink"),
+      name: "Products - Cork bread proofing baskets",
+      Component: CorkBaskets,
     },
     {
-      path: t("links.bambooFiber"),
-      name: "Products - Bamboo fiber plastic bread proofing baskets",
+      path: t("mainSections.products.engravedLink"),
+      name: "Products - Baskets with engraved bottom",
+      Component: Extras,
+    },
+    {
+      path: t("mainSections.products.bambooLink"),
+      name: "Products - Bamboo fiber plastic baskets",
       Component: BambooFiberBaskets,
     },
     { path: t("links.aboutUs"), name: "About", Component: AboutUsPage },
@@ -113,6 +131,46 @@ const Layout = () => {
       path: t("links.bambooOblong"),
       name: "BambooBasketsOblong",
       Component: BreadProofingBaskets,
+    },
+    {
+      path: t("links.plasticRound"),
+      name: "PlasticRound",
+      Component: BreadProofingBaskets,
+    },
+    {
+      path: t("links.plasticOblong"),
+      name: "PlasticOblong",
+      Component: BreadProofingBaskets,
+    },
+    {
+      path: t("links.corkRound"),
+      name: "CorkRound",
+      Component: CorkBasketsTypes,
+    },
+    {
+      path: t("links.corkOblong"),
+      name: "CorkOblong",
+      Component: CorkBasketsTypes,
+    },
+    {
+      path: t("links.corkOval"),
+      name: "CorkOval",
+      Component: CorkBasketsTypes,
+    },
+    {
+      path: t("links.corkRectangular"),
+      name: "CorkRectangular",
+      Component: CorkBasketsTypes,
+    },
+    {
+      path: t("links.corkBaguette"),
+      name: "CorkBaguette",
+      Component: CorkBasketsTypes,
+    },
+    {
+      path: t("links.corkEngraved"),
+      name: "CorkEngraved",
+      Component: CorkBasketsTypes,
     },
     {
       path: t("links.impressum"),

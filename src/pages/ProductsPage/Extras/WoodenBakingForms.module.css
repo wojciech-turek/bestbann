@@ -1,0 +1,61 @@
+.ContentWrapper {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1920px;
+  width: 90%;
+  text-align: center;
+}
+.sectionTitle {
+  font-family: "Lato";
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 2%;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+.root {
+  margin: 0;
+  padding: 0;
+}
+.FlexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 36px;
+  gap: 24px;
+}
+.itemsFlexContainer {
+  margin-top: 36px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.ParagraphWrap {
+  padding: 2% 0 0 0;
+  font-family: "Montserrat";
+  width: 85%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+.basketImage {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 24px;
+  border-radius: 20px;
+}
+
+@media (min-width: 1024px) {
+  .itemsFlexContainer {
+    width: 45%;
+  }
+  .ParagraphWrap {
+    width: 60%;
+    line-height: 1.5em;
+  }
+}
+@media (min-width: 1280px) {
+  .itemsFlexContainer {
+    width: 34%;
+  }
+}

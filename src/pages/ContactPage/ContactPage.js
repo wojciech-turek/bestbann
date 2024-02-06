@@ -55,16 +55,24 @@ export default function ContactPage() {
               <strong>{t("footer.contact.email")}</strong>
             </p>
           </div>
-          <p className={classes.paragraph}>office@bestbann.com</p>
-          <p className={classes.paragraph}>shop@bestbann.com</p>
+          <a href="mailto:office@bestbann.com" className={classes.paragraph}>
+            office@bestbann.com
+          </a>
+          <a href="mailto:shop@bestbann.com" className={classes.paragraph}>
+            shop@bestbann.com
+          </a>
           <div className={classes.section}>
             {phoneIcon}
             <p>
               <strong>{t("footer.contact.telephone")}</strong>
             </p>
           </div>
-          <p className={classes.paragraph}>+48 12 307 28 77</p>
-          <p className={classes.paragraph}>+48 692 933 069</p>
+          <a href="tel:+48123072877" className={classes.paragraph}>
+            +48 12 307 28 77
+          </a>
+          <a href="tel:+48692933069" className={classes.paragraph}>
+            +48 692 933 069
+          </a>
         </div>
         {/* <ContactForm /> */}
       </div>

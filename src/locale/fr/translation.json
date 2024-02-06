@@ -3,6 +3,10 @@
     "part1": "Um loszulegen, ändere <1>src/App(DE).js</1> speicheren und neuladen.",
     "part2": "Ändere die Sprachen zwischen deutsch und englisch mit Hilfe der beiden Schalter."
   },
+  "note": {
+    "title": "NOTE IMPORTANTE:",
+    "content": "Malgré la situation Covid et l'agression russe en Ukraine, nous travaillons normalement, nous réalisons toutes les commandes sans délais. Nous sommes une entreprise familiale polonaise donc nous n'avons pas le manque de personnel. La guerre en Ukraine n'affecte pas le fonctionnement de la société ni le traitement des commandes."
+  },
   "heroBanner": "",
   "title": "coś po francusku",
   "menu": {
@@ -30,7 +34,15 @@
     "bambooOblong": "/fr/oblongue-fibre-de-bambou-baskets",
     "privacyPolicy": "/fr/politique-de-confidentialite",
     "engraved": "/fr/gravures",
-    "impressum": "/fr/legal-notice"
+    "impressum": "/fr/legal-notice",
+    "plasticRound": "/fr/paniers-ronds-en-plastique",
+    "plasticOblong": "/fr/paniers-oblongs-en-plastique",
+    "corkRound": "/fr/paniers-ronds-en-liege",
+    "corkOblong": "/fr/paniers-oblongs-en-liege",
+    "corkOval": "/fr/paniers-ovales-en-liege",
+    "corkRectangular": "/fr/paniers-rectangulaires-en-liege",
+    "corkBaguette": "/fr/paniers-a-baguettes-en-liege",
+    "corkEngraved": "/fr/paniers-en-liege graves"
   },
   "baskets": {
     "baguette": "Forme baguette",
@@ -41,21 +53,31 @@
     "bigWoodenBase": "Gros pain tranché",
     "square": "Forme carrée",
     "roundSmall": "Ronde petit",
-    "oblongSmall": "Oblongue petit"
+    "oblongSmall": "Oblongue petit",
+    "rectangular": "Rectangulaire",
+    "engraved": "Bannetons avec fond gravé"
   },
   "mainSections": {
     "aboutUs": {
       "title": "À propos de nou",
-      "content1": "<strong>Nous sommes une entreprise familiale</strong>avec plus de 12 ans d’expérience dans l’industrie alimentaire. Nous fabriquons des <strong>bannetons moule bie à pain en rotin naturel</strong>, sans produits chimiques ni agents de blanchiment.",
-      "content2": "Tous nos produits sont <strong>fabriqués à la main</strong>, avec le plus grand soin. En accordant une grande attention au processus de production, nous pouvons assurer une <strong> très haute qualité</strong> de nos produits."
+      "content1": "Nous sommes une <strong>entreprise familiale</strong> avec plus de 14 ans d'expérience dans l'industrie alimentaire, spécialisée dans les bannetons moule bie à pain. Nous fabriquons des <strong>bannetons à pain à partir de matériaux naturels comme le rotin et le liège</strong>. Dans notre offre, vous pouvez également trouver des bannetons en plastique et des bannetons mixtes en fibre de bambou et en plastique.",
+      "content2": "Nos bannetons moule bie en rotin naturel sont <strong>fabriqués à la main</strong>, avec le plus grand soin et sans utilisation d'agent de blanchiment ou d'autres produits chimiques. En accordant une grande attention au processus de fabrication, nous sommes en mesure de garantir une <strong>très haute qualité</strong> de nos produits.",
+      "content3": "<strong>Les bannetons en granulés de liège</strong> sont notre propre invention, pour laquelle nous avons <strong>déposé un brevet</strong>. Ils peuvent être lavés sous l'eau des restes de farine et de pâte, ce qui constitue une simplification importante en termes de maintien de la propreté des bannetons."
     },
     "products": {
       "title": "Des produits",
-      "breadProofing": "Bannetons moule bie en rotin",
-      "woodenBase": "Bannetons avec base en bois",
-      "withLiners": "Bannetons avec doublures",
-      "woodenBakingForm": "Moules de cuisson en bois",
-      "bambooFiber": "Bannetons en fibre de bambou",
+      "rattan": "Bannetons moule bie en rotin",
+      "rattanLink": "/fr/bannetons-moule-bie-en-rotin",
+      "cork": "Bannetons moule bie en liège",
+      "corkLink": "/fr/bannetons-moule-bie-en-liège",
+      "plastic": "Bannetons en polypropylène",
+      "plasticLink": "/fr/bannetons-en-polypropylene",
+      "engraved": "Bannetons avec base gravée",
+      "engravedLink": "/fr/bannetons-avec-base-gravee",
+      "bamboo": "Bannetons en fibre de bambou et plastique",
+      "bambooLink": "/fr/bannetons-en-fibre-de-bambou-et-plastique",
+      "liners": "Doublures pour bannetons",
+      "linersLink": "/fr/doublures-pour-bannetons",
       "button": "En savoir plus"
     },
     "whatMUD": {
@@ -101,6 +123,36 @@
         "paragraph2": "<p>Les moules sont faits <strong>de bois de peuplier 100% naturel, ils sont biodégradables et recyclables</strong>, ils peuvent donc être compostés en toute sécurité. Les moisissures tolèrent des températures allant de -40 ° C à + 220 ° C (-104 ° F à + 428 ° F).</p>"
       }
     },
+    "engraved": {
+      "description": {
+        "paragraph1": "<p>Nous proposons également des <strong>bannetons avec un fond gravé</strong> - vous pouvez commander l'un de nos nombreux motifs ou placer le vôtre. Votre propre motif rend votre pain unique et peut constituer une excellente publicité.</p>",
+        "paragraph2": "<p>Les bannetons de levage sont utilisés dans presque toutes les boulangeries. Ils servent à faire lever la pâte à pain - grâce à eux, la pâte ne déborde pas sur les côtés et le pain est plus haut après la cuisson. <strong>La levée dans un banneton, grâce à l'absorption d'une partie de l'humidité et au maintien de la chaleur, assure également une meilleure structure du pain et une croûte plus croustillante</strong>.</p>",
+        "paragraph3": "<p><strong>Les bannetons sont fabriqués en rotin et en bois naturels</strong>. Nous n'utilisons pas d'agents de blanchiment ni de substances nocives. Les agrafes extra longues que nous utilisons garantissent une plus grande durabilité des bannetons.</p>",
+        "paragraph4": "<p><strong>Nous fabriquons nos bannetons à la main</strong>. Ils sont disponibles en différents modèles et tailles. Ronds, oblongs, ovales, carrés et autres.</p>",
+        "warning": "<p>Remarque : les bannetons sont uniquement destinés à faire lever la pâte à pain, ils ne sont pas utilisés comme moule de cuisson. À haute température, ils peuvent brûler !</p>"
+      }
+    },
+    "cork": {
+      "description": {
+        "paragraph1": "<p>Les bannetons de levage sont utilisés dans presque toutes les boulangeries. Ils sont utilisés pour faire lever la pâte à pain - grâce à eux, la pâte ne déborde pas sur les côtés et le pain après cuisson est plus grand. <strong>La levée dans un banneton, en absorbant une partie de l'humidité et en gardant la chaleur, assure également une meilleure structure du pain et une croûte plus croustillante</strong>. Il existe de nombreux types de bannetons à pain sur le marché - rotin, osier, plastique, bannetons en pulpe de bois, mais <strong>seule notre société produit des bannetons en liège</strong>.</p>",
+        "paragraph2": "<p><strong>Les bannetons en granulés de liège naturel sont notre invention innovante, pour laquelle nous avons déposé un brevet</strong>. Bien que les paniers n'aient pas de trous ou de perforations visibles, la pâte qui lève respire et le processus de fermentation se déroule parfaitement à travers les micro-espaces entre les fractions de granulés de liège. Grâce à la rugosité naturelle du liège, nous obtenons l'effet d'une bonne adhésion de la farine sur les bords intérieurs des formes, ce qui <strong>empêche la pâte de coller et l'aide à tomber des bannetons</strong> une fois le processus de fermentation terminé. </p>",
+        "paragraph3": "<p><strong>Les bannetons sont durables et peuvent être lavés de nombreuses fois</strong>, même à l'eau chaude. Le matériau liège, grâce à la présence de tanins dans sa composition et à l'absence de substances protéiques sujettes à la décomposition, conserve sa <strong>résistance aux moisissures</strong>, ce qui constitue un grand avantage par rapport aux bannetons en rotin ou en osier, qui sont relativement vite soumis à de tels processus. Sa surface et sa structure ne constituent pas un terrain propice aux champignons et aux moisissures et ne créent pas de conditions propices à leur colonisation. Le matériau liège présente une résistance accrue à la corrosion biologique résultant de l'humidité et des conditions propices aux processus de pourrissement que l'on trouve souvent dans les boulangeries. Les paniers en liège ont de très bonnes propriétés d'isolation thermique, ce qui favorise la levée de la pâte à pain en retenant une partie de la chaleur à l'intérieur du banneton.</p>",
+        "paragraph4": "<p>Nos bannetons sont disponibles en plusieurs modèles et tailles. Ronds, oblongs, ovales, carrés. Nous proposons également des bannetons dont le fond est gravé - vous pouvez commander l'un de nos nombreux modèles ou placer le vôtre. Votre propre design rend votre pain unique et peut être une excellente publicité.</p>",
+        "warning": "<p><strong>Remarque : les bannetons ne peuvent être utilisés que pour faire lever la pâte à pain, jamais pour cuire du pain à haute température, car ils peuvent brûler!</strong></p>"
+      }
+    },
+    "plastic": {
+      "description": {
+        "paragraph1": "<p>Les bannetons en plastique polypropylène combinent les principaux avantages des bannetons en rotin, à savoir une <strong>bonne ventilation et un aspect artisanal</strong> grâce aux cercles de farine formés sur le pain, tout en éliminant le principal problème de l'apparition de moisissures à l'intérieur, ce qui se traduit par <strong>une durée de vie estimée plus longue</strong>.</p>",
+        "paragraph2": "<p>Les bannetons en polypropylène peuvent être utilisés dans les petites boulangeries, par les boulangers soucieux avant tout de l'hygiène, ainsi que par les grandes boulangeries industrielles qui doivent réduire le temps consacré au nettoyage des bannetons.</p>",
+        "paragraph3": "<p>Les bannetons sont conçus pour la levée et la fermentation de la pâte à pain, qui, après cuisson, se tient, ne déborde pas et est plus haute. En faisant la fermentation dans des bannetons, <strong>la structure du pain est meilleure et la croûte est plus croustillante</strong>, car les paniers gardent la chaleur à l'intérieur.</p>",
+        "paragraph4": "<p>Nos bannetons sont fabriqués en polypropylène conçu pour les produits en contact avec les aliments. Ils sont très hygiéniques, <strong>lavables au lave-vaisselle</strong>, ce qui empêche le développement de moisissures à l'intérieur et permet de garder les paniers parfaitement propres. En outre, ils <strong>répondent aux exigences du système HACCP</strong>. Nous disposons des rapports de test SGS et du certificat PZH confirmant la haute qualité de nos produits, qui ne contiennent aucun composé ou métal nocif, de sorte qu'ils peuvent entrer en contact avec les aliments en toute sécurité, conformément à:</p>",
+        "paragraph5": "<p>Nos bannetons en plastique ont été conçus en Pologne, par la société BestBann. Ils sont fabriqués en coopération avec des producteurs asiatiques.</p>",
+        "paragraph6": "<p>Dans notre offre, vous trouverez les formes les plus populaires de bannetons - ronds et oblongs, dans différentes tailles. Ils peuvent être utilisés avec des doublures, pour des pâtes plus hydratées, ou sans, pour un aspect plus traditionnel et artisanal.</p>",
+        "paragraph7": "<p>Les bannetons en polypropylène sont disponibles à la vente dans certains pays : BE, BG, HR, HU, CY, DK, EE, FI, GR, IE, IL, IS, IT, LT, LU, LV, MT, NL, PL, RO, TR.</p>",
+        "warning": "<p><strong>Remarque : les bannetons ne doivent être utilisés que pour la fermentation de la pâte à pain, jamais pour la cuisson du pain à haute température !</strong></p>"
+      }
+    },
     "bambooFiber": {
       "description": {
         "paragraph1": "<p>Les bannetons en plastique de fibre de bambou sont <strong>un produit unique</strong>, les <strong>premiers bannetons à pain au monde fabriqués de fibre de bambou et plastique</strong>. Ils combinent les principaux avantages des paniers en rotin, à savoir <strong>une bonne ventilation</strong> et un aspect artisanal grâce aux cercles de farine sur le pain, tout en éliminant le principal problème de la moisissure à l'intérieur, ce qui se traduit par une durée <strong>d'utilisation estimée plus longue</strong>.</p>",
@@ -141,7 +193,19 @@
     "bambooOblongLarge": "Grands paniers oblongs",
     "bambooOblongSmallLiners": "Petits paniers oblongs avec doublure",
     "bambooOblongLargeLiners": "Grands paniers oblongs avec doublure",
-    "linersAvailable": "Les doublures sont disponibles pour des tailles de panier allant de"
+    "linersAvailable": "Les doublures sont disponibles pour des tailles de panier allant de",
+    "corkRound": "Paniers en liège ronds",
+    "corkOblong": "Paniers en liège oblongs",
+    "corkOval": "Paniers en liège ovales",
+    "corkBaguette": "Paniers à baguettes en liège",
+    "corkRectangular": "Paniers en liège rectangulaires",
+    "corkEngraved": "Paniers en liège gravés",
+    "corkPlain": "Banneton uni",
+    "plasticRound": "Paniers en plastique oblongs",
+    "plasticOblong": "Paniers en plastique ronds",
+    "corkGroovedSides": "Banneton à côtés rainurés",
+    "corkGrooved": "Banneton rainuré",
+    "engravedMessage": "Disponible dans toutes les formes et tailles !"
   },
 
   "contact": {
@@ -172,7 +236,7 @@
     "owners": "Weronika et Michal",
     "familycompany": {
       "title": "ENTREPRISE FAMILIALE",
-      "text": "Nous sommes une entreprise familiale avec plus de 12 ans d’expérience dans l’industrie alimentaire. Les valeurs familiales sont très importantes pour nous et c'est pourquoi nous traitons chaque client comme un membre de notre grande famille de boulangers. Nous sommes positifs, honnêtes, courageux et déterminés à donner le meilleur de nous-mêmes et à créer uniquement les meilleurs produits."
+      "text": "Nous sommes une entreprise familiale avec plus de 14 ans d’expérience dans l’industrie alimentaire. Les valeurs familiales sont très importantes pour nous et c'est pourquoi nous traitons chaque client comme un membre de notre grande famille de boulangers. Nous sommes positifs, honnêtes, courageux et déterminés à donner le meilleur de nous-mêmes et à créer uniquement les meilleurs produits."
     },
     "ourproducts": {
       "title": "NOS PRODUITS",
@@ -216,6 +280,30 @@
       "line7": "Par rapport aux paniers en rotin, <strong>la durée d'utilisation estimée est beaucoup plus longue</strong>, car les paniers en fibre de bambou et PP ne présentent pas de moisissures.",
       "line8": "Comparés aux paniers en plastique, les paniers en fibre de bambou et PP sont <strong>plus écologiques</strong> - ils contiennent 70 % d'ingrédients naturels.",
       "line9": "Les bannetons sont biodégradables dans de bonnes conditions."
+    },
+    "cork": {
+      "line1": "Bannetons fabriqués à partir de granulés de liège naturel, provenant d'Europe.",
+      "line2": "Idéal pour la préparation du pain traditionnel.",
+      "line3": "Utilisé par les professionnels dans les boulangeries, ainsi que pour un usage domestique.",
+      "line4": "Grâce à l'absorption d'une partie de l'humidité et à la rétention de la chaleur, le banneton de liège assure une meilleure structure du pain et le croustillant de la croûte, ainsi que la forme et le motif merveilleux souhaités.",
+      "line5": "Grâce aux micro-espaces dans les fractions de granulés, la pâte respire, ce qui favorise le processus de fermentation.",
+      "line6": "Grâce à la rugosité naturelle du liège, nous obtenons l'effet d'une bonne adhésion de la farine sur les bords intérieurs du banneton, ce qui empêche la pâte de coller et facilite sa chute après le processus de levage.",
+      "line7": "Les bannetons en liège sont durables et peuvent être lavés plusieurs fois, même à l'eau chaude.",
+      "line8": "Le matériau liège, grâce à la présence de tanins dans sa composition et à l'absence de substances protéiques sujettes à la décomposition, conserve sa résistance aux moisissures et présente une résistance accrue à la corrosion biologique résultant de l'humidité et des conditions propices aux processus de pourrissement souvent rencontrés dans les boulangeries.",
+      "line9": "Un produit européen, certifié par l'Institut National d'Hygiène comme pouvant entrer en contact avec les aliments.",
+      "line10": "Les bannetons sont disponibles dans les tailles indiquées dans le tableau ou dans des dimensions adaptées aux commandes individuelles.",
+      "line11": "Les dimensions indiquées sont les dimensions extérieures (± 5 mm).",
+      "line12": "Les bannetons sont destinés uniquement à la levée de la pâte à pain, ils ne peuvent pas être utilisés comme forme de cuisson !"
+    },
+    "plastic": {
+      "line1": "Bannetons en polypropylène de qualité alimentaire, <strong>conçus en Pologne, par BestBann</strong>.",
+      "line2": "<strong>Très hygiéniques, lavables au lave-vaisselle</strong>, conformes aux exigences HACCP.",
+      "line3": "<strong>Les rapports de test SGS et le certificat PZH</strong> (Institut national d'hygiène) confirment la sécurité alimentaire, les bannetons ne contiennent aucun composé ou métal nocif.",
+      "line4": "Peut être utilisé avec ou sans doublure.",
+      "line5": "Par rapport aux bannetons en rotin, la <strong>durée de vie estimée est beaucoup plus longue</strong>, car les bannetons en plastique ne développent pas de moisissures.",
+      "line6": "Les bannetons sont fabriqués en collaboration avec un producteur asiatique.",
+      "line7": "Les bannetons en plastique sont disponibles à la vente dans les pays suivants : BE, BG, HR, HU, CY, DK, EE, FI, GR, IE, IL, IS, IT, LT, LU, LV, MT, NL, PL, RO, TR",
+      "line8": "Les bannetons sont uniquement destinés à faire lever la pâte à pain, ils ne peuvent pas être utilisés comme moule de cuisson !"
     }
   },
   "footer": {

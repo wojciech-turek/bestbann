@@ -3,7 +3,7 @@ import LanguageOption from "./LanguageOption/LanguageOption";
 import classes from "./LanguageOptions.module.css";
 
 export default function LanguageOptions(props) {
-  const langs = ["fr", "en", "ru", "es", "it", "pl"];
+  const langs = ["fr", "en", "es", "it", "pl"];
   const options = langs.map((opt) => {
     return (
       <LanguageOption

@@ -2,10 +2,8 @@ import React from "react";
 import classes from "./BreadProofing.module.css";
 import { useTranslation } from "react-i18next";
 import { Trans } from "react-i18next";
-import bambooBigOblong from "../../../assets/bambooBigOblong.jpg";
-import bambooBigRound from "../../../assets/bambooBigRound.jpg";
-import bambooSmallRound from "../../../assets/bambooSmallRound.jpg";
-import bambooSmallOblong from "../../../assets/bambooSmallOblong.jpg";
+import bambooBigOblong from "../../../assets/imgs/bamboo2.jpeg";
+import bambooBigRound from "../../../assets/imgs/bamboo1.jpeg";
 import { Fade } from "@material-ui/core";
 import SEO from "../../../utils/SEO";
 import { Link } from "react-router-dom";
@@ -25,26 +23,14 @@ export default function WoodenBakingForms() {
       btnTxt: t("baskets.oblong"),
       link: t("links.bambooOblong"),
     },
-    {
-      pathToImg: bambooSmallRound,
-      alt: "Small Round Bamboo Basket",
-      btnTxt: t("baskets.roundSmall"),
-      link: t("links.bambooRound"),
-    },
-    {
-      pathToImg: bambooSmallOblong,
-      alt: "Small Oblong Bamboo Basket",
-      btnTxt: t("baskets.oblongSmall"),
-      link: t("links.bambooOblong"),
-    },
   ];
 
   return (
     <Fade in={true} timeout={500}>
       <div className={classes.ContentWrapper}>
-        <SEO title={t("mainSections.products.bambooFiber")} />
+        <SEO title={t("mainSections.products.bamboo")} />
         <h1 className={classes.sectionTitle}>
-          {t("mainSections.products.bambooFiber")}
+          {t("mainSections.products.bamboo")}
         </h1>
         <Trans>
           <div className={classes.ParagraphWrap}>

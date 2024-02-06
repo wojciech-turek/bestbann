@@ -14,23 +14,33 @@ export default function SiteNav() {
             <Link to={t("links.home")}>{t("menu.mainPage")}</Link>
           </li>
           <li>
-            <Link to={t("links.breadProofing")}>
-              {t("mainSections.products.breadProofing")}
+            <Link to={t("mainSections.products.rattanLink")}>
+              {t("mainSections.products.rattan")}
             </Link>
           </li>
           <li>
-            <Link to={t("links.woodenBakingForms")}>
-              {t("mainSections.products.woodenBakingForm")}
+            <Link to={t("mainSections.products.corkLink")}>
+              {t("mainSections.products.cork")}
             </Link>
           </li>
           <li>
-            <Link to={t("links.withLiners")}>
-              {t("mainSections.products.withLiners")}
+            <Link to={t("mainSections.products.bambooLink")}>
+              {t("mainSections.products.bamboo")}
             </Link>
           </li>
           <li>
-            <Link to={t("links.bambooFiber")}>
-              {t("mainSections.products.bambooFiber")}
+            <Link to={t("mainSections.products.plasticLink")}>
+              {t("mainSections.products.plastic")}
+            </Link>
+          </li>
+          <li>
+            <Link to={t("mainSections.products.engravedLink")}>
+              {t("mainSections.products.engraved")}
+            </Link>
+          </li>
+          <li>
+            <Link to={t("mainSections.products.linersLink")}>
+              {t("mainSections.products.liners")}
             </Link>
           </li>
           <li>
