@@ -9,17 +9,7 @@
 .video {
   height: 100%;
   width: 100%;
-  object-fit: cover;
-}
-
-.videoOverlay {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.06);
-  z-index: 2;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  object-fit: contain;
 }
 
 .LogoBanner {
@@ -35,23 +25,17 @@
 
 @media (min-width: 620px) {
   .heroBanner {
-    background-image: url("../../assets/herobannerProgressiveMedium.jpg");
-    /* background-position: left bottom; */
     height: 80vh;
   }
 }
 
 @media (orientation: landscape) {
   .heroBanner {
-    background-image: url("../../assets/herobannerProgressive.jpg");
-    background-size: cover;
+    background-size: contain;
   }
 }
 
 @media (min-width: 1024px) {
-  .heroBanner {
-    background-image: url("../../assets/herobannerProgressive.jpg");
-  }
   .LogoBanner {
     width: 50vh;
     min-width: 400px;

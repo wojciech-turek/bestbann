@@ -4,7 +4,6 @@ import Navigation from "../Navigation/Navigation";
 import Footer from "../../components/Footer/Footer";
 import MainPage from "../../pages/MainPage/MainPage";
 import ScrollToTop from "../../components/UI/ScrollToTop/ScrollToTop";
-import WoodenBakingForms from "../../pages/ProductsPage/Extras/Extras";
 import Impressum from "../../pages/Legal/Impressum/Impressum";
 import PrivacyPolicy from "../../pages/Legal/PrivacyPolicy/PrivacyPolicy";
 import { useTranslation } from "react-i18next";

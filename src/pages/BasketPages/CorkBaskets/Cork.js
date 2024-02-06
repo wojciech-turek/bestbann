@@ -13,8 +13,8 @@ import { useTranslation } from "react-i18next";
 import NeedHelpSection from "../../../components/NeedHelpSection/NeedHelpSection";
 import baguette from "../../../assets/imgs/IMG_0010.JPG";
 
-import korek1 from "../../../assets/videos/korek1.mp4";
-import ciasto1 from "../../../assets/videos/ciasto1.mp4";
+import korek1 from "../../../assets/videos/kosze-korkowe.webm";
+import ciasto1 from "../../../assets/videos/ciasto.webm";
 import korekfront1 from "../../../assets/videos/korekf1.mp4";
 import korekfront2 from "../../../assets/videos/korekf2.mp4";
 import korekfront3 from "../../../assets/videos/korekf3.mp4";
