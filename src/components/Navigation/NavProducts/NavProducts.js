@@ -57,7 +57,7 @@ export default function NavProducts() {
         src={sect.imgSrc}
         alt={sect.title}
       />
-      <p className={classes.ProductText}>{sect.title.toUpperCase()}</p>
+      <p className={classes.ProductText}>{sect.title}</p>
     </NavLink>
   ));
   return <div className={classes.Container}>{productSections}</div>;
