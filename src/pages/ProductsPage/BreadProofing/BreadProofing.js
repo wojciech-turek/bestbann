@@ -64,6 +64,30 @@ export default function Products() {
       <div className={classes.ContentWrapper}>
         <SEO title={t("mainSections.products.rattan")} />
         <h1 className={classes.sectionTitle}>
+          {t("mainSections.products.rattan2")}
+        </h1>
+        <Trans>
+          <div className={classes.ParagraphWrap}>
+            {t("productsPage.rattan.description.paragraph1")}
+            <h2>{t("productsPage.rattan.description.titleParagraph2")}</h2>
+            {t("productsPage.rattan.description.paragraph2")}
+            <h2>{t("productsPage.rattan.description.titleParagraph3")}</h2>
+            {t("productsPage.rattan.description.paragraph3")}
+            <h2>{t("productsPage.rattan.description.titleParagraph4")}</h2>
+            {t("productsPage.rattan.description.paragraph4")}
+            <h2>{t("productsPage.rattan.description.titleParagraph5")}</h2>
+            {t("productsPage.rattan.description.paragraph5")}
+            <h2>{t("productsPage.rattan.description.titleParagraph6")}</h2>
+            {t("productsPage.rattan.description.paragraph6")}
+            <h2>{t("productsPage.rattan.description.titleParagraph7")}</h2>
+            {t("productsPage.rattan.description.paragraph7")}
+            <h2>{t("productsPage.rattan.description.titleParagraph8")}</h2>
+            {t("productsPage.rattan.description.paragraph8")}
+            <h2>{t("productsPage.rattan.description.titleParagraph9")}</h2>
+            {t("productsPage.rattan.description.paragraph9")}
+          </div>
+        </Trans>
+        <h1 className={classes.sectionTitle}>
           {t("mainSections.products.rattan")}
         </h1>
         <Trans>
