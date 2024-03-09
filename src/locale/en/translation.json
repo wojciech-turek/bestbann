@@ -67,6 +67,7 @@
     "products": {
       "title": "Products",
       "rattan": "Rattan bread proofing baskets",
+      "rattan2": "Rattan bread proofing banneton basket",
       "rattanLink": "/en/rattan-baskets",
       "cork": "Cork bread proofing baskets",
       "corkLink": "/en/cork-baskets",
@@ -99,7 +100,6 @@
       }
     }
   },
-
   "productsPage": {
     "breadproofing": {
       "description": {
@@ -107,6 +107,27 @@
         "paragraph2": "<p>Our baskets are made of <strong>natural rattan</strong> or natural rattan combined with wood base element. <strong>We don’t use bleaches, lacquers or preservatives.</strong></p>",
         "paragraph3": "<p>We use very long staples to improve our basket’s stability and indestructibility. SGS test reports and PZH Certificate prove high quality of our materials, so that they can safely have contact with food, in accordance with:</p>",
         "paragraph4": "<p><strong>Each bread proofing basket is handmade.</strong> You can order numerous different shapes and sizes - round, oblong, oval, square and others. They are made from rattan only or rattan with wooden base. In our offer you can also find baskets with engraving - you can have one from our patterns or put your own design in place. Your own shape or logo can make the bread look unique and create excellent free advertisement.</p>"
+      }
+    },
+    "rattan": {
+      "description": {
+        "paragraph1": "<p>Preparing sweet or savoury baked goods requires a little patience and dedication. The work is much easier if you have a tried and tested recipe and professional accessories. Our company offers <strong>excellent rattan baskets for proofing bread</strong>, handmade from the best natural materials. As a result, they are aesthetically pleasing and, most importantly, allow you to make large, delicious loaves. We encourage you to check out our wide range and order your <strong>proofing baskets</strong> now!</p>",
+        "titleParagraph2": "Why should I use banneton baskets?",
+        "paragraph2": "<p>Many people do not realise how important it is to store dough properly while it is rising. It must be kept at the right temperature and then transferred to a special container. The best way to do this is to place the dough in a <strong>rattan bread proofing banneton basket</strong>. This will give the loaves an ideal shape and symmetry, without any unnecessary indentations that can cause the dough to sag. In addition, <strong>the rising process</strong> will give the loaf a soft centre with a wonderfully porous texture, and the surrounding crust will be pleasantly crispy.</p>",
+        "titleParagraph3": "How to choose a basket for proofing?",
+        "paragraph3": "<p>Individual customers may have different requirements for the items suggested. It is therefore worth considering which <strong>rattan bread proofing basket</strong> will best suit your needs before purchasing. Of course, the most important distinguishing feature of <strong>banneton baskets</strong> is size. Both small and large bannetons are worth considering. The latter will allow you <strong>to bake bread</strong> weighing more than 2 kilograms. The shape of <strong>the proving basket</strong> also plays an important role - it is good if it is similar to the form in which the dough will be baked or to the size of the oven in order to fill it effectively.</p>",
+        "titleParagraph4": "High quality rattan bannetons",
+        "paragraph4": "<p>You will be relying on the products you buy to work reliably in your kitchen or bakery for a long time. It is therefore important to emphasise that our <strong>bread proofing baskets</strong> are of the highest quality, handmade produced with utmost care. They are <strong>made from rattan</strong>, a raw material derived from the Rotang palm tree, which grows in the tropical regions of Asia. Each <strong>dough proofing basket</strong> is lightweight, durable and resistant to deformation. We do not use any harmful substances or bleach during production. The articles are suitable for food contact, as confirmed by the relevant approvals and certificates.</p>",
+        "titleParagraph5": "Getting the rattan basket ready to use",
+        "paragraph5": "<p>Once you've understood the unique characteristics of <strong>bread rising bannetons</strong>, it's also useful to know how to prepare them for use. Each new <strong>rattan basket</strong> should be gently moistened with water and then the inside evenly sprinkled with flour or lined with a special liner cover. Remember that the products are not suitable for baking, only <strong>for proofing dough</strong>.</p>",
+        "titleParagraph6": "Preparing bread in a basket",
+        "paragraph6": "<p>There are many recipes for delicious homemade bread, but the basic ingredients are almost always wheat or rye flour, water, salt and, of course, sourdough. The dough should be of an optimal consistency, so it must be kneaded well by hand or in an electric mixer. The dough is then placed in <strong>rattan bread baskets</strong> and the surface is sprinkled with flour. To ensure that the dough rises properly, it is advisable to place it in a warm place and cover it. When the dough has risen sufficiently, it is ready to be baked, having reached the ideal height and consistency.</p>",
+        "titleParagraph7": "How to care for bread proofing baskets?",
+        "paragraph7": "<p>After each use, it is necessary to check the condition of the basket. It is recommended that you remove any dough or flour residue and allow the <strong>rattan basket</strong> to dry at room temperature. Dry brushes with soft bristles are useful for cleaning. <strong>Bannetons</strong> made from this material should not be rinsed with water as they will absorb too much water, causing mould to form. Nor should they be treated with detergents. It is best to store them in a dry place, away from dust.</p>",
+        "titleParagraph8": "Rattan bread proofing banneton offer",
+        "paragraph8": "<p>We understand that customers have different expectations, which is why we have prepared a wide range of <strong>bread proofing products</strong>. <strong>Rattan bread proofing baskets</strong> are available in many sizes and designs. Large models that can hold a large amount of dough are a good choice. Depending on your preferences, you can choose round, oval, oblong or square items, which can also be made on a wooden base. An interesting option is to have the base engraved - we can engrave any inscription or design on the surface, making <strong>the baskets unique</strong>!</p>",
+        "titleParagraph9": "Order a bread proving basket now!",
+        "paragraph9": "<p>The continuous development of our company has enabled us to offer a wide range of excellent <strong>proofing baskets</strong>. We have <strong>rattan proofing baskets</strong> that will delight professional bakers and lovers of home baking. It is worth mentioning that we cooperate with shops, wholesalers or restaurants, offering competitive prices and professional service. We invite you to come and see what we offer!</p>"
       }
     },
     "withliners": {
