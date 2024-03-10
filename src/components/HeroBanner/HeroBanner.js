@@ -15,7 +15,7 @@ export default function HeroBanner() {
           poster={heroImage}
           src={heroVideo}
           autoPlay
-          playsinline
+          playsInline
           muted
           loop
           className={classes.video}
