@@ -37,6 +37,7 @@ const CorkBaskets = lazy(() =>
   import("../../pages/ProductsPage/CorkBaskets/CorkBaskets")
 );
 
+const BreadBasketsPage = lazy(() => import("../../pages/BreadBasketsPage/BreadBasketsPage"));
 const ContactPage = lazy(() => import("../../pages/ContactPage/ContactPage"));
 const AboutUsPage = lazy(() => import("../../pages/AboutUsPage/AboutUsPage"));
 
@@ -80,6 +81,7 @@ const Layout = () => {
       name: "Products - Bamboo fiber plastic baskets",
       Component: BambooFiberBaskets,
     },
+    { path: t("links.breadBaskets"), name: "BreadBaskets", Component: BreadBasketsPage },
     { path: t("links.aboutUs"), name: "About", Component: AboutUsPage },
     { path: t("links.contact"), name: "Contact", Component: ContactPage },
     {

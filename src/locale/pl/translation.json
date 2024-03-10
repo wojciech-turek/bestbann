@@ -19,6 +19,7 @@
     "bigSlicedBaskets": "/pl/kosze-duzy-chleb-krojony",
     "woodenBakingForms": "/pl/drewniane-foremki",
     "withLiners": "/pl/kosze-z-materialowymi-poszewkami",
+    "breadBaskets": "/pl/koszyk-do-chleba",
     "aboutUs": "/pl/o-firmie",
     "contact": "/pl/kontakt",
     "privacyPolicy": "/pl/polityka-prywatnosci",
@@ -269,6 +270,43 @@
     "corkGroovedSides": "Kosz żłobione boki",
     "corkGrooved": "Kosz żłobiony",
     "engravedMessage": "Dostępne we wszystkich kształtach i rozmiarach!"
+  },
+  "breadBasketsPage": {
+    "title": "Koszyk do chleba",
+    "description": "<p>Coraz więcej osób docenia zalety domowego pieczywa, które ma wyjątkowe walory smakowe. Zachwyca ono wspaniałym wyglądem, chrupiącą skórką, miękkim wnętrzem oraz niepowtarzalnym zapachem. Może być wzbogacone o różnorodne dodatki, np. nasiona czy owoce, a przy tym pozostaje dobre dla zdrowia, gdyż jest robione z naturalnych, prostych składników. Jeśli poszukujesz najlepszych akcesoriów do <strong>pieczenia</strong>, to koniecznie sięgnij też po <strong>koszyk do wyrastania i garowania chleba</strong>. Mamy w ofercie produkty wykonane z rattanu, dzięki którym powstałe bochenki będą pulchne, symetryczne i niezwykle smaczne. Zapraszamy do skorzystania z naszych propozycji!</p>",
+    "fashionForHomemade": {
+      "title": "Moda na domowe pieczenie chleba",
+      "description": "<p>Od lat rozwija się moda na domowe wyroby żywnościowe. Wiele kobiet i mężczyzn, zamiast kupować gotowe artykuły, poświęca swój czas, aby stworzyć genialne wypieki według przepisu znalezionego w Internecie czy receptury zachowanej przez przodków. Motywacje do takiej aktywności są bardzo różne, jedni robią to z powodów zdrowotnych, ponieważ praktykują określoną dietę, inni znów widzą w tym hobby. Niezależnie od pobudek domowe wytwórstwo przynosi sporą satysfakcję, szczególnie gdy wykorzystuje się wysokiej klasy produkty, takie jak <strong>koszyk do garowania</strong> oraz <strong>pieczenia chleba</strong>.</p>"
+    },
+    "whichBasket": {
+      "title": "Jaki koszyk do wyrastania chleba wybrać?",
+      "paragraph1": "<p><strong>Dla indywidualnych użytkowników:</strong> Bardzo ważne, aby użytkownik był zadowolony z nabytego produktu, więc jeszcze przed złożeniem zamówienia warto poznać swoje oczekiwania. Na co zwróć uwagę w czasie wybierania optymalnego akcesorium? Przede wszystkim oceń, jakiej wielkości bochenki będziesz wypiekał. Najmniejsze <strong>koszyki do garowania</strong> i <strong>pieczenia chleba</strong> pozwolą na <strong>wyrastanie</strong> ciasta o wadze znacznie poniżej kilograma, a z kolei większe idealnie sprawdzą się, jeśli preferujesz duże wypieki. Klienci powinni także zastanowić się nad pożądanym kształtem koszyka, np. okrągłym lub podłużnym – istotne, aby dopasować go do naczynia, w jakim pieczony będzie bochenek. </p>",
+      "paragraph2": "<strong>Dla profesjonalistów i piekarzy:</strong> Przed wyborem koszy należy zastanowić się jakie <strong>koszyki do garowania</strong> i <strong>wyrastania chleba</strong> najbardziej pasują do używanego ciasta chlebowego – czy będą to <strong>kosze rattanowe i korkowe</strong>, które są popularne w piekarniach rzemieślniczych? Czy <strong>kosze z włókna bambusowego i plastiku</strong>, których używa się w dużych, przemysłowych piekarniach ze względu na łatwość mycia i utrzymania w czystości? Ciasta na chleb różnią się od siebie również wilgotnością – do ciast o dużej zawartości wody polecamy <strong>pokrowce, które zapobiegają przyklejaniu się ciasta do koszyka.</strong> Ważny jest także kształt i rozmiar koszyków do wyrastania, należy dobrać je tak aby ciasto chlebowe idealnie je wypełniało i by mieściły się w miejscu przeznaczonym do garowania."
+    },
+    "mainUseOfBaskets": {
+      "title": "Główne zastosowanie koszyków do garowania chleba",
+      "description": "<p>Początkujący czy doświadczeni piekarze liczą, że powstałe wypieki zawsze będą smaczne. Aby osiągnąć powtarzalność w tej dziedzinie, opłaca się zainwestować w doskonałe akcesoria. Proponujemy znakomite <strong>koszyki do pieczenia</strong> i <strong>wyrastania chleba</strong>. Pozwolą one przeprowadzić garowanie, czyli proces polegający na fermentacji ciasta, dzięki któremu znakomicie ono rośnie, a po przeniesieniu na blachę zachowuje odpowiedni kształt. W konsekwencji mogą powstać wspaniałe pulchne bochenki o chrupiącej złotej skórce oraz pysznym środku.</p>"
+    },
+    "beforeUsing": {
+      "title": "Przed użyciem koszyków do wyrastania chleba",
+      "description": "<p>Wiele osób nie przykłada dużej wagi <strong>do garowania</strong>, jednak wystarczy raz przekonać się, jakie efekty ono przynosi, aby zrozumieć jego istotność. Zanim użyjesz <strong>koszyków do pieczenia</strong> i <strong>wyrastania chleba</strong>, musisz je przygotować, bo nawet niewielkie ognisko pleśni może negatywnie wpłynąć na wypiek. Przed pierwszym użyciem koszyka należy delikatnie zwilżyć go wodą, a następnie obficie obsypać w środku mąką. Po użyciu kosza, konieczne jest usunięcie pozostałej mąki i wyczyszczenie środka suchą szczotką, tak aby na koszu pozostała jedynie niewielka warstwa mąki. Przy kolejnym użyciu koszy nie trzeba ich już zwilżać, wystarczy obficie posypać mąką.</p>"
+    },
+    "breadBaking": {
+      "title": "Pieczenie chleba z koszykiem do garowania",
+      "description": "<p>Niezależnie od tego, czy wypieki powstają w domowych warunkach, czy w profesjonalnych piekarniach, trzeba zadbać o dokładną realizację wszystkich kroków opisanych w przepisie. Tradycyjne bochenki powstają zwykle z mąki żytniej lub pszennej, zakwasu, soli oraz wody. Wymienione składniki dokładnie się miesza oraz wyrabia, a potem formuje w kule czy podłużne części. Tak przygotowaną masę można przełożyć do obsypanego mąką <strong>koszyka do garowania</strong> i <strong>wyrastania chleba.</strong> Po upłynięciu kilku godzin ciasto jest gotowe <strong>do pieczenia</strong>, więc wystarczy włożyć je do mocno nagrzanego piekarnika lub specjalnego kamiennego pieca.</p>"
+    },
+    "highQuality": {
+      "title": "Wysoka jakość koszyków do pieczenia chlebów",
+      "description": "<p>Artykuły wykorzystywane do produkcji jedzenia powinny odznaczać się wysoką jakością wykonania. Dlatego też każdy <strong>koszyk do wyrastania</strong> i <strong>pieczenia chlebów</strong> jest tworzony z naturalnych materiałów. Produkty <strong>do garowania</strong> wytwarzamy z drewna, włókna bambusowego lub rattanu, czyli tworzywa uzyskiwanego z palmy rotangowej. Dzięki temu kosze są odporne na zużycie i nawet po upływie długiego czasu idealnie spełniają swoją funkcję. Rzecz jasna, wszystkie nasze wyroby mają stosowne certyfikaty i atesty poświadczające, że są przeznaczone do kontaktu z żywnością.</p>"
+    },
+    "extensiveOffer": {
+      "title": "Bogata oferta koszyków do chleba",
+      "description": "<p>Pragniemy wzorowo spełnić wymagania Klientów, dlatego dostarczamy różnego rodzaju produkty <strong>do garowania. </strong><strong>Koszyki</strong> rattanowe są ręcznie wytwarzane i dostępne w wielu kształtach oraz rozmiarach. Można zdecydować się na modele okrągłe, podłużne bądź kwadratowe, które zostały zrobione z rattanu albo włókna bambusowego z dodatkiem tworzyw sztucznych. Te ostatnie zapewniają bardzo dobrą wentylację ciasta i minimalizują ryzyko pojawienia się pleśni. Ponadto można je myć w zmywarce. Trzeba bezwzględnie pamiętać, że produkty <strong>do wyrastania chleba</strong> nie mogą być używane do jego <strong>pieczenia</strong> w wysokich temperaturach!</p>"
+    },
+    "buyBreadRisingBaskets": {
+      "title": "Kup koszyki do wyrastania chleba",
+      "description": "<p>Już wiesz, jak przydatne są produkty do <strong>garowania</strong> pieczywa, więc koniecznie sprawdź prezentowaną ofertę. Przygotowaliśmy propozycje zarówno dla profesjonalnych piekarni, jak i dla amatorów domowego <strong>pieczenia.</strong> Chętnie współpracujemy ze sklepami, hurtowniami czy lokalami gastronomicznymi. Gwarantujemy doskonałą obsługę i konkurencyjne ceny. Zapraszamy do zamawiania <strong>koszyków do wyrastania chleba!</strong></p>"
+    }
   },
   "aboutUsPage": {
     "thankyou": "Dziękujemy za odwiedzenie naszej strony!",

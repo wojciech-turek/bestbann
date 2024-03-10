@@ -44,6 +44,9 @@ export default function SiteNav() {
             </Link>
           </li>
           <li>
+            <Link to={t("links.breadBaskets")}>{t("menu.products")}</Link>
+          </li>
+          <li>
             <Link to={t("links.aboutUs")}>{t("menu.aboutUs")}</Link>
           </li>
           <li>
