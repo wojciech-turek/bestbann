@@ -3,11 +3,14 @@ import classes from "./BreadBasketsPage.module.css";
 import { Fade } from "@material-ui/core";
 import { Trans, useTranslation } from "react-i18next";
 import SEO from "../../utils/SEO";
+import MainSection from "../../components/MainSection/MainSection";
+import Products from "../../components/Products/Products";
 
 export default function BreadBasketsPage() {
   const { t } = useTranslation("common");
   return (
     <Fade in={true} timeout={500}>
+    <>
       <div className={classes.ContentWrapper}>
         <SEO title={t("breadBasketsPage.title")} />
         <h1 className={classes.sectionTitle}>
@@ -45,6 +48,14 @@ export default function BreadBasketsPage() {
           </div>
         </Trans>
       </div>
+      <div className={classes.productsSection}>
+
+      <MainSection
+        title={t("mainSections.products.title")}
+        content={<Products />}
+        />
+      </div>
+    </>
     </Fade>
   );
 }

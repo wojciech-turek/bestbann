@@ -27,6 +27,9 @@
     padding: 20px 0;
 }
 
+.productsSection {
+    padding-bottom: 4%;
+}
 @media (min-width: 1024px) {
     .sectionTitle {
         padding-bottom: 2%;
