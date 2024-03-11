@@ -40,6 +40,7 @@
     "bigSlicedBaskets": "/it/grosse-pane-a-fette/",
     "woodenBakingForms": "/it/stampi-in-legno-con-carta-da-forno/",
     "withLiners": "/it/cestini-con-teli",
+    "breadBaskets": "/it/cestino-del-pane",
     "aboutUs": "/it/chi-siamo/",
     "contact": "/it/contatto/",
     "bambooFiber": "/it/fibra-di-bambu-cestini-da-lievitazione",
@@ -278,6 +279,43 @@
   "cookie": {
     "text": "Questo sito Web utilizza i cookie per migliorare l'esperienza dell'utente. Ulteriori informazioni possono essere trovate nella sezione Privacy Policy del sito.",
     "button": "Capisco e accetto"
+  },
+  "breadBasketsPage": {
+    "title": "Cestino lievitazione per il pane",
+    "description": "<p>Sempre più persone apprezzano i vantaggi del pane fatto in casa, che ha un gusto unico. Colpisce per il suo aspetto meraviglioso, la crosta croccante, l'interno morbido e l'odore incredibile. Può essere arricchito con diversi additivi, ad esempio semi o frutta, e allo stesso tempo fa bene alla salute perché è composto da ingredienti naturali e semplici. Se stai cercando i migliori accessori per <strong>la cottura</strong>, assicurati di acquistare anche il <strong>cestino per far lievitare e riposare il pane</strong>. Offriamo prodotti in rattan, grazie ai quali le pagnotte saranno soffici, simmetriche ed estremamente gustose. Vi invitiamo ad approfittare delle nostre proposte!</p>",
+    "fashionForHomemade": {
+      "title": "La moda di cuocere il pane a casa",
+      "description": "<p>La moda per i prodotti alimentari fatti in casa si sta sviluppando da anni. Molte donne e uomini, invece di acquistare prodotti già pronti, dedicano il loro tempo alla creazione di brillanti prodotti da forno secondo una ricetta trovata su Internet o una ricetta conservata dai loro antenati. Le motivazioni che spingono a svolgere tale attività sono molto diverse, alcuni lo fanno per motivi di salute, perché seguono una dieta specifica, altri lo vedono come un hobby. Indipendentemente dal motivo, la produzione domestica regala molte soddisfazioni, soprattutto quando si utilizzano prodotti di alta qualità, come <strong>il cestino per far riposare e cuocere il pane</strong>.</p>"
+    },
+    "whichBasket": {
+      "title": "Quale cestino per lievitazione del pane scegliere?",
+      "paragraph1": "<p><strong>Per utenti individuali</strong>: È molto importante che l'utente sia soddisfatto del prodotto acquistato, quindi vale la pena conoscere le proprie aspettative prima di effettuare un ordine. A cosa si dovrebbe prestare attenzione quando si sceglie l'accessorio ottimale? Innanzitutto occorre valutare la dimensione della pagnotta che andrete a cuocere. I cestini per <strong>far riposare e cuocere il pane</strong> più piccoli vi permetteranno di <strong>lievitare</strong> gli impasti di peso ben inferiore al chilogrammo, mentre quelli più grandi sono perfetti se preferite i prodotti da forno di grandi dimensioni. I clienti dovrebbero anche considerare la forma desiderata del cestino, ad esempio rotondo o oblungo - è importante adattarlo al recipiente in cui verrà cotto il pane.</p>",
+      "paragraph2": "<p><strong>Per professionisti e panettieri</strong>: Prima di scegliere i cestini, bisognerebbe considerare quali <strong>cestini per lievitazione il pane</strong> sono più adatti all'impasto del pane utilizzato, se saranno <strong>cestini in rattan o in sughero</strong>, che sono popolari nelle panetterie artigianali? <strong>Se i cestini in fibra di bambù e plastica</strong> vengono utilizzati nelle grandi panetterie industriali perché sono facili da lavare e da tenere puliti? Gli impasti per il pane si differenziano anche per l'umidità - per gli impasti con un alto contenuto di acqua consigliamo dei <strong>coperchi che impediscano all'impasto di attaccarsi al cestino</strong>. Importanti sono anche la forma e la dimensione dei cestini per la lievitazione, che vanno scelti in modo che l'impasto del pane li riempia perfettamente e si adatti al luogo previsto per il riposo.</p>"
+    },
+    "mainUseOfBaskets": {
+      "title": "L'uso principale dei cestini per il riposo dell’impasto del pane",
+      "description": "<p>Sia i panettieri principianti che quelli esperti contano sul fatto che i prodotti da forno saranno sempre gustosi. Per ottenere la ripetibilità in questo campo, vale la pena investire in accessori eccellenti. Proponiamo ottimi <strong>cestini per lievitazione del pane</strong>. Consentono <strong>il riposo</strong> dell'impasto, cioè il processo di fermentazione dell'impasto, grazie al quale lievita perfettamente e mantiene la sua forma dopo essere stato trasferito sulla teglia. Di conseguenza, potete creare meravigliosi pani soffici con una crosta dorata e croccante e un cuore delizioso.</p>"
+    },
+    "beforeUsing": {
+      "title": "Prima di utilizzare i cestini per lievitazione del pane",
+      "description": "<p>Molte persone non prestano molta attenzione al <strong>riposo dell’impasto</strong>, ma basta vederne gli effetti per capirne l'importanza. Prima di utilizzare i <strong>cestini per lievitare il pane</strong>, è necessario prepararli, perché anche una piccola insorgenza di muffa può influenzare negativamente la cottura. Prima di utilizzare il cestino per la prima volta bisogna inumidirlo leggermente con acqua e poi cospargere generosamente di farina. Dopo aver utilizzato il cestino, è necessario eliminare la farina rimasta e pulire l'interno con un pennello asciutto in modo che sul cestino rimanga solo un piccolo strato di farina. La prossima volta che vengono utilizzati i cestini, non sarà necessario inumidirli, basta cospargerli generosamente di farina.</p>"
+    },
+    "breadBaking": {
+      "title": "Cuocere il pane con un cestino per far riposare l’impasto",
+      "description": "<p>Indipendentemente dal fatto che i prodotti da forno siano fatti in casa o in panifici professionali, è necessario assicurarsi che tutti i passaggi descritti nella ricetta siano seguiti attentamente. I pani tradizionali sono solitamente fatti con farina di segale o di frumento, lievito, sale e acqua. Gli ingredienti sopra menzionati vengono accuratamente miscelati e impastati, quindi formati in palline o parti allungate. La massa preparata può essere messa nel <strong>cestino per far riposare e lievitare il pane</strong> cosparso di farina. Dopo qualche ora l'impasto è pronto per essere <strong>cotto</strong>, quindi basta metterlo in un forno ben caldo o in un apposito forno in pietra.</p>"
+    },
+    "highQuality": {
+      "title": "Cestini per lievitazione del pane di alta qualità",
+      "description": "<p>Gli articoli utilizzati per produrre alimenti dovrebbero essere di alta qualità. Ecco perché ogni <strong>cestino per lievitazione del pane</strong> è fabbricato con materiali naturali. I prodotti per far riposare l’impasto vengono realizzati in legno, fibra di bambù o rattan, un materiale ottenuto dalla palma di rattan. Grazie a questo i cestini sono resistenti all'usura e funzionano perfettamente anche dopo molto tempo. Naturalmente tutti i nostri prodotti dispongono di certificati e approvazioni adeguati che confermano l’idoneità al contatto con gli alimenti.</p>"
+    },
+    "extensiveOffer": {
+      "title": "Una vasta gamma di cestini per il pane",
+      "description": "<p>Vogliamo soddisfare perfettamente le esigenze dei nostri clienti, ecco perché forniamo diversi tipi di prodotti per far <strong>riposare l’impasto</strong>. <strong>I cestini</strong> in rattan sono realizzati a mano e disponibili in molte forme e dimensioni. Potete scegliere modelli rotondi, oblunghi o quadrati realizzati in rattan o fibra di bambù con l'aggiunta di plastica. Questi ultimi garantiscono un'ottima ventilazione dell'impasto e riducono al minimo il rischio di comparsa di muffe. Inoltre, sono lavabili in lavastoviglie. È importante ricordare che i prodotti <strong>per lievitazione del pane</strong> non possono essere utilizzati per <strong>cottura</strong> ad alte temperature!</p>"
+    },
+    "buyBreadRisingBaskets": {
+      "title": "Acquistate i cestini per lievitazione del pane",
+      "description": "<p>Sapete già quanto siano utili i prodotti per <strong>far riposare</strong> il pane, quindi assicuratevi di scoprire l'offerta presentata. Abbiamo preparato proposte sia per i panifici professionali che per gli appassionati di <strong>panificazione</strong> casalinga. Volentieri intraprendiamo la collaborazione con negozi, grossisti e ristoranti. Garantiamo un servizio eccellente e prezzi competitivi. Vi invitiamo a ordinare i <strong>cestini per lievitazione del pane</strong>!</p>"
+    }
   },
   "aboutUsPage": {
     "thankyou": "Grazie per aver visitato la nostra pagina!",
