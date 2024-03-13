@@ -23,6 +23,7 @@
     "bigSlicedBaskets": "/fr/grande-pain-tranche-banneton",
     "woodenBakingForms": "/fr/moules-de-cuisson-en-bois",
     "withLiners": "/fr/bannetons-avec-doublures",
+    "breadBaskets": "/fr/corbeille-a-pain",
     "aboutUs": "/fr/sur-la-societe",
     "contact": "/fr/contact-2",
     "bambooFiber": "/fr/fibre-de-bambou-baskets",
@@ -225,6 +226,43 @@
     "wholesale": "Si vous êtes propriétaire ou employé d'une boulangerie et que vous êtes intéressé par une commande en gros, veuillez nous contacter en envoyant un email à:",
     "individual": "Si vous êtes un client individuel ou souhaitez commander un échantillon, veuillez visiter notre magasin:",
     "message": "Pour des questions rapides, vous pouvez nous contacter via Messenger ou WhatsApp"
+  },
+  "breadBasketsPage": {
+    "title": "Banneton moule bie",
+    "description": "<p>De plus en plus de gens apprécient les avantages du pain fait maison, qui a un goût unique. Il a une belle apparence, une croûte croustillante, un intérieur moelleux et un arôme unique. Il peut être enrichi de divers additifs, tels que des graines ou des fruits, et reste bon pour la santé car il est fabriqué à partir d'ingrédients naturels et simples. Si vous êtes à la recherche des meilleurs accessoires de boulangerie, vous devriez également choisir <strong>un panier pour faire lever et durcir la pâte à pain</strong>. Nous vous proposons des produits en rotin qui vous permettront d'obtenir des pains dodus, symétriques et très savoureux. Nous vous invitons à consulter notre offre !</p>",
+    "fashionForHomemade": {
+      "title": "Le pain fait maison gagne en popularité",
+      "description":"<p>La mode du fait maison se développe depuis des années. Au lieu d'acheter des produits tout prêts, beaucoup d'hommes et de femmes prennent le temps de créer des produits de boulangerie ingénieux à partir de recettes qu'ils ont trouvées sur Internet ou qui leur ont été transmises par leurs ancêtres. Les motivations sont très diverses : certains le font pour des raisons de santé, dans le cadre d'un régime particulier, tandis que d'autres le considèrent comme un hobby. Quelle que soit la raison, il y a une grande satisfaction à faire son propre pain, surtout si l'on utilise des produits de qualité tels qu'une <strong>banneton moule bie pour faire lever la pâte et cuire le pain</strong>.</p>"
+    },
+    "whichBasket": {
+      "title": "Quel type de panier banneton choisir ?",
+      "paragraph1": "<p>Pour les particuliers : Il est très important que l'utilisateur soit satisfait du produit acheté. Il est donc utile de connaître ses attentes avant de passer commande. Quels sont les éléments à prendre en compte pour choisir les meilleurs accessoires ? Tout d'abord, tenez compte de la taille du pain que vous allez cuire. <strong>Les paniers de fermentation</strong> les plus petits permettent de faire lever des pâtes de moins d'un kilogramme, tandis que <strong>les bannetons</strong> plus grands sont idéaux si vous préférez les produits de grande taille. Les clients doivent également tenir compte de la forme souhaitée du panier, par exemple ronde ou oblongue, car il est important de l'adapter au récipient dans lequel le pain sera cuit.</p>",
+      "paragraph2": "<p><strong>Pour les professionnels et les boulangers</strong> : Avant de choisir <strong>les bannetons</strong>, réfléchissez au type de paniers de fermentation et de levage le mieux adapté à la pâte utilisée : s'agira-t-il <strong>de bannetons moule bie en rotin et en liège</strong>, populaires dans les boulangeries artisanales ? Ou des <strong>bannetones en fibre de bambou, en plastique et en polypropylène</strong>, utilisés dans les grandes boulangeries industrielles parce qu'ils sont faciles à nettoyer et à entretenir ? Les pâtes à pain varient également en fonction de leur teneur en eau. Pour les pâtes à forte teneur en eau, nous recommandons des <strong>doublures qui empêchent la pâte de coller au panier</strong>. La forme et la taille des paniers à banneton sont également importantes et doivent être choisies de manière à ce que la pâte remplisse parfaitement les paniers et s'insère dans l'espace de fermentation.</p>"
+    },
+    "mainUseOfBaskets": {
+      "title": "Utilisation principale des bannetons à pain",
+      "description": "<p>Que le boulanger soit novice ou expert, l'espoir est que le résultat soit toujours délicieux. Pour obtenir une bonne reproductibilité dans ce domaine, il est utile d'investir dans d'excellents accessoires. Nous proposons d'excellents <strong>bannetons pour la fermentation du pain</strong>. Ils vous permettent de réaliser le processus de fermentation qui permet à la pâte de bien lever et de garder sa forme après avoir été transférée sur la plaque de cuisson. Vous obtiendrez ainsi des pains merveilleusement dodus, à la croûte dorée et croustillante et au cœur délicieux.</p>"
+    },
+    "beforeUsing": {
+      "title": "Avant d'utiliser les bannetons",
+      "description": "<p>Beaucoup de gens ne prêtent pas beaucoup d'attention à la fermentation, mais il suffit de voir les effets de la fermentation pour comprendre son importance. Avant d'utiliser les <strong>bnnetons de fermentation et de levage du pain</strong>, il est nécessaire de les préparer, car même un petit foyer de moisissure peut avoir un effet négatif sur la cuisson. Avant d'utiliser le <strong>panier à banneton</strong> pour la première fois, humidifiez-le légèrement avec de l'eau, puis saupoudrez-le généreusement de farine. Après l'utilisation du panier, il est nécessaire d'enlever la farine restante et de nettoyer le centre avec une brosse sèche afin qu'il ne reste qu'une fine couche de farine sur le banneton. Lors de la prochaine utilisation, il n'est pas nécessaire de mouiller les paniers, il suffit de les saupoudrer généreusement de farine.</p>"
+    },
+    "breadBaking": {
+      "title": "Cuisson du pain avec un banneton de fermentation",
+      "description": "<p>Que l'on fasse du pain à la maison ou dans une boulangerie professionnelle, il est important de s'assurer que toutes les étapes de la recette sont suivies à la lettre. Les pains traditionnels sont généralement fabriqués à partir de farine de seigle ou de blé, de levain, de sel et d'eau. Les ingrédients sont soigneusement mélangés et pétris, puis formés en boules ou en oblongs. La pâte est ensuite placée dans un <strong>panier à banneton</strong> fariné pour lever. Après quelques heures, la pâte est prête à être cuite. Il suffit alors de la sortir du panier et de l'enfourner dans un four très chaud ou dans un four spécial en pierre.</p>"
+    },
+    "highQuality": {
+      "title": "Bannetones moule bie à pain de haute qualité",
+      "description": "<p>Les articles utilisés dans la préparation des aliments doivent être de grande qualité. C'est pourquoi les <strong>bannetones à pain</strong> les plus populaires de notre gamme sont fabriquées à partir de matériaux naturels. Nous fabriquons nos <strong>produits de fermentation</strong> en liège, en bois ou en rotin, un matériau obtenu à partir du palmier Rotang. Les corbeilles sont donc résistantes à l'usure et fonctionnent parfaitement pendant longtemps. Bien entendu, tous nos produits disposent des certificats et agréments nécessaires pour certifier qu'ils sont destinés à être utilisés en contact avec des denrées alimentaires.</p>"
+    },
+    "extensiveOffer": {
+      "title": "Une large gamme de bannetons à pain",
+      "description": "<p>Nous voulons répondre de manière exemplaire aux besoins de nos clients, c'est pourquoi nous proposons différents types de <strong>produits d'étuvage</strong>. <strong>Les bannetons en rotin</strong> sont fabriqués à la main et se présentent sous différentes formes et tailles. Vous avez le choix entre des modèles ronds, oblongs ou carrés, fabriqués en rotin ou en fibre de bambou avec ajout de plastique. Ce dernier permet à la pâte de respirer et minimise le risque de moisissure. Elles peuvent également être lavées au lave-vaisselle. Il est important de rappeler que <strong>les produits de fermentation du pain</strong> ne doivent pas être utilisés pour <strong>la cuisson du pain</strong> à haute température !</p>"
+    },
+    "buyBreadRisingBaskets": {
+      "title": "Acheter des bannetones moule bie à pain",
+      "description": "<p>Vous connaissez déjà l'utilité des <strong>produits de fermentation du pain</strong>, alors jetez un coup d'œil à notre offre. Nous avons préparé des suggestions pour les boulangeries professionnelles et les boulangers amateurs. Nous travaillons volontiers avec des magasins, des grossistes, des écoles de boulangerie ou des restaurants. Nous garantissons un excellent service et des prix compétitifs. N'hésitez pas à commander des bannetones moule bie à pain!</p>"
+    }
   },
   "aboutUsPage": {
     "thankyou": "Merci d'avoir visité notre page!",
