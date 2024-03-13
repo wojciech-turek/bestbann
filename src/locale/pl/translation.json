@@ -37,7 +37,7 @@
   "title": "Witaj na stronie BestBann",
   "menu": {
     "mainPage": "Strona główna",
-    "products": "Produkty",
+    "products": "Koszyki do chleba",
     "aboutUs": "O nas",
     "contact": "Kontakt"
   },
@@ -64,17 +64,17 @@
     "products": {
       "title": "Produkty",
       "breadBasket": "/pl/koszyk-do-chleba",
-      "rattan": "Kosze do wyrastania chleba z rattanu",
+      "rattan": "Koszyk rattanowy do chleba",
       "rattanLink": "/pl/koszyk-do-chleba/rattanowy",
-      "cork": "Kosze do wyrastania chleba z korka",
+      "cork": "Koszyk korkowy do chleba",
       "corkLink": "/pl/koszyk-do-chleba/korkowy",
-      "plastic": "Kosze z tworzywa sztucznego",
+      "plastic": "Koszyk plastikowy do chleba",
       "plasticLink": "/pl/koszyk-do-chleba/plastikowy",
-      "engraved": "Kosze z grawerowaną podstawką",
+      "engraved": "Koszyk z grawerowaną podstawką",
       "engravedLink": "/pl/koszyk-do-chleba/koszyk-z-grawerowana-podstawka",
-      "bamboo": "Kosze z włókna bambusowego i plastiku",
+      "bamboo": "Koszyk bambusowy do chleba",
       "bambooLink": "/pl/koszyk-do-chleba/bambusowy",
-      "liners": "Poszewki na kosze",
+      "liners": "Pokrowiec na koszyk do chleba",
       "linersLink": "/pl/pokrowiec-na-koszyk-do-chleba",
       "button": "Zobacz więcej"
     },
