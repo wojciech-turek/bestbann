@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./MobileNavigationItems.module.css";
+// import { useRouter } from 'next/router';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHome,
@@ -104,6 +105,17 @@ export default function MobileNavigationItems(props) {
             </AccordionSummary>
             <AccordionDetails className={styles.accordionContent}>
               <div className={classes.secondaryList}>
+                <NavLink
+                  to={t("mainSections.products.breadBasket")}
+                  onClick={() => props.setSideOpen(false)}
+                  exact={props.link !== "/products" ? true : false}
+                  activeClassName={classes.active}
+                >
+                  <div className={classes.listItem}>
+                    <span className={classes.listIcon}>⁕</span>
+                    {t("menu.products")}
+                  </div>
+                </NavLink>
                 <NavLink
                   to={t("mainSections.products.rattanLink")}
                   activeClassName={classes.active}
