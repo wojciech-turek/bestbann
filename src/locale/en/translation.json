@@ -3,10 +3,6 @@
     "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
     "part2": "Switch language between english and german using buttons above."
   },
-  "note": {
-    "title": "IMPORTANT NOTE:",
-    "content": "Despite the Covid situation and Russian aggression in Ukraine, we are working normally, we realize all orders without delays. We are a Polish family company so we don't suffer from lack of staff. War in Ukraine does not affect the functioning of the company or the processing of orders."
-  },
   "heroBanner": "",
   "title": "Welcome to BestBann",
   "menu": {
@@ -59,7 +55,7 @@
   },
   "mainSections": {
     "aboutUs": {
-      "title": "About Us",
+      "title": "BestBann",
       "content1": "We are a <strong>family-owned company</strong> with over 14 years of experience in the food industry, specializing in bread proofing baskets also called bannetons. We are manufacturing <strong>bread proofing baskets from natural materials like rattan and cork</strong>. In our offer you can also find plastic and mixed bamboo fiber and plastic baskets.",
       "content2": "Our natural rattan <strong>baskets are handmade</strong>, with utmost care and without the use of bleach or other chemicals. By paying great attention to the manufacturing process, we are able to ensure <strong>very high quality</strong> of our products.",
       "content3": "<strong>Baskets made of cork granules</strong> are our own invention, for which we have a <strong>patent pending</strong>. They can be washed under the water from the remains of flour and dough, which is a significant simplification in terms of keeping the baskets clean."

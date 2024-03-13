@@ -3,10 +3,6 @@
     "part1": "Um loszulegen, ändere <1>src/App(DE).js</1> speicheren und neuladen.",
     "part2": "Ändere die Sprachen zwischen deutsch und englisch mit Hilfe der beiden Schalter."
   },
-  "note": {
-    "title": "NOTE IMPORTANTE:",
-    "content": "Malgré la situation Covid et l'agression russe en Ukraine, nous travaillons normalement, nous réalisons toutes les commandes sans délais. Nous sommes une entreprise familiale polonaise donc nous n'avons pas le manque de personnel. La guerre en Ukraine n'affecte pas le fonctionnement de la société ni le traitement des commandes."
-  },
   "heroBanner": "",
   "title": "coś po francusku",
   "menu": {
@@ -59,7 +55,7 @@
   },
   "mainSections": {
     "aboutUs": {
-      "title": "À propos de nou",
+      "title": "BestBann",
       "content1": "Nous sommes une <strong>entreprise familiale</strong> avec plus de 14 ans d'expérience dans l'industrie alimentaire, spécialisée dans les bannetons moule bie à pain. Nous fabriquons des <strong>bannetons à pain à partir de matériaux naturels comme le rotin et le liège</strong>. Dans notre offre, vous pouvez également trouver des bannetons en plastique et des bannetons mixtes en fibre de bambou et en plastique.",
       "content2": "Nos bannetons moule bie en rotin naturel sont <strong>fabriqués à la main</strong>, avec le plus grand soin et sans utilisation d'agent de blanchiment ou d'autres produits chimiques. En accordant une grande attention au processus de fabrication, nous sommes en mesure de garantir une <strong>très haute qualité</strong> de nos produits.",
       "content3": "<strong>Les bannetons en granulés de liège</strong> sont notre propre invention, pour laquelle nous avons <strong>déposé un brevet</strong>. Ils peuvent être lavés sous l'eau des restes de farine et de pâte, ce qui constitue une simplification importante en termes de maintien de la propreté des bannetons."

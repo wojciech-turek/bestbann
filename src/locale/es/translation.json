@@ -3,10 +3,6 @@
     "part1": "",
     "part2": ""
   },
-  "note": {
-    "title": "NOTA IMPORTANTE:",
-    "content": "A pesar de la situación de Covid y la agresión rusa a Ucrania, estamos trabajando normalmente, realizamos todos los pedidos sin retrasos. Somos una empresa familiar polaca por lo que no tenemos la falta de personal. La guerra en Ucrania no afecta al funcionamiento de la empresa ni a la tramitación de los pedidos."
-  },
   "heroBanner": "",
   "title": "Bienvenido a BestBann",
   "baskets": {
@@ -59,7 +55,7 @@
   },
   "mainSections": {
     "aboutUs": {
-      "title": "Acerca de nosotros",
+      "title": "BestBann",
       "content1": "Somos una <strong>empresa familiar</strong> con más de 14 años de experiencia en la industria alimentaria, especializada en cestas de fermentación del pan también llamadas bannetones. Fabricamos <strong>bannetones de pan a partir de materiales naturales como el ratán y el corcho</strong>. En nuestra oferta también puede encontrar cestas de plástico y mixtas de fibra de bambú y plástico.",
       "content2": "Nuestras bannetones de ratán natural están <strong>hechas a mano</strong>, con el máximo cuidado y sin el uso de lejía u otros productos químicos. Al prestar gran atención al proceso de fabricación, podemos garantizar <strong>una calidad muy alta</strong> de nuestros productos.",
       "content3": "<strong>Les bannetones hechas con gránulos de corcho</strong> son una invención nuestra, para la que tenemos una <strong>patente pendiente</strong>. Se pueden lavar bajo el agua de los restos de harina y masa, lo que supone una importante simplificación a la hora de mantener limpias les bannetones."
