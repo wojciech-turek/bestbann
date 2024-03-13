@@ -15,9 +15,6 @@ import baguette from "../../../assets/imgs/IMG_0010.JPG";
 
 import korek1 from "../../../assets/videos/kosze-korkowe.webm";
 import ciasto1 from "../../../assets/videos/ciasto.webm";
-import korekfront1 from "../../../assets/videos/korekf1.mp4";
-import korekfront2 from "../../../assets/videos/korekf2.mp4";
-import korekfront3 from "../../../assets/videos/korekf3.mp4";
 import korekfront4 from "../../../assets/videos/korekf4.webm";
 import korekfront5 from "../../../assets/videos/korekf5.webm";
 import korekfront6 from "../../../assets/videos/korekf6.webm";
@@ -29,6 +26,9 @@ import korekfront11 from "../../../assets/videos/korekf11.webm";
 import korekfront12 from "../../../assets/videos/korekf12.webm";
 import korekfront13 from "../../../assets/videos/korekf13.webm";
 import korekfront14 from "../../../assets/videos/korekf14.webm";
+import korekfront1 from "../../../assets/videos/korekf1.webm";
+import korekfront2 from "../../../assets/videos/korekf2.webm";
+import korekfront3 from "../../../assets/videos/korekf3.webm";
 import { Fade } from "@material-ui/core";
 import SEO from "../../../utils/SEO";
 

@@ -6,7 +6,7 @@ export default function MainSection(props) {
     <>
       <div>
         <ScrollAnimation animateIn="animate__fadeInLeft" animateOnce={true}>
-          <h2 className={classes.SectionTitle}>{props.title}</h2>
+          <h1 className={classes.SectionTitle}>{props.title}</h1>
         </ScrollAnimation>
         {props.content}
       </div>
