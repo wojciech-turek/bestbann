@@ -68,6 +68,33 @@ export default function Products() {
         </h1>
         <Trans>
           <div className={classes.ParagraphWrap}>
+            <h2>{t("productsPage.breadproofing.title")}</h2>
+            {t("productsPage.breadproofing.details")}
+            
+            <h2>{t("productsPage.breadproofing.why.title")}</h2>
+            {t("productsPage.breadproofing.why.description")}
+
+            <h2>{t("productsPage.breadproofing.select.title")}</h2>
+            {t("productsPage.breadproofing.select.description")}
+
+            <h2>{t("productsPage.breadproofing.quality.title")}</h2>
+            {t("productsPage.breadproofing.quality.description")}
+
+            <h2>{t("productsPage.breadproofing.preparationBeforeUsage.title")}</h2>
+            {t("productsPage.breadproofing.preparationBeforeUsage.description")}
+
+            <h2>{t("productsPage.breadproofing.preparation.title")}</h2>
+            {t("productsPage.breadproofing.preparation.description")}
+
+            <h2>{t("productsPage.breadproofing.takingCareOfBaskets.title")}</h2>
+            {t("productsPage.breadproofing.takingCareOfBaskets.description")}
+
+            <h2>{t("productsPage.breadproofing.breadBasketOffer.title")}</h2>
+            {t("productsPage.breadproofing.breadBasketOffer.description")}
+
+            <h2>{t("productsPage.breadproofing.orderBreadProofingBaskets.title")}</h2>
+            {t("productsPage.breadproofing.orderBreadProofingBaskets.description")}
+            
             {t("productsPage.breadproofing.description.paragraph1")}
             {t("productsPage.breadproofing.description.paragraph2")}
             {t("productsPage.breadproofing.description.paragraph3")}
