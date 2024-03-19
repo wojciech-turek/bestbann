@@ -68,7 +68,6 @@ export default function Products() {
         </h1>
         <Trans>
           <div className={classes.ParagraphWrap}>
-            <h2>{t("productsPage.breadproofing.title")}</h2>
             {t("productsPage.breadproofing.details")}
             
             <h2>{t("productsPage.breadproofing.why.title")}</h2>
