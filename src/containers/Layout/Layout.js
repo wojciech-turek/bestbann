@@ -258,10 +258,10 @@ const Layout = () => {
 
   const AnimatedSwitch = withRouter(({ location }) => (
     <Switch>
-      {routeList}
       {redirectFrom.map((from, index) => (
         <Redirect key={index} from={from} to={redirectTo[index]} />
       ))}
+      {routeList}
       <Route render={() => <Redirect to={{ pathname: t("links.home") }} />} />
     </Switch>
   ));
