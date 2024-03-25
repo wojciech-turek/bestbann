@@ -216,7 +216,6 @@ const Layout = () => {
     "/pl/podluzne-kosze-plastikowe",
     "/pl/kosze-z-grawerowana-podstawka",
     "/pl/poszewki-na-kosze",
-    "/pl",
   ];
 
   const redirectTo = [
@@ -243,7 +242,6 @@ const Layout = () => {
     "/pl/koszyk-do-chleba/plastikowy/podluzny",
     "/pl/koszyk-do-chleba/koszyk-z-grawerowana-podstawka",
     "/pl/pokrowiec-na-koszyk-do-chleba",
-    "/pl/",
   ];
 
   let routeList = routes.map(({ path, Component, name }) => (
