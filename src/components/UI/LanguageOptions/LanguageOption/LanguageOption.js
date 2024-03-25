@@ -17,7 +17,7 @@ function LanguageOption(props) {
   
   return (
     <>
-    <Link rel="canonical" to={`/${props.lang}`}>
+    <Link rel="canonical" to={`/${props.lang}/`}>
       <div className={style.join(" ")} onClick={() => changeLang()}>
       </div>
       </Link>
