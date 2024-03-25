@@ -7,7 +7,7 @@ import i18next from "i18next";
 export default function Logo(props) {
   return (
     <div className={classes.Logo}>
-      <NavLink to={`/${i18next.language}`}>
+      <NavLink to={`/${i18next.language}/`}>
         <img
           src={bestBannLogo}
           alt="Best Bann Logo"

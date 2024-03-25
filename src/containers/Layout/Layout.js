@@ -47,12 +47,12 @@ const Layout = () => {
   const { t } = useTranslation("common");
   const nodeRef = useRef(null);
   const routes = [
-    { path: `/pl`, name: "Home", Component: MainPage },
-    { path: `/es`, name: "Home", Component: MainPage },
-    { path: `/ru`, name: "Home", Component: MainPage },
-    { path: `/fr`, name: "Home", Component: MainPage },
-    { path: `/en`, name: "Home", Component: MainPage },
-    { path: `/it`, name: "Home", Component: MainPage },
+    { path: `/pl/`, name: "Home", Component: MainPage },
+    { path: `/es/`, name: "Home", Component: MainPage },
+    { path: `/ru/`, name: "Home", Component: MainPage },
+    { path: `/fr/`, name: "Home", Component: MainPage },
+    { path: `/en/`, name: "Home", Component: MainPage },
+    { path: `/it/`, name: "Home", Component: MainPage },
     {
       path: t("mainSections.products.rattanLink"),
       name: "Products - Bread Proofing Baskets",
