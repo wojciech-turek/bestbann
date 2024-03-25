@@ -37,7 +37,9 @@ const CorkBaskets = lazy(() =>
   import("../../pages/ProductsPage/CorkBaskets/CorkBaskets")
 );
 
-const BreadBasketsPage = lazy(() => import("../../pages/BreadBasketsPage/BreadBasketsPage"));
+const BreadBasketsPage = lazy(() =>
+  import("../../pages/BreadBasketsPage/BreadBasketsPage")
+);
 const ContactPage = lazy(() => import("../../pages/ContactPage/ContactPage"));
 const AboutUsPage = lazy(() => import("../../pages/AboutUsPage/AboutUsPage"));
 
@@ -81,7 +83,11 @@ const Layout = () => {
       name: "Products - Bamboo fiber plastic baskets",
       Component: BambooFiberBaskets,
     },
-    { path: t("links.breadBaskets"), name: "BreadBaskets", Component: BreadBasketsPage },
+    {
+      path: t("links.breadBaskets"),
+      name: "BreadBaskets",
+      Component: BreadBasketsPage,
+    },
     { path: t("links.aboutUs"), name: "About", Component: AboutUsPage },
     { path: t("links.contact"), name: "Contact", Component: ContactPage },
     {
@@ -186,6 +192,60 @@ const Layout = () => {
     },
   ];
 
+  const redirectFrom = [
+    "/pl/kosze-do-wyrastania-chleba-z-rattanu",
+    "/pl/okragle-kosze-rozrostowe",
+    "/pl/podluzne-kosze-rozrostowe",
+    "/pl/owalne-kosze-do-wyrastania-chleba",
+    "/pl/kosze-na-bagietki",
+    "/pl/koszyki-na-mini-chlebki",
+    "/pl/kwadratowe-kosze-wyrastania-chleba",
+    "/pl/kosze-duzy-chleb-krojony",
+    "/pl/kosze-do-wyrastania-chleba-z-korka",
+    "/pl/okragle-kosze-korkowe",
+    "/pl/podluzne-kosze-korkowe",
+    "/pl/owalne-kosze-korkowe",
+    "/pl/prostokatne-kosze-korkowe",
+    "/pl/kosze-korkowe-na-bagietki",
+    "/pl/grawerowane-kosze-korkowe",
+    "/pl/kosze-z-wlokna-bambusowego-i-plastiku",
+    "/pl/okragle-kosze-z-wlokna-bambusowego",
+    "/pl/podluzne-kosze-z-wlokna-bambusowego",
+    "/pl/kosze-z-tworzywa-sztucznego",
+    "/pl/okragle-kosze-plastikowe",
+    "/pl/podluzne-kosze-plastikowe",
+    "/pl/kosze-z-grawerowana-podstawka",
+    "/pl/poszewki-na-kosze",
+    "/pl",
+  ];
+
+  const redirectTo = [
+    "/pl/koszyk-do-chleba/rattanowy",
+    "/pl/koszyk-do-chleba/rattanowy/okragly",
+    "/pl/koszyk-do-chleba/rattanowy/podluzny",
+    "/pl/koszyk-do-chleba/rattanowy/owalny",
+    "/pl/koszyk-do-chleba/rattanowy/bagietka",
+    "/pl/koszyk-do-chleba/rattanowy/mini",
+    "/pl/koszyk-do-chleba/rattanowy/kwadratowy",
+    "/pl/koszyk-do-chleba/rattanowy/duzy-chleb-krojony",
+    "/pl/koszyk-do-chleba/korkowy",
+    "/pl/koszyk-do-chleba/korkowy/okragly",
+    "/pl/koszyk-do-chleba/korkowy/podluzny",
+    "/pl/koszyk-do-chleba/korkowy/owalny",
+    "/pl/koszyk-do-chleba/korkowy/prostokatny",
+    "/pl/koszyk-do-chleba/korkowy/bagietka",
+    "/pl/koszyk-do-chleba/korkowy/z-frezowana-podstawka",
+    "/pl/koszyk-do-chleba/bambusowy",
+    "/pl/koszyk-do-chleba/bambusowy/okragly",
+    "/pl/koszyk-do-chleba/bambusowy/podluzny",
+    "/pl/koszyk-do-chleba/plastikowy",
+    "/pl/koszyk-do-chleba/plastikowy/okragly",
+    "/pl/koszyk-do-chleba/plastikowy/podluzny",
+    "/pl/koszyk-do-chleba/koszyk-z-grawerowana-podstawka",
+    "/pl/pokrowiec-na-koszyk-do-chleba",
+    "/pl/",
+  ];
+
   let routeList = routes.map(({ path, Component, name }) => (
     <Route
       key={path}
@@ -199,6 +259,9 @@ const Layout = () => {
   const AnimatedSwitch = withRouter(({ location }) => (
     <Switch>
       {routeList}
+      {redirectFrom.map((from, index) => (
+        <Redirect key={index} from={from} to={redirectTo[index]} />
+      ))}
       <Route render={() => <Redirect to={{ pathname: t("links.home") }} />} />
     </Switch>
   ));
