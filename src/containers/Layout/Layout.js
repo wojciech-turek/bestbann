@@ -7,6 +7,7 @@ import ScrollToTop from "../../components/UI/ScrollToTop/ScrollToTop";
 import Impressum from "../../pages/Legal/Impressum/Impressum";
 import PrivacyPolicy from "../../pages/Legal/PrivacyPolicy/PrivacyPolicy";
 import { useTranslation } from "react-i18next";
+import RouteWrapper from "../RouteWrapper/RouteWrapper";
 
 const BreadProofingBaskets = lazy(() =>
   import("../../pages/BasketPages/BreadproofingBaskets/BreadproofingBaskets")
@@ -265,12 +266,12 @@ const Layout = () => {
   ));
 
   return (
-    <>
+    <RouteWrapper>
       <Navigation />
       <ScrollToTop />
       {<AnimatedSwitch />}
       <Footer />
-    </>
+    </RouteWrapper>
   );
 };
 
