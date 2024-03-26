@@ -11,54 +11,54 @@ export default function SiteNav() {
       <nav>
         <ul className={classes.footerNav}>
           <li>
-            <Link to={t("links.home")}>{t("menu.mainPage")}</Link>
+            <Link rel="canonical" to={t("links.home")}>{t("menu.mainPage")}</Link>
           </li>
           <li>
-            <Link to={t("mainSections.products.rattanLink")}>
+            <Link rel="canonical" to={t("mainSections.products.rattanLink")}>
               {t("mainSections.products.rattan")}
             </Link>
           </li>
           <li>
-            <Link to={t("mainSections.products.corkLink")}>
+            <Link rel="canonical" to={t("mainSections.products.corkLink")}>
               {t("mainSections.products.cork")}
             </Link>
           </li>
           <li>
-            <Link to={t("mainSections.products.bambooLink")}>
+            <Link rel="canonical" to={t("mainSections.products.bambooLink")}>
               {t("mainSections.products.bamboo")}
             </Link>
           </li>
           <li>
-            <Link to={t("mainSections.products.plasticLink")}>
+            <Link rel="canonical" to={t("mainSections.products.plasticLink")}>
               {t("mainSections.products.plastic")}
             </Link>
           </li>
           <li>
-            <Link to={t("mainSections.products.engravedLink")}>
+            <Link rel="canonical" to={t("mainSections.products.engravedLink")}>
               {t("mainSections.products.engraved")}
             </Link>
           </li>
           <li>
-            <Link to={t("mainSections.products.linersLink")}>
+            <Link rel="canonical" to={t("mainSections.products.linersLink")}>
               {t("mainSections.products.liners")}
             </Link>
           </li>
           <li>
-            <Link to={t("links.breadBaskets")}>{t("menu.products")}</Link>
+            <Link rel="canonical" to={t("links.breadBaskets")}>{t("menu.products")}</Link>
           </li>
           <li>
-            <Link to={t("links.aboutUs")}>{t("menu.aboutUs")}</Link>
+            <Link rel="canonical" to={t("links.aboutUs")}>{t("menu.aboutUs")}</Link>
           </li>
           <li>
-            <Link to={t("links.contact")}>{t("menu.contact")}</Link>
+            <Link rel="canonical" to={t("links.contact")}>{t("menu.contact")}</Link>
           </li>
           <li>
-            <Link to={t("links.privacyPolicy")}>
+            <Link rel="canonical" to={t("links.privacyPolicy")}>
               {t("privacyPolicy.title")}
             </Link>
           </li>
           <li>
-            <Link to={t("links.impressum")}>Legal notice</Link>
+            <Link rel="canonical" to={t("links.impressum")}>Legal notice</Link>
           </li>
         </ul>
       </nav>

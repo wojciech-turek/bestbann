@@ -57,7 +57,7 @@ export default function PlasticBaskets() {
         <div className={classes.ImagesWrap}>
           {productsImages.map((el) => (
             <div className={classes.product} key={el.btnTxt}>
-              <Link to={el.link}>
+              <Link rel="canonical" to={el.link}>
                 <img
                   src={el.pathToImg}
                   className={classes.Image}

@@ -10,6 +10,7 @@ import Products from "../../components/Products/Products";
 import { Fade } from "@material-ui/core";
 import Cookies from "universal-cookie";
 import SEO from "../../utils/SEO";
+import AdditionalSection from "../../components/AdditionalSection/AdditionalSection";
 
 function MainPage(props) {
   const cookies = new Cookies();
@@ -28,11 +29,11 @@ function MainPage(props) {
           title={t("mainSections.aboutUs.title")}
           content={<AboutUs />}
         />
-        <MainSection
+        <AdditionalSection 
           title={t("mainSections.products.title")}
           content={<Products />}
         />
-        <MainSection
+        <AdditionalSection
           title={t("mainSections.whatMUD.title")}
           content={<WhatMUD />}
         />

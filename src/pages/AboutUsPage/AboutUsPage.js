@@ -18,7 +18,7 @@ export default function AboutUsPage() {
         <SEO title={t("menu.aboutUs")} />
         <section className={classes.aboutUsWrap}>
           <div className={classes.introWrap}>
-            <p className={classes.introTitle}>{t("aboutUsPage.thankyou")}</p>
+            <h1 className={classes.introTitle}>{t("aboutUsPage.thankyou")}</h1>
             <p className={classes.introText}>{t("aboutUsPage.welcome")}</p>
             <p className={classes.introText}>- {t("aboutUsPage.owners")}</p>
           </div>

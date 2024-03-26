@@ -7,7 +7,7 @@ import i18next from "i18next";
 export default function NavigationItems(props) {
   const { t } = useTranslation("common");
   const navRoutes = [
-    { link: `/${i18next.language}`, name: "Home", txt: "menu.mainPage" },
+    { link: `/${i18next.language}/`, name: "Home", txt: "menu.mainPage" },
     { link: t("links.breadBaskets"), name: "Bread Baskets", txt: "menu.products" },
     { link: t("links.aboutUs"), name: "About", txt: "menu.aboutUs" },
     { link: t("links.contact"), name: "Contact", txt: "menu.contact" },
