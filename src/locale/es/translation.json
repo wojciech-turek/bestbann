@@ -369,8 +369,14 @@
     }
   },
   "cookie": {
-    "text": "Este sitio web utiliza cookies para mejorar la experiencia del usuario. Puede encontrar más información en la sección Política de privacidad del sitio web.",
-    "button": "Entiendo y acepto"
+    "info": "Este sitio web utiliza cookies para mejorar la experiencia del usuario. Puede encontrar más información en la sección Política de privacidad del sitio web.",
+    "preferences": "También puede personalizar sus preferencias de cookies. Elige qué tipos de cookies quieres aceptar.",
+    "save": "Mantener seleccionado",
+    "button": "Entiendo y acepto",
+    "decline": "Rechazar todo",
+    "marketing": "Marketing",
+    "analytics": "Analítica",
+    "functional": "Funcional"
   },
   "footer": {
     "companyInfo": {

@@ -1,18 +1,18 @@
+import { Fade } from "@material-ui/core";
 import React from "react";
+import { useTranslation } from "react-i18next";
+import Cookies from "universal-cookie";
+import AboutUs from "../../components/AboutUs/AboutUs";
+import AdditionalSection from "../../components/AdditionalSection/AdditionalSection";
+import CookieBanner from "../../components/CookieBanner/CookieBanner";
 import HeroBanner from "../../components/HeroBanner/HeroBanner";
 import MainSection from "../../components/MainSection/MainSection";
-import AboutUs from "../../components/AboutUs/AboutUs";
-import WhatMUD from "../../components/WhatMUD/WhatMUD";
-import { useTranslation } from "react-i18next";
-import CookieConsent from "react-cookie-consent";
-import classes from "./MainPage.module.css";
 import Products from "../../components/Products/Products";
-import { Fade } from "@material-ui/core";
-import Cookies from "universal-cookie";
+import WhatMUD from "../../components/WhatMUD/WhatMUD";
 import SEO from "../../utils/SEO";
-import AdditionalSection from "../../components/AdditionalSection/AdditionalSection";
+import classes from "./MainPage.module.css";
 
-function MainPage(props) {
+function MainPage() {
   const cookies = new Cookies();
   let cookiesAcc = cookies.get("cookieAcc");
   const setCookiesAcc = () => {
@@ -29,7 +29,7 @@ function MainPage(props) {
           title={t("mainSections.aboutUs.title")}
           content={<AboutUs />}
         />
-        <AdditionalSection 
+        <AdditionalSection
           title={t("mainSections.products.title")}
           content={<Products />}
         />
@@ -38,25 +38,7 @@ function MainPage(props) {
           content={<WhatMUD />}
         />
         {cookiesAcc === undefined ? (
-          <CookieConsent
-            location="bottom"
-            buttonText={t("cookie.button")}
-            cookieName="myAwesomeCookieName2"
-            style={{
-              background: "rgba(0,0,0,0.8)",
-              color: "#fff",
-              fontFamily: "Montserrat",
-              textAlign: "left",
-              borderTop: "1px solid gray",
-            }}
-            sameSite="none"
-            cookieSecurity={true}
-            buttonStyle={{ color: "#222", fontSize: "14px", height: 40 }}
-            expires={150}
-            onAccept={() => setCookiesAcc(true)}
-          >
-            {t("cookie.text")}
-          </CookieConsent>
+          <CookieBanner setCookiesAcc={setCookiesAcc} />
         ) : null}
       </div>
     </Fade>

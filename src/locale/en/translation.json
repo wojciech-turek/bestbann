@@ -310,8 +310,14 @@
     "message": "For quick questions, you can contact us via Messenger or WhatsApp"
   },
   "cookie": {
-    "text": "This website uses cookies to enhance the user experience. More information can be found in Privacy Policy section of the website.",
-    "button": "I understand and accept"
+    "info": "This site uses cookies to enhance user experience. More information can be found in the Privacy Policy section.",
+    "preferences": "You can also customize your cookie preferences. Choose which types of cookies you want to accept.",
+    "save": "Save selected",
+    "button": "I understand and accept",
+    "decline": "Decline all",
+    "marketing": "Marketing",
+    "analytics": "Analytics",
+    "functional": "Functional"
   },
   "footer": {
     "companyInfo": {
@@ -424,7 +430,7 @@
     },
     "breadBaking": {
       "title": "Baking bread with a proofing basket",
-      "description":"<p>Whether baking at home or in a professional bakery, it is important to ensure that all the steps in the recipe are followed exactly. Traditional breads are usually made from rye or wheat flour, sourdough starter, salt and water. The ingredients are thoroughly mixed and kneaded and then formed into balls or oblongs. The dough is then placed in a floured <strong>banneton basket</strong> to rise. After a few hours, the dough is ready to be baked, so all you have to do is take it out of the basket and put it in a very hot oven or a special stone oven.</p>"
+      "description": "<p>Whether baking at home or in a professional bakery, it is important to ensure that all the steps in the recipe are followed exactly. Traditional breads are usually made from rye or wheat flour, sourdough starter, salt and water. The ingredients are thoroughly mixed and kneaded and then formed into balls or oblongs. The dough is then placed in a floured <strong>banneton basket</strong> to rise. After a few hours, the dough is ready to be baked, so all you have to do is take it out of the basket and put it in a very hot oven or a special stone oven.</p>"
     },
     "highQuality": {
       "title": "High quality bread prooving baskets",

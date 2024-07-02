@@ -251,8 +251,14 @@
     }
   },
   "cookie": {
-    "text": "Ce site Web utilise des cookies pour améliorer l'expérience utilisateur. Plus d'informations peuvent être trouvées dans la section Politique de confidentialité du site Web.",
-    "button": "Je comprends et j'accepte"
+    "info": "Ce site Web utilise des cookies pour améliorer l'expérience utilisateur. Plus d'informations peuvent être trouvées dans la section Politique de confidentialité du site Web.",
+    "preferences": "Vous pouvez également personnaliser vos préférences en matière de cookies. Choisissez les types de cookies que vous souhaitez accepter.",
+    "save": "Garder sélectionné",
+    "button": "Je comprends et j'accepte",
+    "decline": "Rejeter tous les",
+    "marketing": "Marketing",
+    "analytics": "Analytique",
+    "functional": "Fonctionnel"
   },
   "needHelp": {
     "title": "Avez-vous des questions?",
@@ -266,7 +272,7 @@
     "description": "<p>De plus en plus de gens apprécient les avantages du pain fait maison, qui a un goût unique. Il a une belle apparence, une croûte croustillante, un intérieur moelleux et un arôme unique. Il peut être enrichi de divers additifs, tels que des graines ou des fruits, et reste bon pour la santé car il est fabriqué à partir d'ingrédients naturels et simples. Si vous êtes à la recherche des meilleurs accessoires de boulangerie, vous devriez également choisir <strong>un panier pour faire lever et durcir la pâte à pain</strong>. Nous vous proposons des produits en rotin qui vous permettront d'obtenir des pains dodus, symétriques et très savoureux. Nous vous invitons à consulter notre offre !</p>",
     "fashionForHomemade": {
       "title": "Le pain fait maison gagne en popularité",
-      "description":"<p>La mode du fait maison se développe depuis des années. Au lieu d'acheter des produits tout prêts, beaucoup d'hommes et de femmes prennent le temps de créer des produits de boulangerie ingénieux à partir de recettes qu'ils ont trouvées sur Internet ou qui leur ont été transmises par leurs ancêtres. Les motivations sont très diverses : certains le font pour des raisons de santé, dans le cadre d'un régime particulier, tandis que d'autres le considèrent comme un hobby. Quelle que soit la raison, il y a une grande satisfaction à faire son propre pain, surtout si l'on utilise des produits de qualité tels qu'une <strong>banneton moule bie pour faire lever la pâte et cuire le pain</strong>.</p>"
+      "description": "<p>La mode du fait maison se développe depuis des années. Au lieu d'acheter des produits tout prêts, beaucoup d'hommes et de femmes prennent le temps de créer des produits de boulangerie ingénieux à partir de recettes qu'ils ont trouvées sur Internet ou qui leur ont été transmises par leurs ancêtres. Les motivations sont très diverses : certains le font pour des raisons de santé, dans le cadre d'un régime particulier, tandis que d'autres le considèrent comme un hobby. Quelle que soit la raison, il y a une grande satisfaction à faire son propre pain, surtout si l'on utilise des produits de qualité tels qu'une <strong>banneton moule bie pour faire lever la pâte et cuire le pain</strong>.</p>"
     },
     "whichBasket": {
       "title": "Quel type de panier banneton choisir ?",

@@ -307,8 +307,14 @@
     "message": "Per domande veloci, puoi contattarci tramite Messenger o WhatsApp"
   },
   "cookie": {
-    "text": "Questo sito Web utilizza i cookie per migliorare l'esperienza dell'utente. Ulteriori informazioni possono essere trovate nella sezione Privacy Policy del sito.",
-    "button": "Capisco e accetto"
+    "info": "Questo sito Web utilizza i cookie per migliorare l'esperienza dell'utente. Ulteriori informazioni possono essere trovate nella sezione Privacy Policy del sito.",
+    "preferences": "È inoltre possibile personalizzare le preferenze relative ai cookie. Scegliete quali tipi di cookie volete accettare.",
+    "save": "Mantenere selezionato",
+    "button": "Capisco e accetto",
+    "decline": "Rifiutare tutti",
+    "marketing": "Marketing",
+    "analytics": "Analitico",
+    "functional": "Funzionale"
   },
   "breadBasketsPage": {
     "title": "Cestino lievitazione per il pane",

@@ -372,8 +372,14 @@
     "message": "Możesz także skontaktować się z nami poprzez komunikatory Messenger lub WhatsApp"
   },
   "cookie": {
-    "text": "Ta strona używa plików cookie w celu zwiększenia komfortu użytkowania. Więcej informacji można znaleźć w sekcji Polityka Prywatności.",
-    "button": "Rozumiem i akceptuję"
+    "info": "Ta strona używa plików cookie w celu zwiększenia komfortu użytkowania. Więcej informacji można znaleźć w sekcji Polityka Prywatności.",
+    "preferences": "Możesz także dostosować swoje preferencje dotyczące plików cookie. Wybierz, które rodzaje plików cookie chcesz zaakceptować.",
+    "save": "Zachowaj wybrane",
+    "button": "Rozumiem i akceptuję",
+    "decline": "Odrzuć wszystkie",
+    "marketing": "Marketingowe",
+    "analytics": "Analityczne",
+    "functional": "Funkcjonalne"
   },
   "footer": {
     "companyInfo": {
